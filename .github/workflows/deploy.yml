@@ -1,0 +1,45 @@
+# .github/workflows/deploy.yml
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Triggers the workflow on pushes to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Use a recent LTS version
+
+      - name: Install Dependencies
+        run: npm install # Installs dependencies
+
+      - name: Build Project
+        run: npm run build # Runs your Vite build command, creating the 'dist' folder
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist' # IMPORTANT: Upload the output from Vite (the 'dist' folder)
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write      # Required to deploy pages
+      id-token: write   # Required to authenticate with GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # The official GitHub Pages deployment aqw:ction
