@@ -75,3 +75,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/* sensible base for most browsers */
+html { font-size: 16px; }
+
+/* slightly larger text on small screens so elements are comfortably readable */
+@media (max-width: 640px) {
+  html { font-size: 17px; } /* bump up base size on phones */
+}
+
+/* optional: slightly reduce on very large screens for better layout */
+@media (min-width: 1536px) {
+  html { font-size: 15.5px; }
+}
