@@ -20,9 +20,9 @@ import React, { useEffect, useState } from "react";
  */
 
 const Footer = ({
-  repoUrl = "https://github.com/ratcrate",
-  docsUrl = "https://ratcrate.github.io/docs",
-  contactMail = "mailto:contact@ratatui-ecosystem.com",
+  repoUrl = "https://github.com/rvbug",
+  docsUrl = "https://ratcrate.github.io/",
+  contactMail = "mailto:qubitai.in@gmail.com",
   sponsorsUrl = "https://github.com/sponsors/ratcrate",
   // CounterAPI settings (optional)
   useCounterApi = false,
