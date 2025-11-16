@@ -245,7 +245,8 @@
 
             .nav-items {
                 position: fixed;
-                background: rgba(255, 255, 255, 0.95);
+                /* background: rgba(255, 255, 255, 0.95); */
+                background: rgba(2,6,23,0.95);
                 width: 100%;
                 top: -100%;
                 left: 0;
@@ -257,12 +258,22 @@
                 top: calc(3.5rem + 1rem);
             }
 
-            .nav-items a {
-                display: block;
-                text-align: center;
-                margin: 1rem 0 !important;
-                color: #333;
-            }
+            /* .nav-items a { */
+            /*     display: block; */
+            /*     text-align: center; */
+            /*     margin: 1rem 0 !important; */
+            /*     color: #333; */
+            /* } */
+
+          .nav-items a {
+              color: #dde5ea;
+              font-size: 1.05rem;
+              margin-right: 0; /* remove desktop spacing */
+              display: block;
+              width: 100%;
+              text-align: center;
+              padding: 0.5rem 0;
+          }
 
             .nav-menu-btn {
                 display: block;
@@ -308,7 +319,7 @@
         <div class="nav-items">
           <div class="nav-close-btn"></div>
           <a href="./">Home</a>
-          <a href="./package-list.html">Packages</a>
+          <a href="./package-list-page.html">Packages</a>
           <a href="./#stats" onclick="window.location.href='./#stats'">Stats</a>
           <!-- <a href="https://quarto.org/" target="_blank">Documentation</a> -->
         </div>
