@@ -11,6 +11,7 @@ import {
   Tooltip
 } from "recharts";
 
+import Footer from './components/Footer';
 /* -------------------------
    Helpers
    ------------------------- */
@@ -602,7 +603,12 @@ const App = () => {
         .font-inter { font-family: 'Inter', sans-serif; }
         .line-clamp-4 { display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; }
       `}</style>
+
+      <div> <Footer /></div>
+
     </div>
+
+
   );
 };
 

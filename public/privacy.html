@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/AudioWide-White.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/AudioWide-White.ico">
+    <title>Privacy Policy - QuBiTAi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #fefefe;
+            margin: 2rem 0 0 0;
+            transition: .002s ease;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        header {
+            z-index: 99999;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            backdrop-filter: blur(20px);
+            transition: .6s ease;
+            background: rgba(255, 255, 255, 0.1);
+            background: #000;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-bar {
+            position: relative;
+            height: calc(2.5rem + 1rem);
+            max-width: 1250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 20px;
+            transition: .6s ease;
+        }
+
+        .nav-bar .logo {
+            color: #dde5ea;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+        .nav-items a {
+            color: #dde5ea;
+            font-size: 1em;
+            font-weight: 500;
+        }
+
+        .nav-items a:not(:last-child) {
+            margin-right: 50px;
+        }
+
+        .nav-items a:hover {
+            color: #e6e5ef;
+        }
+
+        .nav-menu-btn {
+            display: none;
+        }
+
+        .main-content {
+            max-width: 900px;
+            margin: 80px auto 40px;
+            padding: 40px 20px;
+            background: #fff;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #0066cc;
+            margin: 2.5rem 0 1rem 0;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        li {
+            list-style: disc;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            text-align: center;
+            font-style: italic;
+            color: #888;
+            margin-bottom: 2rem;
+        }
+
+        .philosophy-box {
+            background: linear-gradient(135deg, #a4b7ca, #e7ebed);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .philosophy-box h2 {
+            color: white;
+            border: none;
+            margin-bottom: 1rem;
+        }
+
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+        }
+
+        .no-collect-box {
+            background: #fff5f5;
+            border-left: 4px solid #dc3545;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+        }
+
+        .quote-box {
+            background: #f0f7ff;
+            border: 2px solid #0066cc;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+            text-align: center;
+            font-style: italic;
+            color: #0066cc;
+            font-size: 1.1rem;
+        }
+
+        strong {
+            color: #0066cc;
+        }
+
+        #footer {
+            background: #010000;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .social-links a {
+            color: #e0e0e0;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0066cc;
+        }
+
+        .policy-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .policy-links a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .policy-links a:hover {
+            color: #0066cc;
+        }
+
+        .copyright {
+            color: #e0e0e0;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 480px) {
+            .nav-bar {
+                padding: 0 1rem;
+                height: calc(3.5rem + 1rem);
+            }
+
+            .nav-items {
+                position: fixed;
+                background: rgba(255, 255, 255, 0.95);
+                width: 100%;
+                top: -100%;
+                left: 0;
+                padding: 2rem;
+                transition: 0.3s ease;
+            }
+
+            .nav-items.active {
+                top: calc(3.5rem + 1rem);
+            }
+
+            .nav-items a {
+                display: block;
+                text-align: center;
+                margin: 1rem 0 !important;
+                color: #333;
+            }
+
+            .nav-menu-btn {
+                display: block;
+                color: #dde5ea;
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .main-content {
+                padding: 20px 15px;
+                margin: 60px auto 20px;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+
+            .policy-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scrollToTop-btn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+  
+    <header>
+    <div class="nav-bar">
+      <a href="./" class="logo">Ratatui Ecosystem</a>
+      <div class="navigation">
+        <div class="nav-items">
+          <div class="nav-close-btn"></div>
+          <a href="./">Home</a>
+          <a href="./package-list.html">Package List</a>
+          <a href="./#stats" onclick="window.location.href='./#stats'">Stats</a>
+          <a href="https://quarto.org/" target="_blank">Documentation</a>
+          <a href="./#newsletter">Newsletter</a>
+        </div>
+      </div>
+      <div class="nav-menu-btn"></div>
+    </div>
+  </header>
+
+
+    <div class="main-content">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated"><em>Last updated: 16 Sept 2025</em></p>
+
+        <div class="philosophy-box">
+            <h2>Philosophy</h2>
+            <p><strong>Your privacy matters.</strong> QubitAI.in is built with a privacy-first approach. I believe in transparency with minimal data collection.</p>
+        </div>
+
+        <h2>What I DON'T Collect</h2>
+        <div class="no-collect-box">
+            <ul>
+                <li><strong>No analytics or tracking</strong> of any kind</li>
+                <li><strong>No cookies</strong> for tracking or functionality</li>
+                <li><strong>No behavioral tracking</strong> across pages</li>
+                <li><strong>No third-party advertising networks</strong></li>
+                <li><strong>No social media pixels or trackers</strong></li>
+                <li><strong>No browsing history or IP addresses</strong></li>
+            </ul>
+        </div>
+
+        <h2>What I DO Collect</h2>
+        <div class="highlight-box">
+            <!-- <p><strong>Absolutely nothing.</strong> This website operates without collecting any personal data whatsoever.</p> -->
+            <strong>Early Access Forms </strong> - When you voluntarily submit an early access request form 
+            <ul>
+                    <li><strong>Email address (required) </strong> - To send product launch updates only </li>
+                    <li><strong>IDE preference (required)</strong> - To understand developer tools usage</li>
+                    <li><strong>Operating System (required)</strong> - To ensure compatibility for the 1st version</li>
+                    <li><strong>Comments (optional)</strong> - For feedback and questions</li>
+
+             </ul>
+
+            <strong>How I Use Your Data? </strong>
+            <ul>
+                    <li> Send product launch announcements and updates </li>
+                    <li> Understand my audience to improve products </li>
+                    <li> Respond to questions or feedback you provide </li>
+            </ul>
+
+            <strong> Data Storage & Security </strong>
+            <ul>
+                    <li> Form data is processed through Formspree (third-party form service) </li>
+                    <li> Data is stored securely with industry-standard encryption </li>
+                    <li> I will never sell, rent, or share your data with third parties for marketing </li>
+                    <li> You can request data deletion at any time </li>
+            </ul>
+
+        </div>
+
+        <h2>Technical Details</h2>
+        <ul>
+            <li><strong>No server-side logging</strong> of personal information</li>
+            <li><strong>No JavaScript tracking scripts</strong></li>
+            <li><strong>Static website</strong> with minimal form data collection</li>
+            <li><strong>SSL/TLS encryption</strong> for secure connections</li>
+            <li><strong>Forms processed via Formspree with HTTPS encryption</strong></li>
+            <li><strong>No cookies</strong> placed on your device (except essential form submission)</li>
+        </ul>
+
+        <h2>External Links</h2>
+        <p>This website contains links to external services like:</p>
+        <ul>
+            <li><strong>GitHub repositories</strong> (subject to GitHub's privacy policy)</li>
+            <li><strong>Social media profiles</strong> (subject to their respective privacy policies)</li>
+            <li><strong>Third-party tools and resources</strong> (each has their own privacy policies)</li>
+        </ul>
+        <p>When you click these links, you leave this site and are subject to those platforms' privacy practices.</p>
+
+        <h2>Open Source Projects</h2>
+        <ul>
+            <li><strong>Code repositories</strong> are publicly available on GitHub</li>
+            <li><strong>Project documentation & My Research </strong> are provided for educational purposes</li>
+            <li><strong>No usage tracking</strong> of downloads or repository views from our end</li>
+        </ul>
+
+        <h2>Your Rights</h2>
+        <ul>
+            <li><strong>Browse anonymously</strong> by default</li>
+            <li><strong>No opt-out needed</strong> since we don't collect data</li>
+            <li><strong>Complete transparency</strong> about our practices</li>
+            <li><strong>Contact me</strong> if you have privacy questions</li>
+        </ul>
+
+        <h2>Third Party Service</h2>
+        <p><strong> Formspree </strong> Form submission processing</p>
+        <ul>
+            <li><strong>Purpose: </strong> Handle early access form submissions </li>
+            <li><strong>Data shared:  </strong>Only what you submit in the form </li>
+            <li><strong>Privacy Policy:  </strong> Available at <a href="https://formspree.io/legal/privacy-policy", target="_blank">Formspree</a> </li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <ul>
+            <li><strong>Early access data: </strong> Retained until product launch + 6 months, or until you request deletion Handle early access form submissions </li>
+            <li>You can request immediate deletion by contacting <strong>qubitai.in@gmail.com </strong></li>
+            
+        </ul>
+
+
+        <h2>Updates to This Policy</h2>
+        <p>I will notify subscribers via email if there are significant changes to this policy</p>
+
+        <h2>Contact</h2>
+        <p>Questions? Please reach out to <strong>qubitai.in@gmail.com </strong></p>
+
+        <div class="quote-box">
+            <p>"Privacy by design, not by accident." - QubitAI.in</p>
+        </div>
+    </div>
+
+    <section id="footer">
+        <footer>
+            <div class="footer-container">
+                <div class="footer-links">
+                    <div class="social-links">
+                        <a href="https://github.com/rvbug" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/rvbugged" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:qubitai.in@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="policy-links">
+                        <a href="./privacy.html">Privacy Policy</a>
+                        <a href="./tos.html">Terms of Service</a>
+                    </div>
+                </div>
+                <p class="copyright">© 2025 Qubitai.</p>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        const navMenuBtn = document.querySelector('.nav-menu-btn');
+        const navItems = document.querySelector('.nav-items');
+        const navCloseBtn = document.querySelector('.nav-close-btn');
+
+        if (navMenuBtn) {
+            navMenuBtn.addEventListener('click', () => {
+                navItems.classList.toggle('active');
+            });
+        }
+
+        if (navCloseBtn) {
+            navCloseBtn.addEventListener('click', () => {
+                navItems.classList.remove('active');
+            });
+        }
+
+        // Scroll to top button
+        const scrollToTopBtn = document.querySelector('.scrollToTop-btn');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                scrollToTopBtn.classList.add('active');
+            } else {
+                scrollToTopBtn.classList.remove('active');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>

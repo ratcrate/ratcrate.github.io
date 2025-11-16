@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/AudioWide-White.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/AudioWide-White.ico">
+    <title>Terms of Service - QuBiTAi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #fefefe;
+            margin: 2rem 0 0 0;
+            transition: .002s ease;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        header {
+            z-index: 99999;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            backdrop-filter: blur(20px);
+            transition: .6s ease;
+            background: rgba(255, 255, 255, 0.1);
+            background: #000;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-bar {
+            position: relative;
+            height: calc(2.5rem + 1rem);
+            max-width: 1250px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 20px;
+            transition: .6s ease;
+        }
+
+        .nav-bar .logo {
+            color: #dde5ea;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+        .nav-items a {
+            color: #dde5ea;
+            font-size: 1em;
+            font-weight: 500;
+        }
+
+        .nav-items a:not(:last-child) {
+            margin-right: 50px;
+        }
+
+        .nav-items a:hover {
+            color: #e6e5ef;
+        }
+
+        .nav-menu-btn {
+            display: none;
+        }
+
+        .main-content {
+            max-width: 900px;
+            margin: 80px auto 40px;
+            padding: 40px 20px;
+            background: #fff;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #0066cc;
+            margin: 2.5rem 0 1rem 0;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            color: #333;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        li {
+            list-style: disc;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            text-align: center;
+            font-style: italic;
+            color: #888;
+            margin-bottom: 2rem;
+        }
+
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+        }
+
+        .quote-box {
+            background: #f0f7ff;
+            border: 2px solid #0066cc;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+            text-align: center;
+            font-style: italic;
+            color: #0066cc;
+            font-size: 1.1rem;
+        }
+
+        strong {
+            color: #0066cc;
+        }
+
+        #footer {
+            background: #010000;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .footer-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .social-links a {
+            color: #e0e0e0;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0066cc;
+        }
+
+        .policy-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .policy-links a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .policy-links a:hover {
+            color: #0066cc;
+        }
+
+        .copyright {
+            color: #e0e0e0;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 480px) {
+            .nav-bar {
+                padding: 0 1rem;
+                height: calc(3.5rem + 1rem);
+            }
+
+            .nav-items {
+                position: fixed;
+                background: rgba(255, 255, 255, 0.95);
+                width: 100%;
+                top: -100%;
+                left: 0;
+                padding: 2rem;
+                transition: 0.3s ease;
+            }
+
+            .nav-items.active {
+                top: calc(3.5rem + 1rem);
+            }
+
+            .nav-items a {
+                display: block;
+                text-align: center;
+                margin: 1rem 0 !important;
+                color: #333;
+            }
+
+            .nav-menu-btn {
+                display: block;
+                color: #dde5ea;
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .main-content {
+                padding: 20px 15px;
+                margin: 60px auto 20px;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+
+            .policy-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scrollToTop-btn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <header>
+      <div class="nav-bar">
+        <a href="./" class="logo">Ratatui Ecosystem</a>
+        <div class="navigation">
+          <div class="nav-items">
+            <div class="nav-close-btn"></div>
+            <a href="./">Home</a>
+            <a href="./package-list.html">Package List</a>
+            <a href="./#stats" onclick="window.location.href='./#stats'">Stats</a>
+            <a href="https://quarto.org/" target="_blank">Documentation</a>
+            <a href="./#newsletter">Newsletter</a>
+          </div>
+        </div>
+        <div class="nav-menu-btn"></div>
+      </div>
+   </header>
+ 
+    <div class="main-content">
+        <h1>Terms of Service</h1>
+        <p class="last-updated"><em>Last updated: 16 Sept 2025</em></p>
+
+        <h2>Purpose & Mission</h2>
+        <p>QubitAI.in serves as a portfolio and resource hub for open-source projects, technical tutorials, and educational content. These terms outline how you can use the content and projects shared here.</p>
+
+        <h2>Open Source & Educational Use</h2>
+        
+        <h3>Encouraged Uses:</h3>
+        <ul>
+            <li><strong>Learning and Education</strong> - Use code, tutorials, and resources for learning</li>
+            <li><strong>Open Source Contributions</strong> - Fork, modify, and contribute to projects</li>
+            <li><strong>Personal Projects</strong> - Use code snippets and tools in your own work</li>
+            <li><strong>Academic Research</strong> - Reference and build upon shared knowledge</li>
+        </ul>
+
+        <h3>Project Licensing:</h3>
+        <ul>
+            <li><strong>Individual projects</strong> may have specific licenses (MIT, GPL, Apache, etc.)</li>
+            <li><strong>Always check repository README</strong> for specific licensing terms</li>
+            <li><strong>Respect individual project licenses</strong> when using or redistributing code</li>
+            <li><strong>Default assumption:</strong> Educational and personal use encouraged</li>
+        </ul>
+
+        <h2>Content Usage Rights</h2>
+
+        <h3>Portfolio Content:</h3>
+        <ul>
+            <li><strong>Personal projects</strong> and descriptions are showcased for professional purposes</li>
+            <li><strong>Screenshots, demos, and documentation</strong> provided for evaluation</li>
+            <li><strong>No commercial use</strong> of portfolio content without permission</li>
+        </ul>
+
+        <h3>Educational Content:</h3>
+        <ul>
+            <li><strong>Tutorials and guides</strong> are free to use for learning</li>
+            <li><strong>Code examples</strong> can be used in personal and educational projects</li>
+            <li><strong>Attribution appreciated</strong> but not required for code snippets</li>
+        </ul>
+
+        <h3>Attribution Guidelines:</h3>
+        <p>When using substantial portions of code or content:</p>
+        <ul>
+            <li><strong>Link back to the original repository</strong> when possible</li>
+            <li><strong>Credit "QubitAI.in" or the specific project</strong> in your documentation</li>
+            <li><strong>Follow specific project license requirements</strong></li>
+        </ul>
+
+        <h2>What I Provide</h2>
+        <ul>
+            <li><strong>Open source projects</strong> with clear documentation</li>
+            <li><strong>Educational resources</strong> and technical tutorials</li>
+            <li><strong>Portfolio showcase</strong> of development work</li>
+            <li><strong>Links to external tools</strong> and resources</li>
+            <li><strong>No guarantees</strong> - all content provided "as-is"</li>
+        </ul>
+
+        <h2>What I Don't Provide</h2>
+        <ul>
+            <!-- <li><strong>Technical support</strong> for personal implementations</li> -->
+            <li><strong>Warranty or guarantees</strong> for code functionality</li>
+            <li><strong>Commercial licenses</strong> (unless specifically stated)</li>
+            <li><strong>Maintenance promises</strong> for archived projects</li>
+        </ul>
+
+        <h2>Intellectual Property</h2>
+        <ul>
+            <li><strong>Original code and content</strong> remains the property of QubitAI.in</li>
+            <li><strong>Open source projects</strong> follow their respective licenses</li>
+            <li><strong>Third-party resources</strong> referenced remain property of their creators</li>
+            <li><strong>Trademark "QubitAI"</strong> is reserved</li>
+        </ul>
+
+        <h2>External Links & Resources</h2>
+        <ul>
+            <li><strong>GitHub repositories</strong> are subject to GitHub's terms</li>
+            <li><strong>Third-party tools</strong> have their own terms and policies</li>
+            <li><strong>External links</strong> are provided for convenience but not endorsed</li>
+            <li><strong>I not responsible</strong> for external site content or policies</li>
+        </ul>
+
+        <h2>Limitations</h2>
+        <ul>
+            <li><strong>Educational purpose</strong> - not professional consulting</li>
+            <li><strong>No warranty</strong> on code functionality or suitability</li>
+            <li><strong>Use at your own risk</strong> for production applications</li>
+            <li><strong>No liability</strong> for issues arising from use of shared resources</li>
+        </ul>
+
+        <h2>Community Standards</h2>
+        <p>I encourage:</p>
+        <ul>
+            <li><strong>Respectful communication</strong> in project discussions</li>
+            <li><strong>Constructive feedback</strong> and suggestions</li>
+            <li><strong>Open source collaboration</strong> principles</li>
+            <li><strong>Learning-focused interactions</strong></li>
+        </ul>
+
+        <h2>Changes to Terms</h2>
+        <p>These terms may be updated to reflect new projects or legal requirements. Significant changes will be noted with updated dates.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about these terms or specific project licensing? Feel free to reach out through the contact methods provided on the site.</p>
+
+        <div class="quote-box">
+            <p>"Code is meant to be shared, learned from, and improved upon."</p>
+        </div>
+    </div>
+
+    <section id="footer">
+        <footer>
+            <div class="footer-container">
+                <div class="footer-links">
+                    <div class="social-links">
+                        <a href="https://github.com/rvbug" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/rvbugged" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:qubitai.in@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="policy-links">
+                        <a href="./privacy.html">Privacy Policy</a>
+                        <a href="./tos.html">Terms of Service</a>
+                    </div>
+                </div>
+                <p class="copyright">© 2025 Qubitai.</p>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+        // Mobile menu toggle
+        const navMenuBtn = document.querySelector('.nav-menu-btn');
+        const navItems = document.querySelector('.nav-items');
+        const navCloseBtn = document.querySelector('.nav-close-btn');
+
+        if (navMenuBtn) {
+            navMenuBtn.addEventListener('click', () => {
+                navItems.classList.toggle('active');
+            });
+        }
+
+        if (navCloseBtn) {
+            navCloseBtn.addEventListener('click', () => {
+                navItems.classList.remove('active');
+            });
+        }
+
+        // Scroll to top button
+        const scrollToTopBtn = document.querySelector('.scrollToTop-btn');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                scrollToTopBtn.classList.add('active');
+            } else {
+                scrollToTopBtn.classList.remove('active');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
