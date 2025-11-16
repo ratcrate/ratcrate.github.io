@@ -56,14 +56,14 @@ const Footer = ({
       .finally(() => setLoadingCount(false));
   }, [countApiNamespace, countApiKey]);
 
-    useEffect(() => {
-      fetch("https://api.counterapi.dev/v2/ratcrate-wrk/ratcrate-slug/up")
-        .then(r => r.json())
-        .then(res => {
-          setVisitors(res.value); // your React state
-        })
-        .catch(() => {});
-    }, []);
+    // useEffect(() => {
+    //   fetch("https://api.counterapi.dev/v2/ratcrate-wrk/ratcrate-slug/up")
+    //     .then(r => r.json())
+    //     .then(res => {
+    //       setVisitors(res.value); // your React state
+    //     })
+    //     .catch(() => {});
+    // }, []);
 
 
   return (
