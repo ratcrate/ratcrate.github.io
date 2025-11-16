@@ -302,7 +302,7 @@ const HomePage = ({ allPackages, newsletterEmail, setNewsletterEmail, handleNews
         <div className="bg-gray-900 p-4 rounded-lg border border-gray-700 text-center">
           <h4 className="text-white font-semibold mb-2">Documentation</h4>
           <p className="text-gray-300 text-sm mb-3">Explore docs and examples.</p>
-          <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer" className="text-sm bg-purple-600 px-3 py-1 rounded">Explore Docs</a>
+          <a href="https://quarto.org/" target="_blank" rel="noopener noreferrer" className="text-white text-sm bg-green-600 px-3 py-1 rounded">Explore Docs</a>
         </div>
       </section>
     </>
@@ -594,9 +594,11 @@ const App = () => {
         <HomePage allPackages={allPackages} newsletterEmail={newsletterEmail} setNewsletterEmail={setNewsletterEmail} handleNewsletterSignup={handleNewsletterSignup} />
       )}
 
-      <footer className="bg-gray-950 text-gray-500 text-center p-6 mt-8">
-        <div>&copy; {new Date().getFullYear()} Ratatui Ecosystem.</div>
-      </footer>
+      { /*
+       <footer className="bg-gray-950 text-gray-500 text-center p-6 mt-8">
+         <div>&copy; {new Date().getFullYear()} Ratatui Ecosystem.</div>
+       </footer>
+       */}
 
       {/* small animation css kept inline */}
       <style>{`
