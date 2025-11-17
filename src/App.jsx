@@ -615,7 +615,6 @@ const App = () => {
             <a href="#package-list-page" onClick={() => setCurrentPage("packages")} className="text-gray-300 hover:text-white">Packages</a>
             <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a>
             <a href="#documentation-section" className="text-gray-300 hover:text-white">Docs</a>
-            {/*<a href="#newsletter" className="text-gray-300 hover:text-white">Newsletter</a> */}
           </div>
 
           {/* Mobile hamburger */}
@@ -638,7 +637,6 @@ const App = () => {
             <a href="#package-list-page" onClick={() => { setCurrentPage("packages"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Packages</a>
             <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a>
             <a href="#documentation-section" onClick={() => setMobileOpen(false)} className="py-3 border-b border-gray-800 text-center text-lg">Docs</a>
-            <a href="#newsletter" onClick={() => setMobileOpen(false)} className="py-3 text-center text-lg">Newsletter</a>
           </div>
         </div>
       </nav>
