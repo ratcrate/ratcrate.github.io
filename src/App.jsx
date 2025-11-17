@@ -72,8 +72,7 @@ const CoreLibraries = ({ corePackages }) => {
           {corePackages.map((pkg) => (
             <div
               key={pkg.id}
-              className="group relative bg-gray-800 p-5 rounded-lg shadow-md border border-gray-700 flex flex-col justify-between"
-              style={{ minWidth: 320, maxWidth: 384 }} // fixed sizing for consistent widths
+              className="group relative bg-gray-800 p-5 rounded-lg shadow-md border border-gray-700 flex flex-col justify-between w-full sm:w-80 md:w-96"
             >
               {/* small hover tooltip above card */}
               <div className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity text-xs bg-gray-900 px-3 py-1 rounded">
@@ -460,7 +459,7 @@ const PackageListPage = ({ allPackages }) => {
         <div className="flex justify-center">
           <div className="flex flex-wrap justify-center gap-6">
             {corePackages.map((p) => (
-              <div key={p.id} className="group relative bg-gray-800 p-5 rounded-lg border border-gray-700" style={{ minWidth: 320, maxWidth: 384 }}>
+              <div key={p.id} className="group relative bg-gray-800 p-5 rounded-lg border border-gray-700 w-full sm:w-80 md:w-96">
                 <div className="absolute -top-8 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity text-xs bg-gray-900 px-3 py-1 rounded">
                   Downloads: <span className="text-green-400 font-medium">{formatNumber(p.downloads)}</span>
                 </div>
@@ -520,13 +519,16 @@ const PackageListPage = ({ allPackages }) => {
 };
 
 /* -------------------------
-   App - main
+   App - main (patched navbar with hamburger)
    ------------------------- */
 const App = () => {
   const [allPackages, setAllPackages] = useState([]);
   const [currentPage, setCurrentPage] = useState("home");
   const [newsletterEmail, setNewsletterEmail] = useState("");
   const [navbarTransparent, setNavbarTransparent] = useState(false);
+
+  // NEW: mobile menu state
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     // fetch ratcrate.json placed under public/data/ratcrate.json
@@ -557,11 +559,31 @@ const App = () => {
       if (h === "package-list-page") setCurrentPage("packages");
       else if (h === "stats") setCurrentPage("home");
       else setCurrentPage("home");
+      // close mobile menu when navigating via hash
+      setMobileOpen(false);
     };
     onHash();
     window.addEventListener("hashchange", onHash);
     return () => window.removeEventListener("hashchange", onHash);
   }, []);
+
+  // close mobile menu when window resizes up to desktop
+  useEffect(() => {
+    const onResize = () => {
+      if (window.innerWidth >= 768) setMobileOpen(false);
+    };
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, []);
+
+  // lock body scroll when mobile menu open
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [mobileOpen]);
 
   const handleNewsletterSignup = (e) => {
     e.preventDefault();
@@ -576,46 +598,72 @@ const App = () => {
 
   return (
     <div className="min-h-screen w-full bg-gray-950 text-gray-100 font-inter">
-      {/* Top nav */}
-      <nav className={`flex justify-between items-center p-4 sticky top-0 z-40 bg-gray-950 ${navbarTransparent ? "bg-opacity-90" : "bg-opacity-100"}`}>
-        <div className="text-xl font-bold cursor-pointer" onClick={() => { setCurrentPage("home"); window.location.hash = ""; }}>
-          Ratatui Ecosystem
+      {/* Top nav - REPLACED with responsive hamburger */}
+      <nav className={`sticky top-0 z-50 transition-all ${navbarTransparent ? "bg-gray-950 bg-opacity-90" : "bg-gray-950 bg-opacity-100"} shadow-md`}>
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+          {/* Logo */}
+          <div
+            className="text-xl font-bold cursor-pointer"
+            onClick={() => { setCurrentPage("home"); window.location.hash = ""; setMobileOpen(false); }}
+            aria-label="Ratatui Ecosystem"
+          >
+            Ratatui Ecosystem
+          </div>
+
+          {/* Desktop menu */}
+          <div className="hidden md:flex items-center space-x-6">
+            <a href="#package-list-page" onClick={() => setCurrentPage("packages")} className="text-gray-300 hover:text-white">Packages</a>
+            <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a>
+            <a href="#documentation-section" className="text-gray-300 hover:text-white">Docs</a>
+            {/*<a href="#newsletter" className="text-gray-300 hover:text-white">Newsletter</a> */}
+          </div>
+
+          {/* Mobile hamburger */}
+          <button
+            className={`md:hidden flex flex-col items-center justify-center p-2 rounded ${mobileOpen ? "bg-gray-800" : "bg-transparent"}`}
+            onClick={() => setMobileOpen((s) => !s)}
+            aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+            type="button"
+          >
+            <span className={`block h-0.5 w-6 bg-white transition-transform ${mobileOpen ? "translate-y-1.5 rotate-45" : ""}`}></span>
+            <span className={`block h-0.5 w-6 bg-white my-1 transition-opacity ${mobileOpen ? "opacity-0" : "opacity-100"}`}></span>
+            <span className={`block h-0.5 w-6 bg-white transition-transform ${mobileOpen ? "-translate-y-1.5 -rotate-45" : ""}`}></span>
+          </button>
         </div>
-        <div className="flex gap-4">
-          <a href="#package-list-page" onClick={() => setCurrentPage("packages")} className="text-gray-300 hover:text-white">Packages</a>
-          <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a>
-          {/* <a href="#newsletter" className="text-gray-300 hover:text-white">Newsletter</a> */}
+
+        {/* Mobile slide-down menu */}
+        <div className={`md:hidden bg-gray-900 transition-all duration-300 overflow-hidden ${mobileOpen ? "max-h-64" : "max-h-0"}`}>
+          <div className="px-4 pb-4 flex flex-col">
+            <a href="#package-list-page" onClick={() => { setCurrentPage("packages"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Packages</a>
+            <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a>
+            <a href="#documentation-section" onClick={() => setMobileOpen(false)} className="py-3 border-b border-gray-800 text-center text-lg">Docs</a>
+            <a href="#newsletter" onClick={() => setMobileOpen(false)} className="py-3 text-center text-lg">Newsletter</a>
+          </div>
         </div>
       </nav>
 
+      {/* Page content */}
       {currentPage === "packages" ? (
         <PackageListPage allPackages={allPackages} />
       ) : (
         <HomePage allPackages={allPackages} newsletterEmail={newsletterEmail} setNewsletterEmail={setNewsletterEmail} handleNewsletterSignup={handleNewsletterSignup} />
       )}
 
-      { /*
-       <footer className="bg-gray-950 text-gray-500 text-center p-6 mt-8">
-         <div>&copy; {new Date().getFullYear()} Ratatui Ecosystem.</div>
-       </footer>
-       */}
+      {/* Footer */}
+      <Footer
+        useCounterApi={true}
+        counterApiUrl="https://api.counterapi.dev/v2/ratcrate-wrk/ratcrate-slug/up"
+        repoUrl="https://github.com/rvbug"
+        sponsorsUrl="https://github.com/sponsors/ratcrate"
+      />
 
       {/* small animation css kept inline */}
       <style>{`
         .font-inter { font-family: 'Inter', sans-serif; }
         .line-clamp-4 { display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; }
       `}</style>
-
-      <div> <Footer 
-          useCounterApi={true}
-          counterApiUrl="https://api.counterapi.dev/v2/ratcrate-wrk/ratcrate-slug/up"
-          repoUrl="https://github.com/ratcrate"
-          sponsorsUrl="https://github.com/sponsors/ratcrate"
-      /></div>
-
     </div>
-
-
   );
 };
 

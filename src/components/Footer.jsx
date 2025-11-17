@@ -21,7 +21,7 @@ import React, { useEffect, useState } from "react";
 
 const Footer = ({
   repoUrl = "https://github.com/rvbug",
-  docsUrl = "https://ratcrate.github.io/",
+  docsUrl = "https://ratcrate.github.io/docs",
   contactMail = "mailto:qubitai.in@gmail.com",
   sponsorsUrl = "https://github.com/sponsors/ratcrate",
   // CounterAPI settings (optional)
@@ -150,8 +150,8 @@ const Footer = ({
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
         {/* Left: small project + copyright */}
         <div className="flex-1 text-sm">
-          <div className="text-gray-300 font-medium">Ratatui Ecosystem</div>
-          <div className="mt-1 text-xs text-gray-500">© {new Date().getFullYear()} Ratatui Ecosystem. All rights reserved.</div>
+          <div className="text-gray-300 font-medium">Ratcrate </div>
+          <div className="mt-1 text-xs text-gray-500">© {new Date().getFullYear()} QuBiTAi Creation. All rights reserved.</div>
         </div>
 
         {/* Center: links */}
@@ -159,8 +159,10 @@ const Footer = ({
           <nav className="flex flex-wrap gap-4 text-sm">
             <a href={docsUrl} className="hover:text-white">Docs</a>
             <a href={repoUrl} className="hover:text-white">GitHub</a>
+            {/*
             <a href="/privacy.html" className="hover:text-white">Privacy Policy</a>
-            <a href="/tos.html" className="hover:text-white">Terms of Service</a>
+             <a href="/tos.html" className="hover:text-white">Terms of Service</a>
+            */}
             <a href={contactMail} className="hover:text-white">Contact</a>
           </nav>
         </div>
