@@ -1,16 +1,44 @@
-# React + Vite
+# Ratatui Ecosystem (ratcrate)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ratatui Ecosystem** aggregates and showcases Rust crates built with Ratatui — terminal UI building blocks and apps.
 
-Currently, two official plugins are available:
+This organization contains the core tools that power and present the Ratatui ecosystem:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `ratcrate-core` (private) — pipeline that collects crate metadata and builds `ratcrate.json`.
+- `ratcrate-cli` — command-line tools for querying and working with the Ratatui registry.
+- `ratcrate-tui` — interactive terminal UI for exploring Ratatui crates.
+- `ratcrate.github.io` — this website (Currently using React; migrating to Dioxus in progress).
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Quick links
 
-## Expanding the ESLint configuration
+- Website: https://ratcrate.github.io  
+- Packages data: `/data/ratcrate.json` (used by the website and tools)  
+- Docs: https://ratcrate.github.io/docs (planned)  
+- Sponsor: https://github.com/sponsors/ratcrate  •  Buy me a coffee: https://buymeacoffee.com/yourname
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Why this exists
+
+Ratatui is a vibrant ecosystem. Ratcrate helps users discover, compare, and adopt Ratatui-based libraries and apps — via web, CLI, and TUI interfaces.
+
+---
+
+## Want to contribute?
+
+See the specific README of each repository for contribution and local dev instructions:
+- `ratcrate-cli` — usage, install
+- `ratcrate-tui` — how to run locally
+- `ratcrate.github.io` — how to run and build the website
+
+If you'd like to sponsor development or support infrastructure costs, please visit the Sponsors link above.
+
+---
+
+## License
+
+Most repos will use **Apache-2.0** or **MIT/Apache-2.0** (choose one per repo). See each repo for details.
+
+
