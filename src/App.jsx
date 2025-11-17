@@ -12,9 +12,11 @@ import {
 } from "recharts";
 
 import Footer from './components/Footer';
+
 /* -------------------------
    Helpers
    ------------------------- */
+
 const safeNum = (v) => (typeof v === "number" ? v : 0);
 
 const formatNumber = (n) => (n || 0).toLocaleString();
@@ -534,7 +536,8 @@ const App = () => {
     // fetch ratcrate.json placed under public/data/ratcrate.json
     const load = async () => {
       try {
-        const res = await fetch("/data/ratcrate.json", { cache: "no-store" });
+        // const res = await fetch("/data/ratcrate.json", { cache: "no-store" });
+        const res = await fetch("https://ratcrate.github.io/data/ratcrate.json", { cache: "no-store" });
         if (!res.ok) throw new Error("Failed to load /data/ratcrate.json");
         const json = await res.json();
         const crates = Array.isArray(json) ? json : json.crates || [];
