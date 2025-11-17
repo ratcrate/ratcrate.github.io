@@ -157,7 +157,7 @@ const Footer = ({
         {/* Center: links */}
         <div className="flex-1 flex justify-center">
           <nav className="flex flex-wrap gap-4 text-sm">
-            <a href={docsUrl} className="hover:text-white">Docs</a>
+            {/* <a href={docsUrl} className="hover:text-white">Docs</a> */}
             <a href={repoUrl} className="hover:text-white">GitHub</a>
             {/*
             <a href="/privacy.html" className="hover:text-white">Privacy Policy</a>
