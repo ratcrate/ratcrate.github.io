@@ -12,6 +12,7 @@ import {
 } from "recharts";
 
 import Footer from './components/Footer';
+import CliTuiPage from './components/CliTuiPage';
 
 /* -------------------------
    Helpers
@@ -110,7 +111,7 @@ const CoreLibraries = ({ corePackages }) => {
 /* -------------------------
    HomePage component (hero + stats)
    ------------------------- */
-const HomePage = ({ allPackages }) => {
+const HomePage = ({ allPackages, setCurrentPage}) => {
   // total packages
   const totalPackages = allPackages.length;
 
@@ -200,7 +201,9 @@ const HomePage = ({ allPackages }) => {
         {/* Centered smaller button */}
         <div className="mt-4 flex flex-col items-center gap-2">
           <button
-            onClick={() => (window.location.hash = "#package-list-page")}
+            onClick={() => { window.history.pushState({}, '', '/packages'); 
+            setCurrentPage("packages"); 
+          }}
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg text-sm shadow"
           >
             View All Packages
@@ -524,7 +527,7 @@ const PackageListPage = ({ allPackages }) => {
    App - main (patched navbar with hamburger)
    ------------------------- */
 const App = () => {
-  const [allPackages, setAllPackages] = useState([]);
+  const [allPackages,setAllPackages] = useState([]);
   const [currentPage, setCurrentPage] = useState("home");
   const [newsletterEmail, setNewsletterEmail] = useState("");
   const [navbarTransparent, setNavbarTransparent] = useState(false);
@@ -548,7 +551,48 @@ const App = () => {
       }
     };
     load();
-  }, []);
+  }, []); // The empty dependency array ensures this runs only once on mount
+
+// useEffect(() => {
+//     const onHash = () => {
+//       const h = window.location.hash.replace("#", "");
+//       if (h === "package-list-page") setCurrentPage("packages");
+//       // 2. Update routing logic
+//       else if (h === "#tools-page") setCurrentPage("tools"); // <--- ADDED
+//       else if (h === "stats") setCurrentPage("home");
+//       else setCurrentPage("home");
+//       // close mobile menu when navigating via hash
+//       setMobileOpen(false);
+//     };
+//     onHash();
+//     window.addEventListener("hashchange", onHash);
+//     return () => window.removeEventListener("hashchange", onHash);
+//   }, []);
+
+// ADD this new block to handle path-based routing (popstate)
+useEffect(() => {
+    const handlePopState = () => {
+        // Get the current path (e.g., /packages or /tools)
+        const path = window.location.pathname.toLowerCase().replace(/\/+$/, ''); 
+        
+        if (path.endsWith('/packages')) {
+            setCurrentPage('packages');
+        } else if (path.endsWith('/tools')) {
+            setCurrentPage('tools');
+        } else {
+            // Treat everything else, including '/' and '/stats', as home
+            setCurrentPage('home');
+        }
+        setMobileOpen(false); // Close menu on navigation
+    };
+
+    // Handle initial load based on path
+    handlePopState(); 
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+}, []);
+
 
   useEffect(() => {
     const onScroll = () => setNavbarTransparent(window.scrollY > 40);
@@ -556,19 +600,6 @@ const App = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => {
-    const onHash = () => {
-      const h = window.location.hash.replace("#", "");
-      if (h === "package-list-page") setCurrentPage("packages");
-      else if (h === "stats") setCurrentPage("home");
-      else setCurrentPage("home");
-      // close mobile menu when navigating via hash
-      setMobileOpen(false);
-    };
-    onHash();
-    window.addEventListener("hashchange", onHash);
-    return () => window.removeEventListener("hashchange", onHash);
-  }, []);
 
   // close mobile menu when window resizes up to desktop
   useEffect(() => {
@@ -607,7 +638,8 @@ const App = () => {
           {/* Logo */}
           <div
             className="text-xl font-bold cursor-pointer"
-            onClick={() => { setCurrentPage("home"); window.location.hash = ""; setMobileOpen(false); }}
+            // onClick={() => { setCurrentPage("home"); window.location.hash = ""; setMobileOpen(false); }}
+            onClick={() => { setCurrentPage("home"); window.history.pushState({}, '', '/'); setMobileOpen(false); }}
             aria-label="Ratatui Ecosystem"
           >
             Ratatui Ecosystem
@@ -615,8 +647,12 @@ const App = () => {
 
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#package-list-page" onClick={() => setCurrentPage("packages")} className="text-gray-300 hover:text-white">Packages</a>
-            <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a>
+            {/* <a href="#package-list-page" onClick={() => setCurrentPage("packages")} className="text-gray-300 hover:text-white">Packages</a> */}
+            <a href="/packages" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/packages'); setCurrentPage("packages"); } } className="text-gray-300 hover:text-white">Packages</a>
+            {/* <a href="#tools-page" onClick={() => setCurrentPage("tools")} className="text-gray-300 hover:text-white">Tools</a>  */}
+            <a href="/tools" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/tools'); setCurrentPage("tools"); }} className="text-gray-300 hover:text-white">Tools</a>
+            {/* <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a> */}
+            <a href="/#stats" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); setCurrentPage("home"); setTimeout(() => { window.location.hash = "#stats"; }, 0); }} className="text-gray-300 hover:text-white">Stats</a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">Docs</a>
           </div>
 
@@ -637,18 +673,38 @@ const App = () => {
         {/* Mobile slide-down menu */}
         <div className={`md:hidden bg-gray-900 transition-all duration-300 overflow-hidden ${mobileOpen ? "max-h-64" : "max-h-0"}`}>
           <div className="px-4 pb-4 flex flex-col">
-            <a href="#package-list-page" onClick={() => { setCurrentPage("packages"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Packages</a>
-            <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a>
+            {/* <a href="#package-list-page" onClick={() => { setCurrentPage("packages"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Packages</a> */}
+            <a href="/packages" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/packages'); setCurrentPage("packages"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Packages</a>
+            {/* <a href="#tools-page" onClick={() => { setCurrentPage("tools"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Tools</a> */}
+            <a href="/tools" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/tools'); setCurrentPage("tools"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Tools</a>
+            {/* <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a> */}
+            <a href="/#stats" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); setCurrentPage("home"); setMobileOpen(false); setTimeout(() => { window.location.hash = "#stats"; }, 0); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a>
             <a href="#" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="py-3 border-b border-gray-800 text-center text-lg">Docs</a>
           </div>
         </div>
       </nav>
 
       {/* Page content */}
+      {/* {currentPage === "packages" ? (
+        <PackageListPage allPackages={allPackages} />
+      )  
+      : (
+        <HomePage allPackages={allPackages} newsletterEmail={newsletterEmail} setNewsletterEmail={setNewsletterEmail} handleNewsletterSignup={handleNewsletterSignup} />
+      )} */}
+
+        {/* Page content */}
       {currentPage === "packages" ? (
         <PackageListPage allPackages={allPackages} />
+      ) : currentPage === "tools" ? ( // <--- ADD THIS
+          <CliTuiPage />
       ) : (
-        <HomePage allPackages={allPackages} newsletterEmail={newsletterEmail} setNewsletterEmail={setNewsletterEmail} handleNewsletterSignup={handleNewsletterSignup} />
+        <HomePage 
+          allPackages={allPackages} 
+          newsletterEmail={newsletterEmail} 
+          setNewsletterEmail={setNewsletterEmail} 
+          handleNewsletterSignup={handleNewsletterSignup} 
+          setCurrentPage={setCurrentPage}
+          />
       )}
 
       {/* Footer */}
