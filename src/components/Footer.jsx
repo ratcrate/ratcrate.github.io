@@ -174,7 +174,7 @@ const Footer = ({
 
         {/* Right: sponsor button + visitor count */}
         <div className="flex-1 flex items-center justify-end gap-4">
-          <div>
+          {/* <div className="flex gap-2">
             <a
               href={sponsorsUrl}
               target="_blank"
@@ -182,6 +182,26 @@ const Footer = ({
               className="bg-yellow-600 hover:bg-yellow-500 text-black px-3 py-1 rounded text-sm font-medium"
             >
               Sponsor
+            </a>
+          </div> */}
+          
+          <div className="flex gap-2"> 
+            {/* GitHub Sponsor Button (Uses existing sponsorsUrl prop) */}
+            <a
+              href={sponsorsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 hover:bg-purple-500 text-white px-3 py-1 rounded text-sm font-medium transition-colors"
+            >
+              GitHub Sponsor
+            </a>
+            <a
+              href="https://ko-fi.com/rvbugged" // Ko-fi URL
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-500 text-white px-3 py-1 rounded text-sm font-medium transition-colors"
+            >
+              Ko-fi
             </a>
           </div>
 

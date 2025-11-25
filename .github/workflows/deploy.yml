@@ -6,40 +6,79 @@ on:
   push:
     branches:
       - main # Triggers the workflow on pushes to the main branch
+  pull_request: # <-- IMPORTANT: Add PR trigger to run checks before merge
+    branches:
+      - main
+
+# Set default, minimal permissions for the entire workflow
+permissions:
+  contents: read # Allow reading of repository contents (checkout)
+  packages: read # If you use private packages, otherwise optional
 
 jobs:
+  # 1. BUILD JOB: Checks out code, installs dependencies, and creates the build artifact
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Use a recent LTS version
+          node-version: '20'
 
       - name: Install Dependencies
-        run: npm install # Installs dependencies
+        # Use 'npm ci' for Continuous Integration for reliable installs
+        run: npm ci
 
       - name: Build Project
-        run: npm run build # Runs your Vite build command, creating the 'dist' folder
+        run: npm run build # Creates the 'dist' folder
 
       - name: Upload Artifact
+        # This artifact is needed by the 'deploy' job later
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # IMPORTANT: Upload the output from Vite (the 'dist' folder)
-
-  deploy:
-    needs: build
+          path: './dist' 
+  
+  # 2. TEST JOB: Runs only if the 'build' job succeeds.
+  test:
+    needs: [build, test]  
     runs-on: ubuntu-latest
     permissions:
-      pages: write      # Required to deploy pages
-      id-token: write   # Required to authenticate with GitHub Pages
+      contents: read
+      pages: write # for deployment
+      id-token: write # for auth with github pages
+    steps:
+      - name: Checkout Repository
+        # You need to checkout the code again to run tests in this new job environment
+        uses: actions/checkout@v4
+        
+      # Optional: You may need to run setup/install again if tests require the environment
+      # Often, you can use the same setup steps as 'build' here.
+      - name: Setup Node.js and Install Dependencies
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+
+      - name: Run Unit Tests
+        # ⬅️ IMPORTANT: Make sure your package.json has a "test" script defined
+        run: npm test # The command that executes your tests (e.g., jest, vitest)
+
+  # 3. DEPLOY JOB: Runs only if BOTH 'build' and 'test' jobs succeed.
+  deploy:
+    needs: [build, test] # ⬅️ CRITICAL: Requires both build and test to pass.
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # The official GitHub Pages deployment aqw:ction
+        uses: actions/deploy-pages@v4

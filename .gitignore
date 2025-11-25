@@ -1,6 +1,13 @@
 # Logs
 logs
 src/App.working.jsx
+/.quarto/
+quartodocs/*
+docs/*
+venv/
+__pycache__/
+*.pyc
+.DS_Store   
 
 *.log
 npm-debug.log*
@@ -24,3 +31,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.Rproj.user
