@@ -39,7 +39,7 @@ jobs:
 
       - name: Upload Artifact
         # This artifact is needed by the 'deploy' job later
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: './dist' 
   
