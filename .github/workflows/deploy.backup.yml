@@ -26,7 +26,7 @@ jobs:
         run: npm run build # Runs your Vite build command, creating the 'dist' folder
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: './dist' # IMPORTANT: Upload the output from Vite (the 'dist' folder)
 
