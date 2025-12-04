@@ -653,7 +653,7 @@ useEffect(() => {
             <a href="/tools" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/tools'); setCurrentPage("tools"); }} className="text-gray-300 hover:text-white">Tools</a>
             {/* <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a> */}
             <a href="/#stats" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); setCurrentPage("home"); setTimeout(() => { window.location.hash = "#stats"; }, 0); }} className="text-gray-300 hover:text-white">Stats</a>
-            <a href="../book/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">Docs</a>
+            <a href="/book/index.html" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">Docs</a>
           </div>
 
           {/* Mobile hamburger */}
