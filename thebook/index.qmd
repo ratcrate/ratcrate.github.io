@@ -1,0 +1,117 @@
+---
+title: "Overview"
+format: html
+---
+
+# The Book
+
+> ##### Welcome to the documentation hub for my open source projects.
+>
+> This site collects Technical Docs, Architecture Notes, and Design Decisions for all my projects.
+
+## How to Use This Site
+
+-   Use the **sidebar** or the project cards above to jump into a specific project.\
+-   Within each project:
+    -   Start with the *Overview* chapter
+    -   Then read Architecture / Workflow chapters
+    -   Dive into Code Snippets, Testing, and Future Work as needed
+
+This site is primarily written for **future me** — but if you’re reading it later\
+as a user or contributor, I hope it gives you clear insight into how everything fits together
+
+## Roadmap & Future Projects
+
+This hub is designed to grow over time as more tools and experiments appear.
+
+Planned additions include:
+
+-   🧪 Experimental tools around Rust / Ratatui / docs automation\
+-   🧰 Libraries for working with generated JSON data\
+-   🗂 More utilities for automating documentation workflows
+
+When a new project is created, it will get:
+
+-   Its own folder (e.g. `new-project/`)\
+-   Its own mini “book” of chapters\
+-   A card on this page linking into its docs
+
+#  {.unnumbered}
+
+## About Me
+
+I’m **Rakesh V**, a developer and tinkerer who enjoys building tools that make it easier to think, automate, and explore ideas.
+
+I maintain the projects in this “book” — most of them in Rust, some around Ratatui, and others around documentation and tooling.
+
+If you’d like to know more about my background, how these tools came about, and how to support my work, see:
+
+➡️ [Read more in “Author” section](about-author.qmd)
+
+<br><br>
+
+------------------------------------------------------------------------
+
+## Projects Overview
+
+::::: columns
+::: {.column width="50%"}
+### 🐀 ratcrate-core
+
+The **engine** behind the Ratatui ecosystem index.
+
+-   Scans the crates.io sparse index\
+-   Finds all crates depending on `ratatui`\
+-   Enriches them with crates.io metadata\
+-   Applies smart caching (version + timestamp based)\
+-   Produces `ratcrate.json` for other tools to consume
+
+➡️ [Read the ratcrate-core docs »](rat-core/index.qmd)
+:::
+
+::: {.column width="50%"}
+### 💻 ratcrate-cli *(planned)*
+
+A command-line interface for exploring the Ratatui ecosystem.
+
+-   Reads `ratcrate.json` produced by `ratcrate-core`\
+-   Search and filter Ratatui crates from the terminal\
+-   Show stats, links, and crate details in a compact way
+
+➡️ [Read the ratcrate-cli docs »](rat-cli/index.qmd)
+:::
+:::::
+
+------------------------------------------------------------------------
+
+::::: columns
+::: {.column width="50%"}
+### 🎛 ratcrate-tui *(planned)*
+
+A **Ratatui-based TUI** for browsing Ratatui crates.\
+Very meta. Very fun.
+
+-   Terminal UI built with Ratatui\
+-   Interactive search and filters\
+-   Crate detail views with stats and links\
+-   Powered by `ratcrate-core` data
+
+➡️ [Read the ratcrate-tui docs »](rat-tui/index.qmd)
+:::
+
+::: {.column width="50%"}
+### ☁︎ doc2quarto *(planned)*
+
+A helper tool for turning rough notes, markdown, or code comments into\
+**structured Quarto documentation**.
+
+-   Convert notes into `.qmd` skeletons\
+-   Generate chapter structures\
+-   Insert placeholders for diagrams/screenshots\
+-   Ideal for standardizing docs across all projects
+
+➡️ [Read the doc2quarto docs »](doc2quarto/index.qmd)
+:::
+:::::
+
+------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+---
+title: "08-json-output"
+format: html
+---
+
+# Chapter 8 — Final JSON Output
+
+`ratcrate.json` is the central dataset for all future projects:
+
+- ratcrate-cli
+- ratcrate-tui
+- ratcrate-web
+
+## Structure
+
+```json
+{
+  "metadata": {...},
+  "statistics": {...},
+  "crates": [...]
+}
+```
+
+Placeholder: sample JSON screenshot

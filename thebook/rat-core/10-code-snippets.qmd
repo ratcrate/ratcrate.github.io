@@ -1,0 +1,27 @@
+---
+title: "10-code-snippets"
+format: html
+---
+
+# Chapter 10 — Important Code Snippets
+
+## Parsing Sparse Index Line
+
+```rust
+let entry: SparseIndexEntry = serde_json::from_str(line)?;
+if new crate or version changed or stale {
+    fetch
+} else {
+    use cached metadata
+}
+```
+
+## Atomic Write
+
+```rust
+let tmp = path.with_extension("tmp");
+fs::write(&tmp, data)?;
+fs::rename(&tmp, &path)?;
+```
+
+Placeholder: Add screenshots of code later

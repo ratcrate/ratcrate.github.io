@@ -1,0 +1,77 @@
+---
+title: "16-Troubleshooting-FAQ"
+format: html
+---
+
+# Troubleshooting & FAQ
+
+## 1. Common Issues
+
+### ❗ `Sparse index directory not found`
+
+Make sure you cloned it properly:
+
+```bash
+git clone https://github.com/rust-lang/crates.io-index.git sparse-index
+```
+
+### ❗ 429 Too Many Requests
+
+Solutions:
+
+- Use an authenticated token:
+
+```bash
+CRATES_IO_TOKEN=<token>
+```
+- Reduce frequency of runs
+- Let caches handle daily refreshes
+
+### ❗ Failed to parse cache
+
+Fix:
+
+```bash
+rm cache/index_cache.json
+rm cache/crates_cache.json
+cargo run -- -s sparse-index
+```
+
+### ❗ Resume not working
+
+Use:
+```bash
+cargo run -- -s sparse-index --force-fresh
+```
+
+
+## 2. FAQ
+### 💬 Why is the first run slow?
+
+Because it fetches metadata for all crates depending on Ratatui.
+
+Subsequent runs are extremely fast.
+
+### 💬 Why isn’t my crate included?
+
+Possible reasons:
+It doesn’t depend on ratatui
+It uses optional dependency incorrectly
+It has only yanked versions with that dependency
+
+### 💬 How often should I run this?
+
+Daily or weekly.
+
+### 💬 Will the JSON format change?
+
+Minor changes are possible.
+The schema chapter documents stable and unstable fields.
+
+## Placeholder: Error screenshots
+
+ Screenshot: 429 error
+
+ Screenshot: parse error
+
+ Screenshot: missing sparse index
