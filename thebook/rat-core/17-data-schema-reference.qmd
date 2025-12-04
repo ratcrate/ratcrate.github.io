@@ -1,0 +1,101 @@
+---
+title: "17-data-schema-Reference"
+format: html
+---
+
+# 📘 Chapter 17 — Data Schema Reference
+
+This chapter defines the structure of the final `ratcrate.json` output.
+
+# \# 1. Top-Level Structure
+
+``` jsonc
+{
+  "metadata": { ... },
+  "statistics": { ... },
+  "crates": [ ... ]
+}
+```
+
+## Data Schema Reference
+
+## Formal specification of ratcrate.json:
+
+-   Fields in metadata
+-   Fields in statistics
+-   Fields in each crate entry (CratePackage)
+
+## Example entry annotated
+
+``` jsonc
+
+{
+  "name": "awesome-tui",
+  "version": "0.4.1",
+  "downloads": 12345,        // total downloads from crates.io
+  "recent_downloads": 321,   // last 90 days
+  "repository": "...",       // GitHub / git URL
+  "homepage": "...",
+  "documentation": "...",
+  "categories": ["tui", "terminal"],
+  "is_core_library": false
+}
+```
+
+# 2. metadata Section
+
+| Field        | Type   | Description                             |
+|--------------|--------|-----------------------------------------|
+| generated_at | string | ISO TImestamp                           |
+| version      | string | ratcrate-core version                   |
+| sources      | array  | e.g. \["sparse_index","crates_io_api"\] |
+
+# 3. statistics Section
+
+| Field              | Type   | Description                |
+|--------------------|--------|----------------------------|
+| total_crates       | number | Count of discovered crates |
+| core_libraries     | number | Ratatui core crates        |
+| community_packages | number | All others                 |
+| cache_hits         | number | Metadata reused            |
+| cache_misses       | number | Metadata fetched           |
+
+# 4. `crates[]` Entry Format
+
+``` jsonc
+{
+  "name": "awesome-tui",
+  "version": "0.3.1",
+  "downloads": 12345,
+  "recent_downloads": 234,
+  "repository": "https://github.com/...",
+  "homepage": "...",
+  "documentation": "...",
+  "categories": ["tui"],
+  "description": "...",
+  "is_core_library": false,
+  "ratatui_dependency": {
+    "requires": "^0.28",
+    "optional": false
+  }
+}
+```
+
+# 5. Schema Stability
+
+| Field               | Stability  |
+|---------------------|------------|
+| name                | stable     |
+| version             | stable     |
+| downloads           | stable     |
+| recent_downloads    | stable     |
+| description         | stable     |
+| metadata.statistics | stable     |
+| is_core_library     | may evolve |
+| ratatui_dependency  | may evolve |
+
+# 6. JSON Schema (Optional Future)
+
+Define as `ratcrate-schema.json`.
+
+Placeholder: JSON validator screenshots

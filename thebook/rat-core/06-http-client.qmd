@@ -1,0 +1,25 @@
+---
+title: "06-http-client"
+format: html
+---
+
+# Chapter 6 — Crates.io HTTP Client
+
+The HTTP client handles:
+- Building URLs
+- Retrying failures
+- Rate-limit handling (429)
+- Deserializing responses
+
+## Retry Logic
+
+```rust
+match response.status() {
+    429 => wait retry-after or 60s
+    5xx => exponential backoff
+    _ => success
+}
+```
+
+
+Placeholder: Code snippet screenshot

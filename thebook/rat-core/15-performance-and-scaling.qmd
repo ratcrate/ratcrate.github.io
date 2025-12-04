@@ -1,0 +1,72 @@
+---
+title: "15-Performance-and-Scaling"
+format: html
+---
+
+# 📘 **15-performance-and-scaling.qmd**
+
+This chapter covers how `ratcrate-core` performs today and how it will
+scale with the expanding Ratatui ecosystem.
+
+---
+
+## 1. First-Run vs Cached-Runs
+
+### Cold Run (no caches)
+
+- Full sparse index scan  
+- 50–200+ crates depending on Ratatui  
+- All crates.io metadata fetched  
+- ~100 seconds typical
+
+### Warm Run (caches present)
+
+- Reads sparse index again  
+- But **0 HTTP calls**  
+- ~5 seconds typical
+
+---
+
+## 2. Where Time is Spent
+
+### Sparse Index Parsing  
+> Disk IO bound  
+> Many small files
+
+### Crates.io API  
+> Network bound  
+> Rate-limited (1 request/sec recommended)
+
+### JSON Serialization  
+> Negligible compared to above
+
+---
+
+## 3. Current Optimizations
+
+- Incremental caching  
+- Only fetches metadata if:
+  - New crate
+  - New version
+  - Stale (>24h)
+
+- Atomic writes to avoid corruption  
+- Resume support to avoid wasted work  
+
+---
+
+## 4. Future Optimization Ideas
+
+- Parallel sparse index scanning  
+- Batch HTTP calls (crates.io API doesn’t support this yet)  
+- Persistent HTTP connections  
+- Compression for cached JSON  
+- Local SQLite cache instead of JSON files  
+
+---
+
+## Placeholder: Benchmark Figures
+
+- [ ] Screenshot: cold run timings  
+- [ ] Screenshot: warm run timings  
+- [ ] Screenshot: flamegraph (future work)  

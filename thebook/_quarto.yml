@@ -1,0 +1,65 @@
+project:
+  type: book
+  output-dir: ../book/
+
+book:
+  title: "Book"
+  author: "Rakesh Venkat"
+  date: "11/30/2025"
+  favicon: images/AudioWide-White.ico
+  sidebar: 
+    style: "docked"  # or "floating"
+    location: left
+    background: light
+  sharing: [twitter, linkedin]
+
+  chapters:
+    - index.qmd
+    - about-author.qmd
+   # Part 1: rat-core
+    - part: "rat-core"
+      chapters:
+        - rat-core/index.qmd
+        - rat-core/01-origin.qmd
+        - rat-core/02-overview.qmd
+        - rat-core/03-architecture.qmd
+        - rat-core/04-sparse-index.qmd
+        - rat-core/05-caching.qmd
+        - rat-core/06-http-client.qmd
+        - rat-core/07-state-management.qmd
+        - rat-core/08-json-output.qmd
+        - rat-core/09-workflow-diagram.qmd
+        - rat-core/10-code-snippets.qmd
+        - rat-core/11-future-work.qmd
+        - rat-core/12-contributing.qmd
+        - rat-core/13-usage-examples.qmd
+        - rat-core/14-testing-and-quality.qmd
+        - rat-core/15-performance-and-scaling.qmd
+        - rat-core/16-troubleshooting-faq.qmd
+        - rat-core/17-data-schema-reference.qmd
+        - rat-core/18-ecosystem-and-integrations.qmd
+    # Part 2: rat-cli
+    - part: "rat-cli"
+      chapters:
+        - rat-cli/index.qmd
+    # Part 3: rat-tui
+    - part: "rat-tui"
+      chapters:
+        - rat-tui/index.qmd
+        
+
+bibliography: references.bib
+toc: false
+toc-depth: 4
+format:
+  
+  html:
+    theme:
+      - cosmo
+      - brand
+    number-sections: false
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

@@ -1,0 +1,44 @@
+---
+title: "05-caching"
+format: html
+---
+
+# 05-caching.qmd
+
+# Chapter 5 — Intelligent Multi-Day Caching
+
+Unlike ETag-based caching (crates.io does not support ETags), ratcrate-core uses a custom two-level caching strategy.
+
+## 1. Index Cache
+
+``` json
+{
+  "a-tui-tool": {
+    "latest_version": "0.4.1",
+    "last_checked": "2025-11-28T08:00:00Z"
+  }
+}
+```
+
+## 2. Metadata Cache
+
+``` json
+{
+  "a-tui-tool": {
+    "name": "a-tui-tool",
+    "version": "0.4.1",
+    "downloads": 4533
+  }
+}
+```
+
+### Fetch/Skip Logic
+
+``` rust
+if (crate not in index_cache) → FETCH
+else if (version changed) → FETCH
+else if (now - last_checked < 24h) → SKIP
+else → FETCH (stale)
+```
+
+Placeholder: Cache hit/miss screenshots

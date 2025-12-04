@@ -1,0 +1,31 @@
+---
+title: "07-state-management"
+format: html
+---
+
+# Chapter 7 — State Management & Resume
+
+
+To support long runs (sometimes >30 minutes), progress is saved in:
+
+## `cache/progress.json`
+
+
+### Stored Fields
+
+```json
+{
+  "processed_crates": 53,
+  "total_crates": 120,
+  "last_processed_crate": "cool-tui-app",
+  "partial_data": { ... }
+}
+```
+
+## Resume Behavior
+```scss
+--resume → continue scan  
+--force-fresh → ignore progress file
+```
+
+Placeholder: progress.json screenshot

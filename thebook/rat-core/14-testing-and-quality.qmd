@@ -1,0 +1,105 @@
+---
+title: "14-testing-and-quality"
+format: html
+---
+
+# Testing and Quality
+
+This chapter documents the testing strategy, recommended practices, and
+future improvements for ensuring quality in `ratcrate-core`.
+
+---
+
+## 1. Testing Philosophy
+
+The tool processes large amounts of data and interacts with remote APIs.
+Testing focuses on:
+
+- **Correctness of parsing** (sparse index)
+- **Correctness of caching logic**
+- **Robustness of HTTP client**
+- **Consistency of final JSON output**
+- **Resume functionality**
+
+---
+
+## 2. Unit Tests
+
+### 2.1. Sparse Index Parsing
+
+Use a fake index file:
+
+```rust
+#[test]
+fn test_sparse_entry_parsing() {
+    let data = r#"
+{"name":"a","vers":"0.1.0","deps":[{"name":"ratatui"}],"yanked":false}
+{"name":"a","vers":"0.1.1","deps":[{"name":"serde"}],"yanked":false}
+"#;
+
+    // write to temp file and parse
+}
+```
+
+### 2.2. Index Cache
+
+```rust
+#[test]
+fn test_index_cache_update() {
+    let mut cache = IndexCache::new(temp_path);
+    cache.update("crate".into(), "1.0.0".into(), Utc::now());
+    assert_eq!(cache.len(), 1);
+}
+```
+
+### 2.3. Metadata Cache
+
+Ensure it serializes/deserializes cleanly.
+
+## 3. Manual Testing
+
+### 3.1. Small Synthetic Index
+
+- [ ] Place 3–5 crates in a folder.
+- [ ] Helpful for debugging edge cases.
+
+### 3.2. Production Index Dry Run
+
+Run with full sparse index but stop after 10 crates (TODO option).
+
+## 4. Future Automated Testing Goals
+
+- Mock crates.io server (via httptest or wiremock-rs)
+- Add snapshot tests for ratcrate.json
+- Add schema validation tests
+- Add a GitHub Actions CI pipeline:
+    - Formatting (`cargo fmt`)
+    - Lints (`cargo clippy -- -D warnings`)
+    - Tests (`cargo test`)
+
+## Placeholder: Test output screenshots
+
+Screenshot: cargo test
+Screenshot: failing sparse index parse
+Screenshot: cache behavior test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
