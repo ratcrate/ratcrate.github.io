@@ -304,9 +304,9 @@ const HomePage = ({ allPackages, setCurrentPage}) => {
       {/* Documentation + newsletter simplified */}
       <section className="container mx-auto px-4 py-8">
         <div className="bg-gray-900 p-4 rounded-lg border border-gray-700 text-center">
-          <h4 className="text-white font-semibold mb-2">Documentation</h4>
-          <p className="text-gray-300 text-sm mb-3">Coming Soon.</p>
-          <a href="./book/" target="_blank" rel="noopener noreferrer" className="text-white text-sm bg-green-600 px-3 py-1 rounded">Docs</a>
+          <h4 className="text-white font-semibold mb-2">Know More</h4>
+          { /* <p className="text-gray-300 text-sm mb-3">Hub.</p> */}
+          <a href="https://qubitai.in/book/" target="_blank" rel="noopener noreferrer" className="text-white text-sm bg-green-600 px-3 py-1 rounded">Documentation</a>
         </div>
       </section>
     </>
@@ -653,7 +653,7 @@ useEffect(() => {
             <a href="/tools" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/tools'); setCurrentPage("tools"); }} className="text-gray-300 hover:text-white">Tools</a>
             {/* <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; }} className="text-gray-300 hover:text-white">Stats</a> */}
             <a href="/#stats" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); setCurrentPage("home"); setTimeout(() => { window.location.hash = "#stats"; }, 0); }} className="text-gray-300 hover:text-white">Stats</a>
-            <a href="./book/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">Docs</a>
+            <a href="https://qubitai.in/book/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">Docs</a>
           </div>
 
           {/* Mobile hamburger */}
