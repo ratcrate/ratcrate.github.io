@@ -1,0 +1,18 @@
+
+# JavaScript/React files
+javascript:
+  - '**/*.js'
+  - '**/*.jsx'
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/package.json'
+
+# Documentation
+documentation:
+  - '**/*.md'
+  - 'docs/**/*'
+
+# GitHub Actions
+github-actions:
+  - '.github/workflows/*'
+  - '.github/actions/*'
