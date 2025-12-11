@@ -1,49 +1,20 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
-# .github/dependabot.yml
-
 version: 2
 updates:
-  # -----------------------------------------------------
-  # 1. Configuration for Node.js (website repo: ratcrate)
-  # -----------------------------------------------------
-  - package-ecosystem: "npm" 
-    directory: "/" # Location of package.json
-    schedule:
-      interval: "weekly" # Check for updates weekly
-      day: "monday"
-    # Create PRs for version updates for both development and production dependencies
-    groups:
-      dev-dependencies:
-        patterns:
-          - "*" # Match all dependencies not explicitly excluded
-        dependency-type: "development"
-      prod-dependencies:
-        patterns:
-          - "*"
-        dependency-type: "production"
-    # Limit to 5 open PRs to prevent overwhelming the maintainer (you!)
-    open-pull-requests-limit: 5
-
-  # -----------------------------------------------------
-  # 2. Configuration for Rust (CLI/TUI repos)
-  # -----------------------------------------------------
-  - package-ecosystem: "cargo" 
-    directory: "/" # Location of Cargo.toml
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
-    # Rust often uses frequent updates, weekly is a good starting point
-    open-pull-requests-limit: 5 
-
-  # -----------------------------------------------------
-  # 3. Configuration for GitHub Actions (All 3 repos)
-  # -----------------------------------------------------
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "javascript"
+  
+  # For GitHub Actions
   - package-ecosystem: "github-actions"
-    directory: "/" # Location of .github/workflows
+    directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "github-actions"
