@@ -2,40 +2,30 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Currently supported versions:
 
-| Version | Supported          |
+| Version | Supported          |
 | ------- | ------------------ |
-| 0.1.   | :white_check_mark: |
-| 0.0.1   | :x:                |
+| 0.1.x   | :white_check_mark: |
+| < 0.1.0   | :x:              |
 
 ## Reporting a Vulnerability
 
-I take the security of the Ratcrate ecosystem seriously. If you discover a vulnerability in our project, appreciate your help in disclosing it to us in a responsible manner.
+I take security vulnerabilities seriously. If you discover a security issue, please:
 
-### How to Report a Vulnerability
+1. **DO NOT** open a public issue
+2. Email quitai.in@gmail.com (or use GitHub's private vulnerability reporting)
+3. Include:
+   - Description of the vulnerability
+   - Steps to reproduce
+   - Potential impact
+   - Suggested fix (if any)
 
-**Please do not report security vulnerabilities through public GitHub issues, pull requests, or comments.**
+I will respond within 48 hours and work with you to address the issue.
 
-Instead, please report the issue privately via email 
+## Security Advisories
 
-In your email, please provide as much detail as possible to help us reproduce and fix the issue:
+Public security advisories will be published at:
+https://github.com/ratcrate/ratcrate.github.io/security/advisories
 
-1.  **A detailed description** of the vulnerability.
-2.  **Steps to reproduce** the issue (including any specific environment setup, Node/npm versions, or browser details).
-3.  **The affected version(s)** of the project.
-4.  **Proof of concept** or exploit code (optional, but highly helpful).
-
-### My Response Policy
-
-When a vulnerability is reported privately, here is what you can expect:
-
-| Step | Expected Timeline | Details |
-| :--- | :--- | :--- |
-| **Acknowledgement** | Within 48 hours | Acknowledge receipt of your report and confirm that we are beginning the internal investigation. |
-| **Triage & Analysis** | Within 1 week | Provide an initial assessment of the vulnerability's severity and confirm whether it is accepted for remediation. |
-| **Remediation Plan** | As required | Once a fix is confirmed, work  with you to plan public disclosure and attribution, typically coordinating with a subsequent release cycle. |
-| **Public Disclosure** | Coordinated Release | Issue a security advisory and an announcement after the fix is deployed to protect users who upgrade. |
-
-I am committed to keeping the reporter informed throughout the entire process.
+Thank you for helping keep our project secure!
