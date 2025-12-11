@@ -1,26 +1,75 @@
 # Contributing to Ratcrate Ecosystem
 
-Thank you for your interest in contributing! 🎉
+
+Thank you for your interest in contributing! I welcome contributions from everyone.
+
+## Code of Conduct
+
+This project adheres to a Code of Conduct. By participating, you are expected to uphold this code.
 
 ## How to Contribute
 
 ### Reporting Bugs
-1. Check if the bug has already been reported
-2. If not, create a new issue using the Bug Report template
-3. Provide as much detail as possible
+
+- Search existing issues first
+- Use the bug report template
+- Include reproduction steps, expected vs actual behavior
+- Include environment details (OS, language version, etc.)
 
 ### Suggesting Features
-1. Check if the feature has already been suggested
-2. Create a new issue using the Feature Request template
-3. Explain your use case clearly
 
-## Code of Conduct
-- Be respectful and inclusive
-- Focus on constructive feedback
-- Assume good intentions
+- Search existing issues/discussions first
+- Use the feature request template
+- Explain the use case and benefits
+- Be open to discussion
+
+### Pull Requests
+
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
+3. **Make your changes**:
+   - Follow the code style (run linters)
+   - Add tests for new features
+   - Update documentation
+   - Ensure all tests pass
+4. **Commit your changes**: `git commit -m 'Add amazing feature'`
+   - Use clear, descriptive commit messages
+   - Reference issues: `Fixes #123`
+5. **Push to your fork**: `git push origin feature/amazing-feature`
+6. **Open a Pull Request**:
+   - Fill out the PR template
+   - Link related issues
+   - Respond to review feedback
+
+## Development Setup
+
+### React Projects
+```bash
+git clone https://github.com/ratcrate/ratcrate.github.io.git
+cd [repo]
+npm install
+npm test
+npm run build
+```
+
+## Code Style
+
+- **JavaScript/React**: Use ESLint and Prettier
+
+## Testing
+
+- Write tests for new features
+- Ensure existing tests pass
+- Aim for good test coverage
+
+## Documentation
+
+- Update README.md if needed
+- Add inline code comments for complex logic
+- Update CHANGELOG.md
 
 ## Questions?
-Feel free to open an issue for any questions!
 
-## License
-By contributing, you agree that your contributions will be licensed under the MIT License.
+Feel free to open a discussion or reach out to maintainers.
+
+Thank you for contributing! 🎉
