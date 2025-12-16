@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2025-12-15T05:26:12.794210+00:00",
-    "total_crates": 1767,
+    "generated_at": "2025-12-16T03:19:08.593057+00:00",
+    "total_crates": 1773,
     "core_libraries": 2,
-    "community_packages": 1765,
+    "community_packages": 1771,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 0,
-      "etag_cache_misses": 1767,
-      "cache_hit_rate": 0.0
+      "etag_cache_hits": 1743,
+      "etag_cache_misses": 30,
+      "cache_hit_rate": 98.30795262267344
     }
   },
   "crates": [
@@ -511,11 +511,11 @@
       "id": "aichat-search",
       "name": "aichat-search",
       "description": "Fast full-text search TUI for Claude Code and Codex sessions using Tantivy",
-      "version": "0.1.11",
+      "version": "0.1.14",
       "created_at": "2025-12-01T12:46:50.245986Z",
-      "updated_at": "2025-12-14T15:26:00.978600Z",
-      "downloads": 222,
-      "recent_downloads": 222,
+      "updated_at": "2025-12-15T17:41:58.612024Z",
+      "downloads": 273,
+      "recent_downloads": 273,
       "categories": [
         "command-line-utilities"
       ],
@@ -871,11 +871,11 @@
       "id": "aoba",
       "name": "aoba",
       "description": "Multi-protocol debugging and simulation CLI/TUI tool for Modbus RTU.",
-      "version": "0.0.14",
+      "version": "0.0.15",
       "created_at": "2025-08-09T15:29:30.446438Z",
-      "updated_at": "2025-12-13T17:18:05.322383Z",
-      "downloads": 730,
-      "recent_downloads": 447,
+      "updated_at": "2025-12-15T09:44:19.521968Z",
+      "downloads": 747,
+      "recent_downloads": 459,
       "categories": [],
       "repository": "https://github.com/celestia-island/aoba",
       "ratatui_dependency": {
@@ -1815,15 +1815,15 @@
       "id": "bashrs",
       "name": "bashrs",
       "description": "Rust-to-Shell transpiler for deterministic bootstrap scripts",
-      "version": "6.42.0",
+      "version": "6.43.0",
       "created_at": "2025-07-07T16:31:37.763566Z",
-      "updated_at": "2025-12-07T17:48:20.137604Z",
-      "downloads": 11544,
-      "recent_downloads": 10504,
+      "updated_at": "2025-12-15T14:48:25.098592Z",
+      "downloads": 11575,
+      "recent_downloads": 10521,
       "categories": [
-        "command-line-utilities",
         "compilers",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/paiml/bashrs",
       "homepage": "https://github.com/paiml/bashrs",
@@ -1940,11 +1940,11 @@
       "id": "batuta",
       "name": "batuta",
       "description": "Orchestration framework for converting ANY project (Python, C/C++, Shell) to modern Rust",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "created_at": "2025-11-21T08:04:54.931227Z",
-      "updated_at": "2025-12-14T23:50:21.422160Z",
-      "downloads": 204,
-      "recent_downloads": 204,
+      "updated_at": "2025-12-15T12:47:17.746324Z",
+      "downloads": 226,
+      "recent_downloads": 226,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -3080,15 +3080,32 @@
       "id": "bssh",
       "name": "bssh",
       "description": "Parallel SSH command execution tool for cluster management",
-      "version": "1.3.0",
+      "version": "1.4.1",
       "created_at": "2025-08-22T14:16:47.762379Z",
-      "updated_at": "2025-12-10T09:26:14.577785Z",
-      "downloads": 3730,
-      "recent_downloads": 2129,
+      "updated_at": "2025-12-15T15:25:00.570830Z",
+      "downloads": 3756,
+      "recent_downloads": 2113,
       "categories": [
         "command-line-utilities"
       ],
       "repository": "https://github.com/lablup/bssh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "bstock",
+      "name": "bstock",
+      "description": "A TUI application for analyzing and predicting stock prices",
+      "version": "0.1.1",
+      "created_at": "2025-12-15T17:19:12.723048Z",
+      "updated_at": "2025-12-15T17:35:52.935188Z",
+      "downloads": 22,
+      "recent_downloads": 22,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -4412,11 +4429,11 @@
       "id": "chess-tui",
       "name": "chess-tui",
       "description": "Play chess from your terminal 🦀",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "created_at": "2023-12-01T13:03:02.031228Z",
-      "updated_at": "2025-12-14T19:55:45.581654Z",
-      "downloads": 19658,
-      "recent_downloads": 1534,
+      "updated_at": "2025-12-15T14:53:20.773447Z",
+      "downloads": 19692,
+      "recent_downloads": 1520,
       "categories": [],
       "repository": "https://github.com/thomas-mauran/chess-tui",
       "homepage": "https://github.com/thomas-mauran/chess-tui",
@@ -5952,11 +5969,11 @@
       "id": "cuenv",
       "name": "cuenv",
       "description": "Event-driven CLI with inline TUI for cuenv",
-      "version": "0.14.1",
+      "version": "0.15.2",
       "created_at": "2025-07-24T12:37:47.006003Z",
-      "updated_at": "2025-12-13T22:15:26.332612Z",
-      "downloads": 5546,
-      "recent_downloads": 1270,
+      "updated_at": "2025-12-15T21:02:31.629153Z",
+      "downloads": 5561,
+      "recent_downloads": 1210,
       "categories": [
         "development-tools",
         "config",
@@ -6260,11 +6277,11 @@
       "id": "deciduous",
       "name": "deciduous",
       "description": "Decision graph tooling for AI-assisted development. Track every goal, decision, and outcome. Survive context loss. Query your reasoning.",
-      "version": "0.8.9",
+      "version": "0.8.11",
       "created_at": "2025-12-10T03:20:20.030529Z",
-      "updated_at": "2025-12-12T15:09:57.514742Z",
-      "downloads": 590,
-      "recent_downloads": 590,
+      "updated_at": "2025-12-15T19:13:03.854706Z",
+      "downloads": 627,
+      "recent_downloads": 627,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -6769,9 +6786,9 @@
       "description": "Ditto is a peer to peer cross-platform database that allows mobile, web, IoT and server apps to sync with or without an internet connection.",
       "version": "4.13.1",
       "created_at": "2021-03-24T02:09:10.340369Z",
-      "updated_at": "2025-12-11T19:41:59.519805Z",
-      "downloads": 444775,
-      "recent_downloads": 63194,
+      "updated_at": "2025-12-15T05:25:44.337002Z",
+      "downloads": 445288,
+      "recent_downloads": 62334,
       "categories": [
         "database",
         "database-implementations",
@@ -7368,11 +7385,11 @@
       "id": "ducker",
       "name": "ducker",
       "description": "A slightly quackers Docker TUI based on k9s 🦆",
-      "version": "0.5.5",
+      "version": "0.5.6",
       "created_at": "2024-06-27T16:37:18.327328Z",
-      "updated_at": "2025-12-07T19:51:28.946725Z",
-      "downloads": 23562,
-      "recent_downloads": 3056,
+      "updated_at": "2025-12-15T19:17:00.507589Z",
+      "downloads": 23579,
+      "recent_downloads": 2972,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -7650,11 +7667,11 @@
       "id": "eazygit",
       "name": "eazygit",
       "description": "A fast TUI for Git with staging, conflicts, rebase, and palette-first UX",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "created_at": "2025-12-13T02:25:46.773236Z",
-      "updated_at": "2025-12-14T11:41:33.931715Z",
-      "downloads": 27,
-      "recent_downloads": 27,
+      "updated_at": "2025-12-15T05:38:40.922545Z",
+      "downloads": 46,
+      "recent_downloads": 46,
       "categories": [
         "command-line-utilities"
       ],
@@ -7867,6 +7884,27 @@
       "recent_downloads": 163,
       "categories": [],
       "repository": "https://github.com/DerekCorniello/8BitBeats",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "ekphos",
+      "name": "ekphos",
+      "description": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
+      "version": "0.1.5",
+      "created_at": "2025-12-15T11:23:33.491899Z",
+      "updated_at": "2025-12-15T13:05:47.816424Z",
+      "downloads": 102,
+      "recent_downloads": 102,
+      "categories": [
+        "command-line-utilities",
+        "text-editors"
+      ],
+      "repository": "https://github.com/hanebox/ekphos",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -8774,11 +8812,11 @@
       "id": "firefly_music",
       "name": "firefly_music",
       "description": "A Terminal Music Player",
-      "version": "0.12.2",
+      "version": "0.12.3",
       "created_at": "2025-10-29T09:43:31.048337Z",
-      "updated_at": "2025-12-04T01:25:58.296639Z",
-      "downloads": 321,
-      "recent_downloads": 321,
+      "updated_at": "2025-12-16T01:12:18.184760Z",
+      "downloads": 322,
+      "recent_downloads": 322,
       "categories": [
         "command-line-utilities"
       ],
@@ -10606,11 +10644,11 @@
       "id": "gitu",
       "name": "gitu",
       "description": "A git client inspired by Magit",
-      "version": "0.39.0",
+      "version": "0.40.0",
       "created_at": "2024-03-04T16:01:08.766682Z",
-      "updated_at": "2025-11-12T22:08:52.031246Z",
-      "downloads": 86027,
-      "recent_downloads": 4762,
+      "updated_at": "2025-12-15T18:40:33.854954Z",
+      "downloads": 86046,
+      "recent_downloads": 4404,
       "categories": [],
       "repository": "https://github.com/altsem/gitu",
       "ratatui_dependency": {
@@ -11563,11 +11601,11 @@
       "id": "helix-kanban",
       "name": "helix-kanban",
       "description": "A terminal-based kanban board with file-based storage, multi-project support, and Helix-style keybindings",
-      "version": "0.2.10",
+      "version": "0.2.11",
       "created_at": "2025-12-10T09:21:43.628004Z",
-      "updated_at": "2025-12-13T14:35:56.572315Z",
-      "downloads": 174,
-      "recent_downloads": 174,
+      "updated_at": "2025-12-16T02:26:17.068749Z",
+      "downloads": 190,
+      "recent_downloads": 190,
       "categories": [
         "command-line-utilities"
       ],
@@ -12569,11 +12607,11 @@
       "id": "ins",
       "name": "ins",
       "description": "Instant CLI - command-line utilities",
-      "version": "0.10.8",
+      "version": "0.10.9",
       "created_at": "2025-09-27T15:43:14.051485Z",
-      "updated_at": "2025-12-14T02:52:38.471587Z",
-      "downloads": 6343,
-      "recent_downloads": 6343,
+      "updated_at": "2025-12-15T13:55:48.037840Z",
+      "downloads": 6363,
+      "recent_downloads": 6363,
       "categories": [],
       "repository": "https://github.com/instantOS/instantCLI",
       "homepage": "https://instantos.io",
@@ -13002,14 +13040,14 @@
       "id": "jet1090",
       "name": "jet1090",
       "description": "A real-time comprehensive Mode S and ADS-B data decoder",
-      "version": "0.4.14",
+      "version": "0.4.15",
       "created_at": "2024-04-11T06:20:52.063076Z",
-      "updated_at": "2025-09-27T14:51:13.745221Z",
-      "downloads": 22201,
-      "recent_downloads": 1725,
+      "updated_at": "2025-12-15T16:40:50.890840Z",
+      "downloads": 22213,
+      "recent_downloads": 1621,
       "categories": [],
-      "repository": "https://github.com/xoolive/rs1090",
-      "homepage": "https://github.com/xoolive/rs1090",
+      "repository": "https://github.com/xoolive/jet1090",
+      "homepage": "https://github.com/xoolive/jet1090",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -16823,6 +16861,27 @@
       "is_core_library": false
     },
     {
+      "id": "minesweeper_4d",
+      "name": "minesweeper_4d",
+      "description": "minesweeper but 4d",
+      "version": "0.1.3",
+      "created_at": "2025-12-15T20:17:52.521914Z",
+      "updated_at": "2025-12-16T01:06:05.187992Z",
+      "downloads": 8,
+      "recent_downloads": 8,
+      "categories": [
+        "command-line-utilities",
+        "games"
+      ],
+      "repository": "https://github.com/itabesamesa/minesweeper_4d_rs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "minitel",
       "name": "minitel",
       "description": "Minitel interaction library",
@@ -17129,11 +17188,11 @@
       "id": "monad-monitor",
       "name": "monad-monitor",
       "description": "A lightweight TUI monitor for Monad nodes",
-      "version": "0.1.1",
+      "version": "0.1.3",
       "created_at": "2025-12-14T09:35:35.450370Z",
-      "updated_at": "2025-12-14T11:28:44.734264Z",
-      "downloads": 19,
-      "recent_downloads": 19,
+      "updated_at": "2025-12-15T06:16:04.993998Z",
+      "downloads": 41,
+      "recent_downloads": 41,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -17823,11 +17882,11 @@
       "id": "needle-cli",
       "name": "needle-cli",
       "description": "TUI that highlights the GitHub PRs that need you",
-      "version": "0.9.0",
+      "version": "0.11.0",
       "created_at": "2025-12-13T21:51:08.170474Z",
-      "updated_at": "2025-12-15T02:00:51.845843Z",
-      "downloads": 11,
-      "recent_downloads": 11,
+      "updated_at": "2025-12-15T13:10:43.828318Z",
+      "downloads": 75,
+      "recent_downloads": 75,
       "categories": [],
       "repository": "https://github.com/cesarferreira/needle",
       "ratatui_dependency": {
@@ -18112,14 +18171,36 @@
       "is_core_library": false
     },
     {
+      "id": "newts",
+      "name": "newts",
+      "description": "A cross-language notebook terminal interface and server.",
+      "version": "0.1.0",
+      "created_at": "2025-12-15T09:55:00.603812Z",
+      "updated_at": "2025-12-15T09:55:00.603812Z",
+      "downloads": 13,
+      "recent_downloads": 13,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/rohanadwankar/newt",
+      "homepage": "https://rohanadwankar.github.io/newt/",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "nextup-tui",
       "name": "nextup-tui",
       "description": "A terminal application that randomizes a list of names. Useful for daily standup meetings.",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "created_at": "2025-12-10T01:47:25.995141Z",
-      "updated_at": "2025-12-10T01:47:25.995141Z",
-      "downloads": 27,
-      "recent_downloads": 27,
+      "updated_at": "2025-12-16T00:17:13.837644Z",
+      "downloads": 28,
+      "recent_downloads": 28,
       "categories": [],
       "repository": "https://github.com/slipperypenguin/nextup",
       "ratatui_dependency": {
@@ -19758,6 +19839,29 @@
       "repository": "https://github.com/UMDBPP/PacketRaven.git",
       "homepage": "https://github.com/UMDBPP/PacketRaven",
       "documentation": "https://packetraven.readthedocs.io",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "pacsea",
+      "name": "pacsea",
+      "description": "A fast, friendly TUI for browsing and installing Arch and AUR packages with built-in news and security scanning",
+      "version": "0.6.2",
+      "created_at": "2025-12-15T13:38:22.595847Z",
+      "updated_at": "2025-12-15T13:38:22.595847Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [
+        "command-line-interface",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/Firstp1ck/Pacsea",
+      "homepage": "https://github.com/Firstp1ck/Pacsea",
+      "documentation": "https://github.com/Firstp1ck/Pacsea/wiki",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -23599,11 +23703,11 @@
       "id": "relax-player",
       "name": "relax-player",
       "description": "A terminal-based relaxation sound player with ambient sounds like rain, thunder, and campfire",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "created_at": "2025-12-14T20:42:58.463833Z",
-      "updated_at": "2025-12-14T20:58:30.349839Z",
-      "downloads": 21,
-      "recent_downloads": 21,
+      "updated_at": "2025-12-15T17:01:41.587693Z",
+      "downloads": 44,
+      "recent_downloads": 44,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -26991,11 +27095,11 @@
       "id": "snap-coin-node",
       "name": "snap-coin-node",
       "description": "A simple CLI for hosting a Snap Coin node",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "created_at": "2025-12-08T15:49:14.904555Z",
-      "updated_at": "2025-12-14T21:54:17.628719Z",
-      "downloads": 123,
-      "recent_downloads": 123,
+      "updated_at": "2025-12-15T15:00:15.132759Z",
+      "downloads": 152,
+      "recent_downloads": 152,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -27271,11 +27375,11 @@
       "id": "sonomemo",
       "name": "sonomemo",
       "description": "A context logging terminal app designed for ADHD brains.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "created_at": "2025-12-12T19:14:54.100591Z",
-      "updated_at": "2025-12-13T18:11:17.442525Z",
-      "downloads": 26,
-      "recent_downloads": 26,
+      "updated_at": "2025-12-15T10:26:06.410611Z",
+      "downloads": 44,
+      "recent_downloads": 44,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -30091,6 +30195,26 @@
       "recent_downloads": 387,
       "categories": [],
       "repository": "https://github.com/ThomasHabets/tickbox",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tickrs",
+      "name": "tickrs",
+      "description": "Realtime ticker data in your terminal 📈",
+      "version": "0.15.0",
+      "created_at": "2020-05-12T22:32:24.603264Z",
+      "updated_at": "2025-12-15T20:35:32.288759Z",
+      "downloads": 53688,
+      "recent_downloads": 2038,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/tarkah/tickrs",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -33418,11 +33542,11 @@
       "id": "vibelang-cli",
       "name": "vibelang-cli",
       "description": "CLI binary for VibeLang - the vibe command",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "created_at": "2025-12-03T10:18:00.196614Z",
-      "updated_at": "2025-12-13T17:08:10.767122Z",
-      "downloads": 199,
-      "recent_downloads": 199,
+      "updated_at": "2025-12-15T07:30:38.129508Z",
+      "downloads": 220,
+      "recent_downloads": 220,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -33749,11 +33873,11 @@
       "id": "wallflow",
       "name": "wallflow",
       "description": "Elegant wallpaper management with smooth transitions, powered by awww",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "created_at": "2025-12-08T08:08:28.085422Z",
-      "updated_at": "2025-12-10T02:48:11.438709Z",
-      "downloads": 49,
-      "recent_downloads": 49,
+      "updated_at": "2025-12-15T08:28:56.131761Z",
+      "downloads": 61,
+      "recent_downloads": 61,
       "categories": [
         "command-line-utilities",
         "multimedia::images"
