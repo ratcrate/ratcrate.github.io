@@ -48,20 +48,24 @@ const ProjectFeature = ({ title, description, cliCommand, installCommands, image
 const CliTuiPage = () => {
   const cliInstall = [
     "# macOS/Linux (Homebrew)",
-    "brew tap ratcrate/tap",
+    "brew tap rvbug/tap",
     "brew install ratcrate-cli",
     "",
     "# Any platform (Cargo)",
     "cargo install ratcrate-cli",
   ];
   
+//   const tuiInstall = [
+//     "# macOS/Linux (Homebrew)",
+//     "brew tap ratcrate/tap",
+//     "brew install ratcrate-tui",
+//     "",
+//     "# Any platform (Cargo)",
+//     "cargo install ratcrate-tui",
+//   ];
+
   const tuiInstall = [
-    "# macOS/Linux (Homebrew)",
-    "brew tap ratcrate/tap",
-    "brew install ratcrate-tui",
-    "",
-    "# Any platform (Cargo)",
-    "cargo install ratcrate-tui",
+    "Releasing on 23rd Dec'25!",
   ];
 
   return (
@@ -74,33 +78,31 @@ const CliTuiPage = () => {
         </p>
       </header>
 
-      <div className="space-y-12">
-        
+      <div className="space-y-12">        
         {/* Project 1: ratcrate-cli */}
         <ProjectFeature
-            title="ratcrate-cli 💻 - The Quick Lookup"
-            description="A lightweight, fast command-line interface to quickly search, view essential details, and generate installation commands for any Ratatui-based crate. Ideal for scripting and quick checks."
-            cliCommand="ratcrate-cli search widget"
+            title="ratcrate-cli - The Quick Lookup CLI Tool"
+            description="A lightweight, fast, CLI to search, view any Ratatui-based crates without leaving your terminal."
+            cliCommand="ratcrate-cli search <crate-name>"
             installCommands={cliInstall}
             imageUrl={
                 <img
-                    src="/assets/ratcrate-cli-demo.gif"
+                    src="./assets/ratcrate-cli.gif"
                     alt="Demonstration of ratcrate-cli search and detail output"
                     className="w-full h-auto"
                 />
             }
             reverse={false}
         />
-
         {/* Project 2: ratcrate-tui */}
         <ProjectFeature
-            title="ratcrate-tui 🖥️ - The Interactive CLI using Ratatui"
-            description="The full-featured Terminal User Interface (TUI) application, built with Ratatui itself. Offers an interactive, visual, and keyboard-driven browsing experience for the entire ecosystem."
+            title="ratcrate-tui - Ratatui Terminal UI"
+            description="The full-featured Terminal UI, built using Ratatui. Offers an interactive, visual, and keyboard-driven Ratatui-based crates search."
             cliCommand="ratcrate-tui"
             installCommands={tuiInstall}
             imageUrl={
                 <img
-                    src="/assets/ratcrate-tui-demo.gif"
+                    src="./assets/ratcrate-tui.gif"
                     alt="Demonstration of ratcrate-tui interactive browsing interface"
                     className="w-full h-auto"
                 />

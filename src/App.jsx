@@ -245,7 +245,7 @@ const HomePage = ({ allPackages, setCurrentPage}) => {
               <div style={{ width: "100%", height: 220 }}>
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={monthData} margin={{ top: 8, right: 8, left: 8, bottom: 48 }}>
-                    <XAxis dataKey="name" stroke="#9CA3AF" angle={-35} textAnchor="end" height={60} label={{ value: "Downloads", position: "bottom", offset: 8, style: { textAnchor: "middle" } }} />
+                    <XAxis dataKey="name" stroke="#9CA3AF" angle={-35} textAnchor="end" height={60} label={{ value: "", position: "bottom", offset: 8, style: { textAnchor: "middle" } }} />
                     <YAxis stroke="#9CA3AF" allowDecimals={false} />
                     <Tooltip content={<DownloadsTooltip />} wrapperStyle={{ border: "none", background: "transparent" }} cursor={{ fill: "transparent" }} />
                     <Bar dataKey="Downloads" fill="#10B981" barSize={26} radius={[6, 6, 0, 0]} />
@@ -264,7 +264,7 @@ const HomePage = ({ allPackages, setCurrentPage}) => {
               <div style={{ width: "100%", height: 220 }}>
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={sixData} margin={{ top: 8, right: 8, left: 8, bottom: 48 }}>
-                    <XAxis dataKey="name" stroke="#9CA3AF" angle={-35} textAnchor="end" height={60} label={{ value: "Downloads", position: "bottom", offset: 8, style: { textAnchor: "middle" } }} />
+                    <XAxis dataKey="name" stroke="#9CA3AF" angle={-35} textAnchor="end" height={60} label={{ value: "", position: "bottom", offset: 8, style: { textAnchor: "middle" } }} />
                     <YAxis stroke="#9CA3AF" allowDecimals={false} />
                     <Tooltip content={<DownloadsTooltip />} wrapperStyle={{ border: "none", background: "transparent" }} cursor={{ fill: "transparent" }} />
                     <Bar dataKey="Downloads" fill="#60A5FA" barSize={26} radius={[6, 6, 0, 0]} />
@@ -302,13 +302,12 @@ const HomePage = ({ allPackages, setCurrentPage}) => {
       </section>
 
       {/* Documentation + newsletter simplified */}
-      <section className="container mx-auto px-4 py-8">
+      {/* <section className="container mx-auto px-4 py-8">
         <div className="bg-gray-900 p-4 rounded-lg border border-gray-700 text-center">
           <h4 className="text-white font-semibold mb-2">Know More</h4>
-          { /* <p className="text-gray-300 text-sm mb-3">Hub.</p> */}
           <a href="https://qubitai.in/book/" target="_blank" rel="noopener noreferrer" className="text-white text-sm bg-green-600 px-3 py-1 rounded">Documentation</a>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
@@ -642,7 +641,7 @@ useEffect(() => {
             onClick={() => { setCurrentPage("home"); window.history.pushState({}, '', '/'); setMobileOpen(false); }}
             aria-label="Ratatui Ecosystem"
           >
-            Ratatui Ecosystem
+            Ratcrate
           </div>
 
           {/* Desktop menu */}
@@ -679,7 +678,7 @@ useEffect(() => {
             <a href="/tools" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/tools'); setCurrentPage("tools"); setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Tools</a>
             {/* <a href="#stats" onClick={() => { setCurrentPage("home"); window.location.hash = "#stats"; setMobileOpen(false); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a> */}
             <a href="/#stats" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); setCurrentPage("home"); setMobileOpen(false); setTimeout(() => { window.location.hash = "#stats"; }, 0); }} className="py-3 border-b border-gray-800 text-center text-lg">Stats</a>
-            <a href="#" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="py-3 border-b border-gray-800 text-center text-lg">Docs</a>
+            <a href="https://qubitai.in/book" target="_blank" rel="noopener noreferrer" className="py-3 border-b border-gray-800 text-center text-lg">Docs</a>
           </div>
         </div>
       </nav>
@@ -711,7 +710,7 @@ useEffect(() => {
       <Footer
         useCounterApi={true}
         counterApiUrl="https://api.counterapi.dev/v2/ratcrate-wrk/ratcrate-slug/up"
-        repoUrl="https://github.com/rvbug"
+        repoUrl="https://github.com/ratcrate"
         sponsorsUrl="https://github.com/sponsors/ratcrate"
       />
 

@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React, { useEffect, useState } from "react";
+import { FaGithub, FaXTwitter, FaEnvelope, FaBook , FaGlobe} from "react-icons/fa6";
 
 /**
  * Robust Footer component with a visitors counter.
@@ -20,10 +21,11 @@ import React, { useEffect, useState } from "react";
  */
 
 const Footer = ({
-  repoUrl = "https://github.com/rvbug",
-  docsUrl = "https://ratcrate.github.io/docs",
+  repoUrl = "https://github.com/ratcrate",
+  // docsUrl = "https://ratcrate.github.io/docs",
   contactMail = "mailto:qubitai.in@gmail.com",
-  sponsorsUrl = "https://github.com/sponsors/ratcrate",
+  twitterUrl = "https://twitter.com/@rvbugged",
+  // sponsorsUrl = "https://github.com/sponsors/ratcrate",
   // CounterAPI settings (optional)
   useCounterApi = false,
   counterApiUrl = "https://api.counterapi.dev/v2/ratcrate-wrk/ratcrate-slug/up",
@@ -151,10 +153,13 @@ const Footer = ({
         {/* Left: small project + copyright */}
         <div className="flex-1 text-sm">
           <div className="text-gray-300 font-medium">Ratcrate </div>
-          <div className="mt-1 text-xs text-gray-500">© {new Date().getFullYear()} 
+          <div className="mt-1 text-xs text-gray-400">© {new Date().getFullYear()} 
             <a href="https://qubitai.in" 
             target="_blank" 
-            rel="noopener noreferrer" className="hover:text-white ml-1">
+            rel="noopener noreferrer" 
+            // className="hover:text-white ml-1"
+            className="text-blue-400 hover:text-white underline decoration-blue-900/50 underline-offset-2 ml-1"
+            >
               QuBiTAi </a> Creation. All rights reserved.
           </div>
         </div>
@@ -163,12 +168,58 @@ const Footer = ({
         <div className="flex-1 flex justify-center">
           <nav className="flex flex-wrap gap-4 text-sm">
             {/* <a href={docsUrl} className="hover:text-white">Docs</a> */}
-            <a href={repoUrl} className="hover:text-white">GitHub</a>
+          <a 
+              href="https://qubitai.in" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-gray-400 hover:text-white transition-colors"
+              title="QuBiTAi - Parent Company"
+            >
+              <FaGlobe size={20} />
+            </a>
+
+
+          <a 
+            href="https://qubitai.in/book/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-gray-400 hover:text-white transition-colors"
+            title="Documentation - The Book"
+          >
+          <FaBook size={20} />
+        </a>
+
+
+
+            {/* <a href={repoUrl} target="_blank" className="hover:text-white">GitHub</a> */}
+            <a href={repoUrl} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors"
+            title="Github"
+            >
+              <FaGithub size={20} />
+            </a>
             {/*
             <a href="/privacy.html" className="hover:text-white">Privacy Policy</a>
              <a href="/tos.html" className="hover:text-white">Terms of Service</a>
             */}
-            <a href={contactMail} className="hover:text-white">Contact</a>
+            {/* <a href={contactMail} className="hover:text-white">Contact</a> */}
+            <a href={contactMail} 
+            className="text-gray-400 hover:text-white transition-colors"
+            title="Contact"
+            >
+              <FaEnvelope size={20} />
+            </a>
+            {/* <a href={twitterUrl} className="hover:text-white">Twitter</a> */}
+            <a href={twitterUrl} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors"
+            title="Twitter/X"
+            >
+            <FaXTwitter size={20} />
+            </a>
           </nav>
         </div>
 
@@ -187,14 +238,15 @@ const Footer = ({
           
           <div className="flex gap-2"> 
             {/* GitHub Sponsor Button (Uses existing sponsorsUrl prop) */}
-            <a
+            {/* <a
               href={sponsorsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-600 hover:bg-purple-500 text-white px-3 py-1 rounded text-sm font-medium transition-colors"
             >
               GitHub Sponsor
-            </a>
+            </a> */}
+            Sponsor via
             <a
               href="https://ko-fi.com/rvbugged" // Ko-fi URL
               target="_blank"
