@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2025-12-21T05:55:14.539323+00:00",
-    "total_crates": 1804,
+    "generated_at": "2025-12-21T12:32:43.611808+00:00",
+    "total_crates": 1810,
     "core_libraries": 2,
-    "community_packages": 1802,
+    "community_packages": 1808,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 0,
-      "etag_cache_misses": 1804,
-      "cache_hit_rate": 0.0
+      "etag_cache_hits": 1799,
+      "etag_cache_misses": 11,
+      "cache_hit_rate": 99.39226519337016
     }
   },
   "crates": [
@@ -7987,11 +7987,11 @@
       "id": "ekphos",
       "name": "ekphos",
       "description": "A lightweight, fast, terminal-based markdown research tool inspired by Obsidian",
-      "version": "0.4.5",
+      "version": "0.5.1",
       "created_at": "2025-12-15T11:23:33.491899Z",
-      "updated_at": "2025-12-17T17:20:33.454234Z",
-      "downloads": 320,
-      "recent_downloads": 320,
+      "updated_at": "2025-12-21T12:20:00.371611Z",
+      "downloads": 337,
+      "recent_downloads": 337,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -8316,11 +8316,11 @@
       "id": "es-fluent-cli",
       "name": "es-fluent-cli",
       "description": "Cli for building Fluent resources\n",
-      "version": "0.2.13",
+      "version": "0.3.0",
       "created_at": "2025-07-07T15:42:58.709539Z",
-      "updated_at": "2025-12-20T07:40:49.646769Z",
-      "downloads": 2826,
-      "recent_downloads": 1538,
+      "updated_at": "2025-12-21T07:30:34.534065Z",
+      "downloads": 2836,
+      "recent_downloads": 1548,
       "categories": [
         "internationalization",
         "localization"
@@ -19956,11 +19956,11 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.8.5",
+      "version": "0.8.6",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2025-12-18T13:25:09.010792Z",
-      "downloads": 55827,
-      "recent_downloads": 5009,
+      "updated_at": "2025-12-21T07:25:59.802563Z",
+      "downloads": 55837,
+      "recent_downloads": 5019,
       "categories": [
         "embedded",
         "development-tools",
@@ -23724,6 +23724,26 @@
       "is_core_library": false
     },
     {
+      "id": "ratcrate-tui",
+      "name": "ratcrate-tui",
+      "description": "Discover and manage ratatui terminal applications",
+      "version": "0.1.0",
+      "created_at": "2025-12-21T07:08:33.387986Z",
+      "updated_at": "2025-12-21T07:08:33.387986Z",
+      "downloads": 8,
+      "recent_downloads": 8,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/ratcrate/ratcrate-tui",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ratcsv",
       "name": "ratcsv",
       "description": "TUI CSV Editor",
@@ -24431,6 +24451,27 @@
       ],
       "repository": "https://github.com/ajokela/retro-z80-emulator",
       "homepage": "https://github.com/ajokela/retro-z80-emulator",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "retsu",
+      "name": "retsu",
+      "description": "A rich git commit graph in your terminal, like magic",
+      "version": "0.5.6",
+      "created_at": "2025-12-21T10:23:13.636033Z",
+      "updated_at": "2025-12-21T10:23:13.636033Z",
+      "downloads": 8,
+      "recent_downloads": 8,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/alfatm/retsu",
+      "homepage": "https://github.com/alfatm/retsu",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -28747,6 +28788,28 @@
       "is_core_library": false
     },
     {
+      "id": "strix",
+      "name": "strix",
+      "description": "Terminal-based video synthesizer inspired by Hydra",
+      "version": "0.1.0",
+      "created_at": "2025-12-21T11:45:08.411415Z",
+      "updated_at": "2025-12-21T11:45:08.411415Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "multimedia::video"
+      ],
+      "repository": "https://github.com/Bubobubobubobubo/strix",
+      "homepage": "https://raphaelforment.fr",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "stu",
       "name": "stu",
       "description": "TUI application for AWS S3 written in Rust using ratatui",
@@ -30758,6 +30821,62 @@
         "games"
       ],
       "repository": "https://github.com/0xWOLAND/tiddy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "time-rs",
+      "name": "time-rs",
+      "description": "A fast, lightweight, and intuitive Terminal User Interface (TUI) timer application written in Rust.",
+      "version": "1.0.5",
+      "created_at": "2025-07-28T06:01:11.940220Z",
+      "updated_at": "2025-08-27T08:04:26.327775Z",
+      "downloads": 2102,
+      "recent_downloads": 492,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/d9r-dev/time-rs",
+      "homepage": "https://github.com/d9r-dev/time-rs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "time-tracker-app",
+      "name": "time-tracker-app",
+      "description": "Tool for clocking in and out as well as adding descriptions",
+      "version": "0.1.2",
+      "created_at": "2024-12-22T10:14:36.909163Z",
+      "updated_at": "2024-12-22T10:14:36.909163Z",
+      "downloads": 861,
+      "recent_downloads": 85,
+      "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "time_app_tracker",
+      "name": "time_app_tracker",
+      "description": "Count the time you spend on the pc and the desired applications",
+      "version": "0.2.0",
+      "created_at": "2025-02-13T16:29:37.829610Z",
+      "updated_at": "2025-06-21T08:25:57.121461Z",
+      "downloads": 6051,
+      "recent_downloads": 487,
+      "categories": [],
+      "repository": "https://github.com/fadri14/TimeAppTracker",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -34433,11 +34552,11 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.50.12",
+      "version": "0.50.13",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2025-12-20T16:38:16.245718Z",
-      "downloads": 22361,
-      "recent_downloads": 20809,
+      "updated_at": "2025-12-21T09:04:52.617944Z",
+      "downloads": 22373,
+      "recent_downloads": 20821,
       "categories": [
         "development-tools",
         "api-bindings",
@@ -34457,11 +34576,11 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VTCode - a Rust-based terminal coding agent",
-      "version": "0.50.12",
+      "version": "0.50.13",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2025-12-20T16:36:51.140542Z",
-      "downloads": 25904,
-      "recent_downloads": 23703,
+      "updated_at": "2025-12-21T09:03:16.675485Z",
+      "downloads": 25922,
+      "recent_downloads": 23721,
       "categories": [
         "api-bindings",
         "development-tools"
