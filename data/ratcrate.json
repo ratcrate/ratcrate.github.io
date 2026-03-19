@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-19T05:21:33.196829488+00:00",
-    "total_crates": 3010,
+    "generated_at": "2026-03-19T05:41:54.841374087+00:00",
+    "total_crates": 3011,
     "core_libraries": 2,
-    "community_packages": 3008,
+    "community_packages": 3009,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 2991,
-      "etag_cache_misses": 19,
-      "cache_hit_rate": 99.3687707641196
+      "etag_cache_hits": 3007,
+      "etag_cache_misses": 4,
+      "cache_hit_rate": 99.86715376951179
     }
   },
   "crates": [
@@ -20798,9 +20798,9 @@
       "id": "humanize-cli",
       "name": "humanize-cli",
       "description": "Rust runtime for the Humanize plugin workflows",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "created_at": "2026-03-17T13:31:36.496436Z",
-      "updated_at": "2026-03-19T04:06:10.071111Z",
+      "updated_at": "2026-03-19T05:23:29.402382Z",
       "downloads": 144,
       "recent_downloads": 144,
       "categories": [],
@@ -32010,6 +32010,28 @@
       "is_core_library": false
     },
     {
+      "id": "nuviz-cli",
+      "name": "nuviz-cli",
+      "description": "Terminal-native ML training visualization CLI",
+      "version": "0.1.0",
+      "created_at": "2026-03-19T05:35:41.506100Z",
+      "updated_at": "2026-03-19T05:35:41.506100Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/LordKnows/nuviz",
+      "homepage": "https://github.com/LordKnows/nuviz",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "nv-swaptop",
       "name": "nv-swaptop",
       "description": "A terminal user interface tool to monitor swap, NUMA topology, and GPU memory usage.",
@@ -43066,9 +43088,9 @@
       "id": "rum-code",
       "name": "rum-code",
       "description": "a fast coding agent for the terminal",
-      "version": "0.7.9",
+      "version": "0.7.11",
       "created_at": "2026-03-19T04:18:06.495125Z",
-      "updated_at": "2026-03-19T05:19:48.888223Z",
+      "updated_at": "2026-03-19T05:41:14.629377Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [],
@@ -44730,9 +44752,9 @@
       "id": "scout_rs",
       "name": "scout_rs",
       "description": "A Rust client for the synchornizing state with the Scout database",
-      "version": "0.95.41",
+      "version": "0.95.42",
       "created_at": "2025-07-01T01:48:20.701045Z",
-      "updated_at": "2026-03-19T04:44:50.389996Z",
+      "updated_at": "2026-03-19T05:39:28.141930Z",
       "downloads": 7532,
       "recent_downloads": 1114,
       "categories": [
