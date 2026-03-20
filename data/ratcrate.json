@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-20T02:14:29.395515630+00:00",
-    "total_crates": 3024,
+    "generated_at": "2026-03-20T04:07:38.460387814+00:00",
+    "total_crates": 3026,
     "core_libraries": 2,
-    "community_packages": 3022,
+    "community_packages": 3024,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 2952,
-      "etag_cache_misses": 72,
-      "cache_hit_rate": 97.61904761904762
+      "etag_cache_hits": 3011,
+      "etag_cache_misses": 15,
+      "cache_hit_rate": 99.50429610046265
     }
   },
   "crates": [
@@ -1042,11 +1042,11 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.6.6",
+      "version": "0.6.7",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-03-19T05:03:48.881982Z",
-      "downloads": 400,
-      "recent_downloads": 400,
+      "updated_at": "2026-03-20T03:58:05.469530Z",
+      "downloads": 411,
+      "recent_downloads": 411,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -11174,11 +11174,11 @@
       "id": "datui",
       "name": "datui",
       "description": "Data Exploration in the Terminal",
-      "version": "0.2.50",
+      "version": "0.2.51",
       "created_at": "2026-02-08T17:06:40.980497Z",
-      "updated_at": "2026-03-11T16:51:32.159441Z",
-      "downloads": 134,
-      "recent_downloads": 134,
+      "updated_at": "2026-03-20T02:58:45.508776Z",
+      "downloads": 150,
+      "recent_downloads": 150,
       "categories": [
         "command-line-utilities",
         "science"
@@ -11196,11 +11196,11 @@
       "id": "datui-lib",
       "name": "datui-lib",
       "description": "Data Exploration in the Terminal (library)",
-      "version": "0.2.50",
+      "version": "0.2.51",
       "created_at": "2026-02-08T17:06:11.801556Z",
-      "updated_at": "2026-03-11T16:51:13.271411Z",
-      "downloads": 167,
-      "recent_downloads": 167,
+      "updated_at": "2026-03-20T02:58:26.880895Z",
+      "downloads": 187,
+      "recent_downloads": 187,
       "categories": [
         "command-line-utilities",
         "science"
@@ -20919,9 +20919,9 @@
       "id": "humanize-cli",
       "name": "humanize-cli",
       "description": "Rust runtime for the Humanize plugin workflows",
-      "version": "0.3.10",
+      "version": "0.3.11",
       "created_at": "2026-03-17T13:31:36.496436Z",
-      "updated_at": "2026-03-19T23:33:29.029566Z",
+      "updated_at": "2026-03-20T02:51:39.696059Z",
       "downloads": 234,
       "recent_downloads": 234,
       "categories": [],
@@ -21040,9 +21040,9 @@
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
       "description": "Shared utility library for HyperI Rust applications",
-      "version": "1.16.5",
+      "version": "1.16.7",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-03-19T21:55:27.521329Z",
+      "updated_at": "2026-03-20T04:03:07.296661Z",
       "downloads": 445,
       "recent_downloads": 445,
       "categories": [
@@ -22092,9 +22092,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.6.32",
+      "version": "12.6.35",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-03-19T16:51:59.986406Z",
+      "updated_at": "2026-03-20T02:56:38.603022Z",
       "downloads": 2048,
       "recent_downloads": 2048,
       "categories": [
@@ -33106,11 +33106,11 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Requires nightly (cargo +nightly install opencrabs).",
-      "version": "0.2.83",
+      "version": "0.2.84",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-03-18T14:38:07.380795Z",
-      "downloads": 264,
-      "recent_downloads": 264,
+      "updated_at": "2026-03-20T02:14:57.562989Z",
+      "downloads": 265,
+      "recent_downloads": 265,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -33622,15 +33622,15 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.8.16",
+      "version": "0.9.0",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2026-03-19T09:01:21.331759Z",
+      "updated_at": "2026-03-20T03:02:49.974583Z",
       "downloads": 57679,
       "recent_downloads": 1852,
       "categories": [
+        "development-tools",
         "embedded",
-        "command-line-utilities",
-        "development-tools"
+        "command-line-utilities"
       ],
       "repository": "https://github.com/drivercraft/ostool",
       "ratatui_dependency": {
@@ -35589,11 +35589,11 @@
       "id": "pmetal-cli",
       "name": "pmetal-cli",
       "description": "Command-line interface for PMetal LLM fine-tuning",
-      "version": "0.3.10",
+      "version": "0.3.11",
       "created_at": "2026-02-27T12:58:17.302257Z",
-      "updated_at": "2026-03-19T03:00:45.839334Z",
-      "downloads": 153,
-      "recent_downloads": 153,
+      "updated_at": "2026-03-20T03:42:34.525130Z",
+      "downloads": 164,
+      "recent_downloads": 164,
       "categories": [
         "algorithms",
         "science"
@@ -44389,6 +44389,24 @@
       "repository": "https://github.com/softberries/s3tui",
       "homepage": "https://github.com/softberries/s3tui",
       "documentation": "https://docs.rs/s3tui",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "s8n",
+      "name": "s8n",
+      "description": "A universal package manager wrapper with a beautiful TUI",
+      "version": "0.1.1",
+      "created_at": "2026-03-20T02:52:46.112752Z",
+      "updated_at": "2026-03-20T02:52:46.112752Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/BlancoBAM/S8n-System",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -58368,11 +58386,11 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.91.0",
+      "version": "0.91.1",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2026-03-18T18:33:59.616195Z",
-      "downloads": 24733,
-      "recent_downloads": 2426,
+      "updated_at": "2026-03-20T02:58:37.776561Z",
+      "downloads": 24734,
+      "recent_downloads": 2392,
       "categories": [
         "api-bindings",
         "development-tools",
@@ -58392,11 +58410,11 @@
       "id": "vtcode-commons",
       "name": "vtcode-commons",
       "description": "Shared traits for paths, telemetry, and error reporting reused across VT Code component extractions",
-      "version": "0.91.0",
+      "version": "0.91.1",
       "created_at": "2025-10-22T18:59:20.585154Z",
-      "updated_at": "2026-03-18T18:28:12.611918Z",
-      "downloads": 12722,
-      "recent_downloads": 4966,
+      "updated_at": "2026-03-20T02:47:17.279783Z",
+      "downloads": 12737,
+      "recent_downloads": 4902,
       "categories": [
         "command-line-interface",
         "development-tools"
@@ -58415,11 +58433,11 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.91.0",
+      "version": "0.91.1",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-03-18T18:31:07.310259Z",
-      "downloads": 29631,
-      "recent_downloads": 3819,
+      "updated_at": "2026-03-20T02:52:19.505490Z",
+      "downloads": 29636,
+      "recent_downloads": 3760,
       "categories": [
         "api-bindings",
         "development-tools"
@@ -58438,11 +58456,11 @@
       "id": "vtcode-tui",
       "name": "vtcode-tui",
       "description": "Reusable TUI primitives and session API for VT Code-style terminal interfaces",
-      "version": "0.91.0",
+      "version": "0.91.1",
       "created_at": "2026-02-28T06:21:49.743248Z",
-      "updated_at": "2026-03-18T18:29:51.943057Z",
-      "downloads": 590,
-      "recent_downloads": 590,
+      "updated_at": "2026-03-20T02:49:25.701131Z",
+      "downloads": 596,
+      "recent_downloads": 596,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -60998,6 +61016,27 @@
         "network-programming"
       ],
       "repository": "https://github.com/zakuro-ai/zc",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "zdtwalk",
+      "name": "zdtwalk",
+      "description": "A terminal UI for exploring and editing Zephyr device trees",
+      "version": "0.1.1",
+      "created_at": "2026-03-20T03:02:02.025224Z",
+      "updated_at": "2026-03-20T03:13:45.844936Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "embedded"
+      ],
+      "repository": "https://github.com/evinlodder/zdtwalk",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
