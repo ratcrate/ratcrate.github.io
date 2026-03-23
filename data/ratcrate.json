@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-23T01:59:30.754021592+00:00",
-    "total_crates": 3088,
+    "generated_at": "2026-03-23T04:21:26.159454653+00:00",
+    "total_crates": 3090,
     "core_libraries": 2,
-    "community_packages": 3086,
+    "community_packages": 3088,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3004,
-      "etag_cache_misses": 84,
-      "cache_hit_rate": 97.279792746114
+      "etag_cache_hits": 3079,
+      "etag_cache_misses": 11,
+      "cache_hit_rate": 99.64401294498381
     }
   },
   "crates": [
@@ -22408,9 +22408,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.6.56",
+      "version": "12.6.57",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-03-22T17:13:11.272054Z",
+      "updated_at": "2026-03-23T02:27:30.652927Z",
       "downloads": 2271,
       "recent_downloads": 2271,
       "categories": [
@@ -23009,9 +23009,9 @@
       "id": "jufu",
       "name": "jufu",
       "description": "Jujutsu log viewer TUI inspired by keifu",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "created_at": "2026-03-23T00:48:25.711098Z",
-      "updated_at": "2026-03-23T01:57:16.108895Z",
+      "updated_at": "2026-03-23T02:25:36.253191Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [],
@@ -25042,6 +25042,27 @@
       "is_core_library": false
     },
     {
+      "id": "lazydot",
+      "name": "lazydot",
+      "description": "A TUI tool to automatically detect, symlink, and manage dotfiles (like GNU Stow with a UI)",
+      "version": "0.1.0",
+      "created_at": "2026-03-23T03:50:18.174770Z",
+      "updated_at": "2026-03-23T03:50:18.174770Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/itxmjr/LazyDot",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "lazygh",
       "name": "lazygh",
       "description": "A Terminal User Interface (TUI) application for managing multiple GitHub accounts easily",
@@ -25159,6 +25180,27 @@
         "security"
       ],
       "repository": "https://github.com/ruiiiijiiiiang/lazynmap",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "lazypkg",
+      "name": "lazypkg",
+      "description": "A lazygit-style terminal UI to manage all your CLI tools across package managers (cargo, dnf, pip, npm, etc.)",
+      "version": "0.1.0",
+      "created_at": "2026-03-23T03:41:55.254104Z",
+      "updated_at": "2026-03-23T03:41:55.254104Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/itxmjr/LazyPkg",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -30760,9 +30802,9 @@
       "id": "mxr-test-support",
       "name": "mxr-test-support",
       "description": "Shared test fixtures and helpers for mxr",
-      "version": "0.4.14",
+      "version": "0.4.15",
       "created_at": "2026-03-21T03:01:17.332705Z",
-      "updated_at": "2026-03-23T01:54:26.171002Z",
+      "updated_at": "2026-03-23T04:11:58.148767Z",
       "downloads": 139,
       "recent_downloads": 139,
       "categories": [],
@@ -30779,9 +30821,9 @@
       "id": "mxr-tui",
       "name": "mxr-tui",
       "description": "Ratatui terminal UI for mxr",
-      "version": "0.4.14",
+      "version": "0.4.15",
       "created_at": "2026-03-21T04:41:21.384065Z",
-      "updated_at": "2026-03-23T01:58:02.079928Z",
+      "updated_at": "2026-03-23T04:15:37.903341Z",
       "downloads": 109,
       "recent_downloads": 109,
       "categories": [],
@@ -34673,9 +34715,9 @@
       "id": "panes",
       "name": "panes",
       "description": "Renderer-agnostic layout engine with declarative ergonomics",
-      "version": "0.17.0",
+      "version": "0.17.1",
       "created_at": "2026-02-28T14:45:57.993574Z",
-      "updated_at": "2026-03-22T21:58:40.596158Z",
+      "updated_at": "2026-03-23T02:42:24.220249Z",
       "downloads": 643,
       "recent_downloads": 643,
       "categories": [
@@ -41528,11 +41570,11 @@
       "id": "regenerator2000",
       "name": "regenerator2000",
       "description": "An interactive disassembler for the CPU 6502, focused mostly on Commodore 8-bit computers.",
-      "version": "0.9.2",
+      "version": "0.9.3",
       "created_at": "2026-01-05T03:30:08.427344Z",
-      "updated_at": "2026-03-16T16:00:24.444795Z",
-      "downloads": 371,
-      "recent_downloads": 371,
+      "updated_at": "2026-03-23T04:07:11.588455Z",
+      "downloads": 406,
+      "recent_downloads": 406,
       "categories": [],
       "repository": "https://github.com/ricardoquesada/regenerator2000",
       "homepage": "https://github.com/ricardoquesada/regenerator2000",
@@ -41547,11 +41589,11 @@
       "id": "regenerator2000-tui",
       "name": "regenerator2000-tui",
       "description": "Terminal User Interface (TUI) for Regenerator 2000 using ratatui.",
-      "version": "0.9.2",
+      "version": "0.9.3",
       "created_at": "2026-03-16T16:00:10.968849Z",
-      "updated_at": "2026-03-16T16:00:10.968849Z",
-      "downloads": 11,
-      "recent_downloads": 11,
+      "updated_at": "2026-03-23T04:07:00.812214Z",
+      "downloads": 17,
+      "recent_downloads": 17,
       "categories": [],
       "repository": "https://github.com/ricardoquesada/regenerator2000",
       "ratatui_dependency": {
@@ -45897,11 +45939,11 @@
       "id": "scout_rs",
       "name": "scout_rs",
       "description": "A Rust client for the synchornizing state with the Scout database",
-      "version": "0.95.46",
+      "version": "0.95.47",
       "created_at": "2025-07-01T01:48:20.701045Z",
-      "updated_at": "2026-03-21T04:33:51.489508Z",
-      "downloads": 7640,
-      "recent_downloads": 1223,
+      "updated_at": "2026-03-23T04:06:51.366115Z",
+      "downloads": 7661,
+      "recent_downloads": 1244,
       "categories": [
         "api-bindings",
         "web-programming::http-client"
@@ -55262,11 +55304,11 @@
       "id": "tsk-ai",
       "name": "tsk-ai",
       "description": "tsk-tsk: keeping your agents out of trouble with sandboxed coding agent automation",
-      "version": "0.10.5",
+      "version": "0.10.6",
       "created_at": "2025-06-27T21:10:29.009249Z",
-      "updated_at": "2026-03-21T17:05:16.284905Z",
-      "downloads": 5011,
-      "recent_downloads": 467,
+      "updated_at": "2026-03-23T02:08:21.974898Z",
+      "downloads": 5014,
+      "recent_downloads": 469,
       "categories": [],
       "repository": "https://github.com/dtormoen/tsk-tsk",
       "homepage": "https://github.com/dtormoen/tsk-tsk",
