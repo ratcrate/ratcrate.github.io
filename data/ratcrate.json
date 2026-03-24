@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-24T02:49:19.883400036+00:00",
-    "total_crates": 3109,
+    "generated_at": "2026-03-24T04:11:12.998260249+00:00",
+    "total_crates": 3108,
     "core_libraries": 2,
-    "community_packages": 3107,
+    "community_packages": 3106,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3105,
-      "etag_cache_misses": 4,
-      "cache_hit_rate": 99.87134126728851
+      "etag_cache_hits": 3100,
+      "etag_cache_misses": 8,
+      "cache_hit_rate": 99.74259974259975
     }
   },
   "crates": [
@@ -15423,11 +15423,11 @@
       "id": "fastboop-cli",
       "name": "fastboop-cli",
       "description": "CLI for non-mutating live boots on fastboot-class devices.",
-      "version": "0.0.1-rc.9",
+      "version": "0.0.1-rc.10",
       "created_at": "2026-03-02T12:09:32.586377Z",
-      "updated_at": "2026-03-19T06:23:19.867904Z",
-      "downloads": 76,
-      "recent_downloads": 76,
+      "updated_at": "2026-03-24T02:52:10.908985Z",
+      "downloads": 77,
+      "recent_downloads": 77,
       "categories": [],
       "repository": "https://github.com/samcday/fastboop",
       "ratatui_dependency": {
@@ -21486,9 +21486,9 @@
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
       "description": "Shared utility library for HyperI Rust applications",
-      "version": "1.19.4",
+      "version": "1.19.5",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-03-24T02:12:04.690957Z",
+      "updated_at": "2026-03-24T02:50:12.717573Z",
       "downloads": 847,
       "recent_downloads": 847,
       "categories": [
@@ -28881,11 +28881,11 @@
       "id": "melors",
       "name": "melors",
       "description": "Keyboard-first terminal MP3 player with queue, search, and tag editing",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "created_at": "2026-03-16T00:53:27.934945Z",
-      "updated_at": "2026-03-19T03:24:47.500071Z",
-      "downloads": 26,
-      "recent_downloads": 26,
+      "updated_at": "2026-03-24T03:37:21.488385Z",
+      "downloads": 38,
+      "recent_downloads": 38,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -36558,35 +36558,14 @@
       "is_core_library": false
     },
     {
-      "id": "pmetal",
-      "name": "pmetal",
-      "description": "High-performance LLM fine-tuning framework for Apple Silicon",
-      "version": "0.3.13",
-      "created_at": "2026-02-27T12:46:02.867339Z",
-      "updated_at": "2026-03-22T16:53:52.938418Z",
-      "downloads": 220,
-      "recent_downloads": 220,
-      "categories": [
-        "algorithms",
-        "science"
-      ],
-      "repository": "https://github.com/epistates/pmetal",
-      "ratatui_dependency": {
-        "version": "unknown",
-        "optional": false,
-        "dev_dependency": false
-      },
-      "is_core_library": false
-    },
-    {
       "id": "pmetal-cli",
       "name": "pmetal-cli",
       "description": "Command-line interface for PMetal LLM fine-tuning",
-      "version": "0.3.12",
+      "version": "0.3.7",
       "created_at": "2026-02-27T12:58:17.302257Z",
       "updated_at": "2026-03-21T06:15:10.439577Z",
-      "downloads": 184,
-      "recent_downloads": 184,
+      "downloads": 185,
+      "recent_downloads": 185,
       "categories": [
         "algorithms",
         "science"
@@ -40918,9 +40897,9 @@
       "id": "ratatui-which-key",
       "name": "ratatui-which-key",
       "description": "A which-key popup widget for ratatui applications",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "created_at": "2026-03-22T23:53:01.433273Z",
-      "updated_at": "2026-03-23T21:44:36.367799Z",
+      "updated_at": "2026-03-24T03:13:13.452697Z",
       "downloads": 49,
       "recent_downloads": 49,
       "categories": [
@@ -50728,11 +50707,11 @@
       "id": "suvadu",
       "name": "suvadu",
       "description": "Total recall for your terminal. A database-backed shell history with fuzzy search.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "created_at": "2026-02-13T19:09:27.883986Z",
-      "updated_at": "2026-03-17T13:15:04.824268Z",
-      "downloads": 104,
-      "recent_downloads": 104,
+      "updated_at": "2026-03-24T03:23:08.450930Z",
+      "downloads": 121,
+      "recent_downloads": 121,
       "categories": [
         "command-line-utilities"
       ],
@@ -51095,11 +51074,11 @@
       "id": "systemctl-tui",
       "name": "systemctl-tui",
       "description": "A simple TUI for interacting with systemd services and their logs",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "created_at": "2023-08-21T03:21:21.614576Z",
-      "updated_at": "2026-01-29T14:54:45.515199Z",
-      "downloads": 31133,
-      "recent_downloads": 475,
+      "updated_at": "2026-03-24T03:19:13.208316Z",
+      "downloads": 31191,
+      "recent_downloads": 481,
       "categories": [],
       "repository": "https://github.com/rgwood/systemctl-tui",
       "homepage": "https://github.com/rgwood/systemctl-tui",
@@ -61731,11 +61710,11 @@
       "id": "xmtp-cli",
       "name": "xmtp-cli",
       "description": "Client library for the XMTP messaging protocol.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "created_at": "2026-02-17T02:56:22.539704Z",
-      "updated_at": "2026-03-14T02:51:14.685279Z",
-      "downloads": 382,
-      "recent_downloads": 382,
+      "updated_at": "2026-03-24T04:06:18.646039Z",
+      "downloads": 416,
+      "recent_downloads": 416,
       "categories": [],
       "repository": "https://github.com/qntx/xmtp",
       "ratatui_dependency": {
