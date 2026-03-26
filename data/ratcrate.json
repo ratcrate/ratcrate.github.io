@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-26T02:20:38.930354709+00:00",
-    "total_crates": 3151,
+    "generated_at": "2026-03-26T04:27:06.476930358+00:00",
+    "total_crates": 3152,
     "core_libraries": 2,
-    "community_packages": 3149,
+    "community_packages": 3150,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3049,
-      "etag_cache_misses": 102,
-      "cache_hit_rate": 96.76293240241193
+      "etag_cache_hits": 3143,
+      "etag_cache_misses": 9,
+      "cache_hit_rate": 99.71446700507614
     }
   },
   "crates": [
@@ -1247,9 +1247,9 @@
       "id": "ai-dispatch",
       "name": "ai-dispatch",
       "description": "Multi-AI CLI team orchestrator",
-      "version": "8.56.0",
+      "version": "8.59.0",
       "created_at": "2026-03-13T10:36:17.974694Z",
-      "updated_at": "2026-03-26T02:11:44.688808Z",
+      "updated_at": "2026-03-26T04:17:01.234320Z",
       "downloads": 1087,
       "recent_downloads": 1087,
       "categories": [
@@ -13258,11 +13258,11 @@
       "id": "domaincheck",
       "name": "domaincheck",
       "description": "Check domainname availability on CLI using RDAP (with WHOIS fallback)",
-      "version": "0.4.118",
+      "version": "0.4.119",
       "created_at": "2025-04-22T17:57:59.617354Z",
-      "updated_at": "2026-03-24T04:13:19.367033Z",
-      "downloads": 24153,
-      "recent_downloads": 942,
+      "updated_at": "2026-03-26T03:19:36.178216Z",
+      "downloads": 24154,
+      "recent_downloads": 849,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -18354,9 +18354,9 @@
       "id": "gh-review",
       "name": "gh-review",
       "description": "Terminal UI for reviewing GitHub pull requests",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "created_at": "2026-03-24T18:33:41.528460Z",
-      "updated_at": "2026-03-25T04:26:11.953771Z",
+      "updated_at": "2026-03-26T04:23:14.174116Z",
       "downloads": 22,
       "recent_downloads": 22,
       "categories": [
@@ -21822,11 +21822,11 @@
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
       "description": "Shared utility library for HyperI Rust applications",
-      "version": "1.19.6",
+      "version": "1.19.8",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-03-24T22:41:17.764561Z",
-      "downloads": 936,
-      "recent_downloads": 936,
+      "updated_at": "2026-03-26T04:02:36.214327Z",
+      "downloads": 1020,
+      "recent_downloads": 1020,
       "categories": [
         "development-tools"
       ],
@@ -35443,11 +35443,11 @@
       "id": "panes",
       "name": "panes",
       "description": "Renderer-agnostic layout engine with declarative ergonomics",
-      "version": "0.18.0",
+      "version": "0.18.2",
       "created_at": "2026-02-28T14:45:57.993574Z",
-      "updated_at": "2026-03-25T03:40:28.858132Z",
-      "downloads": 699,
-      "recent_downloads": 699,
+      "updated_at": "2026-03-26T03:40:38.478467Z",
+      "downloads": 723,
+      "recent_downloads": 723,
       "categories": [
         "command-line-interface",
         "gui"
@@ -35465,11 +35465,11 @@
       "id": "panes-ratatui",
       "name": "panes-ratatui",
       "description": "Ratatui adapter for the panes layout engine",
-      "version": "0.4.10",
+      "version": "0.4.12",
       "created_at": "2026-02-28T14:46:15.273165Z",
-      "updated_at": "2026-03-25T03:40:40.744389Z",
-      "downloads": 398,
-      "recent_downloads": 398,
+      "updated_at": "2026-03-26T03:40:50.149171Z",
+      "downloads": 413,
+      "recent_downloads": 413,
       "categories": [
         "gui"
       ],
@@ -40775,9 +40775,9 @@
       "id": "ratatui-cheese",
       "name": "ratatui-cheese",
       "description": "Bubbletea-inspired widgets for Ratatui",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "created_at": "2026-03-24T12:33:18.873825Z",
-      "updated_at": "2026-03-25T05:44:50.438374Z",
+      "updated_at": "2026-03-26T03:41:42.077456Z",
       "downloads": 19,
       "recent_downloads": 19,
       "categories": [],
@@ -50520,9 +50520,9 @@
       "id": "stax",
       "name": "stax",
       "description": "Fast stacked Git branches and PRs",
-      "version": "0.35.0",
+      "version": "0.36.0",
       "created_at": "2025-12-25T14:38:09.666163Z",
-      "updated_at": "2026-03-25T12:42:31.678483Z",
+      "updated_at": "2026-03-26T03:51:13.623170Z",
       "downloads": 863,
       "recent_downloads": 856,
       "categories": [],
@@ -52106,6 +52106,23 @@
       ],
       "repository": "https://github.com/wooyukit/tapwatch",
       "homepage": "https://github.com/wooyukit/tapwatch",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tars_cloud_ranger",
+      "name": "tars_cloud_ranger",
+      "description": "TARS Cloud - Ranger CLI",
+      "version": "0.1.0",
+      "created_at": "2026-03-26T02:27:13.213374Z",
+      "updated_at": "2026-03-26T02:27:13.213374Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
