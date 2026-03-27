@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-27T01:41:18.517610499+00:00",
-    "total_crates": 3161,
+    "generated_at": "2026-03-27T04:28:16.776060530+00:00",
+    "total_crates": 3164,
     "core_libraries": 2,
-    "community_packages": 3159,
+    "community_packages": 3162,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3066,
-      "etag_cache_misses": 95,
-      "cache_hit_rate": 96.9946219550775
+      "etag_cache_hits": 3154,
+      "etag_cache_misses": 10,
+      "cache_hit_rate": 99.68394437420986
     }
   },
   "crates": [
@@ -6925,6 +6925,27 @@
       "is_core_library": false
     },
     {
+      "id": "cargotui",
+      "name": "cargotui",
+      "description": "A TUI for managing rust projects",
+      "version": "0.2.0",
+      "created_at": "2026-03-27T03:03:14.848597Z",
+      "updated_at": "2026-03-27T03:42:47.143302Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/Samarinara/cargotui",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "cargowatch",
       "name": "cargowatch",
       "description": "CLI/TUI application crate for monitoring Rust builds in managed and detected modes.",
@@ -8515,9 +8536,9 @@
       "id": "clash",
       "name": "clash",
       "description": "Command Line Agent Safety Harness — permission policies for coding agents",
-      "version": "0.5.5",
+      "version": "0.6.1",
       "created_at": "2026-02-19T15:08:55.879680Z",
-      "updated_at": "2026-03-26T19:21:46.131793Z",
+      "updated_at": "2026-03-27T02:08:32.337157Z",
       "downloads": 208,
       "recent_downloads": 208,
       "categories": [],
@@ -21105,6 +21126,29 @@
       "is_core_library": false
     },
     {
+      "id": "hermes-broker-client",
+      "name": "hermes-broker-client",
+      "description": "Typed async client for the Hermes gRPC event broker.",
+      "version": "0.1.0",
+      "created_at": "2026-03-27T01:54:23.040913Z",
+      "updated_at": "2026-03-27T01:54:23.040913Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "asynchronous",
+        "network-programming"
+      ],
+      "repository": "https://github.com/GodlyJaaaj/hermes-rs",
+      "homepage": "https://github.com/GodlyJaaaj/hermes-rs",
+      "documentation": "https://docs.rs/hermes-broker-client",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "hex-patch",
       "name": "hex-patch",
       "description": "HexPatch is a binary patcher and editor with terminal user interface (TUI),\nit's capable of disassembling instructions and assembling patches.\nIt supports a variety of architectures and file formats.\nAlso, it can edit remote files via SSH.",
@@ -31552,9 +31596,9 @@
       "id": "mxr",
       "name": "mxr",
       "description": "A programmable, agent-native email client. One CLI across all your providers.",
-      "version": "0.4.28",
+      "version": "0.4.29",
       "created_at": "2026-03-21T04:51:25.388415Z",
-      "updated_at": "2026-03-26T07:26:34.615578Z",
+      "updated_at": "2026-03-27T02:29:01.487175Z",
       "downloads": 225,
       "recent_downloads": 225,
       "categories": [],
@@ -35564,11 +35608,11 @@
       "id": "panes",
       "name": "panes",
       "description": "Renderer-agnostic layout engine with declarative ergonomics",
-      "version": "0.18.2",
+      "version": "0.18.3",
       "created_at": "2026-02-28T14:45:57.993574Z",
-      "updated_at": "2026-03-26T03:40:38.478467Z",
-      "downloads": 723,
-      "recent_downloads": 723,
+      "updated_at": "2026-03-27T04:25:42.166840Z",
+      "downloads": 793,
+      "recent_downloads": 793,
       "categories": [
         "command-line-interface",
         "gui"
@@ -36517,9 +36561,9 @@
       "id": "phosphor-tui",
       "name": "phosphor-tui",
       "description": "Terminal UI frontend for the Phosphor DAW",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "created_at": "2026-03-21T04:07:09.036862Z",
-      "updated_at": "2026-03-26T05:01:27.552924Z",
+      "updated_at": "2026-03-27T03:22:52.385137Z",
       "downloads": 72,
       "recent_downloads": 72,
       "categories": [],
@@ -42879,11 +42923,11 @@
       "id": "repoverlay",
       "name": "repoverlay",
       "description": "Overlay config files into git repositories without committing them",
-      "version": "0.11.1",
+      "version": "0.12.0",
       "created_at": "2026-01-07T00:40:05.510091Z",
-      "updated_at": "2026-03-17T03:38:04.745568Z",
-      "downloads": 419,
-      "recent_downloads": 419,
+      "updated_at": "2026-03-27T03:24:14.488324Z",
+      "downloads": 453,
+      "recent_downloads": 453,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -48455,11 +48499,11 @@
       "id": "siomon",
       "name": "siomon",
       "description": "Linux hardware information and sensor monitoring tool",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "created_at": "2026-03-10T20:54:06.631392Z",
-      "updated_at": "2026-03-18T17:04:40.581962Z",
-      "downloads": 172,
-      "recent_downloads": 172,
+      "updated_at": "2026-03-27T03:05:42.686601Z",
+      "downloads": 214,
+      "recent_downloads": 214,
       "categories": [
         "command-line-utilities",
         "hardware-support"
@@ -50872,6 +50916,27 @@
       "repository": "https://github.com/thomasvincent/stonktop",
       "homepage": "https://github.com/thomasvincent/stonktop",
       "documentation": "https://docs.rs/stonktop",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "storageshower",
+      "name": "storageshower",
+      "description": "Cyberpunk disk usage TUI",
+      "version": "0.12.0",
+      "created_at": "2026-03-27T02:49:04.692073Z",
+      "updated_at": "2026-03-27T04:27:05.653357Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/MenkeTechnologies/storageshower",
+      "homepage": "https://github.com/MenkeTechnologies/storageshower",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -59599,11 +59664,11 @@
       "id": "unifly",
       "name": "unifly",
       "description": "CLI and TUI for managing UniFi network controllers",
-      "version": "0.1.9",
+      "version": "0.6.0",
       "created_at": "2026-03-03T07:32:01.530846Z",
-      "updated_at": "2026-03-03T07:32:01.530846Z",
-      "downloads": 12,
-      "recent_downloads": 12,
+      "updated_at": "2026-03-27T03:47:25.512714Z",
+      "downloads": 16,
+      "recent_downloads": 16,
       "categories": [
         "command-line-utilities",
         "network-programming"
