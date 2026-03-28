@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-28T02:14:41.219817351+00:00",
-    "total_crates": 3182,
+    "generated_at": "2026-03-28T04:12:34.782208041+00:00",
+    "total_crates": 3183,
     "core_libraries": 2,
-    "community_packages": 3180,
+    "community_packages": 3181,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3094,
-      "etag_cache_misses": 88,
-      "cache_hit_rate": 97.23444374607165
+      "etag_cache_hits": 3181,
+      "etag_cache_misses": 2,
+      "cache_hit_rate": 99.93716619541313
     }
   },
   "crates": [
@@ -32517,6 +32517,27 @@
       "is_core_library": false
     },
     {
+      "id": "netstat-tui",
+      "name": "netstat-tui",
+      "description": "A TUI network statistics viewer",
+      "version": "0.1.1",
+      "created_at": "2026-03-28T02:30:45.341609Z",
+      "updated_at": "2026-03-28T02:37:01.271163Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "network-programming"
+      ],
+      "repository": "https://github.com/nitingupta910/netstat",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "nettui",
       "name": "nettui",
       "description": "Unified TUI for Wi-Fi and Ethernet",
@@ -35145,9 +35166,9 @@
       "id": "orchestral-cli",
       "name": "orchestral-cli",
       "description": "Command line interface for running Orchestral workflows",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "created_at": "2026-03-27T10:28:09.596503Z",
-      "updated_at": "2026-03-27T10:28:09.596503Z",
+      "updated_at": "2026-03-28T03:48:36.612118Z",
       "downloads": 10,
       "recent_downloads": 10,
       "categories": [
