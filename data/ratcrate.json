@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-29T01:09:40.072931602+00:00",
-    "total_crates": 3199,
+    "generated_at": "2026-03-29T04:31:55.754190424+00:00",
+    "total_crates": 3202,
     "core_libraries": 2,
-    "community_packages": 3197,
+    "community_packages": 3200,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3124,
-      "etag_cache_misses": 75,
-      "cache_hit_rate": 97.65551734917162
+      "etag_cache_hits": 3180,
+      "etag_cache_misses": 22,
+      "cache_hit_rate": 99.31292941911305
     }
   },
   "crates": [
@@ -1247,9 +1247,9 @@
       "id": "ai-dispatch",
       "name": "ai-dispatch",
       "description": "Multi-AI CLI team orchestrator",
-      "version": "8.64.0",
+      "version": "8.65.0",
       "created_at": "2026-03-13T10:36:17.974694Z",
-      "updated_at": "2026-03-28T15:17:53.929389Z",
+      "updated_at": "2026-03-29T02:14:37.541901Z",
       "downloads": 1339,
       "recent_downloads": 1339,
       "categories": [
@@ -3315,6 +3315,24 @@
       "is_core_library": false
     },
     {
+      "id": "audium",
+      "name": "audium",
+      "description": "A terminal music app",
+      "version": "0.8.0",
+      "created_at": "2026-03-29T02:10:28.946123Z",
+      "updated_at": "2026-03-29T02:10:28.946123Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/takashialpha/audium",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "auth-framework",
       "name": "auth-framework",
       "description": "A comprehensive, production-ready authentication and authorization framework for Rust applications",
@@ -3548,11 +3566,11 @@
       "id": "axil",
       "name": "axil",
       "description": "A terminal user interface for tree-sitter",
-      "version": "0.1.0",
+      "version": "0.2.1",
       "created_at": "2025-04-07T00:27:13.278135Z",
-      "updated_at": "2025-04-07T00:27:13.278135Z",
-      "downloads": 694,
-      "recent_downloads": 11,
+      "updated_at": "2026-03-29T03:49:48.653753Z",
+      "downloads": 696,
+      "recent_downloads": 10,
       "categories": [
         "development-tools"
       ],
@@ -15154,15 +15172,15 @@
       "id": "emotiv",
       "name": "emotiv",
       "description": "Async Rust client and TUI for Emotiv EEG headsets via the Cortex API WebSocket (JSON-RPC 2.0)",
-      "version": "0.0.9",
+      "version": "0.0.11",
       "created_at": "2026-03-17T18:25:04.754761Z",
-      "updated_at": "2026-03-20T00:19:56.536605Z",
-      "downloads": 60,
-      "recent_downloads": 60,
+      "updated_at": "2026-03-29T03:56:52.254671Z",
+      "downloads": 253,
+      "recent_downloads": 253,
       "categories": [
-        "api-bindings",
         "science",
-        "command-line-utilities"
+        "command-line-utilities",
+        "api-bindings"
       ],
       "repository": "https://github.com/eugenehp/emotiv-rs",
       "homepage": "https://github.com/eugenehp/emotiv-rs",
@@ -22569,9 +22587,9 @@
       "id": "iftoprs",
       "name": "iftoprs",
       "description": "Real-time bandwidth monitor — iftop clone in Rust with ratatui TUI, 31 themes, process attribution, mouse support",
-      "version": "2.14.0",
+      "version": "2.16.0",
       "created_at": "2026-03-27T12:49:01.758510Z",
-      "updated_at": "2026-03-28T22:35:21.169824Z",
+      "updated_at": "2026-03-29T03:59:18.789490Z",
       "downloads": 172,
       "recent_downloads": 172,
       "categories": [
@@ -23333,9 +23351,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.7.21",
+      "version": "12.7.24",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-03-28T16:52:47.239320Z",
+      "updated_at": "2026-03-29T03:44:50.938981Z",
       "downloads": 2706,
       "recent_downloads": 2706,
       "categories": [
@@ -35018,6 +35036,23 @@
       "repository": "https://github.com/opencrates/opencrates",
       "homepage": "https://opencrates.dev",
       "documentation": "https://docs.rs/opencrates",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "opendev-tui",
+      "name": "opendev-tui",
+      "description": "Ratatui-based terminal UI for OpenDev",
+      "version": "0.1.4",
+      "created_at": "2026-03-29T04:01:21.439882Z",
+      "updated_at": "2026-03-29T04:01:21.439882Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -48187,6 +48222,26 @@
       "is_core_library": false
     },
     {
+      "id": "sessfind",
+      "name": "sessfind",
+      "description": "CLI tool to search and resume AI sessions across Github Copilot, Claude Code, and OpenCode.",
+      "version": "0.1.3",
+      "created_at": "2026-03-29T03:21:36.286328Z",
+      "updated_at": "2026-03-29T04:31:29.466402Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/letsdev-it/sessfind",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "session-process-monitor",
       "name": "session-process-monitor",
       "description": "Process supervisor and TUI for monitoring memory, CPU, and disk I/O in Kubernetes pods — with preemptive OOM guard",
@@ -51492,9 +51547,9 @@
       "id": "storageshower",
       "name": "storageshower",
       "description": "Cyberpunk disk usage TUI",
-      "version": "0.25.0",
+      "version": "0.26.0",
       "created_at": "2026-03-27T02:49:04.692073Z",
-      "updated_at": "2026-03-28T14:27:02.136095Z",
+      "updated_at": "2026-03-29T01:25:18.817531Z",
       "downloads": 249,
       "recent_downloads": 249,
       "categories": [
@@ -54525,9 +54580,9 @@
       "id": "textual-rs",
       "name": "textual-rs",
       "description": "A Rust port of the Textual TUI framework — build beautiful terminal UIs with CSS styling, reactive signals, and composable widgets",
-      "version": "0.3.9",
+      "version": "0.3.11",
       "created_at": "2026-03-28T04:16:36.061152Z",
-      "updated_at": "2026-03-28T20:43:24.464138Z",
+      "updated_at": "2026-03-29T02:35:59.379647Z",
       "downloads": 234,
       "recent_downloads": 234,
       "categories": [
@@ -57619,16 +57674,16 @@
       "id": "tui-bar-graph",
       "name": "tui-bar-graph",
       "description": "A Ratatui widget for rendering pretty bar graphs in the terminal",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "created_at": "2025-03-04T06:29:57.823686Z",
-      "updated_at": "2025-12-27T07:18:03.606132Z",
-      "downloads": 15812,
-      "recent_downloads": 13242,
+      "updated_at": "2026-03-29T04:09:32.267749Z",
+      "downloads": 18689,
+      "recent_downloads": 15580,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "documentation": "https://docs.rs/tui-bar-graph",
       "ratatui_dependency": {
         "version": "unknown",
@@ -57660,11 +57715,11 @@
       "id": "tui-big-text",
       "name": "tui-big-text",
       "description": "A Ratatui widget for displaying big text in the terminal",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "created_at": "2023-09-05T05:08:28.844490Z",
-      "updated_at": "2026-02-06T08:12:27.933910Z",
-      "downloads": 312682,
-      "recent_downloads": 122677,
+      "updated_at": "2026-03-29T04:02:20.389743Z",
+      "downloads": 328326,
+      "recent_downloads": 120271,
       "categories": [
         "command-line-interface",
         "gui"
@@ -57682,16 +57737,16 @@
       "id": "tui-box-text",
       "name": "tui-box-text",
       "description": "A Ratatui widget for displaying text using the box drawing characters",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "created_at": "2024-10-17T10:50:13.889862Z",
-      "updated_at": "2025-12-27T07:15:48.005686Z",
-      "downloads": 14651,
-      "recent_downloads": 10448,
+      "updated_at": "2026-03-29T04:08:03.382711Z",
+      "downloads": 17026,
+      "recent_downloads": 12341,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -57722,16 +57777,16 @@
       "id": "tui-cards",
       "name": "tui-cards",
       "description": "A playing card widget for Ratatui",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "created_at": "2024-09-21T16:04:51.552326Z",
-      "updated_at": "2025-12-27T07:17:52.434883Z",
-      "downloads": 16143,
-      "recent_downloads": 10449,
+      "updated_at": "2026-03-29T04:07:11.410431Z",
+      "downloads": 18519,
+      "recent_downloads": 12340,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "documentation": "https://docs.rs/tui-cards",
       "ratatui_dependency": {
         "version": "unknown",
@@ -58276,16 +58331,16 @@
       "id": "tui-popup",
       "name": "tui-popup",
       "description": "A simple popup for ratatui",
-      "version": "0.7.2",
+      "version": "0.7.3",
       "created_at": "2023-12-31T02:22:44.969858Z",
-      "updated_at": "2025-12-27T07:19:52.239180Z",
-      "downloads": 89732,
-      "recent_downloads": 22805,
+      "updated_at": "2026-03-29T04:01:42.857526Z",
+      "downloads": 94025,
+      "recent_downloads": 24546,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "documentation": "https://docs.rs/tui-popup",
       "ratatui_dependency": {
         "version": "unknown",
@@ -58298,16 +58353,16 @@
       "id": "tui-prompts",
       "name": "tui-prompts",
       "description": "A library for building interactive prompts for ratatui.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "created_at": "2023-07-11T05:45:55.946350Z",
-      "updated_at": "2025-12-27T07:28:04.461734Z",
-      "downloads": 108689,
-      "recent_downloads": 29184,
+      "updated_at": "2026-03-29T04:00:00.230627Z",
+      "downloads": 113055,
+      "recent_downloads": 29893,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -58319,16 +58374,16 @@
       "id": "tui-qrcode",
       "name": "tui-qrcode",
       "description": "A Ratatui widget for displaying QR codes in the terminal",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "created_at": "2025-01-23T03:40:56.992174Z",
-      "updated_at": "2025-12-27T07:18:47.566996Z",
-      "downloads": 18252,
-      "recent_downloads": 13585,
+      "updated_at": "2026-03-29T03:59:14.545158Z",
+      "downloads": 21124,
+      "recent_downloads": 15613,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "documentation": "https://docs.rs/tui-qrcode",
       "ratatui_dependency": {
         "version": "unknown",
@@ -58377,16 +58432,16 @@
       "id": "tui-scrollbar",
       "name": "tui-scrollbar",
       "description": "A Ratatui scrollbar widget with fractional thumb rendering",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "created_at": "2025-12-28T03:27:57.705784Z",
-      "updated_at": "2026-01-05T06:26:40.320263Z",
-      "downloads": 487150,
-      "recent_downloads": 487150,
+      "updated_at": "2026-03-29T04:09:23.016871Z",
+      "downloads": 612876,
+      "recent_downloads": 612876,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "documentation": "https://docs.rs/tui-scrollbar",
       "ratatui_dependency": {
         "version": "unknown",
@@ -58399,16 +58454,16 @@
       "id": "tui-scrollview",
       "name": "tui-scrollview",
       "description": "A simple scrollable view for Ratatui",
-      "version": "0.6.2",
+      "version": "0.6.3",
       "created_at": "2024-01-18T05:40:05.860490Z",
-      "updated_at": "2025-12-27T07:21:54.592581Z",
-      "downloads": 283275,
-      "recent_downloads": 123899,
+      "updated_at": "2026-03-29T04:00:33.069876Z",
+      "downloads": 300143,
+      "recent_downloads": 123233,
       "categories": [
         "command-line-interface",
         "gui"
       ],
-      "repository": "https://github.com/joshka/tui-widgets",
+      "repository": "https://github.com/ratatui/tui-widgets",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -61138,11 +61193,11 @@
       "id": "vibetracer",
       "name": "vibetracer",
       "description": "Real-time tracing, replaying, and rewinding of AI coding assistant edits. MCP server for AI self-correction. Cross-agent support (Claude Code, Cursor, Codex). Export to Agent Trace JSON and git-ai git notes.",
-      "version": "0.5.0",
+      "version": "0.6.1",
       "created_at": "2026-03-25T20:06:35.797921Z",
-      "updated_at": "2026-03-26T18:08:22.498588Z",
-      "downloads": 61,
-      "recent_downloads": 61,
+      "updated_at": "2026-03-29T01:58:31.278401Z",
+      "downloads": 64,
+      "recent_downloads": 64,
       "categories": [
         "command-line-utilities",
         "development-tools::debugging"
@@ -63635,11 +63690,11 @@
       "id": "xript-ratatui",
       "name": "xript-ratatui",
       "description": "Fragment renderer for Ratatui terminal applications — renders xript UI fragments as terminal widgets.",
-      "version": "0.3.1",
+      "version": "0.4.1",
       "created_at": "2026-03-19T11:37:37.269867Z",
-      "updated_at": "2026-03-19T11:37:37.269867Z",
-      "downloads": 9,
-      "recent_downloads": 9,
+      "updated_at": "2026-03-29T03:12:57.559501Z",
+      "downloads": 14,
+      "recent_downloads": 14,
       "categories": [
         "command-line-interface",
         "rendering"
@@ -63656,11 +63711,11 @@
       "id": "xript-wiz",
       "name": "xript-wiz",
       "description": "Interactive TUI wizard for the xript toolchain — powered by xript fragments.",
-      "version": "0.3.1",
+      "version": "0.4.1",
       "created_at": "2026-03-19T11:39:06.595330Z",
-      "updated_at": "2026-03-19T11:39:06.595330Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-03-29T03:14:26.136871Z",
+      "downloads": 12,
+      "recent_downloads": 12,
       "categories": [
         "command-line-utilities",
         "development-tools"
