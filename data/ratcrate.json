@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-03-30T02:34:16.299369473+00:00",
+    "generated_at": "2026-03-30T04:39:26.169580679+00:00",
     "total_crates": 3218,
     "core_libraries": 2,
     "community_packages": 3216,
@@ -10,9 +10,9 @@
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3142,
-      "etag_cache_misses": 76,
-      "cache_hit_rate": 97.63828464885022
+      "etag_cache_hits": 3209,
+      "etag_cache_misses": 9,
+      "cache_hit_rate": 99.72032318210069
     }
   },
   "crates": [
@@ -4697,11 +4697,11 @@
       "id": "bibox",
       "name": "bibox",
       "description": "Terminal-based bibliography manager with three-panel TUI and AI-agent-friendly Markdown notes",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "created_at": "2026-03-27T16:07:38.549956Z",
-      "updated_at": "2026-03-27T16:07:38.549956Z",
-      "downloads": 9,
-      "recent_downloads": 9,
+      "updated_at": "2026-03-30T03:53:05.799712Z",
+      "downloads": 14,
+      "recent_downloads": 14,
       "categories": [
         "command-line-utilities",
         "science"
@@ -14536,11 +14536,11 @@
       "id": "dz6",
       "name": "dz6",
       "description": "A vim-inspired, TUI-based hexadecimal editor",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "created_at": "2025-10-26T19:56:51.261974Z",
-      "updated_at": "2026-02-27T08:02:34.895631Z",
-      "downloads": 536,
-      "recent_downloads": 189,
+      "updated_at": "2026-03-30T03:27:37.176894Z",
+      "downloads": 561,
+      "recent_downloads": 191,
       "categories": [
         "command-line-utilities",
         "security"
@@ -19138,11 +19138,11 @@
       "id": "git-layer",
       "name": "git-layer",
       "description": "Manage .git/info/exclude so your personal AI files stay out of git — without touching .gitignore.",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "created_at": "2026-02-08T16:13:17.076273Z",
-      "updated_at": "2026-03-28T06:20:41.907249Z",
-      "downloads": 89,
-      "recent_downloads": 89,
+      "updated_at": "2026-03-30T04:36:31.166399Z",
+      "downloads": 90,
+      "recent_downloads": 90,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -23476,9 +23476,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.7.29",
+      "version": "12.7.34",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-03-29T15:12:20.252149Z",
+      "updated_at": "2026-03-30T04:29:22.229977Z",
       "downloads": 2791,
       "recent_downloads": 2791,
       "categories": [
@@ -35793,15 +35793,15 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.11.1",
+      "version": "0.11.2",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2026-03-27T01:33:33.707279Z",
-      "downloads": 58090,
-      "recent_downloads": 2092,
+      "updated_at": "2026-03-30T03:15:39.301167Z",
+      "downloads": 58597,
+      "recent_downloads": 2578,
       "categories": [
         "command-line-utilities",
-        "development-tools",
-        "embedded"
+        "embedded",
+        "development-tools"
       ],
       "repository": "https://github.com/drivercraft/ostool",
       "ratatui_dependency": {
@@ -36974,11 +36974,11 @@
       "id": "perspt-tui",
       "name": "perspt-tui",
       "description": "Ratatui-based TUI for Perspt",
-      "version": "0.5.3",
+      "version": "0.5.5",
       "created_at": "2025-12-23T16:04:15.795218Z",
-      "updated_at": "2026-01-18T16:02:35.687306Z",
-      "downloads": 81,
-      "recent_downloads": 81,
+      "updated_at": "2026-03-30T02:48:32.857410Z",
+      "downloads": 96,
+      "recent_downloads": 84,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -38519,11 +38519,11 @@
       "id": "post-push-party",
       "name": "post-push-party",
       "description": "Push code, earn points, throw a party!",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "created_at": "2026-02-14T05:38:40.237405Z",
-      "updated_at": "2026-03-12T02:39:09.163793Z",
-      "downloads": 110,
-      "recent_downloads": 110,
+      "updated_at": "2026-03-30T04:10:13.654505Z",
+      "downloads": 123,
+      "recent_downloads": 123,
       "categories": [],
       "repository": "https://github.com/drewzemke/post-push-party",
       "ratatui_dependency": {
@@ -44067,9 +44067,9 @@
       "id": "restui",
       "name": "restui",
       "description": "A lazygit-style TUI HTTP client with vim keybindings",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "created_at": "2026-03-29T17:37:28.497283Z",
-      "updated_at": "2026-03-30T00:31:52.307052Z",
+      "updated_at": "2026-03-30T03:24:26.322152Z",
       "downloads": 19,
       "recent_downloads": 19,
       "categories": [
@@ -62056,9 +62056,9 @@
       "id": "vta-cli-common",
       "name": "vta-cli-common",
       "description": "Shared CLI command handlers and rendering helpers for VTA CLIs",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "created_at": "2026-03-29T09:07:39.657764Z",
-      "updated_at": "2026-03-29T09:07:39.657764Z",
+      "updated_at": "2026-03-30T03:48:54.924066Z",
       "downloads": 11,
       "recent_downloads": 11,
       "categories": [],
