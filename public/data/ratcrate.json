@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-01T02:13:05.209481070+00:00",
-    "total_crates": 3246,
+    "generated_at": "2026-04-01T04:42:20.134974238+00:00",
+    "total_crates": 3249,
     "core_libraries": 2,
-    "community_packages": 3244,
+    "community_packages": 3247,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3154,
-      "etag_cache_misses": 92,
-      "cache_hit_rate": 97.16574245224892
+      "etag_cache_hits": 3244,
+      "etag_cache_misses": 5,
+      "cache_hit_rate": 99.84610649430594
     }
   },
   "crates": [
@@ -9582,6 +9582,23 @@
         "development-tools"
       ],
       "repository": "https://github.com/LyricalString/clide",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "clin-rs",
+      "name": "clin-rs",
+      "description": "Encrypted terminal note-taking app",
+      "version": "0.2.1",
+      "created_at": "2026-04-01T03:08:52.644630Z",
+      "updated_at": "2026-04-01T03:28:48.898122Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -28408,6 +28425,27 @@
       "is_core_library": false
     },
     {
+      "id": "lsofrs",
+      "name": "lsofrs",
+      "description": "Modern, high-performance lsof implementation in Rust",
+      "version": "4.0.0",
+      "created_at": "2026-03-31T22:38:43.581999Z",
+      "updated_at": "2026-04-01T04:40:43.344567Z",
+      "downloads": 53,
+      "recent_downloads": 53,
+      "categories": [
+        "command-line-utilities",
+        "os"
+      ],
+      "repository": "https://github.com/MenkeTechnologies/lsofrs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "lsport",
       "name": "lsport",
       "description": "A TUI for managing local and remote ports via SSH",
@@ -37509,11 +37547,11 @@
       "id": "pgtui",
       "name": "pgtui",
       "description": "A Postgres TUI client that utilizes your terminal text editor for inserts & updates.",
-      "version": "0.12.1",
+      "version": "0.13.0",
       "created_at": "2025-04-26T10:27:00.932760Z",
-      "updated_at": "2026-03-16T17:39:02.089717Z",
-      "downloads": 1715,
-      "recent_downloads": 210,
+      "updated_at": "2026-04-01T03:10:53.016880Z",
+      "downloads": 1841,
+      "recent_downloads": 327,
       "categories": [
         "command-line-utilities",
         "database"
@@ -38083,6 +38121,27 @@
         "games"
       ],
       "repository": "https://github.com/pchryss/Polaris",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "playterm",
+      "name": "playterm",
+      "description": "A terminal music player for Subsonic-compatible servers",
+      "version": "0.1.0",
+      "created_at": "2026-04-01T03:59:56.728964Z",
+      "updated_at": "2026-04-01T03:59:56.728964Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "multimedia::audio"
+      ],
+      "repository": "https://github.com/awriterandtheword-rgb/playterm-app",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -45043,9 +45102,9 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-03-31T23:47:16.742363Z",
+      "updated_at": "2026-04-01T03:44:11.004576Z",
       "downloads": 15,
       "recent_downloads": 15,
       "categories": [],
