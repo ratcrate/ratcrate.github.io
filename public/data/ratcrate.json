@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-02T01:05:12.483025007+00:00",
-    "total_crates": 3258,
+    "generated_at": "2026-04-02T04:23:53.100713050+00:00",
+    "total_crates": 3263,
     "core_libraries": 2,
-    "community_packages": 3256,
+    "community_packages": 3261,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3174,
-      "etag_cache_misses": 84,
-      "cache_hit_rate": 97.42173112338858
+      "etag_cache_hits": 3242,
+      "etag_cache_misses": 21,
+      "cache_hit_rate": 99.35642047195832
     }
   },
   "crates": [
@@ -854,9 +854,9 @@
       "id": "agent-code",
       "name": "agent-code",
       "description": "An AI-powered coding agent for the terminal, written in pure Rust",
-      "version": "0.8.7",
+      "version": "0.9.7",
       "created_at": "2026-04-01T00:06:46.435895Z",
-      "updated_at": "2026-04-01T15:58:58.027948Z",
+      "updated_at": "2026-04-02T03:56:56.769242Z",
       "downloads": 218,
       "recent_downloads": 218,
       "categories": [
@@ -11308,9 +11308,9 @@
       "id": "crabtalk",
       "name": "crabtalk",
       "description": "Run autonomous agents with built-in LLM inference",
-      "version": "0.0.17",
+      "version": "0.0.18",
       "created_at": "2026-03-15T15:31:58.703451Z",
-      "updated_at": "2026-04-01T08:40:44.398809Z",
+      "updated_at": "2026-04-02T01:42:26.069537Z",
       "downloads": 173,
       "recent_downloads": 173,
       "categories": [],
@@ -13145,11 +13145,11 @@
       "id": "diaryx",
       "name": "diaryx",
       "description": "Command-line interface for Diaryx journal management",
-      "version": "1.3.2",
+      "version": "1.4.0",
       "created_at": "2025-12-11T18:35:10.573880Z",
-      "updated_at": "2026-03-13T05:51:44.507687Z",
-      "downloads": 338,
-      "recent_downloads": 273,
+      "updated_at": "2026-04-02T02:12:20.838019Z",
+      "downloads": 367,
+      "recent_downloads": 265,
       "categories": [
         "command-line-utilities"
       ],
@@ -15772,9 +15772,9 @@
       "id": "envision",
       "name": "envision",
       "description": "A ratatui framework for collaborative TUI development with headless testing support",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "created_at": "2025-12-31T08:04:54.669685Z",
-      "updated_at": "2026-04-01T23:30:24.024497Z",
+      "updated_at": "2026-04-02T04:16:24.952316Z",
       "downloads": 289,
       "recent_downloads": 260,
       "categories": [
@@ -16548,6 +16548,27 @@
         "filesystem"
       ],
       "repository": "https://github.com/mohammad-albarham/ferret",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "ferrexctl",
+      "name": "ferrexctl",
+      "description": "Ferrex configuration bootstrapper (library + CLI)",
+      "version": "0.1.2-alpha",
+      "created_at": "2026-04-02T02:39:20.422172Z",
+      "updated_at": "2026-04-02T02:39:20.422172Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/Lowband21/ferrex.git",
+      "homepage": "https://github.com/Lowband21/ferrex",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -22710,9 +22731,9 @@
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
       "description": "Opinionated Rust framework for high-throughput data pipelines at PB scale. Auto-wiring config, logging, metrics, tracing, health, and graceful shutdown — built from many years of production infrastructure experience.",
-      "version": "2.4.2",
+      "version": "2.4.3",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-04-01T06:45:13.528093Z",
+      "updated_at": "2026-04-02T02:23:35.899484Z",
       "downloads": 1537,
       "recent_downloads": 1537,
       "categories": [
@@ -23658,6 +23679,23 @@
       "is_core_library": false
     },
     {
+      "id": "ironclad-ai-agent",
+      "name": "ironclad-ai-agent",
+      "description": "Secure-by-Design Autonomous AI Agent",
+      "version": "0.1.0",
+      "created_at": "2026-04-02T01:49:46.151932Z",
+      "updated_at": "2026-04-02T01:49:46.151932Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ironkey",
       "name": "ironkey",
       "description": "An encrypted terminal password manager with AES-256-GCM vault and Argon2id key derivation",
@@ -23846,9 +23884,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.7.57",
+      "version": "12.7.59",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-01T14:58:17.666393Z",
+      "updated_at": "2026-04-02T03:30:52.196004Z",
       "downloads": 3040,
       "recent_downloads": 3040,
       "categories": [
@@ -32518,6 +32556,27 @@
       "is_core_library": false
     },
     {
+      "id": "muxr",
+      "name": "muxr",
+      "description": "Tmux session manager for AI coding workflows",
+      "version": "0.4.0",
+      "created_at": "2026-04-02T02:28:19.603960Z",
+      "updated_at": "2026-04-02T02:28:19.603960Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://gitlab.com/dunn.dev/muxr",
+      "homepage": "https://gitlab.com/dunn.dev/muxr",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "mvgfahrinfo",
       "name": "mvgfahrinfo",
       "description": "Get up-to-date departure times for Munich public transport in your terminal.",
@@ -37659,11 +37718,11 @@
       "id": "pgtui",
       "name": "pgtui",
       "description": "A Postgres TUI client that utilizes your terminal text editor for inserts & updates.",
-      "version": "0.13.0",
+      "version": "0.13.1",
       "created_at": "2025-04-26T10:27:00.932760Z",
-      "updated_at": "2026-04-01T03:10:53.016880Z",
-      "downloads": 1841,
-      "recent_downloads": 327,
+      "updated_at": "2026-04-02T01:45:01.819528Z",
+      "downloads": 1862,
+      "recent_downloads": 348,
       "categories": [
         "command-line-utilities",
         "database"
@@ -37765,11 +37824,11 @@
       "id": "phosphor-tui",
       "name": "phosphor-tui",
       "description": "Terminal UI frontend for the Phosphor DAW",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "created_at": "2026-03-21T04:07:09.036862Z",
-      "updated_at": "2026-03-27T03:22:52.385137Z",
-      "downloads": 72,
-      "recent_downloads": 72,
+      "updated_at": "2026-04-02T03:13:39.436435Z",
+      "downloads": 88,
+      "recent_downloads": 88,
       "categories": [],
       "repository": "https://github.com/joshjetson/phosphor",
       "ratatui_dependency": {
@@ -47744,14 +47803,18 @@
     {
       "id": "s8n",
       "name": "s8n",
-      "description": "A universal package manager wrapper with a beautiful TUI",
-      "version": "0.1.1",
+      "description": "A beautiful unified system manager, package manager, and file manager TUI — built for Lilith Linux and Katie",
+      "version": "0.2.0",
       "created_at": "2026-03-20T02:52:46.112752Z",
-      "updated_at": "2026-03-20T02:52:46.112752Z",
-      "downloads": 0,
-      "recent_downloads": 0,
-      "categories": [],
+      "updated_at": "2026-04-02T03:32:24.334553Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [
+        "command-line-utilities"
+      ],
       "repository": "https://github.com/BlancoBAM/S8n-System",
+      "homepage": "https://github.com/BlancoBAM/S8n-System",
+      "documentation": "https://docs.rs/s8n",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -57787,9 +57850,9 @@
       "id": "treeship-cli",
       "name": "treeship-cli",
       "description": "Portable trust receipts for agent workflows - CLI",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "created_at": "2026-03-31T05:53:27.687517Z",
-      "updated_at": "2026-04-02T00:52:10.855733Z",
+      "updated_at": "2026-04-02T02:56:58.234085Z",
       "downloads": 39,
       "recent_downloads": 39,
       "categories": [
@@ -61070,6 +61133,24 @@
       "is_core_library": false
     },
     {
+      "id": "typing-test-tui",
+      "name": "typing-test-tui",
+      "description": "Typing speed test tui in rust",
+      "version": "0.1.0",
+      "created_at": "2026-04-02T02:39:35.091657Z",
+      "updated_at": "2026-04-02T02:39:35.091657Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/mingli202/typing-test-tui",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "typub-tui",
       "name": "typub-tui",
       "description": "Terminal UI for typub",
@@ -62859,15 +62940,15 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.96.9",
+      "version": "0.96.12",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2026-03-31T23:32:25.320943Z",
-      "downloads": 25199,
-      "recent_downloads": 2611,
+      "updated_at": "2026-04-02T03:52:43.533Z",
+      "downloads": 25208,
+      "recent_downloads": 2513,
       "categories": [
         "development-tools",
-        "command-line-utilities",
-        "api-bindings"
+        "api-bindings",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/vinhnx/vtcode",
       "homepage": "https://github.com/vinhnx/vtcode",
@@ -62883,14 +62964,14 @@
       "id": "vtcode-commons",
       "name": "vtcode-commons",
       "description": "Shared traits for paths, telemetry, and error reporting reused across VT Code component extractions",
-      "version": "0.96.9",
+      "version": "0.96.12",
       "created_at": "2025-10-22T18:59:20.585154Z",
-      "updated_at": "2026-03-31T23:24:01.361719Z",
-      "downloads": 13440,
-      "recent_downloads": 4977,
+      "updated_at": "2026-04-02T03:30:55.828224Z",
+      "downloads": 13453,
+      "recent_downloads": 4706,
       "categories": [
-        "command-line-interface",
-        "development-tools"
+        "development-tools",
+        "command-line-interface"
       ],
       "repository": "https://github.com/vinhnx/vtcode",
       "homepage": "https://github.com/vinhnx/vtcode",
@@ -62906,14 +62987,14 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.96.9",
+      "version": "0.96.12",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-03-31T23:28:06.233998Z",
-      "downloads": 30216,
-      "recent_downloads": 3865,
+      "updated_at": "2026-04-02T03:44:14.616874Z",
+      "downloads": 30227,
+      "recent_downloads": 3677,
       "categories": [
-        "api-bindings",
-        "development-tools"
+        "development-tools",
+        "api-bindings"
       ],
       "repository": "https://github.com/vinhnx/vtcode",
       "homepage": "https://github.com/vinhnx/vtcode",
@@ -62929,14 +63010,14 @@
       "id": "vtcode-tui",
       "name": "vtcode-tui",
       "description": "Reusable TUI primitives and session API for VT Code-style terminal interfaces",
-      "version": "0.96.9",
+      "version": "0.96.12",
       "created_at": "2026-02-28T06:21:49.743248Z",
-      "updated_at": "2026-03-31T23:26:23.736388Z",
-      "downloads": 884,
-      "recent_downloads": 884,
+      "updated_at": "2026-04-02T03:40:06.130188Z",
+      "downloads": 895,
+      "recent_downloads": 895,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/vinhnx/vtcode",
       "homepage": "https://github.com/vinhnx/vtcode",
@@ -66103,12 +66184,33 @@
       "is_core_library": false
     },
     {
+      "id": "zitadel-tui",
+      "name": "zitadel-tui",
+      "description": "A terminal UI for managing Zitadel resources",
+      "version": "0.1.2",
+      "created_at": "2026-04-02T01:05:10.421033Z",
+      "updated_at": "2026-04-02T01:05:10.421033Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/damacus/zitadel-tui",
+      "homepage": "https://github.com/damacus/zitadel-tui",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "zlayer-builder",
       "name": "zlayer-builder",
       "description": "Dockerfile parsing and buildah-based container image building",
-      "version": "0.10.56",
+      "version": "0.10.57",
       "created_at": "2026-03-04T02:12:15.511820Z",
-      "updated_at": "2026-04-01T19:31:32.123815Z",
+      "updated_at": "2026-04-02T03:20:22.074427Z",
       "downloads": 50,
       "recent_downloads": 50,
       "categories": [
@@ -66127,9 +66229,9 @@
       "id": "zlayer-tui",
       "name": "zlayer-tui",
       "description": "Shared TUI widgets, color palette, and terminal utilities for ZLayer",
-      "version": "0.10.56",
+      "version": "0.10.57",
       "created_at": "2026-03-04T02:07:53.344105Z",
-      "updated_at": "2026-04-01T19:26:49.680211Z",
+      "updated_at": "2026-04-02T03:15:48.219935Z",
       "downloads": 77,
       "recent_downloads": 77,
       "categories": [],
