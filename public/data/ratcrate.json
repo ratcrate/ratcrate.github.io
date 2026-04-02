@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-02T04:23:53.100713050+00:00",
-    "total_crates": 3263,
+    "generated_at": "2026-04-02T06:07:23.903204820+00:00",
+    "total_crates": 3264,
     "core_libraries": 2,
-    "community_packages": 3261,
+    "community_packages": 3262,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3242,
-      "etag_cache_misses": 21,
-      "cache_hit_rate": 99.35642047195832
+      "etag_cache_hits": 3259,
+      "etag_cache_misses": 5,
+      "cache_hit_rate": 99.8468137254902
     }
   },
   "crates": [
@@ -15772,11 +15772,11 @@
       "id": "envision",
       "name": "envision",
       "description": "A ratatui framework for collaborative TUI development with headless testing support",
-      "version": "0.10.1",
+      "version": "0.10.3",
       "created_at": "2025-12-31T08:04:54.669685Z",
-      "updated_at": "2026-04-02T04:16:24.952316Z",
-      "downloads": 289,
-      "recent_downloads": 260,
+      "updated_at": "2026-04-02T05:58:39.472834Z",
+      "downloads": 303,
+      "recent_downloads": 274,
       "categories": [
         "development-tools::testing",
         "command-line-interface"
@@ -23884,11 +23884,11 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.7.59",
+      "version": "12.7.60",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-02T03:30:52.196004Z",
-      "downloads": 3040,
-      "recent_downloads": 3040,
+      "updated_at": "2026-04-02T05:15:36.905806Z",
+      "downloads": 3060,
+      "recent_downloads": 3060,
       "categories": [
         "command-line-utilities"
       ],
@@ -24176,11 +24176,11 @@
       "id": "jj-cli",
       "name": "jj-cli",
       "description": "Jujutsu - an experimental version control system",
-      "version": "0.39.0",
+      "version": "0.40.0",
       "created_at": "2023-07-16T21:03:00.963411Z",
-      "updated_at": "2026-03-04T18:35:04.897897Z",
-      "downloads": 96022,
-      "recent_downloads": 16382,
+      "updated_at": "2026-04-02T05:19:28.408909Z",
+      "downloads": 100268,
+      "recent_downloads": 18682,
       "categories": [],
       "repository": "https://github.com/jj-vcs/jj",
       "homepage": "https://www.jj-vcs.dev/",
@@ -36344,15 +36344,15 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.11.2",
+      "version": "0.12.0",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2026-03-30T03:15:39.301167Z",
-      "downloads": 58597,
-      "recent_downloads": 2578,
+      "updated_at": "2026-04-02T04:42:56.089363Z",
+      "downloads": 59482,
+      "recent_downloads": 3434,
       "categories": [
+        "development-tools",
         "command-line-utilities",
-        "embedded",
-        "development-tools"
+        "embedded"
       ],
       "repository": "https://github.com/drivercraft/ostool",
       "ratatui_dependency": {
@@ -48223,6 +48223,24 @@
       ],
       "repository": "https://github.com/erikh/saturn",
       "homepage": "https://github.com/erikh/saturn",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "savetracker",
+      "name": "savetracker",
+      "description": "Watch game save directories and track changes in save files",
+      "version": "0.2.0",
+      "created_at": "2026-04-02T05:29:51.012724Z",
+      "updated_at": "2026-04-02T05:29:51.012724Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/savetracker/savetracker",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
