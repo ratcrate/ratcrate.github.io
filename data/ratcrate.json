@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-03T03:27:04.767761463+00:00",
-    "total_crates": 3277,
+    "generated_at": "2026-04-03T04:40:07.553175516+00:00",
+    "total_crates": 3279,
     "core_libraries": 2,
-    "community_packages": 3275,
+    "community_packages": 3277,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3186,
-      "etag_cache_misses": 91,
-      "cache_hit_rate": 97.22306988098872
+      "etag_cache_hits": 3268,
+      "etag_cache_misses": 11,
+      "cache_hit_rate": 99.6645318694724
     }
   },
   "crates": [
@@ -5982,11 +5982,11 @@
       "id": "branchdiff",
       "name": "branchdiff",
       "description": "Terminal UI showing unified diff of current branch vs its base",
-      "version": "0.59.1",
+      "version": "0.60.0",
       "created_at": "2026-02-28T04:14:18.698495Z",
-      "updated_at": "2026-03-25T02:27:37.844583Z",
-      "downloads": 143,
-      "recent_downloads": 143,
+      "updated_at": "2026-04-03T04:10:56.227279Z",
+      "downloads": 170,
+      "recent_downloads": 170,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -20170,9 +20170,9 @@
       "id": "gitpp",
       "name": "gitpp",
       "description": "Git Personal Parallel Manager — manage 100+ Git repos with one command",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "created_at": "2026-04-02T14:08:37.524093Z",
-      "updated_at": "2026-04-03T03:05:07.773687Z",
+      "updated_at": "2026-04-03T03:28:43.404900Z",
       "downloads": 10,
       "recent_downloads": 10,
       "categories": [
@@ -20460,11 +20460,11 @@
       "id": "glances",
       "name": "glances",
       "description": "A modern Glances-inspired TUI system monitor written in Rust — CPU, memory, GPU, Docker, network, disk, battery, alerts, and container API testing",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "created_at": "2026-04-01T07:52:43.122427Z",
-      "updated_at": "2026-04-01T08:34:12.136033Z",
-      "downloads": 47,
-      "recent_downloads": 47,
+      "updated_at": "2026-04-03T04:05:49.458873Z",
+      "downloads": 55,
+      "recent_downloads": 55,
       "categories": [
         "command-line-utilities",
         "development-tools::profiling"
@@ -24330,6 +24330,27 @@
       ],
       "repository": "https://github.com/doug/jjj",
       "homepage": "https://jjj.recursivewhy.com",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "jkconfig",
+      "name": "jkconfig",
+      "description": "A Ratatui-based TUI component library for JSON Schema configuration",
+      "version": "0.2.2",
+      "created_at": "2025-10-24T04:51:42.390735Z",
+      "updated_at": "2026-04-03T04:13:20.261376Z",
+      "downloads": 3289,
+      "recent_downloads": 2351,
+      "categories": [
+        "command-line-interface",
+        "config"
+      ],
+      "repository": "https://github.com/drivercraft/ostool",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -31863,6 +31884,28 @@
       "is_core_library": false
     },
     {
+      "id": "mold-ai-tui",
+      "name": "mold-ai-tui",
+      "description": "Terminal UI for mold — interactive AI image generation",
+      "version": "0.4.0",
+      "created_at": "2026-04-03T04:17:37.320632Z",
+      "updated_at": "2026-04-03T04:17:37.320632Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "science",
+        "command-line-utilities",
+        "multimedia::images"
+      ],
+      "repository": "https://github.com/utensils/mold",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "moltbook-tui",
       "name": "moltbook-tui",
       "description": "A TUI client for moltbook, the social network for AI Agents.",
@@ -35185,11 +35228,11 @@
       "id": "octorus",
       "name": "octorus",
       "description": "A TUI tool for GitHub PR review, designed for Helix editor users",
-      "version": "0.5.8",
+      "version": "0.6.1",
       "created_at": "2026-01-21T01:26:47.792040Z",
-      "updated_at": "2026-03-15T01:15:44.241533Z",
-      "downloads": 840,
-      "recent_downloads": 840,
+      "updated_at": "2026-04-03T04:17:59.600040Z",
+      "downloads": 930,
+      "recent_downloads": 930,
       "categories": [],
       "repository": "https://github.com/ushironoko/octorus",
       "ratatui_dependency": {
@@ -36487,9 +36530,9 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.12.2",
+      "version": "0.12.3",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2026-04-02T09:39:08.903204Z",
+      "updated_at": "2026-04-03T04:14:32.362897Z",
       "downloads": 59575,
       "recent_downloads": 3519,
       "categories": [
@@ -54366,11 +54409,11 @@
       "id": "taskwarrior-tui",
       "name": "taskwarrior-tui",
       "description": "A Taskwarrior Terminal User Interface",
-      "version": "0.26.9",
+      "version": "0.26.10",
       "created_at": "2020-07-28T09:07:36.269079Z",
-      "updated_at": "2026-04-01T17:06:24.532790Z",
-      "downloads": 22215,
-      "recent_downloads": 457,
+      "updated_at": "2026-04-03T04:36:43.911883Z",
+      "downloads": 22238,
+      "recent_downloads": 479,
       "categories": [
         "command-line-utilities"
       ],
@@ -55564,9 +55607,9 @@
       "id": "termplex",
       "name": "termplex",
       "description": "A terminal multiplexer",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "created_at": "2026-04-02T21:15:28.839696Z",
-      "updated_at": "2026-04-03T00:18:13.272170Z",
+      "updated_at": "2026-04-03T04:09:20.974986Z",
       "downloads": 28,
       "recent_downloads": 28,
       "categories": [
@@ -58543,11 +58586,11 @@
       "id": "tsk-ai",
       "name": "tsk-ai",
       "description": "tsk-tsk: keeping your agents out of trouble with sandboxed coding agent automation",
-      "version": "0.10.7",
+      "version": "0.10.8",
       "created_at": "2025-06-27T21:10:29.009249Z",
-      "updated_at": "2026-03-30T05:55:50.931295Z",
-      "downloads": 5070,
-      "recent_downloads": 523,
+      "updated_at": "2026-04-03T03:27:04.170735Z",
+      "downloads": 5078,
+      "recent_downloads": 533,
       "categories": [],
       "repository": "https://github.com/dtormoen/tsk-tsk",
       "homepage": "https://github.com/dtormoen/tsk-tsk",
