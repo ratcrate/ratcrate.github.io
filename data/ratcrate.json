@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-06T01:51:07.225770021+00:00",
-    "total_crates": 3353,
+    "generated_at": "2026-04-06T04:54:12.698473284+00:00",
+    "total_crates": 3357,
     "core_libraries": 2,
-    "community_packages": 3351,
+    "community_packages": 3355,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3241,
-      "etag_cache_misses": 112,
-      "cache_hit_rate": 96.65970772442589
+      "etag_cache_hits": 3342,
+      "etag_cache_misses": 15,
+      "cache_hit_rate": 99.55317247542449
     }
   },
   "crates": [
@@ -5558,9 +5558,9 @@
       "id": "bluback",
       "name": "bluback",
       "description": "Blu-ray backup tool with TUI",
-      "version": "0.10.5",
+      "version": "0.10.6",
       "created_at": "2026-03-17T02:30:35.332819Z",
-      "updated_at": "2026-04-05T07:00:54.741725Z",
+      "updated_at": "2026-04-06T02:14:16.853577Z",
       "downloads": 209,
       "recent_downloads": 209,
       "categories": [],
@@ -6066,6 +6066,26 @@
       ],
       "repository": "https://github.com/spelbryggeriet/brain-assistant",
       "homepage": "https://github.com/spelbryggeriet/brain-assistant",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "brainbit",
+      "name": "brainbit",
+      "description": "Rust library for BrainBit EEG headband devices via the NeuroSDK2 C library (runtime-loaded)",
+      "version": "0.0.1",
+      "created_at": "2026-04-06T03:29:19.458454Z",
+      "updated_at": "2026-04-06T03:29:19.458454Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/eugenehp/brainbit-rs",
+      "homepage": "https://github.com/eugenehp/brainbit-rs",
+      "documentation": "https://docs.rs/brainbit",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -20734,11 +20754,11 @@
       "id": "gitpp",
       "name": "gitpp",
       "description": "Git Personal Parallel Manager — manage 100+ Git repos with one command",
-      "version": "0.5.1",
+      "version": "0.6.4",
       "created_at": "2026-04-02T14:08:37.524093Z",
-      "updated_at": "2026-04-03T03:28:43.404900Z",
-      "downloads": 10,
-      "recent_downloads": 10,
+      "updated_at": "2026-04-06T03:02:33.968601Z",
+      "downloads": 96,
+      "recent_downloads": 96,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -21064,9 +21084,9 @@
       "id": "glances",
       "name": "glances",
       "description": "A modern Glances-inspired TUI system monitor written in Rust — CPU, memory, GPU, Docker, network, disk, battery, alerts, and container API testing",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "created_at": "2026-04-01T07:52:43.122427Z",
-      "updated_at": "2026-04-06T01:40:32.906062Z",
+      "updated_at": "2026-04-06T02:10:36.581191Z",
       "downloads": 247,
       "recent_downloads": 247,
       "categories": [
@@ -21887,6 +21907,26 @@
       "recent_downloads": 27,
       "categories": [],
       "repository": "https://github.com/turnsy-backup/gt_rs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "gtec",
+      "name": "gtec",
+      "description": "Rust library and TUI for g.tec Unicorn Hybrid Black 8-channel EEG headset via the Unicorn C API (runtime-loaded)",
+      "version": "0.0.2",
+      "created_at": "2026-04-06T03:42:37.007075Z",
+      "updated_at": "2026-04-06T04:03:15.775108Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/eugenehp/gtec-rs",
+      "homepage": "https://github.com/eugenehp/gtec-rs",
+      "documentation": "https://docs.rs/gtec",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -24699,9 +24739,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.8.1",
+      "version": "12.8.2",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-06T01:22:48.993572Z",
+      "updated_at": "2026-04-06T03:13:50.227269Z",
       "downloads": 3512,
       "recent_downloads": 3512,
       "categories": [
@@ -34518,6 +34558,26 @@
       "is_core_library": false
     },
     {
+      "id": "neurofield",
+      "name": "neurofield",
+      "description": "Rust library and TUI for the Neurofield Q21 20-channel EEG amplifier over PCAN-USB",
+      "version": "0.0.1",
+      "created_at": "2026-04-06T02:23:24.408474Z",
+      "updated_at": "2026-04-06T02:23:24.408474Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/eugenehp/neurofield-rs",
+      "homepage": "https://github.com/eugenehp/neurofield-rs",
+      "documentation": "https://docs.rs/neurofield",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "neuronbox-cli",
       "name": "neuronbox-cli",
       "description": "Local ML runner: declarative neuron.yaml, model store, daemon, and terminal dashboard",
@@ -39123,9 +39183,9 @@
       "id": "pilegit",
       "name": "pilegit",
       "description": "Git stacking with style — interactive TUI for stacked PRs",
-      "version": "0.1.1",
+      "version": "0.1.4",
       "created_at": "2026-04-05T20:16:56.533215Z",
-      "updated_at": "2026-04-05T20:30:24.383522Z",
+      "updated_at": "2026-04-06T03:56:08.922247Z",
       "downloads": 20,
       "recent_downloads": 20,
       "categories": [
@@ -41608,9 +41668,9 @@
       "id": "purple-ssh",
       "name": "purple-ssh",
       "description": "Search your SSH config instantly, connect to any host with one keystroke and sync servers from 16 cloud providers. Visual file transfer, container management over SSH, password management, command snippets and MCP server for AI agent integration. Edits ~/.ssh/config with round-trip fidelity.",
-      "version": "2.27.1",
+      "version": "2.27.2",
       "created_at": "2026-02-19T17:52:54.908020Z",
-      "updated_at": "2026-04-05T21:14:11.339780Z",
+      "updated_at": "2026-04-06T04:09:13.605023Z",
       "downloads": 1439,
       "recent_downloads": 1439,
       "categories": [
@@ -44116,6 +44176,28 @@
       ],
       "repository": "https://github.com/ratatui/ratatui-textarea",
       "homepage": "https://github.com/ratatui/ratatui-textarea",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "ratatui-themekit",
+      "name": "ratatui-themekit",
+      "description": "Semantic theme system for ratatui — 20 color slots, 11 built-in themes, ThemeExt builders, NO_COLOR support",
+      "version": "0.3.2",
+      "created_at": "2026-04-06T02:00:01.817332Z",
+      "updated_at": "2026-04-06T02:56:39.918823Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/diegorodrigo90/ratatui-themekit",
+      "homepage": "https://github.com/diegorodrigo90/ratatui-themekit",
+      "documentation": "https://docs.rs/ratatui-themekit",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -64777,9 +64859,9 @@
       "id": "vtcode-commons",
       "name": "vtcode-commons",
       "description": "Shared traits for paths, telemetry, and error reporting reused across VT Code component extractions",
-      "version": "0.97.0",
+      "version": "0.97.1",
       "created_at": "2025-10-22T18:59:20.585154Z",
-      "updated_at": "2026-04-05T10:16:55.407164Z",
+      "updated_at": "2026-04-06T04:09:26.487367Z",
       "downloads": 13579,
       "recent_downloads": 4479,
       "categories": [
@@ -64800,9 +64882,9 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.97.0",
+      "version": "0.97.1",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-04-05T10:25:11.152231Z",
+      "updated_at": "2026-04-06T04:21:30.779598Z",
       "downloads": 30331,
       "recent_downloads": 3486,
       "categories": [
@@ -64823,9 +64905,9 @@
       "id": "vtcode-tui",
       "name": "vtcode-tui",
       "description": "Reusable TUI primitives and session API for VT Code-style terminal interfaces",
-      "version": "0.97.0",
+      "version": "0.97.1",
       "created_at": "2026-02-28T06:21:49.743248Z",
-      "updated_at": "2026-04-05T10:21:26.512207Z",
+      "updated_at": "2026-04-06T04:15:10.287447Z",
       "downloads": 1001,
       "recent_downloads": 1001,
       "categories": [
@@ -66447,11 +66529,11 @@
       "id": "xchecker",
       "name": "xchecker",
       "description": "Spec pipeline with receipts and gateable JSON contracts",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "created_at": "2026-03-30T05:57:15.234795Z",
-      "updated_at": "2026-03-30T05:57:15.234795Z",
-      "downloads": 10,
-      "recent_downloads": 10,
+      "updated_at": "2026-04-06T02:59:20.517890Z",
+      "downloads": 12,
+      "recent_downloads": 12,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -66469,11 +66551,11 @@
       "id": "xchecker-tui",
       "name": "xchecker-tui",
       "description": "Terminal user interface for xchecker",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "created_at": "2026-03-30T05:47:12.692354Z",
-      "updated_at": "2026-03-30T05:47:12.692354Z",
-      "downloads": 11,
-      "recent_downloads": 11,
+      "updated_at": "2026-04-06T02:58:58.964764Z",
+      "downloads": 13,
+      "recent_downloads": 13,
       "categories": [
         "command-line-utilities",
         "development-tools"
