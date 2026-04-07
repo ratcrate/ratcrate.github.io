@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-07T01:50:18.824659393+00:00",
-    "total_crates": 3378,
+    "generated_at": "2026-04-07T04:43:35.330679527+00:00",
+    "total_crates": 3382,
     "core_libraries": 2,
-    "community_packages": 3376,
+    "community_packages": 3380,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3301,
-      "etag_cache_misses": 77,
-      "cache_hit_rate": 97.72054470100652
+      "etag_cache_hits": 3366,
+      "etag_cache_misses": 16,
+      "cache_hit_rate": 99.52690715552927
     }
   },
   "crates": [
@@ -6219,9 +6219,9 @@
       "id": "branchdiff",
       "name": "branchdiff",
       "description": "Terminal UI showing unified diff of current branch vs its base",
-      "version": "0.62.2",
+      "version": "0.63.0",
       "created_at": "2026-02-28T04:14:18.698495Z",
-      "updated_at": "2026-04-07T01:19:31.005335Z",
+      "updated_at": "2026-04-07T03:57:13.640376Z",
       "downloads": 217,
       "recent_downloads": 217,
       "categories": [
@@ -9763,9 +9763,9 @@
       "id": "claux",
       "name": "claux",
       "description": "Terminal AI coding assistant with tool execution",
-      "version": "20260406.0.4",
+      "version": "20260406.0.5",
       "created_at": "2026-04-02T14:20:04.473839Z",
-      "updated_at": "2026-04-07T01:07:39.795581Z",
+      "updated_at": "2026-04-07T03:19:46.448658Z",
       "downloads": 121,
       "recent_downloads": 121,
       "categories": [],
@@ -12300,6 +12300,28 @@
         "rendering"
       ],
       "repository": "https://github.com/altunenes/cuneus",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "curion",
+      "name": "curion",
+      "description": "A SF collection game where you gather particles of curiosity",
+      "version": "0.1.1",
+      "created_at": "2025-06-30T18:01:49.639826Z",
+      "updated_at": "2026-04-07T03:17:34.387137Z",
+      "downloads": 464,
+      "recent_downloads": 8,
+      "categories": [
+        "command-line-utilities",
+        "games"
+      ],
+      "repository": "https://github.com/kako-jun/curion",
+      "homepage": "https://github.com/kako-jun/curion",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -15766,11 +15788,11 @@
       "id": "edgecrab-cli",
       "name": "edgecrab-cli",
       "description": "Interactive TUI CLI for the EdgeCrab agent",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-04-05T17:56:57.277153Z",
-      "updated_at": "2026-04-05T17:56:57.277153Z",
-      "downloads": 9,
-      "recent_downloads": 9,
+      "updated_at": "2026-04-07T01:51:09.656607Z",
+      "downloads": 10,
+      "recent_downloads": 10,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -23335,6 +23357,23 @@
       "is_core_library": false
     },
     {
+      "id": "holdmybeer-cli",
+      "name": "holdmybeer-cli",
+      "description": "API server for inter-process communication between AI agents.",
+      "version": "0.3.3",
+      "created_at": "2026-04-07T02:17:07.383577Z",
+      "updated_at": "2026-04-07T02:17:07.383577Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "homeofficetracker",
       "name": "homeofficetracker",
       "description": "Simple tool to track which days you worked from home",
@@ -30750,11 +30789,11 @@
       "id": "maolan",
       "name": "maolan",
       "description": "Rust DAW application for recording, editing, routing, automation, export, and plugin hosting",
-      "version": "0.0.5",
+      "version": "0.0.6",
       "created_at": "2026-03-15T02:08:29.366237Z",
-      "updated_at": "2026-03-23T14:40:24.583727Z",
-      "downloads": 49,
-      "recent_downloads": 49,
+      "updated_at": "2026-04-07T02:55:46.269622Z",
+      "downloads": 61,
+      "recent_downloads": 61,
       "categories": [
         "multimedia::audio"
       ],
@@ -32872,11 +32911,11 @@
       "id": "modalkit-ratatui",
       "name": "modalkit-ratatui",
       "description": "A library for building TUI applications that use modal editing",
-      "version": "0.0.24",
+      "version": "0.0.25",
       "created_at": "2024-02-01T09:15:21.095729Z",
-      "updated_at": "2025-08-16T23:29:50.643958Z",
-      "downloads": 17794,
-      "recent_downloads": 1981,
+      "updated_at": "2026-04-07T01:57:34.696294Z",
+      "downloads": 18201,
+      "recent_downloads": 2156,
       "categories": [],
       "repository": "https://github.com/ulyssa/modalkit",
       "homepage": "https://github.com/ulyssa/modalkit/tree/main/crates/modalkit-ratatui",
@@ -37149,9 +37188,9 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Install with: cargo install opencrabs",
-      "version": "0.2.99",
+      "version": "0.3.0",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-04-06T07:03:28.537035Z",
+      "updated_at": "2026-04-07T02:18:07.812111Z",
       "downloads": 511,
       "recent_downloads": 511,
       "categories": [
@@ -38309,11 +38348,11 @@
       "id": "panes",
       "name": "panes",
       "description": "Renderer-agnostic layout engine with declarative ergonomics",
-      "version": "0.18.3",
+      "version": "0.18.4",
       "created_at": "2026-02-28T14:45:57.993574Z",
-      "updated_at": "2026-03-27T04:25:42.166840Z",
-      "downloads": 793,
-      "recent_downloads": 793,
+      "updated_at": "2026-04-07T02:36:47.822434Z",
+      "downloads": 856,
+      "recent_downloads": 856,
       "categories": [
         "command-line-interface",
         "gui"
@@ -44435,13 +44474,15 @@
     {
       "id": "ratatui-stacked-bar",
       "name": "ratatui-stacked-bar",
-      "description": "TUI stacked bar widgets",
-      "version": "0.0.1",
+      "description": "A ratatui widget for stacked area charts",
+      "version": "0.2.0",
       "created_at": "2025-08-23T15:03:04.847907Z",
-      "updated_at": "2025-08-23T15:03:04.847907Z",
-      "downloads": 360,
+      "updated_at": "2026-04-07T03:58:53.197815Z",
+      "downloads": 363,
       "recent_downloads": 7,
-      "categories": [],
+      "categories": [
+        "visualization"
+      ],
       "repository": "https://github.com/zeqianli/ratatui-stacked-bar",
       "ratatui_dependency": {
         "version": "unknown",
@@ -45577,11 +45618,11 @@
       "id": "reflex-search",
       "name": "reflex-search",
       "description": "A local-first, structure-aware code search engine for AI agents",
-      "version": "1.0.3",
+      "version": "1.0.5",
       "created_at": "2025-11-05T05:33:40.146896Z",
-      "updated_at": "2025-11-21T17:47:28.775139Z",
-      "downloads": 548,
-      "recent_downloads": 55,
+      "updated_at": "2026-04-07T04:33:58.958684Z",
+      "downloads": 572,
+      "recent_downloads": 64,
       "categories": [],
       "repository": "https://github.com/reflex-search/reflex",
       "homepage": "https://github.com/reflex-search/reflex",
@@ -47204,9 +47245,9 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-04-06T22:07:00.781281Z",
+      "updated_at": "2026-04-07T04:36:44.464005Z",
       "downloads": 65,
       "recent_downloads": 65,
       "categories": [
@@ -58650,11 +58691,11 @@
       "id": "tmai",
       "name": "tmai",
       "description": "Tactful Multi Agent Interface - Monitor and control multiple AI coding agents",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "created_at": "2026-02-03T15:23:29.209355Z",
-      "updated_at": "2026-04-05T05:24:26.064929Z",
-      "downloads": 808,
-      "recent_downloads": 808,
+      "updated_at": "2026-04-07T03:48:12.864787Z",
+      "downloads": 810,
+      "recent_downloads": 810,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -63244,6 +63285,28 @@
       "categories": [],
       "repository": "https://github.com/uint82/typa.git",
       "homepage": "https://github.com/uint82/typa",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "type-globe",
+      "name": "type-globe",
+      "description": "A quiz and typing game that combines learning with skill improvement",
+      "version": "0.1.1",
+      "created_at": "2025-07-03T09:01:35.493988Z",
+      "updated_at": "2026-04-07T03:18:25.084397Z",
+      "downloads": 464,
+      "recent_downloads": 4,
+      "categories": [
+        "command-line-utilities",
+        "games"
+      ],
+      "repository": "https://github.com/kako-jun/type-globe",
+      "homepage": "https://github.com/kako-jun/type-globe",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -68258,11 +68321,11 @@
       "id": "zeph-tui",
       "name": "zeph-tui",
       "description": "Ratatui-based TUI dashboard with real-time metrics for Zeph",
-      "version": "0.18.4",
+      "version": "0.18.5",
       "created_at": "2026-02-21T04:56:55.941866Z",
-      "updated_at": "2026-04-06T01:13:12.975299Z",
-      "downloads": 392,
-      "recent_downloads": 392,
+      "updated_at": "2026-04-07T02:04:29.459685Z",
+      "downloads": 403,
+      "recent_downloads": 403,
       "categories": [
         "command-line-utilities",
         "science"
@@ -68526,6 +68589,27 @@
       "categories": [],
       "repository": "https://forge.ourworld.tf/geomind_code/zinit",
       "documentation": "https://docs.rs/zinit",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "zipcrawl",
+      "name": "zipcrawl",
+      "description": "A high-performance ZIP explorer and content inspector for the terminal.",
+      "version": "1.0.0",
+      "created_at": "2026-03-14T19:31:15.645332Z",
+      "updated_at": "2026-04-07T03:42:09.970357Z",
+      "downloads": 74,
+      "recent_downloads": 74,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/SirCesarium/zipcrawl",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
