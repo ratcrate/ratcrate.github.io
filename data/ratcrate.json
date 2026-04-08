@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-08T02:24:28.393964759+00:00",
-    "total_crates": 3396,
+    "generated_at": "2026-04-08T04:46:34.689327843+00:00",
+    "total_crates": 3397,
     "core_libraries": 2,
-    "community_packages": 3394,
+    "community_packages": 3395,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3319,
-      "etag_cache_misses": 77,
-      "cache_hit_rate": 97.7326266195524
+      "etag_cache_hits": 3389,
+      "etag_cache_misses": 8,
+      "cache_hit_rate": 99.76449808654695
     }
   },
   "crates": [
@@ -1456,9 +1456,9 @@
       "id": "ai-dispatch",
       "name": "ai-dispatch",
       "description": "Multi-AI CLI team orchestrator",
-      "version": "8.72.0",
+      "version": "8.75.0",
       "created_at": "2026-03-13T10:36:17.974694Z",
-      "updated_at": "2026-04-07T10:06:13.048373Z",
+      "updated_at": "2026-04-08T04:02:30.258959Z",
       "downloads": 1540,
       "recent_downloads": 1540,
       "categories": [
@@ -14564,11 +14564,11 @@
       "id": "do-next",
       "name": "do-next",
       "description": "Pick your next Jira task & manage it from the terminal",
-      "version": "0.0.0-2026.3.19",
+      "version": "0.0.0-2026.4.8",
       "created_at": "2026-03-19T05:03:16.215151Z",
-      "updated_at": "2026-03-19T05:03:16.215151Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-04-08T03:58:31.391669Z",
+      "downloads": 15,
+      "recent_downloads": 15,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -21941,9 +21941,9 @@
       "id": "govctl",
       "name": "govctl",
       "description": "Project governance CLI for RFC, ADR, and Work Item management",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "created_at": "2026-01-17T21:57:34.441953Z",
-      "updated_at": "2026-04-08T02:00:44.136377Z",
+      "updated_at": "2026-04-08T04:00:08.910777Z",
       "downloads": 477,
       "recent_downloads": 477,
       "categories": [
@@ -38570,9 +38570,9 @@
       "id": "palette-core",
       "name": "palette-core",
       "description": "TOML-defined theme system with inheritance, CSS export, and multi-target rendering",
-      "version": "0.12.3",
+      "version": "0.13.0",
       "created_at": "2026-02-22T23:51:08.732498Z",
-      "updated_at": "2026-04-07T12:03:23.838026Z",
+      "updated_at": "2026-04-08T03:01:51.689135Z",
       "downloads": 784,
       "recent_downloads": 784,
       "categories": [
@@ -40902,9 +40902,9 @@
       "id": "portrm",
       "name": "portrm",
       "description": "portrm — blazing fast port & process manager. Kill and list processes on ports from your terminal.",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "created_at": "2026-04-04T11:28:50.753438Z",
-      "updated_at": "2026-04-07T11:23:12.151345Z",
+      "updated_at": "2026-04-08T04:44:08.694622Z",
       "downloads": 70,
       "recent_downloads": 70,
       "categories": [
@@ -65247,11 +65247,11 @@
       "id": "vizgres",
       "name": "vizgres",
       "description": "A fast, keyboard-driven PostgreSQL client for the terminal",
-      "version": "0.5.0",
+      "version": "1.0.1",
       "created_at": "2026-02-19T02:56:31.540349Z",
-      "updated_at": "2026-03-11T09:08:05.306502Z",
-      "downloads": 37,
-      "recent_downloads": 37,
+      "updated_at": "2026-04-08T02:51:39.814939Z",
+      "downloads": 43,
+      "recent_downloads": 43,
       "categories": [
         "command-line-utilities",
         "database"
@@ -68609,11 +68609,11 @@
       "id": "zeph-tui",
       "name": "zeph-tui",
       "description": "Ratatui-based TUI dashboard with real-time metrics for Zeph",
-      "version": "0.18.5",
+      "version": "0.18.6",
       "created_at": "2026-02-21T04:56:55.941866Z",
-      "updated_at": "2026-04-07T02:04:29.459685Z",
-      "downloads": 403,
-      "recent_downloads": 403,
+      "updated_at": "2026-04-08T04:13:41.374177Z",
+      "downloads": 413,
+      "recent_downloads": 413,
       "categories": [
         "command-line-utilities",
         "science"
@@ -68718,6 +68718,28 @@
       ],
       "repository": "https://github.com/adarshba/zeteo-cli",
       "homepage": "https://github.com/adarshba/zeteo-cli",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "zftop",
+      "name": "zftop",
+      "description": "A terminal dashboard for the Zettabyte File System, in the spirit of htop.",
+      "version": "0.1.6",
+      "created_at": "2026-04-08T04:18:24.247874Z",
+      "updated_at": "2026-04-08T04:18:24.247874Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "filesystem"
+      ],
+      "repository": "https://git.skylantix.com/rbitton/zftop",
+      "homepage": "https://git.skylantix.com/rbitton/zftop",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
