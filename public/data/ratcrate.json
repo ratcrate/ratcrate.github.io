@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-12T02:20:27.633065327+00:00",
-    "total_crates": 3466,
+    "generated_at": "2026-04-12T05:08:51.542197438+00:00",
+    "total_crates": 3469,
     "core_libraries": 2,
-    "community_packages": 3464,
+    "community_packages": 3467,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3384,
-      "etag_cache_misses": 82,
-      "cache_hit_rate": 97.6341604154645
+      "etag_cache_hits": 3451,
+      "etag_cache_misses": 18,
+      "cache_hit_rate": 99.48111847794753
     }
   },
   "crates": [
@@ -3839,9 +3839,9 @@
       "description": "A comprehensive, production-ready authentication and authorization framework for Rust applications",
       "version": "0.4.2",
       "created_at": "2025-07-09T02:35:50.406163Z",
-      "updated_at": "2025-10-06T18:51:20.723921Z",
-      "downloads": 3957,
-      "recent_downloads": 532,
+      "updated_at": "2026-04-12T02:19:03.390683Z",
+      "downloads": 4162,
+      "recent_downloads": 501,
       "categories": [
         "authentication",
         "web-programming"
@@ -6092,11 +6092,11 @@
       "id": "bones-cli",
       "name": "bones-cli",
       "description": "CLI binary for bones issue tracker",
-      "version": "0.23.3",
+      "version": "0.24.0",
       "created_at": "2026-02-28T04:46:55.139662Z",
-      "updated_at": "2026-03-29T14:27:53.815006Z",
-      "downloads": 200,
-      "recent_downloads": 200,
+      "updated_at": "2026-04-12T03:32:59.808584Z",
+      "downloads": 205,
+      "recent_downloads": 205,
       "categories": [],
       "repository": "https://github.com/bobisme/bones",
       "ratatui_dependency": {
@@ -10492,11 +10492,11 @@
       "id": "clipboard-history-tui",
       "name": "clipboard-history-tui",
       "description": "Ringboard ratatui client application.",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "created_at": "2024-01-18T04:23:07.664445Z",
-      "updated_at": "2026-01-19T10:35:40.123517Z",
-      "downloads": 22789,
-      "recent_downloads": 276,
+      "updated_at": "2026-04-12T03:03:35.234183Z",
+      "downloads": 22825,
+      "recent_downloads": 200,
       "categories": [
         "development-tools",
         "command-line-utilities",
@@ -11982,6 +11982,28 @@
       "recent_downloads": 63,
       "categories": [],
       "repository": "https://github.com/liquidos-ai/corty",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "corvid-pet",
+      "name": "corvid-pet",
+      "description": "ASCII corvid companions for CLI tools",
+      "version": "1.0.0",
+      "created_at": "2026-04-12T04:01:45.790701Z",
+      "updated_at": "2026-04-12T04:01:45.790701Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/CorvidLabs/corvid-pet",
+      "homepage": "https://github.com/CorvidLabs/corvid-pet",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -29163,6 +29185,25 @@
       "is_core_library": false
     },
     {
+      "id": "leafage-cli",
+      "name": "leafage-cli",
+      "description": "Leafage CLI — manage your clean AI proxy from the terminal",
+      "version": "0.1.0",
+      "created_at": "2026-04-12T03:39:16.621353Z",
+      "updated_at": "2026-04-12T03:39:16.621353Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "lean-ctx",
       "name": "lean-ctx",
       "description": "Context Intelligence Engine with CCP. 34 MCP tools, 8 read modes, 90+ compression patterns, cross-session memory (CCP), persistent AI knowledge with temporal facts + contradiction detection, multi-agent context sharing + diaries, LITM-aware positioning, AAAK compact format, adaptive compression with Thompson Sampling bandits. Supports 24 AI tools. Reduces LLM token consumption by up to 99%.",
@@ -30203,11 +30244,11 @@
       "id": "localgpt",
       "name": "localgpt",
       "description": "LocalGPT CLI — a local-only AI assistant",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "created_at": "2026-02-05T04:58:35.238735Z",
-      "updated_at": "2026-03-23T00:23:59.450910Z",
-      "downloads": 803,
-      "recent_downloads": 803,
+      "updated_at": "2026-04-12T04:22:06.994043Z",
+      "downloads": 849,
+      "recent_downloads": 849,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -33814,14 +33855,14 @@
       "id": "mockforge-tui",
       "name": "mockforge-tui",
       "description": "Terminal UI dashboard for MockForge",
-      "version": "0.3.112",
+      "version": "0.3.113",
       "created_at": "2026-02-26T13:33:53.136631Z",
-      "updated_at": "2026-04-11T13:24:50.588359Z",
+      "updated_at": "2026-04-12T03:04:22.687641Z",
       "downloads": 566,
       "recent_downloads": 566,
       "categories": [
-        "api-bindings",
         "development-tools",
+        "api-bindings",
         "web-programming"
       ],
       "repository": "https://github.com/SaaSy-Solutions/mockforge",
@@ -46004,11 +46045,11 @@
       "id": "ratatui-which-key",
       "name": "ratatui-which-key",
       "description": "A which-key popup widget for ratatui applications",
-      "version": "0.6.2",
+      "version": "0.7.0",
       "created_at": "2026-03-22T23:53:01.433273Z",
-      "updated_at": "2026-04-04T21:38:40.497571Z",
-      "downloads": 147,
-      "recent_downloads": 147,
+      "updated_at": "2026-04-12T04:21:04.071350Z",
+      "downloads": 150,
+      "recent_downloads": 150,
       "categories": [
         "command-line-interface"
       ],
@@ -48102,11 +48143,11 @@
       "id": "rex-fm",
       "name": "rex-fm",
       "description": "A fast terminal file manager with undo, search, and multi-select",
-      "version": "0.2.7",
+      "version": "0.3.0",
       "created_at": "2026-04-08T07:05:21.740770Z",
-      "updated_at": "2026-04-10T15:04:48.345161Z",
-      "downloads": 98,
-      "recent_downloads": 98,
+      "updated_at": "2026-04-12T03:07:10.445268Z",
+      "downloads": 106,
+      "recent_downloads": 106,
       "categories": [
         "command-line-utilities"
       ],
@@ -48399,11 +48440,11 @@
       "id": "ringboard-tui",
       "name": "ringboard-tui",
       "description": "Ringboard ratatui client application.",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "created_at": "2024-08-20T18:56:38.897595Z",
-      "updated_at": "2026-01-19T10:36:13.258379Z",
-      "downloads": 12114,
-      "recent_downloads": 100,
+      "updated_at": "2026-04-12T03:04:09.269652Z",
+      "downloads": 12139,
+      "recent_downloads": 89,
       "categories": [
         "development-tools",
         "command-line-utilities",
@@ -48591,14 +48632,14 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "0.13.5",
+      "version": "0.13.6",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-04-11T05:20:10.388725Z",
+      "updated_at": "2026-04-12T04:56:25.745564Z",
       "downloads": 173,
       "recent_downloads": 173,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/fnordpig/ripvec",
       "ratatui_dependency": {
@@ -49687,11 +49728,11 @@
       "id": "rstype",
       "name": "rstype",
       "description": "Rust based typing trainer",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "created_at": "2026-04-04T12:03:26.265913Z",
-      "updated_at": "2026-04-07T10:46:28.902137Z",
-      "downloads": 59,
-      "recent_downloads": 59,
+      "updated_at": "2026-04-12T03:13:55.265226Z",
+      "downloads": 61,
+      "recent_downloads": 61,
       "categories": [],
       "repository": "https://github.com/veltzer/rstype",
       "ratatui_dependency": {
@@ -50996,6 +51037,28 @@
       "repository": "https://github.com/rexlunae/RustyClaw",
       "homepage": "https://github.com/rexlunae/RustyClaw",
       "documentation": "https://github.com/rexlunae/RustyClaw#readme",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "rvpm",
+      "name": "rvpm",
+      "description": "Fast Neovim plugin manager with pre-compiled loader and merge optimization",
+      "version": "0.3.0",
+      "created_at": "2026-04-12T02:34:35.948160Z",
+      "updated_at": "2026-04-12T04:39:49.485805Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "development-tools",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/yukimemi/rvpm",
+      "homepage": "https://github.com/yukimemi/rvpm",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -59090,11 +59153,11 @@
       "id": "termplex",
       "name": "termplex",
       "description": "A terminal multiplexer",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "created_at": "2026-04-02T21:15:28.839696Z",
-      "updated_at": "2026-04-11T00:04:52.379794Z",
-      "downloads": 96,
-      "recent_downloads": 96,
+      "updated_at": "2026-04-12T02:44:18.588694Z",
+      "downloads": 109,
+      "recent_downloads": 109,
       "categories": [
         "command-line-utilities"
       ],
@@ -66007,15 +66070,15 @@
       "id": "veks",
       "name": "veks",
       "description": "A vector bulk data processing tool",
-      "version": "0.16.0",
+      "version": "0.17.0",
       "created_at": "2026-03-05T00:27:57.886989Z",
-      "updated_at": "2026-04-12T01:43:09.013297Z",
+      "updated_at": "2026-04-12T04:31:04.725738Z",
       "downloads": 135,
       "recent_downloads": 135,
       "categories": [
+        "filesystem",
         "network-programming",
-        "science",
-        "filesystem"
+        "science"
       ],
       "repository": "https://github.com/nosqlbench/vectordata-rs",
       "homepage": "https://github.com/nosqlbench/vectordata-rs",
@@ -66030,9 +66093,9 @@
       "id": "veks-core",
       "name": "veks-core",
       "description": "Core utilities for veks — terminal, filters, UI, format I/O",
-      "version": "0.16.0",
+      "version": "0.17.0",
       "created_at": "2026-03-26T00:58:02.059119Z",
-      "updated_at": "2026-04-12T01:42:22.121617Z",
+      "updated_at": "2026-04-12T04:30:16.657943Z",
       "downloads": 141,
       "recent_downloads": 141,
       "categories": [],
@@ -70154,9 +70217,9 @@
       "id": "zftop",
       "name": "zftop",
       "description": "A terminal dashboard for the Zettabyte File System, in the spirit of htop.",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "created_at": "2026-04-08T04:18:24.247874Z",
-      "updated_at": "2026-04-11T21:43:00.257080Z",
+      "updated_at": "2026-04-12T03:10:20.141853Z",
       "downloads": 66,
       "recent_downloads": 66,
       "categories": [
