@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-14T02:23:39.679726272+00:00",
-    "total_crates": 3498,
+    "generated_at": "2026-04-14T04:54:25.765059671+00:00",
+    "total_crates": 3499,
     "core_libraries": 2,
-    "community_packages": 3496,
+    "community_packages": 3497,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3422,
-      "etag_cache_misses": 76,
-      "cache_hit_rate": 97.8273299028016
+      "etag_cache_hits": 3489,
+      "etag_cache_misses": 10,
+      "cache_hit_rate": 99.71420405830237
     }
   },
   "crates": [
@@ -1225,11 +1225,11 @@
       "id": "agentop",
       "name": "agentop",
       "description": "A TUI process inspector for Claude Code and OpenAI Codex CLI — like top for AI coding agents",
-      "version": "0.5.0",
+      "version": "0.7.1",
       "created_at": "2026-04-08T17:44:55.030999Z",
-      "updated_at": "2026-04-10T04:54:07.322225Z",
-      "downloads": 49,
-      "recent_downloads": 49,
+      "updated_at": "2026-04-14T04:16:23.034761Z",
+      "downloads": 71,
+      "recent_downloads": 71,
       "categories": [
         "command-line-utilities"
       ],
@@ -23617,11 +23617,11 @@
       "id": "harness-monitor",
       "name": "harness-monitor",
       "description": "Routa Harness Monitor - multi-agent control plane with task/run/workspace/evidence domain model, policy evaluation, and real-time TUI",
-      "version": "0.14.3",
+      "version": "0.15.0",
       "created_at": "2026-04-11T11:34:52.395547Z",
-      "updated_at": "2026-04-13T04:40:07.448894Z",
-      "downloads": 18,
-      "recent_downloads": 18,
+      "updated_at": "2026-04-14T03:58:48.765098Z",
+      "downloads": 30,
+      "recent_downloads": 30,
       "categories": [],
       "repository": "https://github.com/phodal/routa-js",
       "homepage": "https://github.com/phodal/routa-js",
@@ -26177,9 +26177,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.8.45",
+      "version": "12.8.46",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-13T18:20:33.004740Z",
+      "updated_at": "2026-04-14T03:46:17.675688Z",
       "downloads": 3919,
       "recent_downloads": 3919,
       "categories": [
@@ -28258,6 +28258,27 @@
       ],
       "repository": "https://github.com/cochranblock/kova",
       "homepage": "https://cochranblock.org",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "kpxc-tidy",
+      "name": "kpxc-tidy",
+      "description": "A cautious terminal UI for auditing and cleaning KeePassXC databases via keepassxc-cli.",
+      "version": "0.1.0",
+      "created_at": "2026-04-14T04:04:38.871709Z",
+      "updated_at": "2026-04-14T04:04:38.871709Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/CameronCandau/kpxc-tidy",
+      "documentation": "https://docs.rs/kpxc-tidy",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -48481,11 +48502,11 @@
       "id": "restui",
       "name": "restui",
       "description": "A TUI HTTP client with vim keybindings",
-      "version": "0.3.8",
+      "version": "0.4.0",
       "created_at": "2026-03-29T17:37:28.497283Z",
-      "updated_at": "2026-04-04T23:17:28.163171Z",
-      "downloads": 130,
-      "recent_downloads": 130,
+      "updated_at": "2026-04-14T03:02:37.856049Z",
+      "downloads": 149,
+      "recent_downloads": 149,
       "categories": [
         "command-line-utilities",
         "web-programming::http-client"
@@ -51511,9 +51532,9 @@
       "id": "rvpm",
       "name": "rvpm",
       "description": "Fast Neovim plugin manager with pre-compiled loader and merge optimization",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "created_at": "2026-04-12T02:34:35.948160Z",
-      "updated_at": "2026-04-13T23:01:00.062037Z",
+      "updated_at": "2026-04-14T03:50:09.707157Z",
       "downloads": 283,
       "recent_downloads": 283,
       "categories": [
@@ -54337,11 +54358,11 @@
       "id": "skrills-dashboard",
       "name": "skrills-dashboard",
       "description": "Terminal UI dashboard for skrills metrics and monitoring",
-      "version": "0.7.5",
+      "version": "0.7.6",
       "created_at": "2026-03-18T01:51:09.824496Z",
-      "updated_at": "2026-04-10T04:41:48.196387Z",
-      "downloads": 134,
-      "recent_downloads": 134,
+      "updated_at": "2026-04-14T03:50:11.147704Z",
+      "downloads": 156,
+      "recent_downloads": 156,
       "categories": [
         "development-tools",
         "visualization"
@@ -58252,11 +58273,11 @@
       "id": "taskfinder",
       "name": "taskfinder",
       "description": "A terminal user interface that extracts and displays tasks from plain text files, hooking into your default terminal-based editor for editing.",
-      "version": "2.14.0",
+      "version": "2.15.0",
       "created_at": "2024-01-14T17:13:49.701977Z",
-      "updated_at": "2026-02-16T04:41:14.697083Z",
-      "downloads": 22349,
-      "recent_downloads": 92,
+      "updated_at": "2026-04-14T03:15:04.994988Z",
+      "downloads": 22379,
+      "recent_downloads": 91,
       "categories": [
         "command-line-utilities"
       ],
@@ -71048,9 +71069,9 @@
       "id": "zlayer-builder",
       "name": "zlayer-builder",
       "description": "Dockerfile parsing and buildah-based container image building",
-      "version": "0.10.74",
+      "version": "0.10.76",
       "created_at": "2026-03-04T02:12:15.511820Z",
-      "updated_at": "2026-04-13T22:32:59.318618Z",
+      "updated_at": "2026-04-14T02:31:32.171153Z",
       "downloads": 197,
       "recent_downloads": 197,
       "categories": [
@@ -71069,9 +71090,9 @@
       "id": "zlayer-tui",
       "name": "zlayer-tui",
       "description": "Shared TUI widgets, color palette, and terminal utilities for ZLayer",
-      "version": "0.10.74",
+      "version": "0.10.76",
       "created_at": "2026-03-04T02:07:53.344105Z",
-      "updated_at": "2026-04-13T22:32:36.588962Z",
+      "updated_at": "2026-04-14T02:31:09.189678Z",
       "downloads": 266,
       "recent_downloads": 266,
       "categories": [],
