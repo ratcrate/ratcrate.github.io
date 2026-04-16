@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-16T02:09:23.665905589+00:00",
-    "total_crates": 3535,
+    "generated_at": "2026-04-16T05:14:05.445683324+00:00",
+    "total_crates": 3538,
     "core_libraries": 2,
-    "community_packages": 3533,
+    "community_packages": 3536,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3437,
-      "etag_cache_misses": 98,
-      "cache_hit_rate": 97.22772277227722
+      "etag_cache_hits": 3521,
+      "etag_cache_misses": 17,
+      "cache_hit_rate": 99.51950254381006
     }
   },
   "crates": [
@@ -626,11 +626,11 @@
       "id": "adamantite",
       "name": "adamantite",
       "description": "Cli tool to provide system resource utilization for Hytale server owners",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "created_at": "2026-02-22T21:58:39.594173Z",
-      "updated_at": "2026-04-11T22:42:17.970046Z",
-      "downloads": 179,
-      "recent_downloads": 179,
+      "updated_at": "2026-04-16T02:44:32.167821Z",
+      "downloads": 183,
+      "recent_downloads": 183,
       "categories": [],
       "repository": "https://github.com/KevinEL-Dev/adamantite",
       "ratatui_dependency": {
@@ -1515,11 +1515,11 @@
       "id": "ai-dispatch",
       "name": "ai-dispatch",
       "description": "Multi-AI CLI team orchestrator",
-      "version": "8.89.0",
+      "version": "8.90.0",
       "created_at": "2026-03-13T10:36:17.974694Z",
-      "updated_at": "2026-04-14T09:41:12.504772Z",
-      "downloads": 1803,
-      "recent_downloads": 1803,
+      "updated_at": "2026-04-16T02:09:56.142997Z",
+      "downloads": 1805,
+      "recent_downloads": 1805,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -10733,11 +10733,11 @@
       "id": "clin-rs",
       "name": "clin-rs",
       "description": "Encrypted terminal note-taking app",
-      "version": "0.3.3",
+      "version": "0.3.6",
       "created_at": "2026-04-01T03:08:52.644630Z",
-      "updated_at": "2026-04-05T21:16:43.338421Z",
-      "downloads": 62,
-      "recent_downloads": 62,
+      "updated_at": "2026-04-16T02:45:46.498318Z",
+      "downloads": 66,
+      "recent_downloads": 66,
       "categories": [],
       "repository": "https://github.com/reekta92/clin-rs",
       "ratatui_dependency": {
@@ -14515,6 +14515,28 @@
       "is_core_library": false
     },
     {
+      "id": "dexquote",
+      "name": "dexquote",
+      "description": "CLI for comparing DEX quotes across multiple protocols on EVM chains",
+      "version": "0.1.0",
+      "created_at": "2026-04-16T02:29:05.376057Z",
+      "updated_at": "2026-04-16T02:29:05.376057Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "cryptography::cryptocurrencies"
+      ],
+      "repository": "https://github.com/KaiserSnipes/dexquote",
+      "homepage": "https://github.com/KaiserSnipes/dexquote",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "dfft",
       "name": "dfft",
       "description": "monitor changes as AI agents modify your codebase",
@@ -14615,11 +14637,11 @@
       "id": "diaryx",
       "name": "diaryx",
       "description": "Command-line interface for Diaryx journal management",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "created_at": "2025-12-11T18:35:10.573880Z",
-      "updated_at": "2026-04-10T22:04:48.097610Z",
-      "downloads": 388,
-      "recent_downloads": 246,
+      "updated_at": "2026-04-16T04:47:31.047567Z",
+      "downloads": 391,
+      "recent_downloads": 217,
       "categories": [
         "command-line-utilities"
       ],
@@ -16739,11 +16761,11 @@
       "id": "edgecrab-cli",
       "name": "edgecrab-cli",
       "description": "Interactive TUI CLI for the EdgeCrab agent",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2026-04-05T17:56:57.277153Z",
-      "updated_at": "2026-04-14T01:12:53.379371Z",
-      "downloads": 141,
-      "recent_downloads": 141,
+      "updated_at": "2026-04-16T02:12:08.471365Z",
+      "downloads": 166,
+      "recent_downloads": 166,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -22830,6 +22852,25 @@
       "is_core_library": false
     },
     {
+      "id": "gollum-cli",
+      "name": "gollum-cli",
+      "description": "CLI for the Gollum logic engine",
+      "version": "0.4.0",
+      "created_at": "2026-03-22T09:31:56.995072Z",
+      "updated_at": "2026-04-16T04:55:13.436215Z",
+      "downloads": 58,
+      "recent_downloads": 58,
+      "categories": [],
+      "repository": "https://gitlab.com/auksys/gollum",
+      "homepage": "https://auksys.org",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "google-workspace-cli",
       "name": "google-workspace-cli",
       "description": "Google Workspace CLI — dynamic command surface from Discovery Service",
@@ -24092,15 +24133,17 @@
     {
       "id": "hematite-cli",
       "name": "hematite-cli",
-      "description": "Local AI coding harness for LM Studio with TUI, voice, retrieval, and grounded workstation tooling",
-      "version": "0.5.4",
+      "description": "Senior SysAdmin, Network Admin, and Software Engineer living in your terminal. A high-precision local AI agent harness for LM Studio that runs 100% on your own silicon. Reads repos, edits files, runs builds, and inspects the machine it is running on—including full network state and workstation telemetry.",
+      "version": "0.5.5",
       "created_at": "2026-04-11T05:08:23.477159Z",
-      "updated_at": "2026-04-15T19:24:03.637195Z",
+      "updated_at": "2026-04-16T04:43:45.334047Z",
       "downloads": 99,
       "recent_downloads": 99,
       "categories": [
+        "development-tools",
+        "network-programming",
         "command-line-utilities",
-        "development-tools"
+        "os"
       ],
       "repository": "https://github.com/undergroundrap/hematite-cli",
       "homepage": "https://github.com/undergroundrap/hematite-cli",
@@ -25173,11 +25216,11 @@
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
       "description": "Opinionated Rust framework for high-throughput data pipelines at PB scale. Auto-wiring config, logging, metrics, tracing, health, and graceful shutdown — built from many years of production infrastructure experience.",
-      "version": "2.5.1",
+      "version": "2.5.4",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-04-15T01:00:18.412853Z",
-      "downloads": 1999,
-      "recent_downloads": 1999,
+      "updated_at": "2026-04-16T01:53:06.983533Z",
+      "downloads": 2086,
+      "recent_downloads": 2086,
       "categories": [
         "development-tools"
       ],
@@ -26666,9 +26709,9 @@
       "id": "jiq",
       "name": "jiq",
       "description": "Interactive JSON query tool with real-time output",
-      "version": "3.22.0",
+      "version": "3.22.1",
       "created_at": "2025-11-19T03:29:42.331532Z",
-      "updated_at": "2026-04-15T19:58:10.356633Z",
+      "updated_at": "2026-04-16T03:42:52.706894Z",
       "downloads": 3201,
       "recent_downloads": 1459,
       "categories": [
@@ -45202,11 +45245,11 @@
       "id": "railwayapp",
       "name": "railwayapp",
       "description": "Interact with Railway via CLI",
-      "version": "4.37.3",
+      "version": "4.37.4",
       "created_at": "2023-02-18T01:14:12.106990Z",
-      "updated_at": "2026-04-15T00:22:29.895106Z",
-      "downloads": 98393,
-      "recent_downloads": 1006,
+      "updated_at": "2026-04-16T01:58:14.792465Z",
+      "downloads": 98405,
+      "recent_downloads": 883,
       "categories": [],
       "repository": "https://github.com/railwayapp/cli",
       "homepage": "https://github.com/railwayapp/cli",
@@ -50027,6 +50070,28 @@
       "is_core_library": false
     },
     {
+      "id": "rnb",
+      "name": "rnb",
+      "description": "A terminal-first Notebook editor and runner written in Rust",
+      "version": "0.0.1",
+      "created_at": "2026-04-16T03:21:35.931293Z",
+      "updated_at": "2026-04-16T03:21:35.931293Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "development-tools",
+        "command-line-utilities",
+        "text-editors"
+      ],
+      "repository": "https://github.com/lrisguan/rnb",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "roam-sdk",
       "name": "roam-sdk",
       "description": "Roam Research SDK and terminal UI client",
@@ -52097,9 +52162,9 @@
       "id": "rvpm",
       "name": "rvpm",
       "description": "Fast Neovim plugin manager with pre-compiled loader and merge optimization",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "created_at": "2026-04-12T02:34:35.948160Z",
-      "updated_at": "2026-04-15T23:58:37.923070Z",
+      "updated_at": "2026-04-16T04:29:05.102871Z",
       "downloads": 372,
       "recent_downloads": 372,
       "categories": [
@@ -53239,9 +53304,9 @@
       "id": "scrutin",
       "name": "scrutin",
       "description": "Quality dashboard, file watcher, and parallel runner.",
-      "version": "0.0.1-alpha.8",
+      "version": "0.0.1-alpha.9",
       "created_at": "2026-04-14T17:27:25.923914Z",
-      "updated_at": "2026-04-15T16:27:25.327475Z",
+      "updated_at": "2026-04-16T03:14:28.483424Z",
       "downloads": 43,
       "recent_downloads": 43,
       "categories": [
@@ -53261,9 +53326,9 @@
       "id": "scrutin-tui",
       "name": "scrutin-tui",
       "description": "Ratatui frontend for scrutin: modal terminal UI over the scrutin-core run engine.",
-      "version": "0.0.1-alpha.8",
+      "version": "0.0.1-alpha.9",
       "created_at": "2026-04-14T17:26:15.727485Z",
-      "updated_at": "2026-04-15T16:26:05.573334Z",
+      "updated_at": "2026-04-16T03:13:07.697911Z",
       "downloads": 54,
       "recent_downloads": 54,
       "categories": [
@@ -58010,9 +58075,9 @@
       "id": "suture-tui",
       "name": "suture-tui",
       "description": "A patch-based version control system with semantic merge and format-aware drivers",
-      "version": "0.12.0",
+      "version": "1.0.0",
       "created_at": "2026-04-05T19:59:53.356441Z",
-      "updated_at": "2026-04-15T20:04:29.196938Z",
+      "updated_at": "2026-04-16T04:42:23.410210Z",
       "downloads": 37,
       "recent_downloads": 37,
       "categories": [],
@@ -63732,11 +63797,11 @@
       "id": "ttypo",
       "name": "ttypo",
       "description": "Terminal-based typing test.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-04-14T21:31:49.906761Z",
-      "updated_at": "2026-04-14T21:31:49.906761Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-04-16T02:46:54.306972Z",
+      "downloads": 11,
+      "recent_downloads": 11,
       "categories": [
         "command-line-utilities"
       ],
