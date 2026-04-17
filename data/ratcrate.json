@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-17T02:19:51.159491776+00:00",
-    "total_crates": 3546,
+    "generated_at": "2026-04-17T05:12:24.641998770+00:00",
+    "total_crates": 3548,
     "core_libraries": 2,
-    "community_packages": 3544,
+    "community_packages": 3546,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3463,
-      "etag_cache_misses": 83,
-      "cache_hit_rate": 97.65933446136492
+      "etag_cache_hits": 3536,
+      "etag_cache_misses": 12,
+      "cache_hit_rate": 99.66178128523111
     }
   },
   "crates": [
@@ -1346,9 +1346,9 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.7.5",
+      "version": "0.7.6",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-04-16T06:51:23.339845Z",
+      "updated_at": "2026-04-17T03:15:12.723729Z",
       "downloads": 578,
       "recent_downloads": 578,
       "categories": [],
@@ -1515,9 +1515,9 @@
       "id": "ai-dispatch",
       "name": "ai-dispatch",
       "description": "Multi-AI CLI team orchestrator",
-      "version": "8.91.0",
+      "version": "8.91.1",
       "created_at": "2026-03-13T10:36:17.974694Z",
-      "updated_at": "2026-04-16T07:56:39.945363Z",
+      "updated_at": "2026-04-17T03:45:36.244430Z",
       "downloads": 1825,
       "recent_downloads": 1825,
       "categories": [
@@ -3163,6 +3163,27 @@
       "categories": [],
       "repository": "https://github.com/metarobb/arc-academy-terminal",
       "homepage": "https://arcacademy.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "arduino-tui",
+      "name": "arduino-tui",
+      "description": "A terminal user interface for browsing, downloading, and updating Arduino libraries using arduino-cli.",
+      "version": "0.1.0",
+      "created_at": "2026-04-17T04:09:08.333077Z",
+      "updated_at": "2026-04-17T04:09:08.333077Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "embedded"
+      ],
+      "repository": "https://github.com/igmrrf/arduino-tui",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -24240,11 +24261,11 @@
       "id": "hematite-cli",
       "name": "hematite-cli",
       "description": "Senior SysAdmin, Network Admin, and Software Engineer living in your terminal. A high-precision local AI agent harness for LM Studio that runs 100% on your own silicon. Reads repos, edits files, runs builds, and inspects the machine it is running on—including full network state and workstation telemetry.",
-      "version": "0.5.5",
+      "version": "0.5.6",
       "created_at": "2026-04-11T05:08:23.477159Z",
-      "updated_at": "2026-04-16T04:43:45.334047Z",
-      "downloads": 99,
-      "recent_downloads": 99,
+      "updated_at": "2026-04-17T03:56:52.049571Z",
+      "downloads": 111,
+      "recent_downloads": 111,
       "categories": [
         "development-tools",
         "network-programming",
@@ -26581,9 +26602,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.8.58",
+      "version": "12.8.61",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-17T01:59:42.195638Z",
+      "updated_at": "2026-04-17T03:04:08.635033Z",
       "downloads": 4055,
       "recent_downloads": 4055,
       "categories": [
@@ -32671,9 +32692,9 @@
       "id": "markdown-tui-explorer",
       "name": "markdown-tui-explorer",
       "description": "A terminal-based markdown file browser and viewer with search, syntax highlighting, and live reload",
-      "version": "1.4.3",
+      "version": "1.5.1",
       "created_at": "2026-04-08T17:34:50.670812Z",
-      "updated_at": "2026-04-16T23:43:43.653004Z",
+      "updated_at": "2026-04-17T04:02:38.727040Z",
       "downloads": 415,
       "recent_downloads": 415,
       "categories": [
@@ -39941,11 +39962,11 @@
       "id": "otoji",
       "name": "otoji",
       "description": "音字 — realtime speech ⇄ text. SenseVoice / iFlytek ASR + TTS, LLM polish, ratatui live transcript.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2026-04-08T06:56:21.060676Z",
-      "updated_at": "2026-04-15T16:49:42.108499Z",
-      "downloads": 106,
-      "recent_downloads": 106,
+      "updated_at": "2026-04-17T03:23:26.165516Z",
+      "downloads": 107,
+      "recent_downloads": 107,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -49243,9 +49264,9 @@
       "id": "rex-fm",
       "name": "rex-fm",
       "description": "A fast terminal file manager with undo, search, and multi-select",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "created_at": "2026-04-08T07:05:21.740770Z",
-      "updated_at": "2026-04-16T14:23:17.208758Z",
+      "updated_at": "2026-04-17T02:38:18.409708Z",
       "downloads": 147,
       "recent_downloads": 147,
       "categories": [
@@ -50640,6 +50661,28 @@
       "recent_downloads": 97,
       "categories": [],
       "repository": "https://github.com/Robert-M-Lucas/rss2",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "rs-top",
+      "name": "rs-top",
+      "description": "Real-time TUI system monitor for remote hosts",
+      "version": "0.1.0",
+      "created_at": "2026-04-17T04:47:23.756182Z",
+      "updated_at": "2026-04-17T04:47:23.756182Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "network-programming",
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/ruiiiijiiiiang/rs-top",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -53417,9 +53460,9 @@
       "id": "scrutin",
       "name": "scrutin",
       "description": "Quality dashboard, file watcher, and parallel runner.",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "created_at": "2026-04-14T17:27:25.923914Z",
-      "updated_at": "2026-04-16T23:35:29.527805Z",
+      "updated_at": "2026-04-17T02:42:21.651453Z",
       "downloads": 161,
       "recent_downloads": 161,
       "categories": [
@@ -53439,9 +53482,9 @@
       "id": "scrutin-tui",
       "name": "scrutin-tui",
       "description": "Ratatui frontend for scrutin: modal terminal UI over the scrutin-core run engine.",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "created_at": "2026-04-14T17:26:15.727485Z",
-      "updated_at": "2026-04-16T23:34:05.910680Z",
+      "updated_at": "2026-04-17T02:40:57.932714Z",
       "downloads": 218,
       "recent_downloads": 218,
       "categories": [
@@ -58333,9 +58376,9 @@
       "id": "swink-agent-tui",
       "name": "swink-agent-tui",
       "description": "Interactive terminal UI for swink-agent",
-      "version": "0.7.8",
+      "version": "0.7.9",
       "created_at": "2026-04-16T19:39:20.502846Z",
-      "updated_at": "2026-04-16T22:54:27.325219Z",
+      "updated_at": "2026-04-17T04:17:27.120569Z",
       "downloads": 15,
       "recent_downloads": 15,
       "categories": [
