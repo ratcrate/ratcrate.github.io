@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-19T03:08:34.039795987+00:00",
-    "total_crates": 3581,
+    "generated_at": "2026-04-19T05:13:11.413981766+00:00",
+    "total_crates": 3583,
     "core_libraries": 2,
-    "community_packages": 3579,
+    "community_packages": 3581,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3488,
-      "etag_cache_misses": 93,
-      "cache_hit_rate": 97.40296006702039
+      "etag_cache_hits": 3573,
+      "etag_cache_misses": 10,
+      "cache_hit_rate": 99.72090427016467
     }
   },
   "crates": [
@@ -17787,11 +17787,11 @@
       "id": "envision",
       "name": "envision",
       "description": "A ratatui framework for collaborative TUI development with headless testing support",
-      "version": "0.15.0",
+      "version": "0.15.1",
       "created_at": "2025-12-31T08:04:54.669685Z",
-      "updated_at": "2026-04-13T06:50:16.008674Z",
-      "downloads": 453,
-      "recent_downloads": 411,
+      "updated_at": "2026-04-19T03:29:52.418522Z",
+      "downloads": 463,
+      "recent_downloads": 415,
       "categories": [
         "command-line-interface",
         "development-tools::testing"
@@ -22703,11 +22703,11 @@
       "id": "gitv-tui",
       "name": "gitv-tui",
       "description": "A terminal-based GitHub client built with Rust and Ratatui.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "created_at": "2026-02-19T11:05:07.367647Z",
-      "updated_at": "2026-03-31T08:24:34.231187Z",
-      "downloads": 312,
-      "recent_downloads": 312,
+      "updated_at": "2026-04-19T05:09:43.618830Z",
+      "downloads": 326,
+      "recent_downloads": 326,
       "categories": [
         "command-line-interface",
         "command-line-utilities"
@@ -24156,9 +24156,9 @@
       "id": "hale",
       "name": "hale",
       "description": "Instant network connection quality monitor",
-      "version": "0.1.31",
+      "version": "0.1.32",
       "created_at": "2026-01-26T03:55:05.667220Z",
-      "updated_at": "2026-04-18T16:45:21.387889Z",
+      "updated_at": "2026-04-19T03:34:55.798395Z",
       "downloads": 510,
       "recent_downloads": 510,
       "categories": [],
@@ -26841,9 +26841,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.9.2",
+      "version": "12.9.4",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-19T01:54:53.711018Z",
+      "updated_at": "2026-04-19T03:38:09.565776Z",
       "downloads": 4217,
       "recent_downloads": 4217,
       "categories": [
@@ -28676,6 +28676,28 @@
         "text-processing"
       ],
       "repository": "https://github.com/gab-dev-7/kiroku",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "kite-monitor",
+      "name": "kite-monitor",
+      "description": "A modern cross-platform TUI system resource monitor",
+      "version": "1.1.1",
+      "created_at": "2026-04-19T04:32:51.762013Z",
+      "updated_at": "2026-04-19T04:32:51.762013Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "os"
+      ],
+      "repository": "https://github.com/kafkade/kite",
+      "homepage": "https://github.com/kafkade/kite",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -38952,6 +38974,29 @@
       "is_core_library": false
     },
     {
+      "id": "octopeek",
+      "name": "octopeek",
+      "description": "A fast, keyboard-driven TUI for your GitHub PR and issue inbox.",
+      "version": "0.1.1",
+      "created_at": "2026-04-19T04:54:09.205680Z",
+      "updated_at": "2026-04-19T05:07:39.086304Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/leboiko/octopeek",
+      "homepage": "https://github.com/leboiko/octopeek",
+      "documentation": "https://docs.rs/octopeek",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "octopod",
       "name": "octopod",
       "description": "Many-Armed Company Orchestration - AI-Powered Software Development Teams",
@@ -44054,11 +44099,11 @@
       "id": "profile-bee-tui",
       "name": "profile-bee-tui",
       "description": "Terminal-based flamegraph viewer for profile-bee (forked from flamelens)",
-      "version": "0.3.11",
+      "version": "0.3.13",
       "created_at": "2026-02-13T10:14:54.608315Z",
-      "updated_at": "2026-04-05T07:43:28.912267Z",
-      "downloads": 80,
-      "recent_downloads": 80,
+      "updated_at": "2026-04-19T04:55:27.170370Z",
+      "downloads": 91,
+      "recent_downloads": 91,
       "categories": [],
       "repository": "https://github.com/zz85/profile-bee",
       "ratatui_dependency": {
@@ -47570,11 +47615,11 @@
       "id": "ratatui-toaster",
       "name": "ratatui-toaster",
       "description": "An extremely lightweight toast engine for ratatui",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "created_at": "2026-02-22T11:06:23.703665Z",
-      "updated_at": "2026-03-20T12:53:20.767915Z",
-      "downloads": 180,
-      "recent_downloads": 180,
+      "updated_at": "2026-04-19T05:07:40.752769Z",
+      "downloads": 1662,
+      "recent_downloads": 1662,
       "categories": [
         "command-line-interface",
         "command-line-utilities"
@@ -49790,11 +49835,11 @@
       "id": "rex-fm",
       "name": "rex-fm",
       "description": "A fast terminal file manager with undo, search, and multi-select",
-      "version": "0.3.2",
+      "version": "0.4.0",
       "created_at": "2026-04-08T07:05:21.740770Z",
-      "updated_at": "2026-04-17T02:38:18.409708Z",
-      "downloads": 147,
-      "recent_downloads": 147,
+      "updated_at": "2026-04-19T04:28:46.015063Z",
+      "downloads": 161,
+      "recent_downloads": 161,
       "categories": [
         "command-line-utilities"
       ],
@@ -52887,9 +52932,9 @@
       "id": "rvpm",
       "name": "rvpm",
       "description": "Fast Neovim plugin manager with pre-compiled loader and merge optimization",
-      "version": "3.11.0",
+      "version": "3.12.0",
       "created_at": "2026-04-12T02:34:35.948160Z",
-      "updated_at": "2026-04-19T01:51:17.110147Z",
+      "updated_at": "2026-04-19T03:18:08.186261Z",
       "downloads": 484,
       "recent_downloads": 484,
       "categories": [
