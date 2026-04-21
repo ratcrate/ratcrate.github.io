@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-21T02:46:32.049122238+00:00",
-    "total_crates": 3619,
+    "generated_at": "2026-04-21T05:11:17.010683721+00:00",
+    "total_crates": 3620,
     "core_libraries": 2,
-    "community_packages": 3617,
+    "community_packages": 3618,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3523,
-      "etag_cache_misses": 96,
-      "cache_hit_rate": 97.34733351754629
+      "etag_cache_hits": 3604,
+      "etag_cache_misses": 16,
+      "cache_hit_rate": 99.55801104972376
     }
   },
   "crates": [
@@ -6226,11 +6226,11 @@
       "id": "bluback",
       "name": "bluback",
       "description": "Blu-ray backup tool with TUI",
-      "version": "0.11.4",
+      "version": "0.11.5",
       "created_at": "2026-03-17T02:30:35.332819Z",
-      "updated_at": "2026-04-18T03:41:18.252934Z",
-      "downloads": 298,
-      "recent_downloads": 298,
+      "updated_at": "2026-04-21T04:59:49.702390Z",
+      "downloads": 308,
+      "recent_downloads": 308,
       "categories": [],
       "repository": "https://github.com/cebarks/bluback",
       "ratatui_dependency": {
@@ -19516,12 +19516,12 @@
     {
       "id": "fledge",
       "name": "fledge",
-      "description": "Corvid-themed project scaffolding CLI — get your projects ready to fly.",
-      "version": "0.7.0",
+      "description": "Dev-lifecycle CLI — scaffolding, tasks, flows, plugins, and more.",
+      "version": "0.8.0",
       "created_at": "2026-04-18T22:33:05.896139Z",
-      "updated_at": "2026-04-20T03:15:33.183764Z",
-      "downloads": 89,
-      "recent_downloads": 89,
+      "updated_at": "2026-04-21T03:04:58.630926Z",
+      "downloads": 115,
+      "recent_downloads": 115,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -22470,9 +22470,9 @@
       "id": "gitkraft-tui",
       "name": "gitkraft-tui",
       "description": "GitKraft — Git IDE terminal application (Ratatui TUI)",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "created_at": "2026-04-17T15:23:51.995481Z",
-      "updated_at": "2026-04-20T19:06:00.512892Z",
+      "updated_at": "2026-04-21T03:05:54.255647Z",
       "downloads": 47,
       "recent_downloads": 47,
       "categories": [
@@ -33443,9 +33443,9 @@
       "id": "markdown-tui-explorer",
       "name": "markdown-tui-explorer",
       "description": "A terminal-based markdown file browser and viewer with search, syntax highlighting, and live reload",
-      "version": "1.11.0",
+      "version": "1.11.4",
       "created_at": "2026-04-08T17:34:50.670812Z",
-      "updated_at": "2026-04-21T02:36:00.629893Z",
+      "updated_at": "2026-04-21T04:28:24.629801Z",
       "downloads": 668,
       "recent_downloads": 668,
       "categories": [
@@ -34644,9 +34644,9 @@
       "id": "meshdb-client",
       "name": "meshdb-client",
       "description": "TUI client for Bolt-compatible graph databases (Mesh, Neo4j)",
-      "version": "0.1.0-alpha.3",
+      "version": "0.1.0-alpha.5",
       "created_at": "2026-04-20T02:46:22.652474Z",
-      "updated_at": "2026-04-21T00:35:33.297829Z",
+      "updated_at": "2026-04-21T04:05:17.263041Z",
       "downloads": 21,
       "recent_downloads": 21,
       "categories": [],
@@ -35026,9 +35026,9 @@
       "id": "miden-watch",
       "name": "miden-watch",
       "description": "A terminal UI block explorer for the Miden blockchain",
-      "version": "0.14.0",
+      "version": "0.14.1",
       "created_at": "2026-04-21T00:49:44.599060Z",
-      "updated_at": "2026-04-21T00:49:44.599060Z",
+      "updated_at": "2026-04-21T04:38:37.845114Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [
@@ -50920,9 +50920,9 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "0.13.14",
+      "version": "0.13.15",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-04-20T22:49:28.082832Z",
+      "updated_at": "2026-04-21T03:19:22.642119Z",
       "downloads": 288,
       "recent_downloads": 288,
       "categories": [
@@ -51817,11 +51817,11 @@
       "id": "rs-top",
       "name": "rs-top",
       "description": "Real-time TUI system monitor for remote hosts",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-04-17T04:47:23.756182Z",
-      "updated_at": "2026-04-17T04:47:23.756182Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-04-21T03:56:20.262978Z",
+      "downloads": 23,
+      "recent_downloads": 23,
       "categories": [
         "network-programming",
         "command-line-utilities",
@@ -55070,11 +55070,11 @@
       "id": "seq-repl",
       "name": "seq-repl",
       "description": "TUI REPL for the Seq programming language with IR visualization",
-      "version": "5.5.0",
+      "version": "5.5.1",
       "created_at": "2025-12-21T20:09:03.460522Z",
-      "updated_at": "2026-04-15T03:16:28.261818Z",
-      "downloads": 998,
-      "recent_downloads": 643,
+      "updated_at": "2026-04-21T03:36:30.531902Z",
+      "downloads": 1013,
+      "recent_downloads": 514,
       "categories": [
         "development-tools"
       ],
@@ -65142,11 +65142,11 @@
       "id": "try-rs",
       "name": "try-rs",
       "description": "Temporary workspace manager for fast experimentation in the terminal",
-      "version": "1.7.5",
+      "version": "1.7.7",
       "created_at": "2025-12-19T16:27:45.365926Z",
-      "updated_at": "2026-04-07T22:50:04.186163Z",
-      "downloads": 1596,
-      "recent_downloads": 1185,
+      "updated_at": "2026-04-21T03:40:29.325328Z",
+      "downloads": 1644,
+      "recent_downloads": 1113,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -69222,6 +69222,28 @@
       "is_core_library": false
     },
     {
+      "id": "verso-reader",
+      "name": "verso-reader",
+      "description": "A terminal EPUB reader with vim navigation, a Kindle-style library, and Markdown highlight export",
+      "version": "0.1.0",
+      "created_at": "2026-04-21T04:17:36.674542Z",
+      "updated_at": "2026-04-21T04:17:36.674542Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "text-processing"
+      ],
+      "repository": "https://github.com/romankhadka/verso",
+      "homepage": "https://github.com/romankhadka/verso",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "vex-cli",
       "name": "vex-cli",
       "description": "Vex — manage agent work streams",
@@ -70179,15 +70201,15 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.100.0",
+      "version": "0.100.1",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2026-04-20T17:13:53.718737Z",
+      "updated_at": "2026-04-21T03:50:28.036161Z",
       "downloads": 25446,
       "recent_downloads": 2122,
       "categories": [
         "api-bindings",
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/vinhnx/vtcode",
       "homepage": "https://github.com/vinhnx/vtcode",
@@ -70203,9 +70225,9 @@
       "id": "vtcode-commons",
       "name": "vtcode-commons",
       "description": "Shared traits for paths, telemetry, and error reporting reused across VT Code component extractions",
-      "version": "0.100.0",
+      "version": "0.100.1",
       "created_at": "2025-10-22T18:59:20.585154Z",
-      "updated_at": "2026-04-20T17:03:12.109800Z",
+      "updated_at": "2026-04-21T03:32:23.544858Z",
       "downloads": 14047,
       "recent_downloads": 4220,
       "categories": [
@@ -70226,9 +70248,9 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.100.0",
+      "version": "0.100.1",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-04-20T17:08:38.825187Z",
+      "updated_at": "2026-04-21T03:43:30.774142Z",
       "downloads": 30609,
       "recent_downloads": 3127,
       "categories": [
@@ -70249,9 +70271,9 @@
       "id": "vtcode-tui",
       "name": "vtcode-tui",
       "description": "Reusable TUI primitives and session API for VT Code-style terminal interfaces",
-      "version": "0.100.0",
+      "version": "0.100.1",
       "created_at": "2026-02-28T06:21:49.743248Z",
-      "updated_at": "2026-04-20T17:06:07.734083Z",
+      "updated_at": "2026-04-21T03:37:56.867414Z",
       "downloads": 1321,
       "recent_downloads": 1321,
       "categories": [
@@ -71917,11 +71939,11 @@
       "id": "xfr",
       "name": "xfr",
       "description": "Modern network bandwidth testing with TUI",
-      "version": "0.9.8",
+      "version": "0.9.9",
       "created_at": "2026-02-01T00:06:23.250314Z",
-      "updated_at": "2026-04-17T20:00:27.899764Z",
-      "downloads": 708,
-      "recent_downloads": 708,
+      "updated_at": "2026-04-21T03:57:09.094890Z",
+      "downloads": 727,
+      "recent_downloads": 727,
       "categories": [
         "command-line-utilities",
         "network-programming"
