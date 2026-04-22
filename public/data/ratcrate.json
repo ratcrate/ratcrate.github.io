@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-22T01:26:56.797722146+00:00",
-    "total_crates": 3631,
+    "generated_at": "2026-04-22T05:09:14.792374568+00:00",
+    "total_crates": 3632,
     "core_libraries": 2,
-    "community_packages": 3629,
+    "community_packages": 3630,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3542,
-      "etag_cache_misses": 89,
-      "cache_hit_rate": 97.54888460479206
+      "etag_cache_hits": 3624,
+      "etag_cache_misses": 8,
+      "cache_hit_rate": 99.77973568281938
     }
   },
   "crates": [
@@ -2490,6 +2490,23 @@
       ],
       "repository": "https://github.com/raine/anki-llm",
       "homepage": "https://github.com/raine/anki-llm",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "antneuro",
+      "name": "antneuro",
+      "description": "Rust SDK and terminal UI for ANT Neuro eego EEG amplifiers",
+      "version": "0.0.1",
+      "created_at": "2026-04-22T04:22:42.125890Z",
+      "updated_at": "2026-04-22T04:22:42.125890Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -6645,9 +6662,9 @@
       "id": "bphelper-cli",
       "name": "bphelper-cli",
       "description": "CLI for creating and managing battery packs",
-      "version": "0.7.5",
+      "version": "0.7.6",
       "created_at": "2026-01-23T18:22:44.291456Z",
-      "updated_at": "2026-04-21T15:46:57.593297Z",
+      "updated_at": "2026-04-22T01:57:19.336593Z",
       "downloads": 661,
       "recent_downloads": 661,
       "categories": [],
@@ -15197,11 +15214,11 @@
       "id": "dioxus-cli",
       "name": "dioxus-cli",
       "description": "CLI for building fullstack web, desktop, and mobile apps with a single codebase.",
-      "version": "0.7.5",
+      "version": "0.7.6",
       "created_at": "2021-01-20T17:48:25.520286Z",
-      "updated_at": "2026-04-06T17:51:53.116501Z",
-      "downloads": 263568,
-      "recent_downloads": 31367,
+      "updated_at": "2026-04-22T01:39:04.339559Z",
+      "downloads": 269682,
+      "recent_downloads": 33189,
       "categories": [],
       "repository": "https://github.com/DioxusLabs/dioxus/",
       "ratatui_dependency": {
@@ -19580,15 +19597,15 @@
     {
       "id": "fledge",
       "name": "fledge",
-      "description": "Dev-lifecycle CLI — scaffolding, tasks, flows, plugins, and more.",
-      "version": "0.8.0",
+      "description": "Dev-lifecycle CLI — scaffolding, tasks, lanes, plugins, and more.",
+      "version": "0.9.1",
       "created_at": "2026-04-18T22:33:05.896139Z",
-      "updated_at": "2026-04-21T03:04:58.630926Z",
-      "downloads": 115,
-      "recent_downloads": 115,
+      "updated_at": "2026-04-22T01:50:50.065394Z",
+      "downloads": 127,
+      "recent_downloads": 127,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/CorvidLabs/fledge",
       "homepage": "https://github.com/CorvidLabs/fledge",
@@ -53811,9 +53828,9 @@
       "id": "s2-cli",
       "name": "s2-cli",
       "description": "CLI for S2",
-      "version": "0.30.2",
+      "version": "0.30.3",
       "created_at": "2026-01-16T08:48:21.414616Z",
-      "updated_at": "2026-04-21T17:34:13.100580Z",
+      "updated_at": "2026-04-22T03:14:34.312527Z",
       "downloads": 1146,
       "recent_downloads": 1073,
       "categories": [],
@@ -65315,14 +65332,14 @@
       "id": "try-rs",
       "name": "try-rs",
       "description": "Temporary workspace manager for fast experimentation in the terminal",
-      "version": "1.7.7",
+      "version": "1.7.8",
       "created_at": "2025-12-19T16:27:45.365926Z",
-      "updated_at": "2026-04-21T03:40:29.325328Z",
-      "downloads": 1644,
-      "recent_downloads": 1113,
+      "updated_at": "2026-04-22T01:27:07.182650Z",
+      "downloads": 1674,
+      "recent_downloads": 1133,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/tassiovirginio/try-rs",
       "homepage": "https://github.com/tassiovirginio/try-rs",
@@ -68960,10 +68977,10 @@
     {
       "id": "updt",
       "name": "updt",
-      "description": "Cross-platform system update helper for brew, npm, cargo, rustup, paru, flatpak, and pacman.",
-      "version": "0.1.7",
+      "description": "Cross-platform update helper for npm, cargo, rustup, Homebrew, paru, flatpak, pacman, and pkg.",
+      "version": "0.1.10",
       "created_at": "2026-04-21T12:02:15.528229Z",
-      "updated_at": "2026-04-21T15:12:12.294303Z",
+      "updated_at": "2026-04-22T02:44:31.251102Z",
       "downloads": 93,
       "recent_downloads": 93,
       "categories": [
@@ -72938,11 +72955,11 @@
       "id": "yggdra",
       "name": "yggdra",
       "description": "Airgapped agentic TUI for local LLM inference with tool execution",
-      "version": "0.1.0",
+      "version": "0.2.1",
       "created_at": "2026-04-13T03:37:29.173795Z",
-      "updated_at": "2026-04-13T03:37:29.173795Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-04-22T03:14:21.460608Z",
+      "downloads": 11,
+      "recent_downloads": 11,
       "categories": [
         "command-line-interface",
         "command-line-utilities"
