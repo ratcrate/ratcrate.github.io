@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-25T02:20:55.177239152+00:00",
-    "total_crates": 3682,
+    "generated_at": "2026-04-25T04:45:37.014116447+00:00",
+    "total_crates": 3683,
     "core_libraries": 2,
-    "community_packages": 3680,
+    "community_packages": 3681,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3605,
-      "etag_cache_misses": 77,
-      "cache_hit_rate": 97.90874524714829
+      "etag_cache_hits": 3671,
+      "etag_cache_misses": 12,
+      "cache_hit_rate": 99.67417865870215
     }
   },
   "crates": [
@@ -336,6 +336,27 @@
       "downloads": 104,
       "recent_downloads": 104,
       "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "ThreatDeck",
+      "name": "ThreatDeck",
+      "description": "Terminal-based threat intelligence monitoring and alerting platform",
+      "version": "0.1.0",
+      "created_at": "2026-04-25T04:35:25.369636Z",
+      "updated_at": "2026-04-25T04:35:25.369636Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "security"
+      ],
+      "repository": "https://github.com/gripebomb/ThreatDeck",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -1431,11 +1452,11 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-04-21T07:33:00.333355Z",
-      "downloads": 682,
-      "recent_downloads": 682,
+      "updated_at": "2026-04-25T03:43:51.945602Z",
+      "downloads": 683,
+      "recent_downloads": 683,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -14969,11 +14990,11 @@
       "id": "destructive_command_guard",
       "name": "destructive_command_guard",
       "description": "A Claude Code hook that blocks destructive commands before they execute",
-      "version": "0.4.3",
+      "version": "0.4.5",
       "created_at": "2026-02-23T01:56:52.726728Z",
-      "updated_at": "2026-03-22T04:29:35.932965Z",
-      "downloads": 61,
-      "recent_downloads": 61,
+      "updated_at": "2026-04-25T02:23:59.409494Z",
+      "downloads": 104,
+      "recent_downloads": 104,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -27739,9 +27760,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.9.57",
+      "version": "12.9.58",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-04-24T17:08:45.559582Z",
+      "updated_at": "2026-04-25T03:07:08.186684Z",
       "downloads": 4699,
       "recent_downloads": 4699,
       "categories": [
@@ -34185,9 +34206,9 @@
       "id": "markdown-tui-explorer",
       "name": "markdown-tui-explorer",
       "description": "A terminal-based markdown file browser and viewer with search, syntax highlighting, and live reload",
-      "version": "1.28.0",
+      "version": "1.29.0",
       "created_at": "2026-04-08T17:34:50.670812Z",
-      "updated_at": "2026-04-25T00:51:34.951504Z",
+      "updated_at": "2026-04-25T02:48:28.673748Z",
       "downloads": 1160,
       "recent_downloads": 1160,
       "categories": [
@@ -54525,9 +54546,9 @@
       "id": "rvpm",
       "name": "rvpm",
       "description": "Fast Neovim plugin manager with pre-compiled loader and merge optimization",
-      "version": "3.24.0",
+      "version": "3.25.0",
       "created_at": "2026-04-12T02:34:35.948160Z",
-      "updated_at": "2026-04-25T01:47:50.683311Z",
+      "updated_at": "2026-04-25T02:48:37.354913Z",
       "downloads": 716,
       "recent_downloads": 716,
       "categories": [
@@ -56067,9 +56088,9 @@
       "id": "seq-repl",
       "name": "seq-repl",
       "description": "TUI REPL for the Seq programming language with IR visualization",
-      "version": "5.6.3",
+      "version": "5.6.4",
       "created_at": "2025-12-21T20:09:03.460522Z",
-      "updated_at": "2026-04-24T19:30:37.075392Z",
+      "updated_at": "2026-04-25T02:39:19.893710Z",
       "downloads": 1064,
       "recent_downloads": 495,
       "categories": [
@@ -62368,14 +62389,14 @@
       "id": "tempest-monitor",
       "name": "tempest-monitor",
       "description": "A stunning, real-time terminal system monitor (TUI) for macOS and Linux, with a library for hardware telemetry.",
-      "version": "0.3.5",
+      "version": "0.3.7",
       "created_at": "2026-04-06T15:47:45.229850Z",
-      "updated_at": "2026-04-20T07:43:48.105188Z",
-      "downloads": 80,
-      "recent_downloads": 80,
+      "updated_at": "2026-04-25T03:34:39.809677Z",
+      "downloads": 86,
+      "recent_downloads": 86,
       "categories": [
-        "command-line-utilities",
         "os::macos-apis",
+        "command-line-utilities",
         "os::linux-apis",
         "visualization"
       ],
@@ -71448,9 +71469,9 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.103.3",
+      "version": "0.104.1",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2026-04-24T11:02:45.719192Z",
+      "updated_at": "2026-04-25T04:03:16.360589Z",
       "downloads": 25513,
       "recent_downloads": 2032,
       "categories": [
@@ -71472,9 +71493,9 @@
       "id": "vtcode-commons",
       "name": "vtcode-commons",
       "description": "Shared traits for paths, telemetry, and error reporting reused across VT Code component extractions",
-      "version": "0.103.3",
+      "version": "0.104.1",
       "created_at": "2025-10-22T18:59:20.585154Z",
-      "updated_at": "2026-04-24T10:52:30.254838Z",
+      "updated_at": "2026-04-25T03:53:21.623239Z",
       "downloads": 14215,
       "recent_downloads": 4080,
       "categories": [
@@ -71495,9 +71516,9 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.103.3",
+      "version": "0.104.1",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-04-24T10:57:52.878915Z",
+      "updated_at": "2026-04-25T03:58:06.727414Z",
       "downloads": 30698,
       "recent_downloads": 2963,
       "categories": [
@@ -71518,9 +71539,9 @@
       "id": "vtcode-tui",
       "name": "vtcode-tui",
       "description": "Reusable TUI primitives and session API for VT Code-style terminal interfaces",
-      "version": "0.103.3",
+      "version": "0.104.1",
       "created_at": "2026-02-28T06:21:49.743248Z",
-      "updated_at": "2026-04-24T10:55:33.359048Z",
+      "updated_at": "2026-04-25T03:55:56.185552Z",
       "downloads": 1417,
       "recent_downloads": 1417,
       "categories": [
