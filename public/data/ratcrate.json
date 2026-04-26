@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-04-26T03:05:31.788226911+00:00",
-    "total_crates": 3698,
+    "generated_at": "2026-04-26T05:22:29.859660844+00:00",
+    "total_crates": 3699,
     "core_libraries": 2,
-    "community_packages": 3696,
+    "community_packages": 3697,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3611,
-      "etag_cache_misses": 87,
-      "cache_hit_rate": 97.6473769605192
+      "etag_cache_hits": 3690,
+      "etag_cache_misses": 9,
+      "cache_hit_rate": 99.7566909975669
     }
   },
   "crates": [
@@ -1452,9 +1452,9 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.8.3",
+      "version": "0.8.4",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-04-25T07:08:10.962647Z",
+      "updated_at": "2026-04-26T03:18:36.070015Z",
       "downloads": 715,
       "recent_downloads": 715,
       "categories": [],
@@ -15260,11 +15260,11 @@
       "id": "devtrail-cli",
       "name": "devtrail-cli",
       "description": "CLI tool for DevTrail - Documentation Governance for AI-Assisted Development",
-      "version": "3.2.5",
+      "version": "3.4.1",
       "created_at": "2026-04-04T21:45:02.109457Z",
-      "updated_at": "2026-04-24T17:35:02.413289Z",
-      "downloads": 95,
-      "recent_downloads": 95,
+      "updated_at": "2026-04-26T05:04:02.620637Z",
+      "downloads": 98,
+      "recent_downloads": 98,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -25330,11 +25330,11 @@
       "id": "hematite-cli",
       "name": "hematite-cli",
       "description": "Senior SysAdmin, Network Admin, and Software Engineer living in your terminal. A high-precision local AI agent harness for LM Studio, Ollama, and other local OpenAI-compatible runtimes that runs 100% on your own silicon. Reads repos, edits files, runs builds, and inspects the machine it is running on—including full network state and workstation telemetry.",
-      "version": "0.6.1",
+      "version": "0.7.0",
       "created_at": "2026-04-11T05:08:23.477159Z",
-      "updated_at": "2026-04-24T18:16:58.897022Z",
-      "downloads": 155,
-      "recent_downloads": 155,
+      "updated_at": "2026-04-26T04:26:22.818586Z",
+      "downloads": 156,
+      "recent_downloads": 156,
       "categories": [
         "development-tools",
         "command-line-utilities",
@@ -28169,9 +28169,9 @@
       "id": "jira-commands",
       "name": "jira-commands",
       "description": "Jira CLI — fast terminal client for Atlassian Jira with TUI, Homebrew support, and Claude Code plugin",
-      "version": "0.18.0",
+      "version": "0.19.1",
       "created_at": "2026-04-15T07:26:14.853948Z",
-      "updated_at": "2026-04-25T09:01:22.105264Z",
+      "updated_at": "2026-04-26T05:10:14.424989Z",
       "downloads": 326,
       "recent_downloads": 326,
       "categories": [
@@ -34757,9 +34757,9 @@
       "id": "mc-minder",
       "name": "mc-minder",
       "description": "A smart management suite for Minecraft Fabric servers on Linux/Termux/Android",
-      "version": "0.4.9",
+      "version": "0.5.0",
       "created_at": "2026-04-19T08:38:54.145271Z",
-      "updated_at": "2026-04-25T08:47:53.604709Z",
+      "updated_at": "2026-04-26T04:46:35.800906Z",
       "downloads": 308,
       "recent_downloads": 308,
       "categories": [
@@ -35599,11 +35599,11 @@
       "id": "mermaid-cli",
       "name": "mermaid-cli",
       "description": "Open-source AI pair programmer with agentic capabilities. Local-first with Ollama, native tool calling, and beautiful TUI.",
-      "version": "0.6.0",
+      "version": "0.7.1",
       "created_at": "2025-11-17T01:31:51.036676Z",
-      "updated_at": "2026-04-17T00:24:50.130311Z",
-      "downloads": 303,
-      "recent_downloads": 232,
+      "updated_at": "2026-04-26T04:46:16.718212Z",
+      "downloads": 323,
+      "recent_downloads": 249,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -38276,6 +38276,29 @@
       ],
       "repository": "https://github.com/c-fraser/neodiff.git",
       "documentation": "https://docs.rs/neodiff",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "neotop",
+      "name": "neotop",
+      "description": "Linux TUI for host metrics, processes, GPU activity, containers, and KVM virtual machines",
+      "version": "0.20.1",
+      "created_at": "2026-04-26T03:39:13.325974Z",
+      "updated_at": "2026-04-26T03:39:13.325974Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "os::linux-apis",
+        "visualization"
+      ],
+      "repository": "https://github.com/nt2311-vn/neotop",
+      "homepage": "https://github.com/nt2311-vn/neotop",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -53049,16 +53072,16 @@
       "id": "rpsmon",
       "name": "rpsmon",
       "description": "Advanced system resource monitor with beautiful TUI graphs and detailed process insights",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-04-15T19:43:48.832438Z",
-      "updated_at": "2026-04-15T19:43:48.832438Z",
-      "downloads": 9,
-      "recent_downloads": 9,
+      "updated_at": "2026-04-26T04:17:21.436747Z",
+      "downloads": 12,
+      "recent_downloads": 12,
       "categories": [
         "command-line-utilities"
       ],
-      "repository": "https://github.com/tryh4rd-26/rps",
-      "homepage": "https://github.com/tryh4rd-26/rps",
+      "repository": "https://github.com/tryh4rd-26/rpsmon",
+      "homepage": "https://github.com/tryh4rd-26/rpsmon",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -54820,9 +54843,9 @@
       "id": "rvpm",
       "name": "rvpm",
       "description": "Fast Neovim plugin manager with pre-compiled loader and merge optimization",
-      "version": "3.29.2",
+      "version": "3.30.0",
       "created_at": "2026-04-12T02:34:35.948160Z",
-      "updated_at": "2026-04-26T01:05:39.488830Z",
+      "updated_at": "2026-04-26T05:17:02.430818Z",
       "downloads": 779,
       "recent_downloads": 779,
       "categories": [
