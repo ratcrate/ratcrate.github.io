@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-02T01:29:36.977690416+00:00",
-    "total_crates": 3765,
+    "generated_at": "2026-05-02T05:21:20.990229853+00:00",
+    "total_crates": 3771,
     "core_libraries": 2,
-    "community_packages": 3763,
+    "community_packages": 3769,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3690,
-      "etag_cache_misses": 75,
-      "cache_hit_rate": 98.00796812749005
+      "etag_cache_hits": 3750,
+      "etag_cache_misses": 21,
+      "cache_hit_rate": 99.44311853619729
     }
   },
   "crates": [
@@ -1533,9 +1533,9 @@
       "id": "agtop",
       "name": "agtop",
       "description": "Terminal UI for monitoring AI coding agents (Claude Code, Codex, Aider, Cursor, Gemini, Goose, ...) — like top, but for agents.",
-      "version": "2.3.9",
+      "version": "2.4.4",
       "created_at": "2026-04-30T10:41:14.809509Z",
-      "updated_at": "2026-05-01T13:41:31.877512Z",
+      "updated_at": "2026-05-02T05:12:21.465049Z",
       "downloads": 113,
       "recent_downloads": 113,
       "categories": [
@@ -5435,11 +5435,11 @@
       "id": "betex",
       "name": "betex",
       "description": "Betfair / Prediction Market Exchange",
-      "version": "0.28.1",
+      "version": "0.29.0",
       "created_at": "2026-02-04T13:06:10.201735Z",
-      "updated_at": "2026-04-20T06:17:46.856907Z",
-      "downloads": 801,
-      "recent_downloads": 801,
+      "updated_at": "2026-05-02T04:45:00.695907Z",
+      "downloads": 811,
+      "recent_downloads": 811,
       "categories": [],
       "repository": "https://github.com/dt665m/betex",
       "homepage": "https://github.com/dt665m/betex",
@@ -6877,11 +6877,11 @@
       "id": "botctl",
       "name": "botctl",
       "description": "CLI for observing and safely driving Claude Code sessions inside tmux",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "created_at": "2026-04-23T03:09:58.036331Z",
-      "updated_at": "2026-04-29T19:24:35.427886Z",
-      "downloads": 60,
-      "recent_downloads": 60,
+      "updated_at": "2026-05-02T03:45:27.153892Z",
+      "downloads": 62,
+      "recent_downloads": 62,
       "categories": [
         "command-line-utilities"
       ],
@@ -15137,9 +15137,9 @@
       "id": "deepseek-tui",
       "name": "deepseek-tui",
       "description": "Terminal UI for DeepSeek",
-      "version": "0.8.3",
+      "version": "0.8.4",
       "created_at": "2026-01-19T18:29:36.850529Z",
-      "updated_at": "2026-05-02T00:06:40.451336Z",
+      "updated_at": "2026-05-02T05:00:50.850206Z",
       "downloads": 728,
       "recent_downloads": 623,
       "categories": [],
@@ -16163,6 +16163,28 @@
       "categories": [],
       "repository": "https://code.everydayimshuflin.com/greg/diskonaut",
       "homepage": "https://code.everydayimshuflin.com/greg/diskonaut",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "diskr",
+      "name": "diskr",
+      "description": "Lightweight terminal file explorer and disk/storage manager for macOS",
+      "version": "0.1.1",
+      "created_at": "2026-05-02T02:25:21.706459Z",
+      "updated_at": "2026-05-02T03:37:07.267643Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "filesystem"
+      ],
+      "repository": "https://github.com/milobeans/diskr",
+      "homepage": "https://github.com/milobeans/diskr",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -19714,11 +19736,11 @@
       "id": "ferritin",
       "name": "ferritin",
       "description": "Human-friendly CLI for browsing Rust documentation",
-      "version": "0.8.1",
+      "version": "0.9.0",
       "created_at": "2026-01-30T00:09:01.961656Z",
-      "updated_at": "2026-04-20T19:38:10.553861Z",
-      "downloads": 240,
-      "recent_downloads": 240,
+      "updated_at": "2026-05-02T01:47:12.237160Z",
+      "downloads": 248,
+      "recent_downloads": 205,
       "categories": [],
       "repository": "https://github.com/jbr/ferritin",
       "ratatui_dependency": {
@@ -22640,6 +22662,28 @@
       "is_core_library": false
     },
     {
+      "id": "ghr-cli",
+      "name": "ghr-cli",
+      "description": "A fast terminal dashboard for GitHub pull requests, issues, and notifications.",
+      "version": "0.1.3",
+      "created_at": "2026-05-02T03:24:14.486291Z",
+      "updated_at": "2026-05-02T03:48:19.892109Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/chenyukang/ghr",
+      "homepage": "https://github.com/chenyukang/ghr",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ghs",
       "name": "ghs",
       "description": "A terminal UI for GitHub code search",
@@ -24295,9 +24339,9 @@
       "description": "gnostr:fork of asyncgit",
       "version": "1906.925289.572444",
       "created_at": "2025-05-03T18:01:57.221406Z",
-      "updated_at": "2026-04-20T02:50:56.265048Z",
-      "downloads": 11017,
-      "recent_downloads": 1485,
+      "updated_at": "2026-05-02T03:05:18.257855Z",
+      "downloads": 11169,
+      "recent_downloads": 1116,
       "categories": [
         "asynchronous",
         "concurrency"
@@ -24317,11 +24361,32 @@
       "description": "Gitui-inspired terminal UI for Blossom blob storage",
       "version": "1878.945873.303604",
       "created_at": "2026-04-18T22:51:26.812552Z",
-      "updated_at": "2026-04-20T02:55:36.963520Z",
-      "downloads": 99,
-      "recent_downloads": 99,
+      "updated_at": "2026-05-02T03:07:14.730887Z",
+      "downloads": 121,
+      "recent_downloads": 121,
       "categories": [],
       "repository": "https://github.com/gnostr-org/gnostr.git",
+      "homepage": "https://github.com/gnostr-org/gnostr",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "gnostr-crawler",
+      "name": "gnostr-crawler",
+      "description": "gnostr:a git+nostr workflow utility",
+      "version": "1906.925289.572444",
+      "created_at": "2025-05-10T16:24:18.839610Z",
+      "updated_at": "2026-05-02T03:08:03.253983Z",
+      "downloads": 12527,
+      "recent_downloads": 1117,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/gnostr-org/gnostr",
       "homepage": "https://github.com/gnostr-org/gnostr",
       "ratatui_dependency": {
         "version": "unknown",
@@ -25863,9 +25928,9 @@
       "id": "hexapoda",
       "name": "hexapoda",
       "description": "a colorful modal hex editor",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "created_at": "2026-04-11T03:55:24.039535Z",
-      "updated_at": "2026-05-01T21:54:19.512550Z",
+      "updated_at": "2026-05-02T05:15:38.439674Z",
       "downloads": 32,
       "recent_downloads": 32,
       "categories": [
@@ -28426,9 +28491,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.10.1",
+      "version": "12.10.2",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-05-01T16:11:13.485088Z",
+      "updated_at": "2026-05-02T04:57:07.984765Z",
       "downloads": 5018,
       "recent_downloads": 5018,
       "categories": [
@@ -32614,14 +32679,14 @@
       "id": "limb",
       "name": "limb",
       "description": "A focused CLI for git worktree management",
-      "version": "0.2.1",
+      "version": "0.3.1",
       "created_at": "2026-04-25T00:34:39.455922Z",
-      "updated_at": "2026-04-30T18:56:13.234070Z",
-      "downloads": 49,
-      "recent_downloads": 49,
+      "updated_at": "2026-05-02T04:04:56.223233Z",
+      "downloads": 51,
+      "recent_downloads": 51,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/ss0923/limb",
       "homepage": "https://github.com/ss0923/limb",
@@ -37629,6 +37694,26 @@
       "is_core_library": false
     },
     {
+      "id": "monitr",
+      "name": "monitr",
+      "description": "A lightweight macOS activity monitor TUI built with Rust and Ratatui",
+      "version": "0.1.1",
+      "created_at": "2026-05-02T02:29:36.622332Z",
+      "updated_at": "2026-05-02T04:02:42.949483Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/milobeans/monitr",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "monitui",
       "name": "monitui",
       "description": "A delightfully minimal TUI for wrangling Hyprland monitors",
@@ -41041,11 +41126,11 @@
       "id": "nyado",
       "name": "nyado",
       "description": "A Rust todo-list manager with TUI, inspired by meowdo",
-      "version": "0.2.6",
+      "version": "0.2.9",
       "created_at": "2026-04-28T01:10:38.392Z",
-      "updated_at": "2026-04-29T15:37:02.564499Z",
-      "downloads": 106,
-      "recent_downloads": 106,
+      "updated_at": "2026-05-02T01:47:24.024898Z",
+      "downloads": 107,
+      "recent_downloads": 107,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -42261,11 +42346,11 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Install with: cargo install opencrabs",
-      "version": "0.3.15",
+      "version": "0.3.16",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-04-29T01:40:54.977047Z",
-      "downloads": 736,
-      "recent_downloads": 736,
+      "updated_at": "2026-05-02T04:32:19.947154Z",
+      "downloads": 752,
+      "recent_downloads": 752,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -45048,9 +45133,9 @@
       "id": "pitboss",
       "name": "pitboss",
       "description": "CLI that orchestrates coding agents (Claude Code and others) through a phased implementation plan, with automatic test/commit loops and a TUI dashboard",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "created_at": "2026-04-30T18:09:06.472398Z",
-      "updated_at": "2026-05-02T00:34:46.561929Z",
+      "updated_at": "2026-05-02T01:37:00.425268Z",
       "downloads": 7,
       "recent_downloads": 7,
       "categories": [
@@ -60248,6 +60333,25 @@
       "is_core_library": false
     },
     {
+      "id": "speer-chat",
+      "name": "speer-chat",
+      "description": "terminal chat app for speer",
+      "version": "0.1.1",
+      "created_at": "2026-05-02T03:15:23.504308Z",
+      "updated_at": "2026-05-02T04:32:12.908166Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/jk20342/speer-rust-chat",
+      "homepage": "https://github.com/jk20342/speer-rust-chat",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "speq",
       "name": "speq",
       "description": "speq — OpenAPI specification browser",
@@ -62851,6 +62955,27 @@
       ],
       "repository": "https://github.com/orhun/systeroid",
       "homepage": "https://github.com/orhun/systeroid",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "syswatch",
+      "name": "syswatch",
+      "description": "Single-host, read-only system diagnostics TUI. Twelve tabs covering CPU, memory, disks, processes, GPU, power, services, network, plus a Timeline scrubber and an Insights anomaly engine. Sibling to netwatch.",
+      "version": "0.1.1",
+      "created_at": "2026-05-02T03:18:28.267003Z",
+      "updated_at": "2026-05-02T03:51:10.216026Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/matthart1983/syswatch",
+      "homepage": "https://github.com/matthart1983/syswatch",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -68337,11 +68462,11 @@
       "id": "tudiff",
       "name": "tudiff",
       "description": "A high-performance terminal directory comparison tool written in Rust - bringing Beyond Compare's intuitive interface to the command line.",
-      "version": "0.1.3",
+      "version": "0.1.5",
       "created_at": "2025-09-30T08:11:19.648941Z",
-      "updated_at": "2026-04-09T07:38:44.888427Z",
-      "downloads": 409,
-      "recent_downloads": 44,
+      "updated_at": "2026-05-02T03:31:50.075614Z",
+      "downloads": 423,
+      "recent_downloads": 51,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -72082,15 +72207,15 @@
       "id": "veks",
       "name": "veks",
       "description": "A vector bulk data processing tool",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "created_at": "2026-03-05T00:27:57.886989Z",
-      "updated_at": "2026-04-30T22:48:25.828535Z",
-      "downloads": 264,
-      "recent_downloads": 264,
+      "updated_at": "2026-05-02T01:32:57.999647Z",
+      "downloads": 269,
+      "recent_downloads": 269,
       "categories": [
-        "filesystem",
         "network-programming",
-        "science"
+        "science",
+        "filesystem"
       ],
       "repository": "https://github.com/nosqlbench/vectordata-rs",
       "homepage": "https://github.com/nosqlbench/vectordata-rs",
