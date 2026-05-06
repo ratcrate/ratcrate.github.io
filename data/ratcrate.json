@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-06T02:23:10.767846964+00:00",
-    "total_crates": 3838,
+    "generated_at": "2026-05-06T05:41:12.382875019+00:00",
+    "total_crates": 3840,
     "core_libraries": 2,
-    "community_packages": 3836,
+    "community_packages": 3838,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3718,
-      "etag_cache_misses": 120,
-      "cache_hit_rate": 96.87337154768109
+      "etag_cache_hits": 3711,
+      "etag_cache_misses": 129,
+      "cache_hit_rate": 96.640625
     }
   },
   "crates": [
@@ -9785,11 +9785,11 @@
       "id": "cflx",
       "name": "cflx",
       "description": "Conflux – a spec-driven parallel coding orchestrator that runs AI agents on git worktrees",
-      "version": "0.6.64",
+      "version": "0.6.82",
       "created_at": "2026-03-20T05:57:14.988479Z",
-      "updated_at": "2026-05-02T12:57:29.635578Z",
-      "downloads": 159,
-      "recent_downloads": 159,
+      "updated_at": "2026-05-06T05:30:43.955649Z",
+      "downloads": 163,
+      "recent_downloads": 163,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -11595,9 +11595,9 @@
       "id": "cli-tutor",
       "name": "cli-tutor",
       "description": "Interactive terminal app for learning Unix command-line tools",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "created_at": "2026-05-05T13:22:13.554463Z",
-      "updated_at": "2026-05-05T13:22:13.554463Z",
+      "updated_at": "2026-05-06T03:40:59.904906Z",
       "downloads": 5,
       "recent_downloads": 5,
       "categories": [
@@ -13323,9 +13323,9 @@
       "id": "cosmic-cinder",
       "name": "cosmic-cinder",
       "description": "Rust terminal UI for Phoenix perpetuals on Solana",
-      "version": "0.1.10",
+      "version": "0.1.12",
       "created_at": "2026-05-06T00:30:55.323326Z",
-      "updated_at": "2026-05-06T00:30:55.323326Z",
+      "updated_at": "2026-05-06T03:57:22.310932Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [
@@ -15386,9 +15386,9 @@
       "id": "deepseek-tui",
       "name": "deepseek-tui",
       "description": "Terminal UI for DeepSeek",
-      "version": "0.8.13",
+      "version": "0.8.14",
       "created_at": "2026-01-19T18:29:36.850529Z",
-      "updated_at": "2026-05-05T22:59:23.339563Z",
+      "updated_at": "2026-05-06T02:43:55.394627Z",
       "downloads": 1616,
       "recent_downloads": 1442,
       "categories": [],
@@ -18437,9 +18437,9 @@
       "id": "eli-cli",
       "name": "eli-cli",
       "description": "Internal CLI library for the `market-search` binary. Use `cargo install market-search`.",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "created_at": "2026-02-02T06:45:36.550395Z",
-      "updated_at": "2026-05-06T01:22:56.596421Z",
+      "updated_at": "2026-05-06T04:17:54.735860Z",
       "downloads": 17,
       "recent_downloads": 6,
       "categories": [],
@@ -19733,11 +19733,11 @@
       "id": "fastboop-cli",
       "name": "fastboop-cli",
       "description": "CLI for non-mutating live boots on fastboot-class devices.",
-      "version": "0.0.1-rc.19",
+      "version": "0.0.1-rc.20",
       "created_at": "2026-03-02T12:09:32.586377Z",
-      "updated_at": "2026-05-01T09:21:25.752601Z",
-      "downloads": 192,
-      "recent_downloads": 192,
+      "updated_at": "2026-05-06T03:59:32.853759Z",
+      "downloads": 194,
+      "recent_downloads": 194,
       "categories": [],
       "repository": "https://github.com/samcday/fastboop",
       "ratatui_dependency": {
@@ -23042,9 +23042,9 @@
       "id": "ghr-cli",
       "name": "ghr-cli",
       "description": "A fast terminal dashboard for GitHub pull requests, issues, and notifications.",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2026-05-02T03:24:14.486291Z",
-      "updated_at": "2026-05-05T17:23:22.507731Z",
+      "updated_at": "2026-05-06T02:53:36.070610Z",
       "downloads": 72,
       "recent_downloads": 72,
       "categories": [
@@ -33777,11 +33777,11 @@
       "id": "llman",
       "name": "llman",
       "description": "A tool for managing LLM application rules(prompts) ...",
-      "version": "0.0.24",
+      "version": "0.0.25",
       "created_at": "2025-05-26T14:28:04.653143Z",
-      "updated_at": "2026-03-10T05:49:00.737904Z",
-      "downloads": 2110,
-      "recent_downloads": 302,
+      "updated_at": "2026-05-06T04:34:41.706966Z",
+      "downloads": 2137,
+      "recent_downloads": 150,
       "categories": [],
       "repository": "https://github.com/StrayDragon/llman",
       "ratatui_dependency": {
@@ -39406,11 +39406,11 @@
       "id": "nanocore",
       "name": "nanocore",
       "description": "NanoCore is a meticulously crafted emulator for a custom, true 8-bit CPU.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "created_at": "2026-03-27T17:14:33.212858Z",
-      "updated_at": "2026-04-13T02:12:53.231193Z",
-      "downloads": 13,
-      "recent_downloads": 13,
+      "updated_at": "2026-05-06T03:24:55.319793Z",
+      "downloads": 27,
+      "recent_downloads": 27,
       "categories": [],
       "repository": "https://github.com/AfaanBilal/NanoCore",
       "homepage": "https://github.com/AfaanBilal/NanoCore",
@@ -43256,6 +43256,27 @@
       ],
       "repository": "https://github.com/gtema/openstack",
       "homepage": "https://github.com/gtema/openstack",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "openvet",
+      "name": "openvet",
+      "description": "Cryptographically signed software dependency audits.",
+      "version": "0.2.0",
+      "created_at": "2026-05-01T09:46:04.655547Z",
+      "updated_at": "2026-05-06T02:24:15.459159Z",
+      "downloads": 7,
+      "recent_downloads": 7,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://gitlab.com/openvet-org/openvet",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -57320,11 +57341,11 @@
       "id": "sabiql",
       "name": "sabiql",
       "description": "A fast, driver-less TUI for browsing and editing PostgreSQL databases",
-      "version": "1.12.0",
+      "version": "1.12.1",
       "created_at": "2026-03-03T08:51:23.686043Z",
-      "updated_at": "2026-05-03T17:52:07.972473Z",
-      "downloads": 187,
-      "recent_downloads": 187,
+      "updated_at": "2026-05-06T02:30:36.747613Z",
+      "downloads": 192,
+      "recent_downloads": 192,
       "categories": [
         "command-line-utilities",
         "database"
@@ -57342,11 +57363,11 @@
       "id": "sabiql-ui",
       "name": "sabiql-ui",
       "description": "UI layer for sabiql",
-      "version": "1.12.0",
+      "version": "1.12.1",
       "created_at": "2026-04-25T14:34:14.207245Z",
-      "updated_at": "2026-05-03T17:51:27.215697Z",
-      "downloads": 51,
-      "recent_downloads": 51,
+      "updated_at": "2026-05-06T02:29:58.807799Z",
+      "downloads": 56,
+      "recent_downloads": 56,
       "categories": [],
       "repository": "https://github.com/riii111/sabiql",
       "ratatui_dependency": {
@@ -72872,11 +72893,11 @@
       "id": "unifly",
       "name": "unifly",
       "description": "CLI and TUI for managing UniFi network controllers",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "created_at": "2026-03-03T07:32:01.530846Z",
-      "updated_at": "2026-04-10T05:39:01.746506Z",
-      "downloads": 89,
-      "recent_downloads": 89,
+      "updated_at": "2026-05-06T02:54:15.295447Z",
+      "downloads": 104,
+      "recent_downloads": 104,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -77559,6 +77580,26 @@
       "is_core_library": false
     },
     {
+      "id": "yuru-tui",
+      "name": "yuru-tui",
+      "description": "Terminal user interface for Yuru",
+      "version": "0.1.4",
+      "created_at": "2026-05-05T11:25:04.041539Z",
+      "updated_at": "2026-05-06T03:41:54.763349Z",
+      "downloads": 36,
+      "recent_downloads": 36,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/Ameyanagi/yuru",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "zakat-cli",
       "name": "zakat-cli",
       "description": "Interactive CLI tool for Zakat calculations and debugging.",
@@ -77701,9 +77742,9 @@
       "id": "zen",
       "name": "zen",
       "description": "A modal Kanban TUI for personal task management",
-      "version": "3.3.17",
+      "version": "3.3.19",
       "created_at": "2026-03-17T03:30:05.428096Z",
-      "updated_at": "2026-05-05T14:34:01.659320Z",
+      "updated_at": "2026-05-06T04:01:26.605156Z",
       "downloads": 412,
       "recent_downloads": 412,
       "categories": [],
