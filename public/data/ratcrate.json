@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-09T01:59:22.436841066+00:00",
-    "total_crates": 3891,
+    "generated_at": "2026-05-09T05:31:37.517442997+00:00",
+    "total_crates": 3895,
     "core_libraries": 2,
-    "community_packages": 3889,
+    "community_packages": 3893,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3796,
-      "etag_cache_misses": 95,
-      "cache_hit_rate": 97.55846826008738
+      "etag_cache_hits": 3877,
+      "etag_cache_misses": 18,
+      "cache_hit_rate": 99.53786906290115
     }
   },
   "crates": [
@@ -2688,6 +2688,28 @@
         "command-line-interface"
       ],
       "repository": "https://github.com/vyfor/animate",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "animato",
+      "name": "animato",
+      "description": "Professional-grade, renderer-agnostic animation library for Rust. Zero mandatory dependencies. no_std-ready.",
+      "version": "0.7.0",
+      "created_at": "2026-05-07T06:36:59.358580Z",
+      "updated_at": "2026-05-09T05:15:35.213738Z",
+      "downloads": 75,
+      "recent_downloads": 75,
+      "categories": [
+        "no-std",
+        "graphics",
+        "game-development"
+      ],
+      "repository": "https://github.com/AarambhDevHub/animato",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -8511,9 +8533,9 @@
       "id": "cardinal-app-tui",
       "name": "cardinal-app-tui",
       "description": "Terminal UI shell for Cardinal.",
-      "version": "0.1.2",
+      "version": "0.1.4",
       "created_at": "2026-05-09T00:07:11.409283Z",
-      "updated_at": "2026-05-09T01:53:56.045149Z",
+      "updated_at": "2026-05-09T04:24:07.816470Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [],
@@ -12910,11 +12932,11 @@
       "id": "comchan",
       "name": "comchan",
       "description": "A Blazingly Fast and Minimal Serial Monitor for Embedded Applications",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "created_at": "2025-06-29T09:03:45.880633Z",
-      "updated_at": "2026-05-06T14:09:41.681329Z",
-      "downloads": 6850,
-      "recent_downloads": 214,
+      "updated_at": "2026-05-09T04:36:26.310642Z",
+      "downloads": 6864,
+      "recent_downloads": 223,
       "categories": [
         "command-line-utilities",
         "embedded"
@@ -14025,9 +14047,9 @@
       "id": "crepuscularity-cli",
       "name": "crepuscularity-cli",
       "description": "crepus CLI — scaffolding and builds for Crepuscularity (UNSTABLE; in active development).",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "created_at": "2026-04-09T07:44:52.578202Z",
-      "updated_at": "2026-05-08T13:34:40.955657Z",
+      "updated_at": "2026-05-09T05:10:07.404589Z",
       "downloads": 76,
       "recent_downloads": 76,
       "categories": [],
@@ -14062,9 +14084,9 @@
       "id": "crepuscularity-tui",
       "name": "crepuscularity-tui",
       "description": "Ratatui backend for the Crepuscularity .crepus DSL — write full-screen terminal UIs with nested div layouts.",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "created_at": "2026-05-05T03:26:49.212425Z",
-      "updated_at": "2026-05-08T13:34:14.757443Z",
+      "updated_at": "2026-05-09T05:09:49.891833Z",
       "downloads": 79,
       "recent_downloads": 79,
       "categories": [],
@@ -15623,9 +15645,9 @@
       "id": "deepseek-tui",
       "name": "deepseek-tui",
       "description": "Terminal UI for DeepSeek",
-      "version": "0.8.22",
+      "version": "0.8.23",
       "created_at": "2026-01-19T18:29:36.850529Z",
-      "updated_at": "2026-05-08T22:12:09.533590Z",
+      "updated_at": "2026-05-09T03:44:49.552949Z",
       "downloads": 4425,
       "recent_downloads": 4253,
       "categories": [],
@@ -23444,6 +23466,29 @@
       "is_core_library": false
     },
     {
+      "id": "giffstack",
+      "name": "giffstack",
+      "description": "Stacked diffs for GitHub. CLI for managing chains/trees of dependent PRs.",
+      "version": "0.2.0",
+      "created_at": "2026-05-09T02:41:09.151009Z",
+      "updated_at": "2026-05-09T03:42:51.553279Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "development-tools",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/nidheesh-m-vakharia/giff",
+      "homepage": "https://github.com/nidheesh-m-vakharia/giff",
+      "documentation": "https://docs.rs/giffstack",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "gigabytectl",
       "name": "gigabytectl",
       "description": "A simple Rust-based TUI tool for controlling laptops using the gigabyte-laptop-wmi kernel module.",
@@ -25508,11 +25553,11 @@
       "id": "graphix-package-tui",
       "name": "graphix-package-tui",
       "description": "A dataflow language for UIs and network programming, TUI package",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "created_at": "2026-02-19T01:45:51.734251Z",
-      "updated_at": "2026-05-07T01:38:12.998930Z",
-      "downloads": 181,
-      "recent_downloads": 181,
+      "updated_at": "2026-05-09T03:11:32.428633Z",
+      "downloads": 198,
+      "recent_downloads": 198,
       "categories": [
         "gui",
         "network-programming",
@@ -29415,9 +29460,9 @@
       "id": "j-cli",
       "name": "j-cli",
       "description": "A fast CLI tool for alias management, daily reports, and productivity",
-      "version": "12.10.38",
+      "version": "12.10.40",
       "created_at": "2026-02-13T04:01:29.968450Z",
-      "updated_at": "2026-05-08T17:06:49.332642Z",
+      "updated_at": "2026-05-09T05:25:46.025804Z",
       "downloads": 6898,
       "recent_downloads": 6898,
       "categories": [
@@ -30217,11 +30262,11 @@
       "id": "judge",
       "name": "judge",
       "description": "TUI-based technical interview evaluation tool with question banks, live scoring, and exports",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "created_at": "2026-04-22T05:59:33.003529Z",
-      "updated_at": "2026-04-27T19:03:16.135836Z",
-      "downloads": 11,
-      "recent_downloads": 11,
+      "updated_at": "2026-05-09T04:52:49.544851Z",
+      "downloads": 39,
+      "recent_downloads": 39,
       "categories": [
         "command-line-utilities"
       ],
@@ -33899,14 +33944,14 @@
       "id": "linthis",
       "name": "linthis",
       "description": "A fast, cross-platform multi-language linter and formatter",
-      "version": "0.22.1",
+      "version": "0.23.0",
       "created_at": "2025-12-21T17:48:03.429763Z",
-      "updated_at": "2026-04-29T14:39:20.761480Z",
-      "downloads": 622,
-      "recent_downloads": 465,
+      "updated_at": "2026-05-09T02:09:50.345488Z",
+      "downloads": 646,
+      "recent_downloads": 456,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/zhlinh/linthis",
       "homepage": "https://github.com/zhlinh/linthis",
@@ -40783,11 +40828,11 @@
       "id": "netwatch-tui",
       "name": "netwatch-tui",
       "description": "Real-time network diagnostics in your terminal. One command, zero config, instant visibility.",
-      "version": "0.15.2",
+      "version": "0.15.3",
       "created_at": "2026-02-25T21:02:39.760287Z",
-      "updated_at": "2026-05-06T21:02:56.849401Z",
-      "downloads": 2729,
-      "recent_downloads": 2729,
+      "updated_at": "2026-05-09T03:06:15.228310Z",
+      "downloads": 2869,
+      "recent_downloads": 2869,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -54978,14 +55023,14 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "0.13.21",
+      "version": "0.13.23",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-05-01T18:21:38.092856Z",
-      "downloads": 364,
-      "recent_downloads": 364,
+      "updated_at": "2026-05-09T04:57:26.078383Z",
+      "downloads": 513,
+      "recent_downloads": 513,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/fnordpig/ripvec",
       "ratatui_dependency": {
@@ -59248,9 +59293,9 @@
       "id": "seekwel",
       "name": "seekwel",
       "description": "an experimental sqlite library",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "created_at": "2026-04-03T03:11:04.730170Z",
-      "updated_at": "2026-05-08T06:31:50.125890Z",
+      "updated_at": "2026-05-09T02:23:41.555055Z",
       "downloads": 53,
       "recent_downloads": 53,
       "categories": [],
@@ -59435,9 +59480,9 @@
       "id": "seq-repl",
       "name": "seq-repl",
       "description": "TUI REPL for the Seq programming language with IR visualization",
-      "version": "6.6.1",
+      "version": "6.6.2",
       "created_at": "2025-12-21T20:09:03.460522Z",
-      "updated_at": "2026-05-08T23:45:43.874786Z",
+      "updated_at": "2026-05-09T03:23:56.204813Z",
       "downloads": 1292,
       "recent_downloads": 583,
       "categories": [
@@ -64930,11 +64975,11 @@
       "id": "syswatch",
       "name": "syswatch",
       "description": "Single-host, read-only system diagnostics TUI. Twelve tabs covering CPU, memory, disks, processes, GPU, power, services, network, plus a Timeline scrubber and an Insights anomaly engine. Sibling to netwatch.",
-      "version": "0.3.1",
+      "version": "0.4.1",
       "created_at": "2026-05-02T03:18:28.267003Z",
-      "updated_at": "2026-05-06T20:34:09.158954Z",
-      "downloads": 83,
-      "recent_downloads": 83,
+      "updated_at": "2026-05-09T02:51:03.090917Z",
+      "downloads": 109,
+      "recent_downloads": 109,
       "categories": [
         "command-line-utilities"
       ],
@@ -75803,6 +75848,27 @@
       "is_core_library": false
     },
     {
+      "id": "wafrift-cli",
+      "name": "wafrift-cli",
+      "description": "WAF evasion toolkit CLI",
+      "version": "0.2.0",
+      "created_at": "2026-05-09T04:44:05.472242Z",
+      "updated_at": "2026-05-09T04:44:05.472242Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "network-programming"
+      ],
+      "repository": "https://github.com/santhsecurity/wafrift",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "wagner",
       "name": "wagner",
       "description": "AI agent monitoring CLI tool with TUI",
@@ -77399,6 +77465,27 @@
       "repository": "https://github.com/medialab/xan",
       "homepage": "https://github.com/medialab/xan",
       "documentation": "https://github.com/medialab/xan#readme",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "xbot",
+      "name": "xbot",
+      "description": "Rust-native autonomous bot runtime for chat automation, tools, scheduled work, and multi-channel delivery",
+      "version": "0.1.0",
+      "created_at": "2026-05-09T05:01:14.117924Z",
+      "updated_at": "2026-05-09T05:01:14.117924Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/guoqingbao/xbot",
+      "homepage": "https://github.com/guoqingbao/xbot#readme",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
