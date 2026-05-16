@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-16T01:02:54.763869385+00:00",
-    "total_crates": 3998,
+    "generated_at": "2026-05-16T05:37:02.587584379+00:00",
+    "total_crates": 4000,
     "core_libraries": 2,
-    "community_packages": 3996,
+    "community_packages": 3998,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3899,
-      "etag_cache_misses": 99,
-      "cache_hit_rate": 97.52376188094047
+      "etag_cache_hits": 3980,
+      "etag_cache_misses": 20,
+      "cache_hit_rate": 99.5
     }
   },
   "crates": [
@@ -1641,11 +1641,11 @@
       "id": "ai-agents-cli",
       "name": "ai-agents-cli",
       "description": "Command-line interface for running YAML-defined AI agents",
-      "version": "1.0.0-rc.12",
+      "version": "1.0.0-rc.13",
       "created_at": "2026-03-15T14:14:42.499601Z",
-      "updated_at": "2026-05-03T13:08:29.058191Z",
-      "downloads": 91,
-      "recent_downloads": 91,
+      "updated_at": "2026-05-16T03:14:59.055598Z",
+      "downloads": 99,
+      "recent_downloads": 99,
       "categories": [],
       "repository": "https://github.com/geminik23/ai-agents",
       "homepage": "https://ai-agents.rs",
@@ -4233,11 +4233,11 @@
       "id": "async-callback-manager",
       "name": "async-callback-manager",
       "description": "Library that provides an interface to create and manage asynchronous callbacks in Rust. Dependency of `youtui` music player.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2024-11-18T11:10:14.486243Z",
-      "updated_at": "2026-01-13T13:00:33.716356Z",
-      "downloads": 8880,
-      "recent_downloads": 1248,
+      "updated_at": "2026-05-16T02:52:06.813919Z",
+      "downloads": 9344,
+      "recent_downloads": 763,
       "categories": [],
       "repository": "https://github.com/nick42d/youtui",
       "homepage": "https://github.com/nick42d/youtui",
@@ -7679,9 +7679,9 @@
       "id": "branchdiff",
       "name": "branchdiff",
       "description": "Terminal UI showing unified diff of current branch vs its base",
-      "version": "0.63.13",
+      "version": "0.63.14",
       "created_at": "2026-02-28T04:14:18.698495Z",
-      "updated_at": "2026-05-16T00:35:32.412235Z",
+      "updated_at": "2026-05-16T01:53:02.596794Z",
       "downloads": 365,
       "recent_downloads": 365,
       "categories": [
@@ -13440,9 +13440,9 @@
       "id": "concord",
       "name": "concord",
       "description": "A terminal user interface client for Discord",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "created_at": "2026-05-08T15:57:54.419186Z",
-      "updated_at": "2026-05-15T15:52:13.666109Z",
+      "updated_at": "2026-05-16T05:29:13.831348Z",
       "downloads": 404,
       "recent_downloads": 404,
       "categories": [
@@ -14863,11 +14863,11 @@
       "id": "cuqueclicker",
       "name": "cuqueclicker",
       "description": "A TUI idle clicker where you finger an ASCII ass instead of clicking a cookie.",
-      "version": "0.7.0",
+      "version": "1.0.0",
       "created_at": "2026-04-23T01:42:05.253651Z",
-      "updated_at": "2026-05-02T19:32:54.518508Z",
-      "downloads": 124,
-      "recent_downloads": 124,
+      "updated_at": "2026-05-16T01:18:49.097028Z",
+      "downloads": 136,
+      "recent_downloads": 136,
       "categories": [
         "command-line-utilities",
         "games"
@@ -17060,6 +17060,27 @@
       ],
       "repository": "https://github.com/theoriuhd/diskvis",
       "homepage": "https://github.com/theoriuhd/diskvis",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "diskwatch",
+      "name": "diskwatch",
+      "description": "Single-host, read-only disk diagnostics TUI. Eight tabs across devices, volumes, filesystems, IO, SMART, hot files, and insights. Sibling to netwatch and syswatch.",
+      "version": "0.1.0",
+      "created_at": "2026-05-16T03:19:36.102237Z",
+      "updated_at": "2026-05-16T03:19:36.102237Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/matthart1983/diskwatch",
+      "homepage": "https://github.com/matthart1983/diskwatch",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -24919,12 +24940,12 @@
     {
       "id": "gitoui",
       "name": "gitoui",
-      "description": "Say oui to the most complete git terminal youser interface",
-      "version": "0.1.2",
+      "description": "Say oui to the smoothest git terminal youser experience",
+      "version": "0.1.4",
       "created_at": "2026-05-14T18:10:02.452903Z",
-      "updated_at": "2026-05-14T23:05:55.013734Z",
-      "downloads": 20,
-      "recent_downloads": 20,
+      "updated_at": "2026-05-16T02:12:49.267831Z",
+      "downloads": 22,
+      "recent_downloads": 22,
       "categories": [
         "command-line-utilities"
       ],
@@ -28502,9 +28523,9 @@
       "id": "huddle",
       "name": "huddle",
       "description": "Decentralized, terminal-native chat rooms — LAN mDNS or direct dial, Megolm-encrypted.",
-      "version": "0.4.0",
+      "version": "0.5.2",
       "created_at": "2026-05-13T09:35:36.488320Z",
-      "updated_at": "2026-05-15T15:10:03.391331Z",
+      "updated_at": "2026-05-16T05:23:20.762281Z",
       "downloads": 44,
       "recent_downloads": 44,
       "categories": [
@@ -39249,9 +39270,9 @@
       "id": "mkutils",
       "name": "mkutils",
       "description": "Utility methods, traits, and types.",
-      "version": "0.1.135",
+      "version": "0.1.136",
       "created_at": "2025-12-16T13:55:08.926304Z",
-      "updated_at": "2026-05-15T21:06:38.611549Z",
+      "updated_at": "2026-05-16T01:05:13.139184Z",
       "downloads": 1874,
       "recent_downloads": 1082,
       "categories": [
@@ -39385,9 +39406,9 @@
       "id": "mockforge-tui",
       "name": "mockforge-tui",
       "description": "Terminal UI dashboard for MockForge",
-      "version": "0.3.135",
+      "version": "0.3.136",
       "created_at": "2026-02-26T13:33:53.136631Z",
-      "updated_at": "2026-05-15T21:56:53.508137Z",
+      "updated_at": "2026-05-16T04:02:08.911111Z",
       "downloads": 922,
       "recent_downloads": 922,
       "categories": [
@@ -39574,15 +39595,15 @@
       "id": "mold-ai-tui",
       "name": "mold-ai-tui",
       "description": "Terminal UI for mold — interactive AI image generation",
-      "version": "0.8.1",
+      "version": "0.10.0",
       "created_at": "2026-04-03T04:17:37.320632Z",
-      "updated_at": "2026-04-18T02:46:24.977204Z",
-      "downloads": 139,
-      "recent_downloads": 139,
+      "updated_at": "2026-05-16T04:23:50.328926Z",
+      "downloads": 188,
+      "recent_downloads": 188,
       "categories": [
         "science",
-        "multimedia::images",
-        "command-line-utilities"
+        "command-line-utilities",
+        "multimedia::images"
       ],
       "repository": "https://github.com/utensils/mold",
       "ratatui_dependency": {
@@ -47240,9 +47261,9 @@
       "id": "phx",
       "name": "phx",
       "description": "A lightweight, fast, minimalistic agent harness",
-      "version": "0.2.4",
+      "version": "0.3.0",
       "created_at": "2026-05-14T20:24:12.560026Z",
-      "updated_at": "2026-05-15T21:45:13.808338Z",
+      "updated_at": "2026-05-16T02:05:44.468709Z",
       "downloads": 45,
       "recent_downloads": 45,
       "categories": [],
@@ -49532,9 +49553,9 @@
       "id": "projd",
       "name": "projd",
       "description": "Scan software projects and generate structured reports.",
-      "version": "0.3.2",
+      "version": "0.7.0",
       "created_at": "2026-05-13T07:19:53.057033Z",
-      "updated_at": "2026-05-15T09:19:19.809364Z",
+      "updated_at": "2026-05-16T05:19:43.069531Z",
       "downloads": 180,
       "recent_downloads": 180,
       "categories": [
@@ -65374,9 +65395,9 @@
       "id": "straymark-cli",
       "name": "straymark-cli",
       "description": "CLI for StrayMark — the cognitive discipline your AI-assisted projects need",
-      "version": "3.14.0",
+      "version": "3.14.1",
       "created_at": "2026-05-09T06:55:24.366274Z",
-      "updated_at": "2026-05-16T00:39:09.971671Z",
+      "updated_at": "2026-05-16T03:26:22.873278Z",
       "downloads": 108,
       "recent_downloads": 108,
       "categories": [
@@ -69738,9 +69759,9 @@
       "id": "tiles-tui-file-manager",
       "name": "tiles-tui-file-manager",
       "description": "A dual-pane TUI file manager built in Rust. Features include vim-style navigation, integrated text editor, git awareness, remote SSH browsing, and system monitoring.",
-      "version": "13.9.0",
+      "version": "14.1.0",
       "created_at": "2026-05-14T18:06:23.002820Z",
-      "updated_at": "2026-05-15T17:18:27.309893Z",
+      "updated_at": "2026-05-16T04:23:35.130418Z",
       "downloads": 39,
       "recent_downloads": 39,
       "categories": [],
@@ -74324,11 +74345,11 @@
       "id": "tuicr",
       "name": "tuicr",
       "description": "Review AI-generated diffs like a GitHub pull request, right from your terminal.",
-      "version": "0.13.0",
+      "version": "0.14.1",
       "created_at": "2026-01-09T19:55:44.005176Z",
-      "updated_at": "2026-05-13T23:28:25.221308Z",
-      "downloads": 993,
-      "recent_downloads": 723,
+      "updated_at": "2026-05-16T04:08:15.227770Z",
+      "downloads": 1029,
+      "recent_downloads": 754,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -75481,11 +75502,11 @@
       "id": "typocode",
       "name": "typocode",
       "description": "Terminal typing game that uses source code as practice text.",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "created_at": "2026-04-23T07:56:48.870380Z",
-      "updated_at": "2026-05-14T02:37:57.328328Z",
-      "downloads": 55,
-      "recent_downloads": 55,
+      "updated_at": "2026-05-16T05:23:03.975367Z",
+      "downloads": 81,
+      "recent_downloads": 81,
       "categories": [
         "command-line-utilities",
         "games"
@@ -76203,9 +76224,9 @@
       "id": "v2rmp",
       "name": "v2rmp",
       "description": "rmpca — Route Optimization TUI & Agent Engine",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "created_at": "2026-05-03T00:14:18.974910Z",
-      "updated_at": "2026-05-15T19:45:40.161430Z",
+      "updated_at": "2026-05-16T02:20:36.050222Z",
       "downloads": 201,
       "recent_downloads": 201,
       "categories": [
@@ -77544,6 +77565,28 @@
       "repository": "https://github.com/Harry-kp/vortix",
       "homepage": "https://docs.rs/vortix",
       "documentation": "https://docs.rs/vortix",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "vorto",
+      "name": "vorto",
+      "description": "A terminal text editor with tree-sitter syntax highlighting and LSP support",
+      "version": "0.4.0",
+      "created_at": "2026-05-16T03:21:37.317297Z",
+      "updated_at": "2026-05-16T03:21:37.317297Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "text-editors"
+      ],
+      "repository": "https://github.com/shka-k/vorto",
+      "homepage": "https://github.com/shka-k/vorto",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -80597,11 +80640,11 @@
       "id": "youtui",
       "name": "youtui",
       "description": "A simple TUI YouTube Music player",
-      "version": "0.0.36",
+      "version": "0.0.37",
       "created_at": "2023-12-03T14:48:31.057690Z",
-      "updated_at": "2026-02-08T14:20:55.222704Z",
-      "downloads": 27636,
-      "recent_downloads": 530,
+      "updated_at": "2026-05-16T02:55:15.077828Z",
+      "downloads": 27848,
+      "recent_downloads": 340,
       "categories": [
         "multimedia::audio"
       ],
