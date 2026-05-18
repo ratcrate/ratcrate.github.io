@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-18T02:27:56.700578625+00:00",
-    "total_crates": 4024,
+    "generated_at": "2026-05-18T06:35:32.864505909+00:00",
+    "total_crates": 4030,
     "core_libraries": 2,
-    "community_packages": 4022,
+    "community_packages": 4028,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3927,
-      "etag_cache_misses": 97,
-      "cache_hit_rate": 97.58946322067594
+      "etag_cache_hits": 3996,
+      "etag_cache_misses": 34,
+      "cache_hit_rate": 99.15632754342431
     }
   },
   "crates": [
@@ -13159,11 +13159,11 @@
       "id": "colorant",
       "name": "colorant",
       "description": "Per-directory terminal theme switcher with system dark/light mode support",
-      "version": "0.5.0",
+      "version": "0.6.1",
       "created_at": "2026-05-14T06:33:52.507258Z",
-      "updated_at": "2026-05-14T21:01:59.382715Z",
-      "downloads": 35,
-      "recent_downloads": 35,
+      "updated_at": "2026-05-18T05:16:33.988105Z",
+      "downloads": 59,
+      "recent_downloads": 59,
       "categories": [
         "command-line-utilities"
       ],
@@ -14170,6 +14170,27 @@
       "categories": [],
       "repository": "https://github.com/crabtalk/crabtalk",
       "documentation": "https://docs.rs/crabtalk",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "crabtop",
+      "name": "crabtop",
+      "description": "Terminal-based Linux system monitor with CPU, memory, GPU and thermal metrics",
+      "version": "0.1.0",
+      "created_at": "2026-05-18T03:05:21.985606Z",
+      "updated_at": "2026-05-18T03:05:21.985606Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/Shnrqpdr/crabtop",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -19188,14 +19209,14 @@
       "id": "elicitation",
       "name": "elicitation",
       "description": "Conversational elicitation of strongly-typed Rust values via MCP",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "created_at": "2025-12-28T20:25:29.530190Z",
-      "updated_at": "2026-04-04T18:41:09.868114Z",
-      "downloads": 739,
-      "recent_downloads": 719,
+      "updated_at": "2026-05-18T03:35:14.221648Z",
+      "downloads": 1203,
+      "recent_downloads": 834,
       "categories": [
-        "asynchronous",
-        "development-tools"
+        "development-tools",
+        "asynchronous"
       ],
       "repository": "https://github.com/crumplecup/elicitation",
       "homepage": "https://github.com/crumplecup/elicitation",
@@ -19234,11 +19255,11 @@
       "id": "elicitation_kani",
       "name": "elicitation_kani",
       "description": "Kani model-checking proofs for elicitation contract types",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "created_at": "2026-02-23T17:55:01.681475Z",
-      "updated_at": "2026-04-04T18:46:43.911952Z",
-      "downloads": 67,
-      "recent_downloads": 67,
+      "updated_at": "2026-05-18T03:46:07.948085Z",
+      "downloads": 80,
+      "recent_downloads": 80,
       "categories": [
         "development-tools",
         "mathematics"
@@ -23263,11 +23284,11 @@
       "id": "garudust",
       "name": "garudust",
       "description": "Self-improving AI agent — TUI/CLI, tool hub, Ollama & OpenRouter support",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "created_at": "2026-05-04T16:11:43.517982Z",
-      "updated_at": "2026-05-17T04:19:34.958187Z",
-      "downloads": 157,
-      "recent_downloads": 157,
+      "updated_at": "2026-05-18T05:50:06.460064Z",
+      "downloads": 184,
+      "recent_downloads": 184,
       "categories": [
         "command-line-utilities"
       ],
@@ -27689,11 +27710,11 @@
       "id": "hjkl",
       "name": "hjkl",
       "description": "Vim-modal terminal editor: standalone TUI built on the hjkl engine.",
-      "version": "0.21.9",
+      "version": "0.25.0",
       "created_at": "2026-04-27T09:18:09.849437Z",
-      "updated_at": "2026-05-17T17:18:16.622372Z",
-      "downloads": 637,
-      "recent_downloads": 637,
+      "updated_at": "2026-05-18T06:04:30.367898Z",
+      "downloads": 670,
+      "recent_downloads": 670,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -27733,11 +27754,11 @@
       "id": "hjkl-buffer",
       "name": "hjkl-buffer",
       "description": "Rope-backed text buffer with cursor and edits. Pre-1.0 churn.",
-      "version": "0.8.1",
+      "version": "0.25.0",
       "created_at": "2026-04-25T16:07:16.373068Z",
-      "updated_at": "2026-05-18T02:18:55.858029Z",
-      "downloads": 5294,
-      "recent_downloads": 5294,
+      "updated_at": "2026-05-18T05:40:16.106793Z",
+      "downloads": 5605,
+      "recent_downloads": 5605,
       "categories": [
         "data-structures",
         "text-editors"
@@ -27754,12 +27775,12 @@
     {
       "id": "hjkl-completion-tui",
       "name": "hjkl-completion-tui",
-      "description": "Ratatui adapter for hjkl-app completion: paints the completion popup model into a ratatui Frame.",
-      "version": "0.1.0",
+      "description": "Ratatui adapter for hjkl-completion: paints the completion popup model into a ratatui Frame.",
+      "version": "0.25.0",
       "created_at": "2026-05-17T22:27:03.031347Z",
-      "updated_at": "2026-05-17T22:27:03.031347Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-05-18T05:53:44.984529Z",
+      "downloads": 19,
+      "recent_downloads": 19,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -27777,11 +27798,11 @@
       "id": "hjkl-editor-tui",
       "name": "hjkl-editor-tui",
       "description": "Ratatui TUI editor subsystem for the hjkl stack: Style conversions, KeyEvent bridging, form and prompt renderers.",
-      "version": "0.1.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T11:12:08.324898Z",
-      "updated_at": "2026-05-17T11:12:08.324898Z",
-      "downloads": 50,
-      "recent_downloads": 50,
+      "updated_at": "2026-05-18T05:45:50.040561Z",
+      "downloads": 91,
+      "recent_downloads": 91,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -27799,11 +27820,11 @@
       "id": "hjkl-engine",
       "name": "hjkl-engine",
       "description": "Vim FSM, motion grammar, and ex commands. Pre-1.0 churn.",
-      "version": "0.11.3",
+      "version": "0.25.0",
       "created_at": "2026-04-25T16:07:09.363209Z",
-      "updated_at": "2026-05-17T23:00:35.356596Z",
-      "downloads": 5712,
-      "recent_downloads": 5712,
+      "updated_at": "2026-05-18T05:42:47.990975Z",
+      "downloads": 5965,
+      "recent_downloads": 5965,
       "categories": [
         "text-editors"
       ],
@@ -27817,14 +27838,36 @@
       "is_core_library": false
     },
     {
+      "id": "hjkl-holler-tui",
+      "name": "hjkl-holler-tui",
+      "description": "Ratatui adapter for hjkl-holler: paints active toast notifications in a top-right stack with severity-colored borders.",
+      "version": "0.25.0",
+      "created_at": "2026-05-18T02:50:47.015658Z",
+      "updated_at": "2026-05-18T05:58:30.256106Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-interface",
+        "text-editors"
+      ],
+      "repository": "https://github.com/kryptic-sh/hjkl",
+      "homepage": "https://hjkl.kryptic.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "hjkl-hover-tui",
       "name": "hjkl-hover-tui",
       "description": "Ratatui adapter for hjkl-hover: paints the hover popup into a ratatui Frame using hjkl-markdown-tui for the content body.",
-      "version": "0.2.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T23:15:30.079487Z",
-      "updated_at": "2026-05-17T23:15:30.079487Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-05-18T05:55:40.334846Z",
+      "downloads": 12,
+      "recent_downloads": 12,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -27842,11 +27885,11 @@
       "id": "hjkl-info-popup-tui",
       "name": "hjkl-info-popup-tui",
       "description": "Ratatui adapter for hjkl-info-popup: renders the info popup (`:reg`, `:marks`, `:jumps`, `:changes`) as a centered bordered overlay.",
-      "version": "0.1.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T23:15:36.085019Z",
-      "updated_at": "2026-05-17T23:15:36.085019Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-05-18T05:56:36.636701Z",
+      "downloads": 12,
+      "recent_downloads": 12,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -27864,11 +27907,33 @@
       "id": "hjkl-markdown-tui",
       "name": "hjkl-markdown-tui",
       "description": "Ratatui adapter for hjkl-markdown: converts markdown events to ratatui Lines for inline rendering.",
-      "version": "0.1.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T22:27:19.716138Z",
-      "updated_at": "2026-05-17T22:27:19.716138Z",
-      "downloads": 12,
-      "recent_downloads": 12,
+      "updated_at": "2026-05-18T05:54:43.562179Z",
+      "downloads": 26,
+      "recent_downloads": 26,
+      "categories": [
+        "command-line-interface",
+        "text-editors"
+      ],
+      "repository": "https://github.com/kryptic-sh/hjkl",
+      "homepage": "https://hjkl.kryptic.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "hjkl-menu-tui",
+      "name": "hjkl-menu-tui",
+      "description": "Ratatui adapter for hjkl-menu: renders the renderer-agnostic context menu model into a ratatui Frame with full theme support.",
+      "version": "0.25.0",
+      "created_at": "2026-05-18T06:01:33.976116Z",
+      "updated_at": "2026-05-18T06:01:33.976116Z",
+      "downloads": 0,
+      "recent_downloads": 0,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -27908,11 +27973,11 @@
       "id": "hjkl-picker-tui",
       "name": "hjkl-picker-tui",
       "description": "Ratatui adapter for hjkl-picker — preview pane renderer + crossterm key router.",
-      "version": "0.4.0",
+      "version": "0.25.0",
       "created_at": "2026-05-15T16:08:53.433119Z",
-      "updated_at": "2026-05-17T11:07:36.870646Z",
-      "downloads": 116,
-      "recent_downloads": 116,
+      "updated_at": "2026-05-18T05:48:46.046895Z",
+      "downloads": 156,
+      "recent_downloads": 156,
       "categories": [
         "command-line-interface"
       ],
@@ -27929,11 +27994,11 @@
       "id": "hjkl-prompt-tui",
       "name": "hjkl-prompt-tui",
       "description": "Ratatui adapter for hjkl-prompt: renders the ex/search prompt bar (`:`, `/`, `?`) as a bottom-bar status row with wildmenu completion strip.",
-      "version": "0.1.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T23:38:47.133748Z",
-      "updated_at": "2026-05-17T23:38:47.133748Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-05-18T05:57:32.364298Z",
+      "downloads": 11,
+      "recent_downloads": 11,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -27973,11 +28038,11 @@
       "id": "hjkl-splash",
       "name": "hjkl-splash",
       "description": "Rendering-agnostic splash-screen animation for kryptic-sh projects.",
-      "version": "0.3.0",
+      "version": "0.25.0",
       "created_at": "2026-05-05T16:56:32.270485Z",
-      "updated_at": "2026-05-17T17:00:51.087423Z",
-      "downloads": 1079,
-      "recent_downloads": 1079,
+      "updated_at": "2026-05-18T05:49:57.606474Z",
+      "downloads": 1165,
+      "recent_downloads": 1165,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -27995,11 +28060,55 @@
       "id": "hjkl-statusline-tui",
       "name": "hjkl-statusline-tui",
       "description": "ratatui adapter for hjkl-statusline: renders the renderer-agnostic statusline model into a ratatui Line / widget.",
-      "version": "0.2.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T15:52:47.855607Z",
-      "updated_at": "2026-05-17T16:13:29.080115Z",
-      "downloads": 35,
-      "recent_downloads": 35,
+      "updated_at": "2026-05-18T05:51:24.162496Z",
+      "downloads": 72,
+      "recent_downloads": 72,
+      "categories": [
+        "command-line-interface",
+        "text-editors"
+      ],
+      "repository": "https://github.com/kryptic-sh/hjkl",
+      "homepage": "https://hjkl.kryptic.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "hjkl-syntax-tui",
+      "name": "hjkl-syntax-tui",
+      "description": "Ratatui adapter for hjkl-syntax: converts renderer-agnostic RenderOutput spans to ratatui Span/Line and routes DiagSigns to hjkl_buffer::Sign.",
+      "version": "0.25.0",
+      "created_at": "2026-05-18T06:03:25.010915Z",
+      "updated_at": "2026-05-18T06:03:25.010915Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface",
+        "text-editors"
+      ],
+      "repository": "https://github.com/kryptic-sh/hjkl",
+      "homepage": "https://hjkl.kryptic.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "hjkl-tabs-tui",
+      "name": "hjkl-tabs-tui",
+      "description": "Ratatui adapter for hjkl-tabs: renders a TabBar<Id> widget with active-tab highlight, dirty marker, and overflow indicators.",
+      "version": "0.25.0",
+      "created_at": "2026-05-18T02:51:14.754592Z",
+      "updated_at": "2026-05-18T06:00:08.876450Z",
+      "downloads": 9,
+      "recent_downloads": 9,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -28017,11 +28126,11 @@
       "id": "hjkl-theme-tui",
       "name": "hjkl-theme-tui",
       "description": "Ratatui adapters for hjkl-theme: Color/StyleSpec/Modifiers conversions.",
-      "version": "0.1.1",
+      "version": "0.25.0",
       "created_at": "2026-05-14T23:28:40.470885Z",
-      "updated_at": "2026-05-17T17:20:06.114818Z",
-      "downloads": 86,
-      "recent_downloads": 86,
+      "updated_at": "2026-05-18T05:50:27.467400Z",
+      "downloads": 120,
+      "recent_downloads": 120,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -28061,11 +28170,11 @@
       "id": "hjkl-vim",
       "name": "hjkl-vim",
       "description": "Vim modal state types and grammar primitives for the hjkl editor stack. Pre-1.0 churn.",
-      "version": "0.23.1",
+      "version": "0.25.0",
       "created_at": "2026-05-12T15:10:46.477389Z",
-      "updated_at": "2026-05-17T22:26:11.928869Z",
-      "downloads": 1293,
-      "recent_downloads": 1293,
+      "updated_at": "2026-05-18T05:44:34.731847Z",
+      "downloads": 1442,
+      "recent_downloads": 1442,
       "categories": [
         "text-editors"
       ],
@@ -28082,11 +28191,11 @@
       "id": "hjkl-which-key-tui",
       "name": "hjkl-which-key-tui",
       "description": "Ratatui adapter for hjkl-which-key: renders the which-key popup model into a ratatui Frame.",
-      "version": "0.1.0",
+      "version": "0.25.0",
       "created_at": "2026-05-17T22:25:57.137582Z",
-      "updated_at": "2026-05-17T22:25:57.137582Z",
-      "downloads": 8,
-      "recent_downloads": 8,
+      "updated_at": "2026-05-18T05:52:59.968533Z",
+      "downloads": 40,
+      "recent_downloads": 40,
       "categories": [
         "command-line-interface",
         "text-editors"
@@ -33300,14 +33409,14 @@
       "id": "langcodec-cli",
       "name": "langcodec-cli",
       "description": "A universal CLI tool for converting and inspecting localization files (Apple, Android, CSV, etc.)",
-      "version": "0.12.0",
+      "version": "0.13.0",
       "created_at": "2025-07-03T16:50:25.782364Z",
-      "updated_at": "2026-04-15T03:47:35.664631Z",
-      "downloads": 5874,
-      "recent_downloads": 213,
+      "updated_at": "2026-05-18T05:49:46.610432Z",
+      "downloads": 5914,
+      "recent_downloads": 194,
       "categories": [
-        "internationalization",
         "command-line-utilities",
+        "internationalization",
         "localization"
       ],
       "repository": "https://github.com/oops-rs/langcodec",
@@ -39614,11 +39723,11 @@
       "id": "mkutils",
       "name": "mkutils",
       "description": "Utility methods, traits, and types.",
-      "version": "0.1.141",
+      "version": "0.1.142",
       "created_at": "2025-12-16T13:55:08.926304Z",
-      "updated_at": "2026-05-17T22:14:06.604615Z",
-      "downloads": 1958,
-      "recent_downloads": 1153,
+      "updated_at": "2026-05-18T03:55:40.107853Z",
+      "downloads": 1986,
+      "recent_downloads": 1181,
       "categories": [
         "development-tools"
       ],
@@ -39750,11 +39859,11 @@
       "id": "mockforge-tui",
       "name": "mockforge-tui",
       "description": "Terminal UI dashboard for MockForge",
-      "version": "0.3.136",
+      "version": "0.3.137",
       "created_at": "2026-02-26T13:33:53.136631Z",
-      "updated_at": "2026-05-16T04:02:08.911111Z",
-      "downloads": 922,
-      "recent_downloads": 922,
+      "updated_at": "2026-05-18T03:46:11.953099Z",
+      "downloads": 951,
+      "recent_downloads": 951,
       "categories": [
         "development-tools",
         "api-bindings",
@@ -45331,6 +45440,25 @@
       "is_core_library": false
     },
     {
+      "id": "opty-tui-agent-bridge",
+      "name": "opty-tui-agent-bridge",
+      "description": "Ratatui terminal interface for opty fleet reports. Renders fleet summary, agent roster, action plan, and selected issue list from a JSON payload supplied by the opty CLI launcher.",
+      "version": "0.9.0-alpha.1",
+      "created_at": "2026-05-18T06:12:54.222396Z",
+      "updated_at": "2026-05-18T06:12:54.222396Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/AytuncYildizli/opty",
+      "homepage": "https://opty.md",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ora-cli",
       "name": "ora-cli",
       "description": "Command line interface for the Ora scheduler.",
@@ -47624,11 +47752,11 @@
       "id": "phx",
       "name": "phx",
       "description": "it was already on fire. we just gave it wings.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "created_at": "2026-05-14T20:24:12.560026Z",
-      "updated_at": "2026-05-17T18:04:12.958747Z",
-      "downloads": 116,
-      "recent_downloads": 116,
+      "updated_at": "2026-05-18T04:19:26.264974Z",
+      "downloads": 147,
+      "recent_downloads": 147,
       "categories": [],
       "repository": "https://github.com/duckedup/phx",
       "ratatui_dependency": {
@@ -58155,11 +58283,11 @@
       "id": "rsy",
       "name": "rsy",
       "description": "A blazing fast parallel copy tool for Unix",
-      "version": "1.1.3",
+      "version": "1.2.0",
       "created_at": "2026-04-30T22:19:03.558033Z",
-      "updated_at": "2026-05-08T00:59:59.978926Z",
-      "downloads": 144,
-      "recent_downloads": 144,
+      "updated_at": "2026-05-18T04:10:46.989511Z",
+      "downloads": 207,
+      "recent_downloads": 207,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -61062,11 +61190,11 @@
       "id": "seekwel",
       "name": "seekwel",
       "description": "an experimental sqlite library",
-      "version": "0.1.23",
+      "version": "0.1.25",
       "created_at": "2026-04-03T03:11:04.730170Z",
-      "updated_at": "2026-05-17T21:54:20.053830Z",
-      "downloads": 236,
-      "recent_downloads": 236,
+      "updated_at": "2026-05-18T05:28:54.064771Z",
+      "downloads": 259,
+      "recent_downloads": 259,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -62218,11 +62346,11 @@
       "id": "shunt-proxy",
       "name": "shunt-proxy",
       "description": "A local proxy that pools multiple Claude accounts behind a single endpoint, routing requests to maximise rate limits",
-      "version": "0.1.32",
+      "version": "0.1.34",
       "created_at": "2026-05-11T10:14:36.674673Z",
-      "updated_at": "2026-05-17T04:26:25.192091Z",
-      "downloads": 68,
-      "recent_downloads": 68,
+      "updated_at": "2026-05-18T04:32:20.610721Z",
+      "downloads": 104,
+      "recent_downloads": 104,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -65579,11 +65707,11 @@
       "id": "stillo-renderer",
       "name": "stillo-renderer",
       "description": "ratatui TUI renderer for stillo terminal browser",
-      "version": "0.1.10",
+      "version": "0.1.12",
       "created_at": "2026-05-14T03:25:05.842538Z",
-      "updated_at": "2026-05-15T05:22:14.621831Z",
-      "downloads": 171,
-      "recent_downloads": 171,
+      "updated_at": "2026-05-18T02:40:53.187861Z",
+      "downloads": 238,
+      "recent_downloads": 238,
       "categories": [],
       "repository": "https://github.com/stillo-browser/stillo",
       "ratatui_dependency": {
@@ -66748,14 +66876,14 @@
       "id": "synaps",
       "name": "synaps",
       "description": "Terminal-native AI agent runtime — parallel orchestration, reactive subagents, MCP, autonomous supervision",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "created_at": "2026-05-05T07:14:32.243912Z",
-      "updated_at": "2026-05-13T18:02:14.761538Z",
-      "downloads": 74,
-      "recent_downloads": 74,
+      "updated_at": "2026-05-18T03:14:29.743330Z",
+      "downloads": 87,
+      "recent_downloads": 87,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/HaseebKhalid1507/SynapsCLI",
       "homepage": "https://github.com/HaseebKhalid1507/SynapsCLI",
