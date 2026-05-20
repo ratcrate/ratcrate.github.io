@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-20T02:57:48.447753027+00:00",
-    "total_crates": 4066,
+    "generated_at": "2026-05-20T06:21:10.531793011+00:00",
+    "total_crates": 4068,
     "core_libraries": 2,
-    "community_packages": 4064,
+    "community_packages": 4066,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3955,
-      "etag_cache_misses": 111,
-      "cache_hit_rate": 97.27004426955239
+      "etag_cache_hits": 4049,
+      "etag_cache_misses": 19,
+      "cache_hit_rate": 99.53294001966569
     }
   },
   "crates": [
@@ -1725,11 +1725,11 @@
       "id": "ai-dispatch",
       "name": "ai-dispatch",
       "description": "Multi-AI CLI team orchestrator",
-      "version": "8.99.11",
+      "version": "8.100.0",
       "created_at": "2026-03-13T10:36:17.974694Z",
-      "updated_at": "2026-05-20T01:31:16.246351Z",
-      "downloads": 2487,
-      "recent_downloads": 2487,
+      "updated_at": "2026-05-20T05:16:00.312405Z",
+      "downloads": 2498,
+      "recent_downloads": 2498,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -2277,15 +2277,15 @@
       "id": "alpaca-trader-rs",
       "name": "alpaca-trader-rs",
       "description": "Alpaca Markets trading toolkit — async REST client library and interactive TUI trading terminal",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2026-05-11T02:30:18.482914Z",
-      "updated_at": "2026-05-19T00:38:55.478573Z",
-      "downloads": 33,
-      "recent_downloads": 33,
+      "updated_at": "2026-05-20T03:41:00.558798Z",
+      "downloads": 62,
+      "recent_downloads": 62,
       "categories": [
-        "api-bindings",
         "asynchronous",
         "command-line-utilities",
+        "api-bindings",
         "finance"
       ],
       "repository": "https://github.com/arunkumar-mourougappane/alpaca-trader-rs",
@@ -2804,11 +2804,11 @@
       "id": "animato",
       "name": "animato",
       "description": "Professional-grade, renderer-agnostic animation library for Rust. Zero mandatory dependencies. no_std-ready.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "created_at": "2026-05-07T06:36:59.358580Z",
-      "updated_at": "2026-05-17T05:19:42.441460Z",
-      "downloads": 134,
-      "recent_downloads": 134,
+      "updated_at": "2026-05-20T05:49:45.997849Z",
+      "downloads": 164,
+      "recent_downloads": 164,
       "categories": [
         "graphics",
         "game-development",
@@ -8647,11 +8647,11 @@
       "id": "capo-tui",
       "name": "capo-tui",
       "description": "Elm-style MVU TUI library for the Capo coding agent.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "created_at": "2026-05-18T14:13:52.937676Z",
-      "updated_at": "2026-05-19T14:24:55.490763Z",
-      "downloads": 45,
-      "recent_downloads": 45,
+      "updated_at": "2026-05-20T03:11:06.712736Z",
+      "downloads": 64,
+      "recent_downloads": 64,
       "categories": [
         "command-line-interface"
       ],
@@ -12257,6 +12257,26 @@
       "is_core_library": false
     },
     {
+      "id": "clippier",
+      "name": "clippier",
+      "description": "MoosicBox clippier package",
+      "version": "0.2.0",
+      "created_at": "2024-10-04T23:04:32.304912Z",
+      "updated_at": "2026-05-20T02:57:44.223305Z",
+      "downloads": 1175,
+      "recent_downloads": 17,
+      "categories": [
+        "development-tools"
+      ],
+      "repository": "https://github.com/MoosicBox/MoosicBox",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "clipse",
       "name": "clipse",
       "description": "a cli clipboard manager for linux",
@@ -12503,6 +12523,29 @@
         "command-line-interface"
       ],
       "repository": "https://github.com/AAFC-Cloud/Cloud-Terrastodon.git",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "cloudflare-speed-cli",
+      "name": "cloudflare-speed-cli",
+      "description": "CLI tool for Cloudflare speed testing with TUI interface",
+      "version": "0.6.13",
+      "created_at": "2026-05-20T02:57:21.269834Z",
+      "updated_at": "2026-05-20T04:03:49.115523Z",
+      "downloads": 24,
+      "recent_downloads": 24,
+      "categories": [
+        "command-line-utilities",
+        "network-programming"
+      ],
+      "repository": "https://github.com/kavehtehrani/cloudflare-speed-cli",
+      "homepage": "https://github.com/kavehtehrani/cloudflare-speed-cli",
+      "documentation": "https://github.com/kavehtehrani/cloudflare-speed-cli",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -22680,11 +22723,11 @@
       "id": "freeswitch-log-parser",
       "name": "freeswitch-log-parser",
       "description": "Parser for FreeSWITCH log files — handles compressed .xz files, multi-line dumps, truncated buffers, and stateful UUID/timestamp tracking",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "created_at": "2026-04-16T14:11:55.335741Z",
-      "updated_at": "2026-05-14T02:14:51.561605Z",
-      "downloads": 69,
-      "recent_downloads": 69,
+      "updated_at": "2026-05-20T04:05:54.326408Z",
+      "downloads": 95,
+      "recent_downloads": 95,
       "categories": [
         "network-programming",
         "parser-implementations"
@@ -24400,11 +24443,11 @@
       "id": "git-iris",
       "name": "git-iris",
       "description": "AI-powered Git workflow assistant for smart commits, code reviews, changelogs, and release notes",
-      "version": "2.0.9",
+      "version": "2.1.0",
       "created_at": "2024-08-25T06:55:03.702142Z",
-      "updated_at": "2026-05-05T18:47:32.805802Z",
-      "downloads": 7429,
-      "recent_downloads": 84,
+      "updated_at": "2026-05-20T04:22:02.494378Z",
+      "downloads": 7446,
+      "recent_downloads": 93,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -24790,11 +24833,11 @@
       "id": "git-worktree-manager",
       "name": "git-worktree-manager",
       "description": "Lean git worktree manager with AI coding-assistant integration",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "created_at": "2026-03-18T12:03:58.748137Z",
-      "updated_at": "2026-05-19T17:48:07.926261Z",
-      "downloads": 654,
-      "recent_downloads": 654,
+      "updated_at": "2026-05-20T05:57:46.397674Z",
+      "downloads": 658,
+      "recent_downloads": 658,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -25214,11 +25257,11 @@
       "id": "gitorii",
       "name": "gitorii",
       "description": "A human-first Git client with simplified commands, snapshots, multi-platform mirrors and built-in secret scanning",
-      "version": "0.7.10",
+      "version": "0.7.11",
       "created_at": "2026-04-22T09:03:43.800680Z",
-      "updated_at": "2026-05-19T23:21:47.939226Z",
-      "downloads": 380,
-      "recent_downloads": 380,
+      "updated_at": "2026-05-20T05:43:41.310443Z",
+      "downloads": 387,
+      "recent_downloads": 387,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -34654,11 +34697,11 @@
       "id": "lazyxrp",
       "name": "lazyxrp",
       "description": "Terminal UI for the XRP Ledger — monitor accounts, order books, NFTs, trust lines, and AMM pools",
-      "version": "0.1.18",
+      "version": "0.1.19",
       "created_at": "2026-05-11T13:44:39.054134Z",
-      "updated_at": "2026-05-15T16:45:11.767213Z",
-      "downloads": 175,
-      "recent_downloads": 175,
+      "updated_at": "2026-05-20T04:48:25.268299Z",
+      "downloads": 190,
+      "recent_downloads": 190,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -34760,11 +34803,11 @@
       "id": "lean-ctx",
       "name": "lean-ctx",
       "description": "Context Runtime for AI Agents with CCP. 51 MCP tools, 10 read modes, 60+ compression patterns, cross-session memory (CCP), persistent AI knowledge with temporal facts + contradiction detection, multi-agent context sharing, LITM-aware positioning, AAAK compact format, adaptive compression with Thompson Sampling bandits. Supports 24+ AI tools. Reduces LLM token consumption by up to 99%.",
-      "version": "3.6.9",
+      "version": "3.6.10",
       "created_at": "2026-03-23T19:46:32.814016Z",
-      "updated_at": "2026-05-19T19:03:15.052141Z",
-      "downloads": 6995,
-      "recent_downloads": 6995,
+      "updated_at": "2026-05-20T06:04:11.994368Z",
+      "downloads": 7004,
+      "recent_downloads": 7004,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -41874,11 +41917,11 @@
       "id": "navipod",
       "name": "navipod",
       "description": "A cli tool for inspecting containers in Kubernetes",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "created_at": "2023-11-05T23:14:47.135615Z",
-      "updated_at": "2026-05-20T01:13:50.456745Z",
-      "downloads": 73839,
-      "recent_downloads": 113,
+      "updated_at": "2026-05-20T03:20:31.137100Z",
+      "downloads": 73857,
+      "recent_downloads": 131,
       "categories": [],
       "repository": "https://github.com/navicore/navipod",
       "documentation": "https://docs.rs/navipod",
@@ -42240,11 +42283,11 @@
       "id": "net-deck",
       "name": "net-deck",
       "description": "Operator cyberdeck — terminal UI for the Net mesh",
-      "version": "0.20.1",
+      "version": "0.20.2",
       "created_at": "2026-05-19T07:29:26.689482Z",
-      "updated_at": "2026-05-19T22:32:09.466186Z",
-      "downloads": 22,
-      "recent_downloads": 22,
+      "updated_at": "2026-05-20T05:24:18.195146Z",
+      "downloads": 24,
+      "recent_downloads": 24,
       "categories": [],
       "repository": "https://github.com/ai-2070/net",
       "ratatui_dependency": {
@@ -45139,11 +45182,11 @@
       "id": "omnyssh",
       "name": "omnyssh",
       "description": "TUI SSH dashboard & server manager",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "created_at": "2026-04-19T05:36:08.258394Z",
-      "updated_at": "2026-04-22T07:51:02.161241Z",
-      "downloads": 45,
-      "recent_downloads": 45,
+      "updated_at": "2026-05-20T05:59:32.666069Z",
+      "downloads": 70,
+      "recent_downloads": 70,
       "categories": [
         "command-line-utilities"
       ],
@@ -45405,11 +45448,11 @@
       "id": "opaline",
       "name": "opaline",
       "description": "A token-based theme engine for Rust applications",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "created_at": "2026-02-25T06:39:44.244763Z",
-      "updated_at": "2026-03-22T05:29:01.338269Z",
-      "downloads": 144,
-      "recent_downloads": 144,
+      "updated_at": "2026-05-20T05:50:37.593521Z",
+      "downloads": 4001,
+      "recent_downloads": 4001,
       "categories": [
         "gui",
         "command-line-interface",
@@ -64167,11 +64210,11 @@
       "id": "snbeat",
       "name": "snbeat",
       "description": "A TUI block explorer for the Starknet blockchain",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "created_at": "2026-04-14T09:12:55.398837Z",
-      "updated_at": "2026-05-17T06:35:40.359722Z",
-      "downloads": 47,
-      "recent_downloads": 47,
+      "updated_at": "2026-05-20T05:33:26.778297Z",
+      "downloads": 51,
+      "recent_downloads": 51,
       "categories": [
         "command-line-utilities"
       ],
@@ -66384,11 +66427,11 @@
       "id": "stillo-renderer",
       "name": "stillo-renderer",
       "description": "ratatui TUI renderer for stillo terminal browser",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "created_at": "2026-05-14T03:25:05.842538Z",
-      "updated_at": "2026-05-19T07:21:59.858053Z",
-      "downloads": 279,
-      "recent_downloads": 279,
+      "updated_at": "2026-05-20T04:30:24.582326Z",
+      "downloads": 296,
+      "recent_downloads": 296,
       "categories": [],
       "repository": "https://github.com/stillo-browser/stillo",
       "ratatui_dependency": {
@@ -82407,11 +82450,11 @@
       "id": "zen",
       "name": "zen",
       "description": "A modal Kanban TUI for personal task management",
-      "version": "3.4.8",
+      "version": "3.4.9",
       "created_at": "2026-03-17T03:30:05.428096Z",
-      "updated_at": "2026-05-11T17:13:46.452303Z",
-      "downloads": 583,
-      "recent_downloads": 583,
+      "updated_at": "2026-05-20T05:00:40.441193Z",
+      "downloads": 629,
+      "recent_downloads": 629,
       "categories": [],
       "repository": "https://github.com/hamzamohdzubair/zen",
       "ratatui_dependency": {
