@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-22T02:43:30.571280419+00:00",
-    "total_crates": 4100,
+    "generated_at": "2026-05-22T06:20:48.614645754+00:00",
+    "total_crates": 4102,
     "core_libraries": 2,
-    "community_packages": 4098,
+    "community_packages": 4100,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 3991,
-      "etag_cache_misses": 109,
-      "cache_hit_rate": 97.34146341463415
+      "etag_cache_hits": 4092,
+      "etag_cache_misses": 10,
+      "cache_hit_rate": 99.75621647976597
     }
   },
   "crates": [
@@ -2316,15 +2316,15 @@
       "id": "alpaca-trader-rs",
       "name": "alpaca-trader-rs",
       "description": "Alpaca Markets trading toolkit — async REST client library and interactive TUI trading terminal",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "created_at": "2026-05-11T02:30:18.482914Z",
-      "updated_at": "2026-05-20T03:41:00.558798Z",
-      "downloads": 62,
-      "recent_downloads": 62,
+      "updated_at": "2026-05-22T03:01:04.211756Z",
+      "downloads": 81,
+      "recent_downloads": 81,
       "categories": [
+        "api-bindings",
         "asynchronous",
         "command-line-utilities",
-        "api-bindings",
         "finance"
       ],
       "repository": "https://github.com/arunkumar-mourougappane/alpaca-trader-rs",
@@ -8727,11 +8727,11 @@
       "id": "capo-tui",
       "name": "capo-tui",
       "description": "Elm-style MVU TUI library for the Capo coding agent.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "created_at": "2026-05-18T14:13:52.937676Z",
-      "updated_at": "2026-05-21T08:40:13.200225Z",
-      "downloads": 117,
-      "recent_downloads": 117,
+      "updated_at": "2026-05-22T03:17:48.359340Z",
+      "downloads": 129,
+      "recent_downloads": 129,
       "categories": [
         "command-line-interface"
       ],
@@ -17809,11 +17809,11 @@
       "id": "don",
       "name": "don",
       "description": "Boss of your dev environment",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "created_at": "2026-03-29T22:04:35.772734Z",
-      "updated_at": "2026-05-19T20:25:13.378733Z",
-      "downloads": 147,
-      "recent_downloads": 147,
+      "updated_at": "2026-05-22T05:17:39.207139Z",
+      "downloads": 154,
+      "recent_downloads": 154,
       "categories": [],
       "repository": "https://github.com/pjtatlow/don",
       "homepage": "https://github.com/pjtatlow/don",
@@ -38499,11 +38499,11 @@
       "id": "matrixcode-tui",
       "name": "matrixcode-tui",
       "description": "MatrixCode TUI - Terminal UI library for AI Code Agent",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "created_at": "2026-05-19T06:47:46.412941Z",
-      "updated_at": "2026-05-20T15:50:33.043825Z",
-      "downloads": 83,
-      "recent_downloads": 83,
+      "updated_at": "2026-05-22T05:48:57.605942Z",
+      "downloads": 89,
+      "recent_downloads": 89,
       "categories": [],
       "repository": "https://github.com/bigfish1913/matrixcode",
       "ratatui_dependency": {
@@ -39577,11 +39577,11 @@
       "id": "merlion-agent",
       "name": "merlion-agent",
       "description": "Merlion Agent CLI",
-      "version": "0.1.12",
+      "version": "0.1.14",
       "created_at": "2026-05-19T06:13:09.652419Z",
-      "updated_at": "2026-05-21T08:04:14.557535Z",
-      "downloads": 169,
-      "recent_downloads": 169,
+      "updated_at": "2026-05-22T03:34:43.307800Z",
+      "downloads": 190,
+      "recent_downloads": 190,
       "categories": [],
       "repository": "https://github.com/MerlionOS/merlion-agent",
       "ratatui_dependency": {
@@ -50316,11 +50316,11 @@
       "id": "post-tui",
       "name": "post-tui",
       "description": "A professional terminal HTTP API client",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "created_at": "2026-05-21T12:25:23.442812Z",
-      "updated_at": "2026-05-21T12:25:23.442812Z",
-      "downloads": 11,
-      "recent_downloads": 11,
+      "updated_at": "2026-05-22T02:55:37.408977Z",
+      "downloads": 48,
+      "recent_downloads": 48,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -57901,11 +57901,11 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "2.1.0",
+      "version": "3.0.2",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-05-21T10:29:10.211979Z",
-      "downloads": 722,
-      "recent_downloads": 722,
+      "updated_at": "2026-05-22T06:14:57.330430Z",
+      "downloads": 723,
+      "recent_downloads": 723,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -62243,6 +62243,29 @@
       ],
       "repository": "https://github.com/nuts-rice/sdr_geo_db",
       "homepage": "https://sdr-geo-db.vercel.app/",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "sdrrat",
+      "name": "sdrrat",
+      "description": "discover the RF spectrum on your terminal",
+      "version": "0.1.0",
+      "created_at": "2026-05-22T04:52:32.881330Z",
+      "updated_at": "2026-05-22T04:52:32.881330Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities",
+        "hardware-support",
+        "multimedia::audio"
+      ],
+      "repository": "https://github.com/qewer33/sdrrat",
+      "homepage": "https://github.com/qewer33/sdrrat",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -73019,11 +73042,11 @@
       "id": "toon-format",
       "name": "toon-format",
       "description": "Token-Oriented Object Notation (TOON) - a token-efficient JSON alternative for LLM prompts",
-      "version": "0.4.6",
+      "version": "0.5.0",
       "created_at": "2025-11-01T16:35:02.643174Z",
-      "updated_at": "2026-05-19T12:12:07.808238Z",
-      "downloads": 189028,
-      "recent_downloads": 156163,
+      "updated_at": "2026-05-22T04:54:24.601924Z",
+      "downloads": 195789,
+      "recent_downloads": 161785,
       "categories": [
         "encoding",
         "parser-implementations"
@@ -75042,6 +75065,23 @@
       "recent_downloads": 16685,
       "categories": [],
       "repository": "https://github.com/joshka/tui-framework-experiment",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tui-globe",
+      "name": "tui-globe",
+      "description": "Proof-of-concept terminal renderer for the Mullvad 3D globe data",
+      "version": "0.0.0",
+      "created_at": "2026-05-22T03:07:03.048287Z",
+      "updated_at": "2026-05-22T03:07:03.048287Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
