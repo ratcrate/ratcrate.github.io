@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-25T06:50:09.397082236+00:00",
-    "total_crates": 4141,
+    "generated_at": "2026-05-25T11:28:19.522748206+00:00",
+    "total_crates": 4144,
     "core_libraries": 2,
-    "community_packages": 4139,
+    "community_packages": 4142,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4040,
-      "etag_cache_misses": 101,
-      "cache_hit_rate": 97.5609756097561
+      "etag_cache_hits": 4127,
+      "etag_cache_misses": 17,
+      "cache_hit_rate": 99.58976833976834
     }
   },
   "crates": [
@@ -1280,11 +1280,11 @@
       "id": "agent-switcher",
       "name": "agent-switcher",
       "description": "Tmux popup TUI for switching between waiting AI coding agent sessions.",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "created_at": "2026-05-20T13:20:57.947571Z",
-      "updated_at": "2026-05-21T13:00:42.101657Z",
-      "downloads": 38,
-      "recent_downloads": 38,
+      "updated_at": "2026-05-25T11:19:18.600342Z",
+      "downloads": 39,
+      "recent_downloads": 39,
       "categories": [
         "command-line-utilities"
       ],
@@ -1566,6 +1566,28 @@
       "repository": "https://github.com/agentralabs/agentralabs-tech",
       "homepage": "https://github.com/agentralabs/agentralabs-tech",
       "documentation": "https://github.com/agentralabs/agentralabs-tech/tree/main/agentra-cli",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "agents-lab-neo",
+      "name": "agents-lab-neo",
+      "description": "Autonomous Rust coding harness for long-running software engineering tasks with a supervisor loop, tool execution, and session management",
+      "version": "0.1.0",
+      "created_at": "2026-05-25T08:03:01.783649Z",
+      "updated_at": "2026-05-25T08:03:01.783649Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/AgentsLabs/neo",
+      "homepage": "https://epsilondelta.tech",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -12824,11 +12846,11 @@
       "id": "cloudflare-speed-cli",
       "name": "cloudflare-speed-cli",
       "description": "CLI tool for Cloudflare speed testing with TUI interface",
-      "version": "0.6.14",
+      "version": "1.0.0",
       "created_at": "2026-05-20T02:57:21.269834Z",
-      "updated_at": "2026-05-23T13:11:43.165865Z",
-      "downloads": 56,
-      "recent_downloads": 56,
+      "updated_at": "2026-05-25T08:36:41.523577Z",
+      "downloads": 62,
+      "recent_downloads": 62,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -13877,9 +13899,9 @@
       "id": "concord",
       "name": "concord",
       "description": "A terminal user interface client for Discord",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "created_at": "2026-05-08T15:57:54.419186Z",
-      "updated_at": "2026-05-24T14:03:06.066504Z",
+      "updated_at": "2026-05-25T07:49:13.539113Z",
       "downloads": 843,
       "recent_downloads": 843,
       "categories": [
@@ -15448,9 +15470,9 @@
       "id": "cursus",
       "name": "cursus",
       "description": "Library crate for the cursus release management CLI",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "created_at": "2026-04-19T05:32:17.802530Z",
-      "updated_at": "2026-05-24T09:13:00.848287Z",
+      "updated_at": "2026-05-25T08:57:01.258101Z",
       "downloads": 745,
       "recent_downloads": 745,
       "categories": [],
@@ -35429,11 +35451,11 @@
       "id": "lean-ctx",
       "name": "lean-ctx",
       "description": "Context Runtime for AI Agents with CCP. 62 MCP tools, 10 read modes, 60+ compression patterns, cross-session memory (CCP), persistent AI knowledge with temporal facts + contradiction detection, multi-agent context sharing, LITM-aware positioning, AAAK compact format, adaptive compression with Thompson Sampling bandits. Supports 24+ AI tools. Reduces LLM token consumption by up to 99%.",
-      "version": "3.6.16",
+      "version": "3.6.17",
       "created_at": "2026-03-23T19:46:32.814016Z",
-      "updated_at": "2026-05-22T14:51:33.936099Z",
-      "downloads": 7508,
-      "recent_downloads": 7508,
+      "updated_at": "2026-05-25T11:09:26.613296Z",
+      "downloads": 7596,
+      "recent_downloads": 7596,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -36491,11 +36513,11 @@
       "id": "llman",
       "name": "llman",
       "description": "A tool for managing LLM application rules(prompts) ...",
-      "version": "0.0.38",
+      "version": "0.0.39",
       "created_at": "2025-05-26T14:28:04.653143Z",
-      "updated_at": "2026-05-18T09:37:30.963597Z",
-      "downloads": 2228,
-      "recent_downloads": 146,
+      "updated_at": "2026-05-25T07:16:49.815132Z",
+      "downloads": 2240,
+      "recent_downloads": 156,
       "categories": [],
       "repository": "https://github.com/StrayDragon/llman",
       "ratatui_dependency": {
@@ -38785,9 +38807,9 @@
       "id": "matchmaker-lib",
       "name": "matchmaker-lib",
       "description": "A fuzzy finder for the terminal, powered by nucleo",
-      "version": "0.0.31",
+      "version": "0.0.32",
       "created_at": "2026-02-16T11:07:33.994303Z",
-      "updated_at": "2026-05-25T02:41:42.741136Z",
+      "updated_at": "2026-05-25T06:49:14.480217Z",
       "downloads": 861,
       "recent_downloads": 743,
       "categories": [
@@ -41200,6 +41222,24 @@
       "is_core_library": false
     },
     {
+      "id": "modbus_toolbox",
+      "name": "modbus_toolbox",
+      "description": "TUI modbus TCP/RTU client/server/monitor AIO testing toolbox write in Rust :)",
+      "version": "0.4.0",
+      "created_at": "2026-05-25T09:14:40.583949Z",
+      "updated_at": "2026-05-25T09:14:40.583949Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/jindongjie/modbus-toolbox",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "modder_tui",
       "name": "modder_tui",
       "description": "TUI Wrapper for Modder-rs",
@@ -42872,6 +42912,28 @@
       ],
       "repository": "https://github.com/truevoid-development/neith",
       "homepage": "https://github.com/truevoid-development/neith",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "neo-agent-harness",
+      "name": "neo-agent-harness",
+      "description": "Autonomous Rust coding harness for long-running software engineering tasks with a supervisor loop, tool execution, and session management",
+      "version": "0.1.0",
+      "created_at": "2026-05-25T08:21:23.465378Z",
+      "updated_at": "2026-05-25T08:21:23.465378Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/AgentsLabs/neo",
+      "homepage": "https://epsilondelta.tech",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -45613,9 +45675,9 @@
       "id": "ocular-tui",
       "name": "ocular-tui",
       "description": "Terminal UI for ocular middleware traffic visualization",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "created_at": "2026-05-24T04:32:54.779027Z",
-      "updated_at": "2026-05-24T14:00:03.046503Z",
+      "updated_at": "2026-05-25T10:24:36.520204Z",
       "downloads": 34,
       "recent_downloads": 34,
       "categories": [],
@@ -46466,11 +46528,11 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Install with: cargo install opencrabs",
-      "version": "0.3.27",
+      "version": "0.3.28",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-05-23T01:16:28.341261Z",
-      "downloads": 976,
-      "recent_downloads": 976,
+      "updated_at": "2026-05-25T09:24:06.430618Z",
+      "downloads": 997,
+      "recent_downloads": 997,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -61937,11 +61999,11 @@
       "id": "sandhole",
       "name": "sandhole",
       "description": "Expose HTTP/SSH/TCP services through SSH port forwarding.",
-      "version": "0.9.4",
+      "version": "0.9.5",
       "created_at": "2024-11-25T20:54:38.752360Z",
-      "updated_at": "2026-05-17T21:54:05.549054Z",
-      "downloads": 12918,
-      "recent_downloads": 92,
+      "updated_at": "2026-05-25T11:11:39.335886Z",
+      "downloads": 12923,
+      "recent_downloads": 79,
       "categories": [
         "authentication",
         "network-programming",
@@ -78064,11 +78126,11 @@
       "id": "tycho-simulation",
       "name": "tycho-simulation",
       "description": "Provides tools for interacting with protocol states, calculating spot prices, and quoting token swaps.",
-      "version": "0.300.5",
+      "version": "0.301.0",
       "created_at": "2025-12-16T16:33:09.313832Z",
-      "updated_at": "2026-05-22T09:48:23.707694Z",
-      "downloads": 6560,
-      "recent_downloads": 5455,
+      "updated_at": "2026-05-25T08:59:39.386125Z",
+      "downloads": 6598,
+      "recent_downloads": 5369,
       "categories": [
         "cryptography::cryptocurrencies",
         "finance"
@@ -78871,9 +78933,9 @@
       "id": "updt",
       "name": "updt",
       "description": "Cross-platform update helper for npm, cargo, rustup, fnm, scoop, Homebrew, paru, flatpak, pacman, and pkg.",
-      "version": "0.1.40",
+      "version": "0.1.41",
       "created_at": "2026-04-21T12:02:15.528229Z",
-      "updated_at": "2026-05-24T12:33:12.323551Z",
+      "updated_at": "2026-05-25T08:07:50.303548Z",
       "downloads": 645,
       "recent_downloads": 645,
       "categories": [
@@ -80420,9 +80482,9 @@
       "id": "vorto",
       "name": "vorto",
       "description": "A Vim-flavored modal terminal editor with batteries included: tree-sitter, LSP, fuzzy pickers, vim-surround, multi-cursor, and optional Copilot.",
-      "version": "0.12.0",
+      "version": "0.12.1",
       "created_at": "2026-05-16T03:21:37.317297Z",
-      "updated_at": "2026-05-25T06:46:29.337561Z",
+      "updated_at": "2026-05-25T08:20:24.742948Z",
       "downloads": 157,
       "recent_downloads": 157,
       "categories": [
@@ -81013,11 +81075,11 @@
       "id": "watchxy",
       "name": "watchxy",
       "description": "A modern watch command",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "created_at": "2026-05-21T05:47:46.987464Z",
-      "updated_at": "2026-05-22T02:28:00.057806Z",
-      "downloads": 13,
-      "recent_downloads": 13,
+      "updated_at": "2026-05-25T06:56:42.043089Z",
+      "downloads": 33,
+      "recent_downloads": 33,
       "categories": [
         "command-line-utilities"
       ],
