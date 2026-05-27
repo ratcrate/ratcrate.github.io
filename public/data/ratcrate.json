@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-05-27T02:25:40.988688791+00:00",
-    "total_crates": 4170,
+    "generated_at": "2026-05-27T06:41:59.469951766+00:00",
+    "total_crates": 4172,
     "core_libraries": 2,
-    "community_packages": 4168,
+    "community_packages": 4170,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4076,
-      "etag_cache_misses": 94,
-      "cache_hit_rate": 97.74580335731416
+      "etag_cache_hits": 4152,
+      "etag_cache_misses": 20,
+      "cache_hit_rate": 99.52061361457335
     }
   },
   "crates": [
@@ -1240,14 +1240,14 @@
       "id": "agent-mux",
       "name": "agent-mux",
       "description": "A fast, terminal-first multiplexer for managing multiple Claude Code conversations across local and remote hosts.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-05-24T05:39:05.126231Z",
-      "updated_at": "2026-05-24T05:39:05.126231Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-05-27T03:40:56.733600Z",
+      "downloads": 36,
+      "recent_downloads": 36,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/gizmo385/mux",
       "homepage": "https://github.com/gizmo385/mux",
@@ -11840,11 +11840,11 @@
       "id": "claude-dashboard",
       "name": "claude-dashboard",
       "description": "A terminal TUI dashboard that renders Claude Code usage reports with token stats, project breakdowns, and language distribution.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "created_at": "2026-05-26T16:00:11.586640Z",
-      "updated_at": "2026-05-26T18:06:37.733703Z",
-      "downloads": 40,
-      "recent_downloads": 40,
+      "updated_at": "2026-05-27T04:13:19.661638Z",
+      "downloads": 59,
+      "recent_downloads": 59,
       "categories": [
         "command-line-utilities"
       ],
@@ -13121,11 +13121,11 @@
       "id": "cnf",
       "name": "cnf",
       "description": "Distribution-agnostic 'command not found'-handler",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "created_at": "2022-01-31T15:28:56.983775Z",
-      "updated_at": "2026-03-17T07:30:14.153403Z",
-      "downloads": 13873,
-      "recent_downloads": 145,
+      "updated_at": "2026-05-27T05:14:19.008189Z",
+      "downloads": 13900,
+      "recent_downloads": 51,
       "categories": [
         "command-line-utilities"
       ],
@@ -13460,11 +13460,11 @@
       "id": "codewhale-tui",
       "name": "codewhale-tui",
       "description": "Terminal UI for open-source and open-weight coding models",
-      "version": "0.8.46",
+      "version": "0.8.47",
       "created_at": "2026-05-23T21:18:40.241888Z",
-      "updated_at": "2026-05-26T17:09:06.152774Z",
-      "downloads": 1163,
-      "recent_downloads": 1163,
+      "updated_at": "2026-05-27T04:02:33.933696Z",
+      "downloads": 1287,
+      "recent_downloads": 1287,
       "categories": [],
       "repository": "https://github.com/Hmbown/CodeWhale",
       "ratatui_dependency": {
@@ -14914,11 +14914,11 @@
       "id": "crepuscularity-cli",
       "name": "crepuscularity-cli",
       "description": "crepus CLI — scaffolding and builds for Crepuscularity (UNSTABLE; in active development).",
-      "version": "0.7.20",
+      "version": "0.7.21",
       "created_at": "2026-04-09T07:44:52.578202Z",
-      "updated_at": "2026-05-26T06:40:33.701972Z",
-      "downloads": 211,
-      "recent_downloads": 211,
+      "updated_at": "2026-05-27T03:35:35.623898Z",
+      "downloads": 229,
+      "recent_downloads": 229,
       "categories": [],
       "repository": "https://github.com/tschk/crepuscularity",
       "documentation": "https://docs.rs/crepuscularity-cli",
@@ -16446,11 +16446,11 @@
       "id": "debtmap",
       "name": "debtmap",
       "description": "Code complexity and technical debt analyzer",
-      "version": "0.17.0",
+      "version": "0.17.1",
       "created_at": "2025-08-10T07:59:01.960577Z",
-      "updated_at": "2026-05-26T00:19:38.542054Z",
-      "downloads": 6667,
-      "recent_downloads": 407,
+      "updated_at": "2026-05-27T06:07:12.660379Z",
+      "downloads": 6677,
+      "recent_downloads": 371,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -30203,18 +30203,18 @@
     {
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
-      "description": "Opinionated, drop-in Rust toolkit for production services at scale. The patterns from blog posts as actual code: 8-layer config cascade, structured logging with PII masking, Prometheus + OpenTelemetry, Kafka/gRPC transports, tiered disk-spillover, adaptive worker pools, graceful shutdown.",
-      "version": "2.7.4",
+      "description": "There's plenty of sage advice out there about how to run Rust services in production at scale — config cascades, structured logging, masking secrets, multi-backend secrets management, Prometheus, OpenTelemetry, Kafka transports, tiered disk-spillover sinks, adaptive worker pools, graceful shutdown — but almost none of it as code you can just install and use.\n\nThis is that code.\n\nOpinionated, drop-in, working out of the box. The patterns from blog posts, watercooler chats and beers with your Google mates as actual library — not a framework you assemble from twenty crates and 8 weeks of munging.\n",
+      "version": "2.8.0",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-05-25T03:00:53.752705Z",
-      "downloads": 3092,
-      "recent_downloads": 3092,
+      "updated_at": "2026-05-27T03:19:11.761446Z",
+      "downloads": 3130,
+      "recent_downloads": 3130,
       "categories": [
+        "development-tools",
         "asynchronous",
         "concurrency",
-        "config",
-        "development-tools",
-        "network-programming"
+        "network-programming",
+        "config"
       ],
       "repository": "https://github.com/hyperi-io/hyperi-rustlib",
       "ratatui_dependency": {
@@ -31950,11 +31950,11 @@
       "id": "jiq",
       "name": "jiq",
       "description": "Interactive JSON query tool with real-time output",
-      "version": "3.27.3",
+      "version": "3.28.0",
       "created_at": "2025-11-19T03:29:42.331532Z",
-      "updated_at": "2026-05-26T19:12:18.375667Z",
-      "downloads": 3631,
-      "recent_downloads": 668,
+      "updated_at": "2026-05-27T04:59:25.372807Z",
+      "downloads": 3637,
+      "recent_downloads": 674,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -35640,11 +35640,11 @@
       "id": "lean-ctx",
       "name": "lean-ctx",
       "description": "Context Runtime for AI Agents with CCP. 62 MCP tools, 10 read modes, 60+ compression patterns, cross-session memory (CCP), persistent AI knowledge with temporal facts + contradiction detection, multi-agent context sharing, LITM-aware positioning, AAAK compact format, adaptive compression with Thompson Sampling bandits. Supports 24+ AI tools. Reduces LLM token consumption by up to 99%.",
-      "version": "3.6.19",
+      "version": "3.6.21",
       "created_at": "2026-03-23T19:46:32.814016Z",
-      "updated_at": "2026-05-26T21:50:52.233328Z",
-      "downloads": 7919,
-      "recent_downloads": 7919,
+      "updated_at": "2026-05-27T06:28:34.428355Z",
+      "downloads": 7927,
+      "recent_downloads": 7927,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -39158,11 +39158,11 @@
       "id": "matrixcode-tui",
       "name": "matrixcode-tui",
       "description": "MatrixCode TUI - Terminal UI library for AI Code Agent",
-      "version": "0.4.17",
+      "version": "0.4.18",
       "created_at": "2026-05-19T06:47:46.412941Z",
-      "updated_at": "2026-05-26T23:41:16.313688Z",
-      "downloads": 314,
-      "recent_downloads": 314,
+      "updated_at": "2026-05-27T05:43:01.345103Z",
+      "downloads": 317,
+      "recent_downloads": 317,
       "categories": [],
       "repository": "https://github.com/bigfish1913/matrixcode",
       "ratatui_dependency": {
@@ -54025,11 +54025,11 @@
       "id": "railwayapp",
       "name": "railwayapp",
       "description": "Interact with Railway via CLI",
-      "version": "4.64.0",
+      "version": "4.65.0",
       "created_at": "2023-02-18T01:14:12.106990Z",
-      "updated_at": "2026-05-26T17:19:49.361669Z",
-      "downloads": 99056,
-      "recent_downloads": 1061,
+      "updated_at": "2026-05-27T05:14:17.453678Z",
+      "downloads": 99058,
+      "recent_downloads": 1063,
       "categories": [],
       "repository": "https://github.com/railwayapp/cli",
       "homepage": "https://github.com/railwayapp/cli",
@@ -57440,14 +57440,14 @@
       "id": "remendo",
       "name": "remendo",
       "description": "A terminal interface for Sashiko agentic patch review instances",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "created_at": "2026-05-20T02:48:47.222304Z",
-      "updated_at": "2026-05-20T02:48:47.222304Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-05-27T04:02:32.414047Z",
+      "downloads": 24,
+      "recent_downloads": 24,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/derekbarbosa/remendo-tui",
       "homepage": "https://derekbarbosa.github.io/remendo-tui/",
@@ -58905,14 +58905,14 @@
       "id": "ripvec",
       "name": "ripvec",
       "description": "Semantic code search CLI — like ripgrep but for meaning",
-      "version": "4.1.0",
+      "version": "4.1.12",
       "created_at": "2026-03-31T23:15:28.912289Z",
-      "updated_at": "2026-05-23T19:14:43.604136Z",
-      "downloads": 810,
-      "recent_downloads": 810,
+      "updated_at": "2026-05-27T05:52:55.089431Z",
+      "downloads": 836,
+      "recent_downloads": 836,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/fnordpig/ripvec",
       "ratatui_dependency": {
@@ -66306,11 +66306,11 @@
       "id": "sonos-cli",
       "name": "sonos-cli",
       "description": "CLI and TUI for controlling Sonos speakers",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "created_at": "2026-03-21T17:38:12.209023Z",
-      "updated_at": "2026-05-03T03:10:40.298135Z",
-      "downloads": 87,
-      "recent_downloads": 87,
+      "updated_at": "2026-05-27T04:56:27.478681Z",
+      "downloads": 128,
+      "recent_downloads": 128,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -68678,6 +68678,24 @@
       "is_core_library": false
     },
     {
+      "id": "stynx-code-tui",
+      "name": "stynx-code-tui",
+      "description": "Terminal user interface with ratatui for interactive sessions",
+      "version": "3.2.0",
+      "created_at": "2026-05-27T06:20:04.426804Z",
+      "updated_at": "2026-05-27T06:20:04.426804Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/maulanasdqn/stynx-code",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "submarine-rs",
       "name": "submarine-rs",
       "description": "Toolkit for subtitle processing",
@@ -69840,11 +69858,11 @@
       "id": "tael-cli",
       "name": "tael-cli",
       "description": "AI-agent-native observability — a single `tael` binary that runs the OTLP ingest/storage server (`tael serve`) and queries, visualizes, and annotates traces",
-      "version": "0.4.2",
+      "version": "0.5.0",
       "created_at": "2026-04-10T19:41:30.031020Z",
-      "updated_at": "2026-05-26T18:19:26.221087Z",
-      "downloads": 106,
-      "recent_downloads": 106,
+      "updated_at": "2026-05-27T04:26:36.344681Z",
+      "downloads": 122,
+      "recent_downloads": 122,
       "categories": [
         "command-line-utilities",
         "development-tools::profiling"
@@ -72894,11 +72912,11 @@
       "id": "tij",
       "name": "tij",
       "description": "Text-mode interface for Jujutsu - a TUI for jj version control",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "created_at": "2026-02-03T06:42:30.002860Z",
-      "updated_at": "2026-05-27T00:09:43.893214Z",
-      "downloads": 1201,
-      "recent_downloads": 455,
+      "updated_at": "2026-05-27T04:07:44.618180Z",
+      "downloads": 1229,
+      "recent_downloads": 483,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -73451,11 +73469,11 @@
       "id": "tmux-deck",
       "name": "tmux-deck",
       "description": "A Tmux session manager. Monitoring multi session Realtime preview.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2026-01-01T13:32:30.203209Z",
-      "updated_at": "2026-05-25T13:50:32.353647Z",
-      "downloads": 78,
-      "recent_downloads": 22,
+      "updated_at": "2026-05-27T05:24:02.492366Z",
+      "downloads": 80,
+      "recent_downloads": 24,
       "categories": [],
       "repository": "https://github.com/takeshid/tmux-deck",
       "ratatui_dependency": {
@@ -75074,6 +75092,28 @@
       ],
       "repository": "https://github.com/blackopsrepl/trex",
       "homepage": "https://github.com/blackopsrepl/trex",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "triage",
+      "name": "triage",
+      "description": "Ratatui local client for the Triage terminal supervisor.",
+      "version": "0.1.0",
+      "created_at": "2026-05-27T05:23:25.601570Z",
+      "updated_at": "2026-05-27T05:23:25.601570Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "development-tools",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/hyeons-lab/triage",
+      "homepage": "https://github.com/hyeons-lab/triage",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -82032,11 +82072,11 @@
       "id": "whetstone-cli",
       "name": "whetstone-cli",
       "description": "Installer and CLI for Claude Code token optimization (Headroom + RTK + Memory)",
-      "version": "2.3.2",
+      "version": "2.4.0",
       "created_at": "2026-04-26T05:38:40.997564Z",
-      "updated_at": "2026-05-26T23:12:19.922729Z",
-      "downloads": 98,
-      "recent_downloads": 98,
+      "updated_at": "2026-05-27T06:16:01.359759Z",
+      "downloads": 101,
+      "recent_downloads": 101,
       "categories": [],
       "repository": "https://github.com/z19r/whetstone",
       "ratatui_dependency": {
