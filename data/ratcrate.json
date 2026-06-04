@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-04T02:25:37.404599861+00:00",
-    "total_crates": 4293,
+    "generated_at": "2026-06-04T06:57:06.131488787+00:00",
+    "total_crates": 4294,
     "core_libraries": 2,
-    "community_packages": 4291,
+    "community_packages": 4292,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4180,
-      "etag_cache_misses": 113,
-      "cache_hit_rate": 97.36780805963195
+      "etag_cache_hits": 4286,
+      "etag_cache_misses": 8,
+      "cache_hit_rate": 99.81369352585003
     }
   },
   "crates": [
@@ -2386,6 +2386,26 @@
       ],
       "repository": "https://github.com/Toasterson/akh-medu",
       "homepage": "https://akh-medu.dev",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "akit-cli",
+      "name": "akit-cli",
+      "description": "Monitor and manage local AI agent tooling across Codex and Claude Code",
+      "version": "0.1.1",
+      "created_at": "2026-06-04T04:13:57.717772Z",
+      "updated_at": "2026-06-04T04:13:57.717772Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -10607,11 +10627,11 @@
       "id": "ccsight",
       "name": "ccsight",
       "description": "Claude Code session analytics TUI",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "created_at": "2026-04-06T12:44:30.426809Z",
-      "updated_at": "2026-05-29T04:33:45.776260Z",
-      "downloads": 117,
-      "recent_downloads": 117,
+      "updated_at": "2026-06-04T06:49:01.009705Z",
+      "downloads": 121,
+      "recent_downloads": 121,
       "categories": [
         "command-line-utilities"
       ],
@@ -30854,11 +30874,11 @@
       "id": "huddle",
       "name": "huddle",
       "description": "Terminal-native chat over a self-hosted Tor onion relay (opt-in LAN mDNS / direct dial), all Megolm end-to-end encrypted.",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "created_at": "2026-05-13T09:35:36.488320Z",
-      "updated_at": "2026-06-03T14:25:27.750820Z",
-      "downloads": 381,
-      "recent_downloads": 381,
+      "updated_at": "2026-06-04T03:29:23.148405Z",
+      "downloads": 393,
+      "recent_downloads": 393,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -31953,11 +31973,11 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "1.2.17",
+      "version": "1.2.18",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-06-02T01:47:03.906683Z",
-      "downloads": 219,
-      "recent_downloads": 219,
+      "updated_at": "2026-06-04T02:45:16.249657Z",
+      "downloads": 234,
+      "recent_downloads": 234,
       "categories": [
         "text-processing",
         "command-line-utilities",
@@ -46206,11 +46226,11 @@
       "id": "noetl",
       "name": "noetl",
       "description": "NoETL workflow automation CLI - Execute playbooks locally or orchestrate distributed pipelines",
-      "version": "4.7.0",
+      "version": "4.9.0",
       "created_at": "2026-01-10T05:15:32.056340Z",
-      "updated_at": "2026-06-01T19:04:37.723609Z",
-      "downloads": 398,
-      "recent_downloads": 294,
+      "updated_at": "2026-06-04T03:14:44.535882Z",
+      "downloads": 436,
+      "recent_downloads": 331,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -48340,11 +48360,11 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Install with: cargo install opencrabs",
-      "version": "0.3.34",
+      "version": "0.3.35",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-06-02T04:15:22.267889Z",
-      "downloads": 1113,
-      "recent_downloads": 1113,
+      "updated_at": "2026-06-04T05:09:37.195645Z",
+      "downloads": 1118,
+      "recent_downloads": 1118,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -55663,11 +55683,11 @@
       "id": "railwayapp",
       "name": "railwayapp",
       "description": "Interact with Railway via CLI",
-      "version": "4.66.1",
+      "version": "4.66.2",
       "created_at": "2023-02-18T01:14:12.106990Z",
-      "updated_at": "2026-06-03T03:01:06.493198Z",
-      "downloads": 99119,
-      "recent_downloads": 1110,
+      "updated_at": "2026-06-04T03:48:24.079008Z",
+      "downloads": 99134,
+      "recent_downloads": 1113,
       "categories": [],
       "repository": "https://github.com/railwayapp/cli",
       "homepage": "https://github.com/railwayapp/cli",
@@ -58261,11 +58281,11 @@
       "id": "ratune",
       "name": "ratune",
       "description": "A terminal music player for Subsonic-compatible servers",
-      "version": "0.9.9",
+      "version": "0.10.0",
       "created_at": "2026-05-04T23:28:55.153869Z",
-      "updated_at": "2026-05-30T18:39:35.566984Z",
-      "downloads": 102,
-      "recent_downloads": 102,
+      "updated_at": "2026-06-04T03:22:02.022905Z",
+      "downloads": 118,
+      "recent_downloads": 118,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
