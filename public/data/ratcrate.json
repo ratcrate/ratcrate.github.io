@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-08T02:17:46.428710698+00:00",
-    "total_crates": 4355,
+    "generated_at": "2026-06-08T07:04:17.940506883+00:00",
+    "total_crates": 4360,
     "core_libraries": 2,
-    "community_packages": 4353,
+    "community_packages": 4358,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4278,
-      "etag_cache_misses": 77,
-      "cache_hit_rate": 98.23191733639494
+      "etag_cache_hits": 4343,
+      "etag_cache_misses": 17,
+      "cache_hit_rate": 99.61009174311927
     }
   },
   "crates": [
@@ -3199,15 +3199,15 @@
       "id": "animato",
       "name": "animato",
       "description": "Professional-grade, renderer-agnostic animation library for Rust. Zero mandatory dependencies. no_std-ready.",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "created_at": "2026-05-07T06:36:59.358580Z",
-      "updated_at": "2026-05-24T09:21:57.637920Z",
-      "downloads": 210,
-      "recent_downloads": 210,
+      "updated_at": "2026-06-08T04:27:05.814789Z",
+      "downloads": 326,
+      "recent_downloads": 326,
       "categories": [
-        "game-development",
         "graphics",
-        "no-std"
+        "no-std",
+        "game-development"
       ],
       "repository": "https://github.com/AarambhDevHub/animato",
       "ratatui_dependency": {
@@ -19060,10 +19060,10 @@
       "id": "domaincheck",
       "name": "domaincheck",
       "description": "Check domainname availability on CLI using RDAP (with WHOIS fallback)",
-      "version": "0.4.129",
+      "version": "0.4.130",
       "created_at": "2025-04-22T17:57:59.617354Z",
-      "updated_at": "2026-06-05T08:19:28.225282Z",
-      "downloads": 24338,
+      "updated_at": "2026-06-08T03:41:04.083393Z",
+      "downloads": 24351,
       "recent_downloads": 373,
       "categories": [
         "command-line-utilities",
@@ -29612,16 +29612,16 @@
       "id": "hematite-cli",
       "name": "hematite-cli",
       "description": "Senior SysAdmin, Network Admin, Data Analyst, and Software Engineer living in your terminal. A high-precision local AI agent harness for LM Studio, Ollama, and other local OpenAI-compatible runtimes that runs 100% on your own silicon. Reads repos, edits files, runs builds, inspects full network state and workstation telemetry, and runs real Python/JS for data analysis.",
-      "version": "0.13.0",
+      "version": "0.14.1",
       "created_at": "2026-04-11T05:08:23.477159Z",
-      "updated_at": "2026-05-26T06:29:50.867908Z",
-      "downloads": 316,
-      "recent_downloads": 316,
+      "updated_at": "2026-06-08T05:47:55.804080Z",
+      "downloads": 329,
+      "recent_downloads": 329,
       "categories": [
-        "development-tools",
-        "command-line-utilities",
+        "os",
         "network-programming",
-        "os"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/undergroundrap/hematite-cli",
       "homepage": "https://github.com/undergroundrap/hematite-cli",
@@ -31370,11 +31370,11 @@
       "id": "huddle",
       "name": "huddle",
       "description": "Terminal-native chat over a self-hosted Tor onion relay (opt-in LAN mDNS / direct dial), all Megolm end-to-end encrypted.",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "created_at": "2026-05-13T09:35:36.488320Z",
-      "updated_at": "2026-06-07T10:04:59.381056Z",
-      "downloads": 493,
-      "recent_downloads": 493,
+      "updated_at": "2026-06-08T06:48:57.384025Z",
+      "downloads": 494,
+      "recent_downloads": 494,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -35508,11 +35508,11 @@
       "id": "kleos-cred",
       "name": "kleos-cred",
       "description": "Credential management CLI with encrypted vault and YubiKey support",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "created_at": "2026-04-18T18:43:03.881022Z",
-      "updated_at": "2026-06-01T19:41:06.784728Z",
-      "downloads": 99,
-      "recent_downloads": 99,
+      "updated_at": "2026-06-08T05:58:27.247102Z",
+      "downloads": 110,
+      "recent_downloads": 110,
       "categories": [],
       "repository": "https://github.com/Ghost-Frame/Kleos",
       "homepage": "https://kleos.syntheos.dev",
@@ -45888,11 +45888,11 @@
       "id": "netwatch-tui",
       "name": "netwatch-tui",
       "description": "Real-time network diagnostics in your terminal. One command, zero config, instant visibility.",
-      "version": "0.25.5",
+      "version": "0.25.6",
       "created_at": "2026-02-25T21:02:39.760287Z",
-      "updated_at": "2026-06-08T02:01:03.031570Z",
-      "downloads": 4627,
-      "recent_downloads": 4056,
+      "updated_at": "2026-06-08T06:06:53.621742Z",
+      "downloads": 4648,
+      "recent_downloads": 4077,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -46297,6 +46297,29 @@
         "command-line-utilities"
       ],
       "repository": "https://github.com/Vaishnav-Sabari-Girish/nibble",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "nibs",
+      "name": "nibs",
+      "description": "A safe terminal cleaner for Linux developers",
+      "version": "0.1.0",
+      "created_at": "2026-06-08T05:18:51.400854Z",
+      "updated_at": "2026-06-08T05:18:51.400854Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [
+        "command-line-utilities",
+        "filesystem"
+      ],
+      "repository": "https://github.com/danitsdev/nibble",
+      "homepage": "https://github.com/danitsdev/nibble",
+      "documentation": "https://github.com/danitsdev/nibble",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -56159,11 +56182,11 @@
       "id": "ra-killer",
       "name": "ra-killer",
       "description": "Automatically monitor and kill high-memory rust-analyzer processes",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "created_at": "2026-04-01T13:11:53.176390Z",
-      "updated_at": "2026-06-07T06:21:58.651647Z",
-      "downloads": 15,
-      "recent_downloads": 15,
+      "updated_at": "2026-06-08T04:44:29.988371Z",
+      "downloads": 40,
+      "recent_downloads": 40,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -61970,6 +61993,24 @@
       "is_core_library": false
     },
     {
+      "id": "robson-gateway-tui",
+      "name": "robson-gateway-tui",
+      "description": "Rust async agent orchestrator for automated development workflows",
+      "version": "0.1.0",
+      "created_at": "2026-06-08T03:12:14.746457Z",
+      "updated_at": "2026-06-08T05:53:45.886165Z",
+      "downloads": 24,
+      "recent_downloads": 24,
+      "categories": [],
+      "repository": "https://github.com/ofabianomartins/robson",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "rocketmq-admin-tui",
       "name": "rocketmq-admin-tui",
       "description": "A RocketMQ Rust terminal command management tool implemented based on Ratatui.",
@@ -63174,6 +63215,28 @@
         "development-tools"
       ],
       "homepage": "https://github.com/narendasan/rtop",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "rtopm",
+      "name": "rtopm",
+      "description": "A modern TUI system resource monitor with Docker and disk I/O tracking",
+      "version": "0.1.0",
+      "created_at": "2026-06-08T03:59:32.963664Z",
+      "updated_at": "2026-06-08T03:59:32.963664Z",
+      "downloads": 11,
+      "recent_downloads": 11,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/rebienkrdns/rtop",
+      "homepage": "https://github.com/rebienkrdns/rtop",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -67506,11 +67569,11 @@
       "id": "shunt-proxy",
       "name": "shunt-proxy",
       "description": "A local proxy that pools multiple Claude accounts behind a single endpoint, routing requests to maximise rate limits",
-      "version": "0.1.131",
+      "version": "0.1.136",
       "created_at": "2026-05-11T10:14:36.674673Z",
-      "updated_at": "2026-06-07T20:28:15.919198Z",
-      "downloads": 1002,
-      "recent_downloads": 1002,
+      "updated_at": "2026-06-08T06:39:59.275748Z",
+      "downloads": 1053,
+      "recent_downloads": 1053,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -68523,6 +68586,24 @@
         "command-line-utilities"
       ],
       "repository": "https://github.com/Aryagorjipour/smirrors",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "smol-workflow-cli",
+      "name": "smol-workflow-cli",
+      "description": "CLI for the smol-workflows Rust engine.",
+      "version": "0.2.1",
+      "created_at": "2026-06-08T05:19:32.696863Z",
+      "updated_at": "2026-06-08T06:32:37.829057Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [],
+      "repository": "https://github.com/b4fun/smol-workflows",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -75175,6 +75256,29 @@
       "is_core_library": false
     },
     {
+      "id": "termwaves-client",
+      "name": "termwaves-client",
+      "description": "Terminal UI for real-time audio visualization, powered by termwaves and PipeWire",
+      "version": "0.1.0",
+      "created_at": "2026-06-08T05:22:42.312512Z",
+      "updated_at": "2026-06-08T05:22:42.312512Z",
+      "downloads": 11,
+      "recent_downloads": 11,
+      "categories": [
+        "multimedia::audio",
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/xandwr/termwaves",
+      "homepage": "https://github.com/xandwr/termwaves",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ternlang-cli",
       "name": "ternlang-cli",
       "description": "Command-line interface for ternlang — run, build, sim, fmt, repl, and compat commands for the Balanced Ternary Execution VM.",
@@ -76154,11 +76258,11 @@
       "id": "tij",
       "name": "tij",
       "description": "Text-mode interface for Jujutsu - a TUI for jj version control",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "created_at": "2026-02-03T06:42:30.002860Z",
-      "updated_at": "2026-06-05T10:06:37.443103Z",
-      "downloads": 1296,
-      "recent_downloads": 485,
+      "updated_at": "2026-06-08T05:51:47.765766Z",
+      "downloads": 1308,
+      "recent_downloads": 465,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -78625,11 +78729,11 @@
       "id": "trnovel",
       "name": "trnovel",
       "description": "Terminal reader for novel",
-      "version": "0.10.4",
+      "version": "0.11.0",
       "created_at": "2024-11-29T12:38:29.334131Z",
-      "updated_at": "2026-06-06T12:27:57.199656Z",
+      "updated_at": "2026-06-08T06:35:15.077837Z",
       "downloads": 22644,
-      "recent_downloads": 153,
+      "recent_downloads": 152,
       "categories": [],
       "repository": "https://github.com/yexiyue/TRNovel",
       "homepage": "https://yexiyue.github.io/TRNovel",
@@ -84389,11 +84493,11 @@
       "id": "vm-curator",
       "name": "vm-curator",
       "description": "A TUI application to manage QEMU VM library",
-      "version": "0.4.10",
+      "version": "1.0.0",
       "created_at": "2026-01-27T02:42:44.725743Z",
-      "updated_at": "2026-05-11T20:05:24.918320Z",
-      "downloads": 554,
-      "recent_downloads": 407,
+      "updated_at": "2026-06-08T05:54:15.591832Z",
+      "downloads": 622,
+      "recent_downloads": 259,
       "categories": [
         "command-line-utilities",
         "virtualization"
@@ -85731,11 +85835,11 @@
       "id": "whetstone-cli",
       "name": "whetstone-cli",
       "description": "Installer and CLI for Claude Code token optimization (Headroom + RTK + Memory)",
-      "version": "2.6.0",
+      "version": "3.1.0",
       "created_at": "2026-04-26T05:38:40.997564Z",
-      "updated_at": "2026-06-07T20:41:49.335019Z",
-      "downloads": 183,
-      "recent_downloads": 183,
+      "updated_at": "2026-06-08T06:12:56.239462Z",
+      "downloads": 197,
+      "recent_downloads": 197,
       "categories": [],
       "repository": "https://github.com/z19r/whetstone",
       "ratatui_dependency": {
