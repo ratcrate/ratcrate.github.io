@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-11T02:33:32.653007787+00:00",
-    "total_crates": 4412,
+    "generated_at": "2026-06-11T07:06:02.925075432+00:00",
+    "total_crates": 4415,
     "core_libraries": 2,
-    "community_packages": 4410,
+    "community_packages": 4413,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4314,
-      "etag_cache_misses": 98,
-      "cache_hit_rate": 97.77878513145966
+      "etag_cache_hits": 4390,
+      "etag_cache_misses": 25,
+      "cache_hit_rate": 99.43374858437146
     }
   },
   "crates": [
@@ -13553,11 +13553,11 @@
       "id": "cloudflare-speed-cli",
       "name": "cloudflare-speed-cli",
       "description": "CLI tool for Cloudflare speed testing with TUI interface",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "created_at": "2026-05-20T02:57:21.269834Z",
-      "updated_at": "2026-06-09T14:37:13.782621Z",
-      "downloads": 223,
-      "recent_downloads": 223,
+      "updated_at": "2026-06-11T03:31:37.999838Z",
+      "downloads": 245,
+      "recent_downloads": 245,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -18163,9 +18163,9 @@
       "description": "CLI for dibs - Postgres toolkit for Rust",
       "version": "0.1.0",
       "created_at": "2026-06-02T18:31:27.024933Z",
-      "updated_at": "2026-06-02T22:14:29.338579Z",
-      "downloads": 27,
-      "recent_downloads": 27,
+      "updated_at": "2026-06-11T02:37:45.225093Z",
+      "downloads": 55,
+      "recent_downloads": 55,
       "categories": [],
       "repository": "https://github.com/bearcove/dibs",
       "ratatui_dependency": {
@@ -18446,11 +18446,11 @@
       "id": "dirge-agent",
       "name": "dirge-agent",
       "description": "Minimalistic coding agent written in Rust, optimized for memory footprint and performance",
-      "version": "0.5.2",
+      "version": "0.6.0",
       "created_at": "2026-05-29T21:57:45.827252Z",
-      "updated_at": "2026-06-11T02:09:50.513352Z",
-      "downloads": 165,
-      "recent_downloads": 165,
+      "updated_at": "2026-06-11T05:08:50.730396Z",
+      "downloads": 194,
+      "recent_downloads": 194,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -21376,6 +21376,28 @@
         "mathematics"
       ],
       "repository": "https://github.com/sigurd4/enneagram",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "entropy-tui",
+      "name": "entropy-tui",
+      "description": "a text editor where the letters deletes itself",
+      "version": "0.1.0",
+      "created_at": "2026-06-11T05:40:00.584740Z",
+      "updated_at": "2026-06-11T05:40:00.584740Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [
+        "games",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/jagath-sajjan/entropy",
+      "homepage": "https://github.com/jagath-sajjan/entropy",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -25447,11 +25469,11 @@
       "id": "geiserx_tailscale",
       "name": "geiserx_tailscale",
       "description": "A work-in-progress pure-Rust Tailscale implementation (fork of tailscale/tailscale-rs)",
-      "version": "0.18.0",
+      "version": "0.25.0",
       "created_at": "2026-06-08T21:58:06.812309Z",
-      "updated_at": "2026-06-11T01:44:03.667101Z",
-      "downloads": 423,
-      "recent_downloads": 423,
+      "updated_at": "2026-06-11T07:01:55.725187Z",
+      "downloads": 670,
+      "recent_downloads": 670,
       "categories": [
         "api-bindings",
         "asynchronous",
@@ -31142,11 +31164,11 @@
       "id": "honya",
       "name": "honya",
       "description": "A terminal app for AI-assisted Japanese→Thai light-novel translation (EPUB import + a three-agent LLM pipeline over an OpenRouter-compatible API).",
-      "version": "0.2.2",
+      "version": "0.2.4",
       "created_at": "2026-06-08T15:56:54.792523Z",
-      "updated_at": "2026-06-09T15:58:42.421980Z",
-      "downloads": 54,
-      "recent_downloads": 54,
+      "updated_at": "2026-06-11T04:31:24.293740Z",
+      "downloads": 79,
+      "recent_downloads": 79,
       "categories": [
         "command-line-utilities",
         "text-processing",
@@ -31751,14 +31773,14 @@
       "id": "hxedit",
       "name": "hxedit",
       "description": "A terminal hex editor optimized for large files",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "created_at": "2026-05-17T02:51:45.160954Z",
-      "updated_at": "2026-05-17T02:51:45.160954Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-06-11T04:54:58.377587Z",
+      "downloads": 26,
+      "recent_downloads": 26,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/ycsgg/hxedit",
       "homepage": "https://github.com/ycsgg/hxedit",
@@ -32743,11 +32765,11 @@
       "id": "insmaller",
       "name": "insmaller",
       "description": "Config-driven installer: describe install steps in TOML and run them from one binary",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "created_at": "2026-05-31T14:25:59.206740Z",
-      "updated_at": "2026-06-10T13:29:12.551626Z",
-      "downloads": 108,
-      "recent_downloads": 108,
+      "updated_at": "2026-06-11T06:43:24.768292Z",
+      "downloads": 111,
+      "recent_downloads": 111,
       "categories": [
         "command-line-utilities"
       ],
@@ -37353,14 +37375,14 @@
       "id": "lazyslurm",
       "name": "lazyslurm",
       "description": "A terminal UI for monitoring and managing slurm jobs",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "created_at": "2025-09-07T14:07:59.354642Z",
-      "updated_at": "2025-11-15T10:14:45.131218Z",
-      "downloads": 939,
-      "recent_downloads": 26,
+      "updated_at": "2026-06-11T04:00:21.940315Z",
+      "downloads": 959,
+      "recent_downloads": 20,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/hill/lazyslurm",
       "homepage": "https://github.com/hill/lazyslurm",
@@ -42006,11 +42028,11 @@
       "id": "mdview-tui",
       "name": "mdview-tui",
       "description": "A minimal terminal markdown reader: opens a .md file in a centered column in the alternate screen, with syntax-highlighted code blocks and box-drawn tables.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "created_at": "2026-06-08T17:55:34.354365Z",
-      "updated_at": "2026-06-09T03:27:04.339268Z",
-      "downloads": 22,
-      "recent_downloads": 22,
+      "updated_at": "2026-06-11T04:50:23.423666Z",
+      "downloads": 37,
+      "recent_downloads": 37,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -42651,14 +42673,14 @@
       "id": "metarepo",
       "name": "metarepo",
       "description": "A powerful multi-project management tool inspired by the meta npm package - manage multiple git repositories with ease",
-      "version": "0.51.0",
+      "version": "0.52.0",
       "created_at": "2025-09-06T01:13:09.265172Z",
-      "updated_at": "2026-06-05T21:10:04.532369Z",
-      "downloads": 4853,
-      "recent_downloads": 288,
+      "updated_at": "2026-06-11T05:28:57.952636Z",
+      "downloads": 4875,
+      "recent_downloads": 310,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/codyaverett/metarepo",
       "homepage": "https://github.com/codyaverett/metarepo",
@@ -42674,14 +42696,14 @@
       "id": "metarepo-core",
       "name": "metarepo-core",
       "description": "Core interfaces and types for the metarepo multi-project management tool",
-      "version": "0.51.0",
+      "version": "0.52.0",
       "created_at": "2025-09-05T22:34:32.504260Z",
-      "updated_at": "2026-06-05T21:09:25.578017Z",
-      "downloads": 5257,
-      "recent_downloads": 492,
+      "updated_at": "2026-06-11T05:28:16.268810Z",
+      "downloads": 5287,
+      "recent_downloads": 519,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/codyaverett/metarepo",
       "homepage": "https://github.com/codyaverett/metarepo",
@@ -49592,11 +49614,11 @@
       "id": "openheim",
       "name": "openheim",
       "description": "A fast, multi-provider LLM agent runtime written in Rust",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "created_at": "2026-05-15T07:31:28.883764Z",
-      "updated_at": "2026-06-01T04:49:08.453779Z",
-      "downloads": 67,
-      "recent_downloads": 67,
+      "updated_at": "2026-06-11T06:41:36.636492Z",
+      "downloads": 73,
+      "recent_downloads": 73,
       "categories": [
         "asynchronous",
         "command-line-utilities"
@@ -56886,11 +56908,11 @@
       "id": "railwayapp",
       "name": "railwayapp",
       "description": "Interact with Railway via CLI",
-      "version": "5.8.0",
+      "version": "5.9.0",
       "created_at": "2023-02-18T01:14:12.106990Z",
-      "updated_at": "2026-06-09T23:10:58.816814Z",
-      "downloads": 99368,
-      "recent_downloads": 1332,
+      "updated_at": "2026-06-11T05:43:35.977175Z",
+      "downloads": 99382,
+      "recent_downloads": 1344,
       "categories": [],
       "repository": "https://github.com/railwayapp/cli",
       "homepage": "https://github.com/railwayapp/cli",
@@ -63600,6 +63622,28 @@
       "is_core_library": false
     },
     {
+      "id": "rsview",
+      "name": "rsview",
+      "description": "Browse, navigate and search multi-GB JSON in the terminal at near-constant memory (mmap + lazy byte-range parsing)",
+      "version": "0.2.0",
+      "created_at": "2026-06-11T06:33:28.662252Z",
+      "updated_at": "2026-06-11T06:55:57.413021Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/vothanhdat/rsview",
+      "homepage": "https://github.com/vothanhdat/rsview",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "rsvp-term",
       "name": "rsvp-term",
       "description": "TUI for RSVP reading of markdown prose",
@@ -65491,11 +65535,11 @@
       "id": "sabiql",
       "name": "sabiql",
       "description": "A fast, driver-less TUI for browsing and editing PostgreSQL databases",
-      "version": "1.12.3",
+      "version": "1.12.4",
       "created_at": "2026-03-03T08:51:23.686043Z",
-      "updated_at": "2026-06-07T13:50:16.997389Z",
-      "downloads": 264,
-      "recent_downloads": 233,
+      "updated_at": "2026-06-11T03:02:05.302879Z",
+      "downloads": 277,
+      "recent_downloads": 246,
       "categories": [
         "command-line-utilities",
         "database"
@@ -65513,11 +65557,11 @@
       "id": "sabiql-ui",
       "name": "sabiql-ui",
       "description": "UI layer for sabiql",
-      "version": "1.12.3",
+      "version": "1.12.4",
       "created_at": "2026-04-25T14:34:14.207245Z",
-      "updated_at": "2026-06-07T13:49:35.489169Z",
-      "downloads": 145,
-      "recent_downloads": 145,
+      "updated_at": "2026-06-11T03:01:20.867329Z",
+      "downloads": 162,
+      "recent_downloads": 162,
       "categories": [],
       "repository": "https://github.com/riii111/sabiql",
       "ratatui_dependency": {
@@ -75025,16 +75069,16 @@
       "id": "tempest-monitor",
       "name": "tempest-monitor",
       "description": "A stunning, real-time terminal system monitor (TUI) for macOS and Linux, with a library for hardware telemetry.",
-      "version": "0.4.6",
+      "version": "0.4.7",
       "created_at": "2026-04-06T15:47:45.229850Z",
-      "updated_at": "2026-06-07T04:03:43.231974Z",
-      "downloads": 341,
-      "recent_downloads": 341,
+      "updated_at": "2026-06-11T06:39:11.075690Z",
+      "downloads": 343,
+      "recent_downloads": 343,
       "categories": [
-        "os::linux-apis",
-        "os::macos-apis",
         "command-line-utilities",
-        "visualization"
+        "os::macos-apis",
+        "visualization",
+        "os::linux-apis"
       ],
       "repository": "https://github.com/7empest462/tempest-monitor",
       "homepage": "https://github.com/7empest462/tempest-monitor",
@@ -78369,6 +78413,28 @@
       "is_core_library": false
     },
     {
+      "id": "tokenix",
+      "name": "tokenix",
+      "description": "Semantic search, symbol graphs, secrets scanning, output filters, and CLI hooks that save 60-90% LLM tokens",
+      "version": "0.35.0",
+      "created_at": "2026-06-01T18:51:16.225212Z",
+      "updated_at": "2026-06-11T04:41:54.906289Z",
+      "downloads": 397,
+      "recent_downloads": 397,
+      "categories": [
+        "development-tools",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/juninmd/tokenix",
+      "homepage": "https://github.com/juninmd/tokenix",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "tokenless-tui",
       "name": "tokenless-tui",
       "description": "Interactive TUI dashboard for tokenless compression statistics",
@@ -79409,14 +79475,14 @@
       "id": "triage",
       "name": "triage",
       "description": "Ratatui local client for the Triage terminal supervisor.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "created_at": "2026-05-27T05:23:25.601570Z",
-      "updated_at": "2026-06-05T14:13:41.976662Z",
-      "downloads": 71,
-      "recent_downloads": 71,
+      "updated_at": "2026-06-11T05:22:20.462248Z",
+      "downloads": 85,
+      "recent_downloads": 85,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/hyeons-lab/triage",
       "homepage": "https://github.com/hyeons-lab/triage",
@@ -84491,11 +84557,11 @@
       "id": "vectordata",
       "name": "vectordata",
       "description": "Rust implementation of vectordata tools for dataset.yaml",
-      "version": "1.3.1",
+      "version": "1.4.1",
       "created_at": "2026-01-26T21:36:38.037076Z",
-      "updated_at": "2026-06-11T00:58:40.461333Z",
-      "downloads": 915,
-      "recent_downloads": 883,
+      "updated_at": "2026-06-11T03:55:02.669112Z",
+      "downloads": 969,
+      "recent_downloads": 937,
       "categories": [
         "filesystem",
         "network-programming",
@@ -84534,11 +84600,11 @@
       "id": "veks",
       "name": "veks",
       "description": "A vector bulk data processing tool",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "created_at": "2026-03-05T00:27:57.886989Z",
-      "updated_at": "2026-06-11T01:04:43.358084Z",
-      "downloads": 462,
-      "recent_downloads": 460,
+      "updated_at": "2026-06-11T03:30:00.237981Z",
+      "downloads": 485,
+      "recent_downloads": 483,
       "categories": [
         "filesystem",
         "network-programming",
@@ -86838,11 +86904,11 @@
       "id": "whetstone-cli",
       "name": "whetstone-cli",
       "description": "Installer and CLI for Claude Code token optimization (Headroom + RTK + Memory)",
-      "version": "3.1.3",
+      "version": "3.2.0",
       "created_at": "2026-04-26T05:38:40.997564Z",
-      "updated_at": "2026-06-09T04:42:35.934705Z",
-      "downloads": 246,
-      "recent_downloads": 246,
+      "updated_at": "2026-06-11T06:18:24.069918Z",
+      "downloads": 262,
+      "recent_downloads": 262,
       "categories": [],
       "repository": "https://github.com/z19r/whetstone",
       "ratatui_dependency": {
@@ -86879,11 +86945,11 @@
       "id": "whisker-cli",
       "name": "whisker-cli",
       "description": "Whisker CLI: `whisker` and `cargo-whisker` (hybrid) — scaffold, doctor, and dev-loop Whisker apps.",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "created_at": "2026-05-14T14:40:25.405656Z",
-      "updated_at": "2026-06-10T09:44:49.154920Z",
-      "downloads": 55,
-      "recent_downloads": 55,
+      "updated_at": "2026-06-11T04:47:55.233081Z",
+      "downloads": 86,
+      "recent_downloads": 86,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -89873,11 +89939,11 @@
       "id": "zilliz",
       "name": "zilliz",
       "description": "TUI and CLI tool for managing Zilliz Cloud clusters and Milvus operations",
-      "version": "1.4.3",
+      "version": "1.4.4",
       "created_at": "2026-03-27T09:08:18.963476Z",
-      "updated_at": "2026-06-10T07:51:42.684136Z",
-      "downloads": 304,
-      "recent_downloads": 304,
+      "updated_at": "2026-06-11T04:02:31.517967Z",
+      "downloads": 315,
+      "recent_downloads": 315,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
