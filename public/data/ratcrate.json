@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-15T07:40:23.899900798+00:00",
-    "total_crates": 4487,
+    "generated_at": "2026-06-15T09:46:15.291256969+00:00",
+    "total_crates": 4490,
     "core_libraries": 2,
-    "community_packages": 4485,
+    "community_packages": 4488,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4357,
-      "etag_cache_misses": 130,
-      "cache_hit_rate": 97.10274125250724
+      "etag_cache_hits": 4470,
+      "etag_cache_misses": 20,
+      "cache_hit_rate": 99.55456570155901
     }
   },
   "crates": [
@@ -1416,11 +1416,11 @@
       "id": "agent-switcher",
       "name": "agent-switcher",
       "description": "Tmux popup TUI for switching between waiting AI coding agent sessions.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "created_at": "2026-05-20T13:20:57.947571Z",
-      "updated_at": "2026-06-06T19:52:07.315313Z",
-      "downloads": 119,
-      "recent_downloads": 119,
+      "updated_at": "2026-06-15T07:37:22.286662Z",
+      "downloads": 120,
+      "recent_downloads": 120,
       "categories": [
         "command-line-utilities"
       ],
@@ -6373,11 +6373,11 @@
       "id": "bea-rs",
       "name": "bea-rs",
       "description": "A file-based task tracker CLI and MCP server for AI agent workflows",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "created_at": "2026-03-15T23:03:17.871867Z",
-      "updated_at": "2026-06-12T07:05:17.273081Z",
-      "downloads": 126,
-      "recent_downloads": 126,
+      "updated_at": "2026-06-15T09:42:03.061392Z",
+      "downloads": 140,
+      "recent_downloads": 69,
       "categories": [
         "command-line-utilities"
       ],
@@ -13401,9 +13401,9 @@
       "id": "clin-rs",
       "name": "clin-rs",
       "description": "Encrypted terminal note-taking app inspired by Obsidian",
-      "version": "0.8.12",
+      "version": "0.8.13",
       "created_at": "2026-04-01T03:08:52.644630Z",
-      "updated_at": "2026-06-15T00:25:40.776385Z",
+      "updated_at": "2026-06-15T09:23:33.407167Z",
       "downloads": 272,
       "recent_downloads": 272,
       "categories": [
@@ -15470,9 +15470,9 @@
       "id": "cozy",
       "name": "cozy",
       "description": "A Comfort First terminal text editor: type like nano, navigate like vim",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "created_at": "2026-06-05T20:45:28.031911Z",
-      "updated_at": "2026-06-13T01:39:05.933892Z",
+      "updated_at": "2026-06-15T07:42:33.940251Z",
       "downloads": 168,
       "recent_downloads": 168,
       "categories": [
@@ -17570,9 +17570,9 @@
       "id": "debtmap",
       "name": "debtmap",
       "description": "Code complexity and technical debt analyzer",
-      "version": "0.18.0",
+      "version": "0.19.0",
       "created_at": "2025-08-10T07:59:01.960577Z",
-      "updated_at": "2026-06-14T10:05:10.843834Z",
+      "updated_at": "2026-06-15T08:06:39.204898Z",
       "downloads": 6845,
       "recent_downloads": 412,
       "categories": [
@@ -18507,6 +18507,24 @@
       "downloads": 41,
       "recent_downloads": 41,
       "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "diffler",
+      "name": "diffler",
+      "description": "Terminal code review for AI coding agents",
+      "version": "0.1.2",
+      "created_at": "2026-06-15T08:15:36.933862Z",
+      "updated_at": "2026-06-15T09:26:04.033227Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/matheusfillipe/diffler",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -25810,9 +25828,9 @@
       "id": "geiserx_tailscale",
       "name": "geiserx_tailscale",
       "description": "A work-in-progress pure-Rust Tailscale implementation (fork of tailscale/tailscale-rs)",
-      "version": "0.38.0",
+      "version": "0.39.0",
       "created_at": "2026-06-08T21:58:06.812309Z",
-      "updated_at": "2026-06-15T00:31:45.386425Z",
+      "updated_at": "2026-06-15T07:44:57.093868Z",
       "downloads": 1510,
       "recent_downloads": 1510,
       "categories": [
@@ -28987,6 +29005,29 @@
       "is_core_library": false
     },
     {
+      "id": "graphtatui",
+      "name": "graphtatui",
+      "description": "Terminal-native graph explorer for arbitrary triple datasets",
+      "version": "0.1.0",
+      "created_at": "2026-06-15T09:37:08.091923Z",
+      "updated_at": "2026-06-15T09:37:08.091923Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "database-implementations",
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/Sok205/graphtatui",
+      "homepage": "https://github.com/Sok205/graphtatui",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "gravityfile-tui",
       "name": "gravityfile-tui",
       "description": "Terminal user interface for gravityfile",
@@ -32061,11 +32102,11 @@
       "id": "huddle",
       "name": "huddle",
       "description": "Terminal-native chat over a self-hosted Tor onion relay (opt-in LAN mDNS / direct dial), all Megolm end-to-end encrypted.",
-      "version": "2.1.3",
+      "version": "2.2.0",
       "created_at": "2026-05-13T09:35:36.488320Z",
-      "updated_at": "2026-06-14T06:19:11.904242Z",
-      "downloads": 711,
-      "recent_downloads": 711,
+      "updated_at": "2026-06-15T08:56:20.043260Z",
+      "downloads": 725,
+      "recent_downloads": 725,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -32298,9 +32339,9 @@
       "id": "hyperi-rustlib",
       "name": "hyperi-rustlib",
       "description": "There's plenty of sage advice out there about how to run Rust services in production at scale — config cascades, structured logging, masking secrets, multi-backend secrets management, Prometheus, OpenTelemetry, Kafka transports, tiered disk-spillover sinks, adaptive worker pools, graceful shutdown — but almost none of it as code you can just install and use.\n\nThis is that code.\n\nOpinionated, drop-in, working out of the box. The patterns from blog posts, watercooler chats and beers with your Google mates as actual library — not a framework you assemble from twenty crates and 8 weeks of munging.\n",
-      "version": "2.8.10",
+      "version": "2.8.11",
       "created_at": "2026-02-17T01:53:10.899210Z",
-      "updated_at": "2026-06-15T01:58:20.919634Z",
+      "updated_at": "2026-06-15T08:57:57.282685Z",
       "downloads": 3503,
       "recent_downloads": 3237,
       "categories": [
@@ -34335,11 +34376,11 @@
       "id": "jkconfig",
       "name": "jkconfig",
       "description": "A Ratatui-based TUI component library for JSON Schema configuration",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "created_at": "2025-10-24T04:51:42.390735Z",
-      "updated_at": "2026-05-21T07:07:41.804005Z",
-      "downloads": 50945,
-      "recent_downloads": 49662,
+      "updated_at": "2026-06-15T08:24:00.190437Z",
+      "downloads": 97071,
+      "recent_downloads": 95597,
       "categories": [
         "command-line-interface",
         "config"
@@ -41748,9 +41789,9 @@
       "id": "marshal-tui",
       "name": "marshal-tui",
       "description": "Terminal UI for the marshal coordination daemon — live roster + message stream.",
-      "version": "0.12.1",
+      "version": "0.12.4",
       "created_at": "2026-05-06T00:49:11.247985Z",
-      "updated_at": "2026-06-14T08:14:18.066856Z",
+      "updated_at": "2026-06-15T09:17:35.448779Z",
       "downloads": 324,
       "recent_downloads": 324,
       "categories": [
@@ -50970,15 +51011,15 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.22.1",
+      "version": "0.23.0",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2026-06-06T01:17:10.964167Z",
-      "downloads": 103812,
-      "recent_downloads": 46635,
+      "updated_at": "2026-06-15T09:35:17.546683Z",
+      "downloads": 108354,
+      "recent_downloads": 50967,
       "categories": [
+        "development-tools",
         "command-line-utilities",
-        "embedded",
-        "development-tools"
+        "embedded"
       ],
       "repository": "https://github.com/drivercraft/ostool",
       "ratatui_dependency": {
@@ -51035,11 +51076,11 @@
       "id": "otoji",
       "name": "otoji",
       "description": "音字 — realtime speech ⇄ text. SenseVoice / iFlytek ASR + TTS, LLM polish, ratatui live transcript.",
-      "version": "0.1.13",
+      "version": "0.1.15",
       "created_at": "2026-04-08T06:56:21.060676Z",
-      "updated_at": "2026-05-14T11:57:05.702484Z",
-      "downloads": 251,
-      "recent_downloads": 251,
+      "updated_at": "2026-06-15T09:08:08.964350Z",
+      "downloads": 258,
+      "recent_downloads": 258,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -51134,11 +51175,11 @@
       "id": "oxi-cli",
       "name": "oxi-cli",
       "description": "Terminal-based AI coding assistant — multi-provider, streaming-first, extensible",
-      "version": "0.33.0",
+      "version": "0.34.0",
       "created_at": "2026-05-03T05:45:02.145026Z",
-      "updated_at": "2026-06-13T11:07:15.892337Z",
-      "downloads": 1092,
-      "recent_downloads": 1092,
+      "updated_at": "2026-06-15T07:52:38.338802Z",
+      "downloads": 1095,
+      "recent_downloads": 1095,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -51474,6 +51515,28 @@
       "downloads": 26,
       "recent_downloads": 26,
       "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "paceflow",
+      "name": "paceflow",
+      "description": "Local-first CLI that turns AI coding session history and git metadata into engineering analytics.",
+      "version": "0.2.4",
+      "created_at": "2026-05-14T09:32:05.159071Z",
+      "updated_at": "2026-06-15T07:51:30.549769Z",
+      "downloads": 57,
+      "recent_downloads": 57,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/PaceFlow/ai-engineering-analytics",
+      "homepage": "https://github.com/PaceFlow/ai-engineering-analytics",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -64113,9 +64176,9 @@
       "id": "rowdy-db",
       "name": "rowdy-db",
       "description": "A fast, modern, and rowdy TUI database management tool written in Rust.",
-      "version": "0.5.4",
+      "version": "0.5.6",
       "created_at": "2026-06-14T12:41:51.192329Z",
-      "updated_at": "2026-06-15T05:40:17.267248Z",
+      "updated_at": "2026-06-15T08:02:39.556271Z",
       "downloads": 87,
       "recent_downloads": 87,
       "categories": [
@@ -74709,9 +74772,9 @@
       "id": "synaps",
       "name": "synaps",
       "description": "Terminal-native AI agent runtime — parallel orchestration, reactive subagents, MCP, autonomous supervision",
-      "version": "0.3.5",
+      "version": "0.3.7",
       "created_at": "2026-05-05T07:14:32.243912Z",
-      "updated_at": "2026-06-14T21:38:01.922702Z",
+      "updated_at": "2026-06-15T09:28:08.555810Z",
       "downloads": 213,
       "recent_downloads": 213,
       "categories": [
@@ -74731,9 +74794,9 @@
       "id": "synaps-tui",
       "name": "synaps-tui",
       "description": "Terminal UI layer — ratatui, crossterm, syntect, tachyonfx",
-      "version": "0.3.5",
+      "version": "0.3.7",
       "created_at": "2026-06-14T02:50:56.523631Z",
-      "updated_at": "2026-06-14T21:36:28.454593Z",
+      "updated_at": "2026-06-15T09:26:30.282153Z",
       "downloads": 109,
       "recent_downloads": 109,
       "categories": [],
@@ -88311,9 +88374,9 @@
       "id": "whetstone-cli",
       "name": "whetstone-cli",
       "description": "Installer and CLI for Claude Code token optimization (Headroom + RTK + Memory)",
-      "version": "3.5.0",
+      "version": "3.5.1",
       "created_at": "2026-04-26T05:38:40.997564Z",
-      "updated_at": "2026-06-15T04:17:36.305381Z",
+      "updated_at": "2026-06-15T07:45:34.806667Z",
       "downloads": 326,
       "recent_downloads": 326,
       "categories": [],
