@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-18T05:49:03.626779988+00:00",
-    "total_crates": 4540,
+    "generated_at": "2026-06-18T07:06:53.003751778+00:00",
+    "total_crates": 4542,
     "core_libraries": 2,
-    "community_packages": 4538,
+    "community_packages": 4540,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4524,
-      "etag_cache_misses": 16,
-      "cache_hit_rate": 99.64757709251101
+      "etag_cache_hits": 4532,
+      "etag_cache_misses": 10,
+      "cache_hit_rate": 99.77983267283135
     }
   },
   "crates": [
@@ -15132,11 +15132,11 @@
       "id": "concord",
       "name": "concord",
       "description": "A terminal user interface client for Discord",
-      "version": "2.2.2",
+      "version": "2.2.3",
       "created_at": "2026-05-08T15:57:54.419186Z",
-      "updated_at": "2026-06-14T14:22:04.920736Z",
-      "downloads": 1476,
-      "recent_downloads": 1476,
+      "updated_at": "2026-06-18T05:58:45.886540Z",
+      "downloads": 1515,
+      "recent_downloads": 1515,
       "categories": [
         "command-line-utilities"
       ],
@@ -17896,14 +17896,14 @@
       "id": "debtmap",
       "name": "debtmap",
       "description": "Code complexity and technical debt analyzer",
-      "version": "0.19.1",
+      "version": "0.20.0",
       "created_at": "2025-08-10T07:59:01.960577Z",
-      "updated_at": "2026-06-16T23:58:08.856039Z",
-      "downloads": 6884,
-      "recent_downloads": 447,
+      "updated_at": "2026-06-18T06:32:26.412558Z",
+      "downloads": 6896,
+      "recent_downloads": 458,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/iepathos/debtmap",
       "homepage": "https://iepathos.github.io/debtmap/",
@@ -47099,11 +47099,11 @@
       "id": "neptune-dashboard",
       "name": "neptune-dashboard",
       "description": "neptune-cash tui dashboard and wallet",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "created_at": "2025-09-05T15:03:34.556871Z",
-      "updated_at": "2026-05-29T10:59:34.091439Z",
-      "downloads": 483,
-      "recent_downloads": 90,
+      "updated_at": "2026-06-18T06:11:33.125250Z",
+      "downloads": 485,
+      "recent_downloads": 76,
       "categories": [],
       "repository": "https://github.com/Neptune-Crypto/neptune-core/",
       "homepage": "https://neptune.cash/",
@@ -51658,14 +51658,14 @@
       "id": "ostool",
       "name": "ostool",
       "description": "A tool for operating system development",
-      "version": "0.23.2",
+      "version": "0.23.3",
       "created_at": "2024-10-23T06:43:36.567584Z",
-      "updated_at": "2026-06-16T08:05:42.331126Z",
-      "downloads": 109485,
-      "recent_downloads": 51906,
+      "updated_at": "2026-06-18T06:43:00.021549Z",
+      "downloads": 110021,
+      "recent_downloads": 52316,
       "categories": [
-        "command-line-utilities",
         "development-tools",
+        "command-line-utilities",
         "embedded"
       ],
       "repository": "https://github.com/drivercraft/ostool",
@@ -53996,14 +53996,14 @@
       "id": "piopulse",
       "name": "piopulse",
       "description": "A terminal user interface (TUI) embedded debugger for serial debugging, telemetry plotting, dashboards, and ESP32 flashing.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "created_at": "2026-06-15T05:27:37.602052Z",
-      "updated_at": "2026-06-17T21:34:53.514020Z",
-      "downloads": 112,
-      "recent_downloads": 112,
+      "updated_at": "2026-06-18T05:55:09.437178Z",
+      "downloads": 121,
+      "recent_downloads": 121,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/Wang-Yang-source/piopulse",
       "ratatui_dependency": {
@@ -62256,6 +62256,46 @@
       "is_core_library": false
     },
     {
+      "id": "remy-core",
+      "name": "remy-core",
+      "description": "An opinionated, reactive framework for Ratatui",
+      "version": "0.0.1",
+      "created_at": "2026-06-18T05:51:16.108222Z",
+      "updated_at": "2026-06-18T05:51:16.108222Z",
+      "downloads": 7,
+      "recent_downloads": 7,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/vyfor/remy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "remy-tui",
+      "name": "remy-tui",
+      "description": "An opinionated, reactive framework for Ratatui",
+      "version": "0.0.1",
+      "created_at": "2026-06-18T05:51:19.187596Z",
+      "updated_at": "2026-06-18T05:51:19.187596Z",
+      "downloads": 6,
+      "recent_downloads": 6,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/vyfor/remy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "remy-widgets",
       "name": "remy-widgets",
       "description": "A library with miscellaneous utility widgets for ratatui.",
@@ -69913,11 +69953,11 @@
       "id": "shellpad",
       "name": "shellpad",
       "description": "A Ratatui-based TUI for managing and executing collections of shell commands",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "created_at": "2026-06-17T09:13:25.302242Z",
-      "updated_at": "2026-06-17T18:33:35.397086Z",
-      "downloads": 117,
-      "recent_downloads": 117,
+      "updated_at": "2026-06-18T06:58:00.025127Z",
+      "downloads": 125,
+      "recent_downloads": 125,
       "categories": [],
       "repository": "https://github.com/LHYWilliam/shellpad",
       "ratatui_dependency": {
@@ -74612,11 +74652,11 @@
       "id": "straymark-cli",
       "name": "straymark-cli",
       "description": "CLI for StrayMark — the cognitive discipline your AI-assisted projects need",
-      "version": "3.28.1",
+      "version": "3.28.2",
       "created_at": "2026-05-09T06:55:24.366274Z",
-      "updated_at": "2026-06-18T05:33:42.609289Z",
-      "downloads": 381,
-      "recent_downloads": 381,
+      "updated_at": "2026-06-18T06:58:20.927244Z",
+      "downloads": 393,
+      "recent_downloads": 393,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -76406,14 +76446,14 @@
       "id": "task-journal-cli",
       "name": "task-journal-cli",
       "description": "task-journal: CLI for append-only AI-coding task reasoning chains. Records hypotheses, decisions, rejections, evidence and renders compact resume packs.",
-      "version": "0.27.0",
+      "version": "0.28.1",
       "created_at": "2026-05-01T05:25:48.214950Z",
-      "updated_at": "2026-06-17T12:37:21.772647Z",
-      "downloads": 902,
-      "recent_downloads": 902,
+      "updated_at": "2026-06-18T06:44:19.523828Z",
+      "downloads": 906,
+      "recent_downloads": 906,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/Digital-Threads/Task-Journal",
       "homepage": "https://github.com/Digital-Threads/Task-Journal",
