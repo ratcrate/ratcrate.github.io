@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-19T02:46:35.694932342+00:00",
-    "total_crates": 4555,
+    "generated_at": "2026-06-19T07:26:52.667297331+00:00",
+    "total_crates": 4557,
     "core_libraries": 2,
-    "community_packages": 4553,
+    "community_packages": 4555,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4456,
-      "etag_cache_misses": 99,
-      "cache_hit_rate": 97.8265642151482
+      "etag_cache_hits": 4542,
+      "etag_cache_misses": 15,
+      "cache_hit_rate": 99.67083607636603
     }
   },
   "crates": [
@@ -3750,11 +3750,11 @@
       "id": "apic-cli",
       "name": "apic-cli",
       "description": "A lightweight, Git-friendly CLI tool for designing and collaborating on API contracts ",
-      "version": "0.2.5",
+      "version": "0.3.0",
       "created_at": "2026-06-09T09:58:06.785345Z",
-      "updated_at": "2026-06-17T15:55:04.046064Z",
-      "downloads": 119,
-      "recent_downloads": 119,
+      "updated_at": "2026-06-19T06:59:58.688757Z",
+      "downloads": 120,
+      "recent_downloads": 120,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -18246,9 +18246,9 @@
       "id": "demons",
       "name": "demons",
       "description": "Run a project's development commands side-by-side in one terminal",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "created_at": "2026-06-15T04:09:00.059623Z",
-      "updated_at": "2026-06-15T04:09:00.059623Z",
+      "updated_at": "2026-06-19T06:12:58.145652Z",
       "downloads": 12,
       "recent_downloads": 12,
       "categories": [
@@ -26904,11 +26904,11 @@
       "id": "ghr-cli",
       "name": "ghr-cli",
       "description": "A fast terminal dashboard for GitHub pull requests, issues, and notifications.",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "created_at": "2026-05-02T03:24:14.486291Z",
-      "updated_at": "2026-05-21T09:43:13.466439Z",
-      "downloads": 274,
-      "recent_downloads": 274,
+      "updated_at": "2026-06-19T03:42:09.480645Z",
+      "downloads": 334,
+      "recent_downloads": 334,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -27091,11 +27091,11 @@
       "id": "gistui",
       "name": "gistui",
       "description": "A terminal UI for managing GitHub Gists",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "created_at": "2026-06-14T10:05:34.974693Z",
-      "updated_at": "2026-06-17T09:20:29.546371Z",
-      "downloads": 53,
-      "recent_downloads": 53,
+      "updated_at": "2026-06-19T06:52:44.858517Z",
+      "downloads": 55,
+      "recent_downloads": 55,
       "categories": [
         "command-line-utilities"
       ],
@@ -32226,11 +32226,11 @@
       "id": "honya",
       "name": "honya",
       "description": "A terminal app for AI-assisted Japanese→Thai light-novel translation (EPUB import + a three-agent LLM pipeline over an OpenRouter-compatible API).",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "created_at": "2026-06-08T15:56:54.792523Z",
-      "updated_at": "2026-06-15T12:57:08.772622Z",
-      "downloads": 132,
-      "recent_downloads": 132,
+      "updated_at": "2026-06-19T04:23:40.306762Z",
+      "downloads": 145,
+      "recent_downloads": 145,
       "categories": [
         "localization",
         "command-line-utilities",
@@ -32835,11 +32835,11 @@
       "id": "hxedit",
       "name": "hxedit",
       "description": "A terminal hex editor optimized for large files",
-      "version": "0.3.3",
+      "version": "0.4.0",
       "created_at": "2026-05-17T02:51:45.160954Z",
-      "updated_at": "2026-06-15T06:14:43.049785Z",
-      "downloads": 41,
-      "recent_downloads": 41,
+      "updated_at": "2026-06-19T04:37:29.708504Z",
+      "downloads": 67,
+      "recent_downloads": 67,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -33001,17 +33001,17 @@
       "id": "i8051-debug-tui",
       "name": "i8051-debug-tui",
       "description": "A TUI for debugging the i8051 microcontroller emulator.",
-      "version": "0.13.0",
+      "version": "0.20.0",
       "created_at": "2025-10-29T15:41:57.642250Z",
-      "updated_at": "2025-12-27T20:13:30.546057Z",
-      "downloads": 454,
-      "recent_downloads": 87,
+      "updated_at": "2026-06-19T02:53:40.788786Z",
+      "downloads": 496,
+      "recent_downloads": 34,
       "categories": [
-        "embedded",
         "compilers",
-        "emulators",
         "simulation",
-        "hardware-support"
+        "hardware-support",
+        "embedded",
+        "emulators"
       ],
       "repository": "https://github.com/mmastrac/i8051",
       "ratatui_dependency": {
@@ -44988,11 +44988,11 @@
       "id": "mlt",
       "name": "mlt",
       "description": "MapLibre Tile Tools",
-      "version": "0.1.18",
+      "version": "0.1.19",
       "created_at": "2026-02-20T18:29:19.100012Z",
-      "updated_at": "2026-06-18T10:09:37.842421Z",
-      "downloads": 605,
-      "recent_downloads": 383,
+      "updated_at": "2026-06-19T02:52:55.320525Z",
+      "downloads": 619,
+      "recent_downloads": 397,
       "categories": [
         "science::geo"
       ],
@@ -51343,14 +51343,14 @@
       "id": "opys",
       "name": "opys",
       "description": "File-based feature inventory for human + AI codebases — one markdown file per feature, verified in CI",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "created_at": "2026-06-11T01:30:28.213582Z",
-      "updated_at": "2026-06-18T04:10:20.210380Z",
-      "downloads": 96,
-      "recent_downloads": 96,
+      "updated_at": "2026-06-19T06:32:39.571785Z",
+      "downloads": 137,
+      "recent_downloads": 137,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/BohdanTkachenko/opys",
       "ratatui_dependency": {
@@ -54281,6 +54281,27 @@
       "repository": "https://github.com/jdx/pitchfork",
       "homepage": "https://pitchfork.jdx.dev",
       "documentation": "https://pitchfork.jdx.dev",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "pixdraw",
+      "name": "pixdraw",
+      "description": "Terminal-based pixel art editor",
+      "version": "0.1.1",
+      "created_at": "2026-06-19T06:21:04.994324Z",
+      "updated_at": "2026-06-19T06:30:21.658392Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "graphics"
+      ],
+      "repository": "https://github.com/Himanshu121865/pixdraw",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -65093,11 +65114,11 @@
       "id": "rowdy-db",
       "name": "rowdy-db",
       "description": "A fast, modern, and rowdy TUI database management tool written in Rust.",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "created_at": "2026-06-14T12:41:51.192329Z",
-      "updated_at": "2026-06-18T13:21:39.798692Z",
-      "downloads": 286,
-      "recent_downloads": 286,
+      "updated_at": "2026-06-19T06:25:11.708328Z",
+      "downloads": 290,
+      "recent_downloads": 290,
       "categories": [
         "database",
         "development-tools"
@@ -68752,6 +68773,26 @@
       "is_core_library": false
     },
     {
+      "id": "scrin-widgets",
+      "name": "scrin-widgets",
+      "description": "Scrin-native widgets and Aisling terminal effects for immersive TUIs.",
+      "version": "0.2.2",
+      "created_at": "2026-06-19T04:43:35.199609Z",
+      "updated_at": "2026-06-19T05:42:26.057600Z",
+      "downloads": 33,
+      "recent_downloads": 33,
+      "categories": [
+        "command-line-interface"
+      ],
+      "documentation": "https://docs.rs/scrin-widgets",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "scriptmark",
       "name": "scriptmark",
       "description": "Automated grading CLI for student programming assignments",
@@ -70575,11 +70616,11 @@
       "id": "shunt-proxy",
       "name": "shunt-proxy",
       "description": "A local proxy that pools multiple Claude accounts behind a single endpoint, routing requests to maximise rate limits",
-      "version": "0.1.145",
+      "version": "0.1.147",
       "created_at": "2026-05-11T10:14:36.674673Z",
-      "updated_at": "2026-06-18T20:46:13.046847Z",
-      "downloads": 1199,
-      "recent_downloads": 1199,
+      "updated_at": "2026-06-19T04:13:48.775572Z",
+      "downloads": 1224,
+      "recent_downloads": 1224,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -86645,11 +86686,11 @@
       "id": "unrager",
       "name": "unrager",
       "description": "A calm Twitter/X CLI with a local-LLM rage filter",
-      "version": "0.18.0",
+      "version": "0.18.1",
       "created_at": "2026-04-21T12:16:05.193749Z",
-      "updated_at": "2026-05-29T07:18:04.378439Z",
-      "downloads": 220,
-      "recent_downloads": 220,
+      "updated_at": "2026-06-19T04:59:36.419293Z",
+      "downloads": 236,
+      "recent_downloads": 236,
       "categories": [
         "command-line-utilities"
       ],
@@ -86791,11 +86832,11 @@
       "id": "usus",
       "name": "usus",
       "description": "Your best partner for AI harnesses",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "created_at": "2026-06-01T12:04:08.890714Z",
-      "updated_at": "2026-06-01T12:04:08.890714Z",
-      "downloads": 12,
-      "recent_downloads": 12,
+      "updated_at": "2026-06-19T07:06:40.451544Z",
+      "downloads": 14,
+      "recent_downloads": 14,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
