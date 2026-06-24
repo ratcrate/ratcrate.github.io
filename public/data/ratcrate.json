@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-24T01:29:08.365929661+00:00",
-    "total_crates": 4642,
+    "generated_at": "2026-06-24T06:17:57.578950849+00:00",
+    "total_crates": 4644,
     "core_libraries": 2,
-    "community_packages": 4640,
+    "community_packages": 4642,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4556,
-      "etag_cache_misses": 86,
-      "cache_hit_rate": 98.14735028005171
+      "etag_cache_hits": 4632,
+      "etag_cache_misses": 12,
+      "cache_hit_rate": 99.74160206718346
     }
   },
   "crates": [
@@ -699,11 +699,11 @@
       "id": "acc",
       "name": "acc",
       "description": "plaintext double-entry accounting command line tool",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "created_at": "2020-07-17T18:21:33.036617Z",
-      "updated_at": "2026-06-22T08:35:23.678675Z",
-      "downloads": 5452,
-      "recent_downloads": 121,
+      "updated_at": "2026-06-24T04:11:19.617644Z",
+      "downloads": 5463,
+      "recent_downloads": 131,
       "categories": [
         "command-line-utilities",
         "text-processing",
@@ -14778,6 +14778,24 @@
       "is_core_library": false
     },
     {
+      "id": "codei-tui",
+      "name": "codei-tui",
+      "description": "CodeI ai-coding agent",
+      "version": "0.0.8",
+      "created_at": "2026-06-05T05:12:03.946129Z",
+      "updated_at": "2026-06-24T02:37:19.024071Z",
+      "downloads": 68,
+      "recent_downloads": 68,
+      "categories": [],
+      "repository": "https://github.com/007gzs/codei",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "codelens-tui",
       "name": "codelens-tui",
       "description": "Terminal dashboard for CodeLens — project explorer, symbol search, diagnostics",
@@ -22821,6 +22839,24 @@
       "is_core_library": false
     },
     {
+      "id": "epubreader-cli",
+      "name": "epubreader-cli",
+      "description": "A terminal-based EPUB reader with vim-style keybindings",
+      "version": "0.1.0",
+      "created_at": "2026-06-24T02:40:39.513591Z",
+      "updated_at": "2026-06-24T02:40:39.513591Z",
+      "downloads": 11,
+      "recent_downloads": 11,
+      "categories": [],
+      "repository": "https://github.com/zengwenjie128/epub-reader",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "epycell",
       "name": "epycell",
       "description": "Terminal Jupyter notebook — your editor in every cell, kernel completions via LSP",
@@ -26376,11 +26412,11 @@
       "id": "gam",
       "name": "gam",
       "description": "Generalized penalized likelihood engine",
-      "version": "0.3.121",
+      "version": "0.3.122",
       "created_at": "2026-02-25T04:26:37.523256Z",
-      "updated_at": "2026-06-23T08:31:15.205130Z",
-      "downloads": 7118,
-      "recent_downloads": 5254,
+      "updated_at": "2026-06-24T04:21:20.299864Z",
+      "downloads": 7131,
+      "recent_downloads": 5267,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -34454,11 +34490,11 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "1.3.30",
+      "version": "1.3.32",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-06-23T22:23:21.830939Z",
-      "downloads": 791,
-      "recent_downloads": 791,
+      "updated_at": "2026-06-24T05:03:45.276567Z",
+      "downloads": 822,
+      "recent_downloads": 822,
       "categories": [
         "text-editors",
         "command-line-utilities",
@@ -49984,11 +50020,11 @@
       "id": "npltz",
       "name": "npltz",
       "description": "Nepali Patro in your terminal",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "created_at": "2026-06-22T18:04:44.005525Z",
-      "updated_at": "2026-06-23T17:47:52.649920Z",
-      "downloads": 29,
-      "recent_downloads": 29,
+      "updated_at": "2026-06-24T04:01:09.906719Z",
+      "downloads": 41,
+      "recent_downloads": 41,
       "categories": [
         "command-line-utilities"
       ],
@@ -58419,11 +58455,11 @@
       "id": "pure-tui",
       "name": "pure-tui",
       "description": "A modern terminal-based word processor for Markdown and other structured text documents",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2025-11-25T09:13:22.321510Z",
-      "updated_at": "2026-06-13T08:29:51.170220Z",
-      "downloads": 256,
-      "recent_downloads": 67,
+      "updated_at": "2026-06-24T06:00:42.937597Z",
+      "downloads": 277,
+      "recent_downloads": 73,
       "categories": [],
       "repository": "https://github.com/roblillack/pure",
       "ratatui_dependency": {
@@ -59783,11 +59819,11 @@
       "id": "railwayapp",
       "name": "railwayapp",
       "description": "Interact with Railway via CLI",
-      "version": "5.20.0",
+      "version": "5.23.0",
       "created_at": "2023-02-18T01:14:12.106990Z",
-      "updated_at": "2026-06-20T10:30:03.998096Z",
-      "downloads": 99613,
-      "recent_downloads": 1382,
+      "updated_at": "2026-06-24T02:57:27.758652Z",
+      "downloads": 99903,
+      "recent_downloads": 1642,
       "categories": [],
       "repository": "https://github.com/railwayapp/cli",
       "homepage": "https://github.com/railwayapp/cli",
@@ -64916,11 +64952,11 @@
       "id": "rho-coding-agent",
       "name": "rho-coding-agent",
       "description": "A lightweight agent harness inspired by Pi",
-      "version": "0.9.3",
+      "version": "0.10.0",
       "created_at": "2026-06-22T00:22:02.775743Z",
-      "updated_at": "2026-06-24T00:40:10.961839Z",
-      "downloads": 72,
-      "recent_downloads": 72,
+      "updated_at": "2026-06-24T06:05:45.253747Z",
+      "downloads": 118,
+      "recent_downloads": 118,
       "categories": [],
       "repository": "https://github.com/matthewyjiang/rho",
       "ratatui_dependency": {
@@ -70631,11 +70667,11 @@
       "id": "seer-cli",
       "name": "seer-cli",
       "description": "Interactive CLI for Seer domain name utilities",
-      "version": "0.35.1",
+      "version": "0.35.2",
       "created_at": "2026-01-16T19:02:48.003464Z",
-      "updated_at": "2026-06-22T20:10:37.559261Z",
-      "downloads": 1116,
-      "recent_downloads": 688,
+      "updated_at": "2026-06-24T04:36:11.458105Z",
+      "downloads": 1130,
+      "recent_downloads": 687,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -82497,11 +82533,11 @@
       "id": "tokenix",
       "name": "tokenix",
       "description": "Semantic search, symbol graphs, secrets scanning, output filters, and CLI hooks that save 60-90% LLM tokens",
-      "version": "0.48.0",
+      "version": "0.51.0",
       "created_at": "2026-06-01T18:51:16.225212Z",
-      "updated_at": "2026-06-24T01:17:31.030275Z",
-      "downloads": 632,
-      "recent_downloads": 632,
+      "updated_at": "2026-06-24T03:36:52.829817Z",
+      "downloads": 701,
+      "recent_downloads": 701,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -90188,11 +90224,11 @@
       "id": "vtcode-commons",
       "name": "vtcode-commons",
       "description": "Shared traits for paths, telemetry, and error reporting reused across VT Code component extractions",
-      "version": "0.133.6",
+      "version": "0.133.7",
       "created_at": "2025-10-22T18:59:20.585154Z",
-      "updated_at": "2026-06-23T07:39:55.936231Z",
-      "downloads": 18041,
-      "recent_downloads": 4755,
+      "updated_at": "2026-06-24T05:13:23.118454Z",
+      "downloads": 18070,
+      "recent_downloads": 4784,
       "categories": [
         "command-line-interface",
         "development-tools"
