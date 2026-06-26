@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-26T01:18:32.307848993+00:00",
-    "total_crates": 4670,
+    "generated_at": "2026-06-26T06:22:34.461373433+00:00",
+    "total_crates": 4672,
     "core_libraries": 2,
-    "community_packages": 4668,
+    "community_packages": 4670,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4583,
-      "etag_cache_misses": 87,
-      "cache_hit_rate": 98.13704496788009
+      "etag_cache_hits": 4656,
+      "etag_cache_misses": 16,
+      "cache_hit_rate": 99.65753424657534
     }
   },
   "crates": [
@@ -8126,6 +8126,28 @@
       "is_core_library": false
     },
     {
+      "id": "bohay",
+      "name": "bohay",
+      "description": "Next-Gen Agents multiplexer",
+      "version": "0.1.0",
+      "created_at": "2026-06-26T03:48:49.783662Z",
+      "updated_at": "2026-06-26T03:48:49.783662Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/RizRiyz/bohay",
+      "homepage": "https://github.com/RizRiyz/bohay",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "boje",
       "name": "boje",
       "description": "Boje: a docker container monitor TUI that exposes and tracks system usage including VRAM.",
@@ -13848,6 +13870,29 @@
       "is_core_library": false
     },
     {
+      "id": "cleard",
+      "name": "cleard",
+      "description": "Interactive, multi-ecosystem build-artifact disk reclaimer (npkill, but for everything)",
+      "version": "1.0.1",
+      "created_at": "2026-06-26T02:13:56.366730Z",
+      "updated_at": "2026-06-26T02:26:31.927240Z",
+      "downloads": 18,
+      "recent_downloads": 18,
+      "categories": [
+        "command-line-utilities",
+        "filesystem"
+      ],
+      "repository": "https://github.com/ervan0707/cleard",
+      "homepage": "https://github.com/ervan0707/cleard",
+      "documentation": "https://github.com/ervan0707/cleard#readme",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "clever",
       "name": "clever",
       "description": "TUI to search through clef logs",
@@ -14862,11 +14907,11 @@
       "id": "codei-tui",
       "name": "codei-tui",
       "description": "终端优先的 AI 编程 Agent，用自然语言在本地仓库中读代码、改代码、跑命令、调试问题。",
-      "version": "0.0.11",
+      "version": "0.0.13",
       "created_at": "2026-06-05T05:12:03.946129Z",
-      "updated_at": "2026-06-25T06:22:40.987583Z",
-      "downloads": 114,
-      "recent_downloads": 114,
+      "updated_at": "2026-06-26T04:10:49.599996Z",
+      "downloads": 127,
+      "recent_downloads": 127,
       "categories": [],
       "repository": "https://github.com/007gzs/codei",
       "ratatui_dependency": {
@@ -16164,11 +16209,11 @@
       "id": "cozy",
       "name": "cozy",
       "description": "A Comfort First terminal text editor: type like nano, navigate like vim",
-      "version": "0.2.8",
+      "version": "0.2.9",
       "created_at": "2026-06-05T20:45:28.031911Z",
-      "updated_at": "2026-06-25T04:17:45.095771Z",
-      "downloads": 265,
-      "recent_downloads": 265,
+      "updated_at": "2026-06-26T02:17:46.099887Z",
+      "downloads": 280,
+      "recent_downloads": 280,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -34635,11 +34680,11 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "1.4.5",
+      "version": "1.4.6",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-06-25T20:26:25.681145Z",
-      "downloads": 960,
-      "recent_downloads": 960,
+      "updated_at": "2026-06-26T02:08:08.814801Z",
+      "downloads": 975,
+      "recent_downloads": 975,
       "categories": [
         "text-editors",
         "command-line-utilities",
@@ -39564,11 +39609,11 @@
       "id": "lazyslurm",
       "name": "lazyslurm",
       "description": "A terminal UI for monitoring and managing slurm jobs",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "created_at": "2025-09-07T14:07:59.354642Z",
-      "updated_at": "2026-06-26T00:56:03.630081Z",
-      "downloads": 966,
-      "recent_downloads": 22,
+      "updated_at": "2026-06-26T04:56:38.192862Z",
+      "downloads": 988,
+      "recent_downloads": 44,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -52205,11 +52250,11 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Install with: cargo install opencrabs",
-      "version": "0.3.50",
+      "version": "0.3.51",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-06-25T22:58:35.877979Z",
-      "downloads": 1429,
-      "recent_downloads": 1058,
+      "updated_at": "2026-06-26T02:17:53.099116Z",
+      "downloads": 1439,
+      "recent_downloads": 1068,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -53254,11 +53299,11 @@
       "id": "oxi-cli",
       "name": "oxi-cli",
       "description": "Terminal-based AI coding assistant — multi-provider, streaming-first, extensible",
-      "version": "0.47.0",
+      "version": "0.48.0",
       "created_at": "2026-05-03T05:45:02.145026Z",
-      "updated_at": "2026-06-25T00:08:49.202785Z",
-      "downloads": 1397,
-      "recent_downloads": 1397,
+      "updated_at": "2026-06-26T02:06:24.131986Z",
+      "downloads": 1421,
+      "recent_downloads": 1421,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -53275,11 +53320,11 @@
       "id": "oxi-tui",
       "name": "oxi-tui",
       "description": "Terminal UI widgets and theme system for oxi, built on ratatui",
-      "version": "0.47.0",
+      "version": "0.48.0",
       "created_at": "2026-05-03T04:19:33.517281Z",
-      "updated_at": "2026-06-25T00:04:51.408199Z",
-      "downloads": 1785,
-      "recent_downloads": 1785,
+      "updated_at": "2026-06-26T01:43:47.384188Z",
+      "downloads": 1820,
+      "recent_downloads": 1820,
       "categories": [
         "command-line-interface",
         "gui"
@@ -54462,11 +54507,11 @@
       "id": "patch-prolog-repl",
       "name": "patch-prolog-repl",
       "description": "Interactive REPL for patch-prolog (`plgr`) — drives the compiler, never interprets",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "created_at": "2026-06-18T23:39:58.049098Z",
-      "updated_at": "2026-06-23T23:06:07.242132Z",
-      "downloads": 49,
-      "recent_downloads": 49,
+      "updated_at": "2026-06-26T05:20:12.731822Z",
+      "downloads": 64,
+      "recent_downloads": 64,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -58879,11 +58924,11 @@
       "id": "puu-installer",
       "name": "puu-installer",
       "description": "Standalone installer for bootc-based OSs",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "created_at": "2026-06-15T03:53:26.023589Z",
-      "updated_at": "2026-06-21T23:08:25.728438Z",
-      "downloads": 410,
-      "recent_downloads": 410,
+      "updated_at": "2026-06-26T02:44:40.489632Z",
+      "downloads": 439,
+      "recent_downloads": 439,
       "categories": [],
       "repository": "https://codeberg.org/puu/puu-installer",
       "homepage": "https://codeberg.org/puu/puu-installer",
@@ -59694,9 +59739,9 @@
       "id": "quorum-rs",
       "name": "quorum-rs",
       "description": "Rust SDK and CLI for multi-agent deliberation systems — ships the `quorum` binary (run / status / trace / tui / init) plus the underlying agent, LLM, tool, prompt, and worker library.",
-      "version": "0.7.0-rc.12",
+      "version": "0.7.0-rc.13",
       "created_at": "2026-05-20T11:10:39.763256Z",
-      "updated_at": "2026-06-25T09:05:38.928140Z",
+      "updated_at": "2026-06-26T06:18:30.970388Z",
       "downloads": 144,
       "recent_downloads": 144,
       "categories": [
@@ -71132,11 +71177,11 @@
       "id": "seer-cli",
       "name": "seer-cli",
       "description": "Interactive CLI for Seer domain name utilities",
-      "version": "0.35.5",
+      "version": "0.35.6",
       "created_at": "2026-01-16T19:02:48.003464Z",
-      "updated_at": "2026-06-24T23:48:41.996698Z",
-      "downloads": 1162,
-      "recent_downloads": 717,
+      "updated_at": "2026-06-26T01:53:17.145490Z",
+      "downloads": 1183,
+      "recent_downloads": 738,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -84883,11 +84928,11 @@
       "id": "tt-sync",
       "name": "tt-sync",
       "description": "Command-line interface for TT-Sync remote synchronization server",
-      "version": "2.0.3",
+      "version": "2.1.0",
       "created_at": "2026-03-26T00:57:00.511454Z",
-      "updated_at": "2026-06-12T12:50:35.069929Z",
-      "downloads": 65,
-      "recent_downloads": 65,
+      "updated_at": "2026-06-26T05:38:53.372888Z",
+      "downloads": 82,
+      "recent_downloads": 73,
       "categories": [],
       "repository": "https://github.com/Darkatse/TT-Sync",
       "ratatui_dependency": {
@@ -85024,11 +85069,11 @@
       "id": "ttyforce",
       "name": "ttyforce",
       "description": "Town OS installer TUI",
-      "version": "0.4.6",
+      "version": "0.4.8",
       "created_at": "2026-03-16T10:06:12.280091Z",
-      "updated_at": "2026-06-26T00:44:53.385311Z",
-      "downloads": 326,
-      "recent_downloads": 174,
+      "updated_at": "2026-06-26T01:44:37.735368Z",
+      "downloads": 378,
+      "recent_downloads": 226,
       "categories": [
         "command-line-utilities"
       ],
@@ -93057,11 +93102,11 @@
       "id": "xbot",
       "name": "xbot",
       "description": "Rust-native autonomous bot runtime for chat automation, tools, scheduled work, and multi-channel delivery",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "created_at": "2026-05-09T05:01:14.117924Z",
-      "updated_at": "2026-06-12T10:00:35.613814Z",
-      "downloads": 81,
-      "recent_downloads": 81,
+      "updated_at": "2026-06-26T04:27:55.213681Z",
+      "downloads": 99,
+      "recent_downloads": 99,
       "categories": [
         "command-line-utilities"
       ],
