@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-06-28T03:28:56.109764200+00:00",
-    "total_crates": 4696,
+    "generated_at": "2026-06-28T06:39:25.326817633+00:00",
+    "total_crates": 4698,
     "core_libraries": 2,
-    "community_packages": 4694,
+    "community_packages": 4696,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4617,
-      "etag_cache_misses": 79,
-      "cache_hit_rate": 98.31771720613288
+      "etag_cache_hits": 4687,
+      "etag_cache_misses": 11,
+      "cache_hit_rate": 99.76585781183482
     }
   },
   "crates": [
@@ -34830,11 +34830,11 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "1.4.11",
+      "version": "1.4.12",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-06-27T19:25:29.667205Z",
-      "downloads": 1030,
-      "recent_downloads": 1030,
+      "updated_at": "2026-06-28T06:11:56.612611Z",
+      "downloads": 1031,
+      "recent_downloads": 1031,
       "categories": [
         "text-processing",
         "text-editors",
@@ -53455,11 +53455,11 @@
       "id": "otoji",
       "name": "otoji",
       "description": "音字 — realtime speech ⇄ text. SenseVoice / iFlytek ASR + TTS, LLM polish, ratatui live transcript.",
-      "version": "0.1.25",
+      "version": "0.1.26",
       "created_at": "2026-04-08T06:56:21.060676Z",
-      "updated_at": "2026-06-27T18:21:25.811052Z",
-      "downloads": 461,
-      "recent_downloads": 461,
+      "updated_at": "2026-06-28T05:03:48.827195Z",
+      "downloads": 478,
+      "recent_downloads": 478,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -59995,11 +59995,11 @@
       "id": "quorum-rs",
       "name": "quorum-rs",
       "description": "Rust SDK and CLI for multi-agent deliberation systems — ships the `quorum` binary (run / status / trace / tui / init) plus the underlying agent, LLM, tool, prompt, and worker library.",
-      "version": "0.7.0-rc.18",
+      "version": "0.7.0-rc.20",
       "created_at": "2026-05-20T11:10:39.763256Z",
-      "updated_at": "2026-06-28T02:44:33.981907Z",
-      "downloads": 202,
-      "recent_downloads": 202,
+      "updated_at": "2026-06-28T06:22:48.434969Z",
+      "downloads": 230,
+      "recent_downloads": 230,
       "categories": [
         "development-tools",
         "command-line-utilities",
@@ -63622,11 +63622,11 @@
       "id": "rdmatop",
       "name": "rdmatop",
       "description": "A real-time TUI monitor for RDMA network interfaces",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "created_at": "2026-03-14T05:56:48.049582Z",
-      "updated_at": "2026-06-26T07:39:27.921628Z",
-      "downloads": 396,
-      "recent_downloads": 324,
+      "updated_at": "2026-06-28T05:38:15.964359Z",
+      "downloads": 407,
+      "recent_downloads": 335,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -70255,11 +70255,11 @@
       "id": "santui-core",
       "name": "santui-core",
       "description": "Santui core framework — App, Plugin trait, events, config, palette",
-      "version": "0.2.16",
+      "version": "0.2.17",
       "created_at": "2026-06-21T05:45:10.439762Z",
-      "updated_at": "2026-06-28T01:24:20.135095Z",
-      "downloads": 208,
-      "recent_downloads": 208,
+      "updated_at": "2026-06-28T06:00:53.592663Z",
+      "downloads": 246,
+      "recent_downloads": 246,
       "categories": [],
       "repository": "https://github.com/sonyarianto/santui",
       "ratatui_dependency": {
@@ -70273,11 +70273,11 @@
       "id": "santui-ipc",
       "name": "santui-ipc",
       "description": "Santui IPC protocol — typed messages and host plugin runner over JSON lines",
-      "version": "0.2.16",
+      "version": "0.2.17",
       "created_at": "2026-06-21T05:46:13.323084Z",
-      "updated_at": "2026-06-28T01:25:24.642372Z",
-      "downloads": 153,
-      "recent_downloads": 153,
+      "updated_at": "2026-06-28T06:01:58.794347Z",
+      "downloads": 177,
+      "recent_downloads": 177,
       "categories": [],
       "repository": "https://github.com/sonyarianto/santui",
       "ratatui_dependency": {
@@ -70493,16 +70493,16 @@
       "id": "scalo",
       "name": "scalo",
       "description": "Self-regulating runtime for data-plane services -- config, logging, metrics, health, transport, backpressure, adaptive scaling. Batteries included; idiomatic Rust (also on PyPI).",
-      "version": "2.9.2",
+      "version": "2.10.1",
       "created_at": "2026-06-24T07:45:02.701144Z",
-      "updated_at": "2026-06-26T22:04:26.243724Z",
-      "downloads": 68,
-      "recent_downloads": 68,
+      "updated_at": "2026-06-28T06:36:31.257675Z",
+      "downloads": 110,
+      "recent_downloads": 110,
       "categories": [
+        "network-programming",
         "development-tools",
         "asynchronous",
         "concurrency",
-        "network-programming",
         "config"
       ],
       "repository": "https://github.com/hyperi-io/scalo-rs",
@@ -71038,6 +71038,27 @@
         "command-line-interface"
       ],
       "documentation": "https://docs.rs/scrin-widgets",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "scrinium",
+      "name": "scrinium",
+      "description": "OKF (Open Knowledge Format) CLI — create, validate, bundle and visualize Markdown knowledge graphs with a TUI editor",
+      "version": "1.0.0",
+      "created_at": "2026-06-28T04:16:35.186333Z",
+      "updated_at": "2026-06-28T04:16:35.186333Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [
+        "command-line-utilities",
+        "text-processing"
+      ],
+      "repository": "https://github.com/UtakataKyosui/scrinium",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -83682,6 +83703,24 @@
       "is_core_library": false
     },
     {
+      "id": "toku-cli",
+      "name": "toku-cli",
+      "description": "CLI interface for Toku personal book manager",
+      "version": "0.3.0",
+      "created_at": "2026-06-28T04:55:58.646056Z",
+      "updated_at": "2026-06-28T04:55:58.646056Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [],
+      "repository": "https://github.com/kafkade/toku",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "tolight",
       "name": "tolight",
       "description": "A terminal-based (TUI) todo list manager for developers with per-project todo files",
@@ -85061,11 +85100,11 @@
       "id": "trustee-tui",
       "name": "trustee-tui",
       "description": "TUI interface for Trustee agent",
-      "version": "0.1.36",
+      "version": "0.1.39",
       "created_at": "2026-03-13T14:52:13.185774Z",
-      "updated_at": "2026-06-19T14:07:39.556580Z",
-      "downloads": 533,
-      "recent_downloads": 384,
+      "updated_at": "2026-06-28T04:18:24.947820Z",
+      "downloads": 591,
+      "recent_downloads": 389,
       "categories": [
         "command-line-utilities"
       ],
@@ -87053,11 +87092,11 @@
       "id": "tui-torrent",
       "name": "tui-torrent",
       "description": "A terminal user interface for managing torrents.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "created_at": "2025-08-17T09:13:26.191122Z",
-      "updated_at": "2026-03-19T20:48:14.873769Z",
-      "downloads": 813,
-      "recent_downloads": 50,
+      "updated_at": "2026-06-28T06:17:21.875070Z",
+      "downloads": 883,
+      "recent_downloads": 60,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
