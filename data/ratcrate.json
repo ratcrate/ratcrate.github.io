@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-05T01:52:56.065784276+00:00",
-    "total_crates": 4789,
+    "generated_at": "2026-07-05T06:17:44.760641977+00:00",
+    "total_crates": 4791,
     "core_libraries": 2,
-    "community_packages": 4787,
+    "community_packages": 4789,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4696,
-      "etag_cache_misses": 93,
-      "cache_hit_rate": 98.0580496972228
+      "etag_cache_hits": 4777,
+      "etag_cache_misses": 14,
+      "cache_hit_rate": 99.70778543101649
     }
   },
   "crates": [
@@ -20548,11 +20548,11 @@
       "id": "dkp",
       "name": "dkp",
       "description": "dkp — Domain Knowledge Pack management CLI",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "created_at": "2026-06-28T01:04:59.505437Z",
-      "updated_at": "2026-07-04T23:49:25.813990Z",
-      "downloads": 89,
-      "recent_downloads": 89,
+      "updated_at": "2026-07-05T05:26:24.332570Z",
+      "downloads": 105,
+      "recent_downloads": 105,
       "categories": [],
       "repository": "https://github.com/dkp-standard/cli",
       "homepage": "https://dkp-standard.com",
@@ -20716,16 +20716,17 @@
       "id": "dnsglobe",
       "name": "dnsglobe",
       "description": "Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world map in your terminal",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-07-05T01:25:09.824703Z",
-      "updated_at": "2026-07-05T01:25:09.824703Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-07-05T01:59:12.342938Z",
+      "downloads": 26,
+      "recent_downloads": 26,
       "categories": [
         "command-line-utilities",
         "network-programming"
       ],
       "repository": "https://github.com/514-labs/dnsglobe",
+      "homepage": "https://github.com/514-labs/dnsglobe",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -26740,11 +26741,11 @@
       "id": "ftui-harness",
       "name": "ftui-harness",
       "description": "Test harness and reference fixtures for FrankenTUI.",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "created_at": "2026-02-05T05:54:15.384326Z",
-      "updated_at": "2026-06-15T17:17:50.078736Z",
-      "downloads": 3713,
-      "recent_downloads": 2120,
+      "updated_at": "2026-07-05T05:03:38.220212Z",
+      "downloads": 3890,
+      "recent_downloads": 1904,
       "categories": [
         "command-line-interface",
         "gui"
@@ -29903,11 +29904,11 @@
       "id": "gitwig",
       "name": "gitwig",
       "description": "a rust based tui, an alternative to sourcetree and gitui",
-      "version": "2.3.20",
+      "version": "2.3.21",
       "created_at": "2026-06-24T11:46:02.486404Z",
-      "updated_at": "2026-07-04T12:28:06.987179Z",
-      "downloads": 660,
-      "recent_downloads": 660,
+      "updated_at": "2026-07-05T04:31:46.316181Z",
+      "downloads": 675,
+      "recent_downloads": 675,
       "categories": [
         "command-line-utilities"
       ],
@@ -34114,11 +34115,11 @@
       "id": "hrdr-editor",
       "name": "hrdr-editor",
       "description": "FSM-agnostic text-editor seam for hrdr, embedding the hjkl engine behind an EditorEngine trait.",
-      "version": "0.2.6",
+      "version": "0.2.7",
       "created_at": "2026-07-02T06:06:55.181206Z",
-      "updated_at": "2026-07-04T17:27:08.283316Z",
-      "downloads": 181,
-      "recent_downloads": 181,
+      "updated_at": "2026-07-05T05:06:28.215795Z",
+      "downloads": 195,
+      "recent_downloads": 195,
       "categories": [],
       "repository": "https://github.com/kryptic-sh/hrdr",
       "ratatui_dependency": {
@@ -34132,11 +34133,11 @@
       "id": "hrdr-tui",
       "name": "hrdr-tui",
       "description": "hrdr terminal UI — agent transcript + vim-keybound input pane (hjkl), live streaming.",
-      "version": "0.2.6",
+      "version": "0.2.7",
       "created_at": "2026-07-02T06:17:04.296341Z",
-      "updated_at": "2026-07-04T17:28:32.267310Z",
-      "downloads": 151,
-      "recent_downloads": 151,
+      "updated_at": "2026-07-05T05:07:53.268422Z",
+      "downloads": 165,
+      "recent_downloads": 165,
       "categories": [],
       "repository": "https://github.com/kryptic-sh/hrdr",
       "ratatui_dependency": {
@@ -51834,11 +51835,11 @@
       "id": "nu-explore",
       "name": "nu-explore",
       "description": "Nushell table pager",
-      "version": "0.113.1",
+      "version": "0.114.0",
       "created_at": "2022-12-20T19:25:13.377059Z",
-      "updated_at": "2026-05-29T23:53:58.538433Z",
-      "downloads": 232213,
-      "recent_downloads": 18117,
+      "updated_at": "2026-07-05T02:15:21.363126Z",
+      "downloads": 236970,
+      "recent_downloads": 13710,
       "categories": [],
       "repository": "https://github.com/nushell/nushell/tree/main/crates/nu-explore",
       "ratatui_dependency": {
@@ -54732,14 +54733,14 @@
       "id": "oxi-cli",
       "name": "oxi-cli",
       "description": "Terminal-based AI coding assistant — multi-provider, streaming-first, extensible",
-      "version": "0.53.0",
+      "version": "0.54.0",
       "created_at": "2026-05-03T05:45:02.145026Z",
-      "updated_at": "2026-07-03T16:56:05.755564Z",
-      "downloads": 1611,
-      "recent_downloads": 1611,
+      "updated_at": "2026-07-05T02:16:09.629872Z",
+      "downloads": 1621,
+      "recent_downloads": 1621,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/a7garden/oxi",
       "ratatui_dependency": {
@@ -55940,14 +55941,14 @@
       "id": "patch-prolog-repl",
       "name": "patch-prolog-repl",
       "description": "Interactive REPL for patch-prolog (`plgr`) — drives the compiler, never interprets",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "created_at": "2026-06-18T23:39:58.049098Z",
-      "updated_at": "2026-07-04T23:21:07.043879Z",
-      "downloads": 149,
-      "recent_downloads": 149,
+      "updated_at": "2026-07-05T03:22:42.669692Z",
+      "downloads": 163,
+      "recent_downloads": 163,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://git.navicore.tech/navicore/patch-prolog",
       "documentation": "https://docs.navicore.tech/patch-prolog/",
@@ -64494,6 +64495,27 @@
       "is_core_library": false
     },
     {
+      "id": "ratin",
+      "name": "ratin",
+      "description": "Custom input field component for Ratatui TUI applications",
+      "version": "0.1.1",
+      "created_at": "2026-07-05T03:42:50.846924Z",
+      "updated_at": "2026-07-05T03:47:07.975871Z",
+      "downloads": 21,
+      "recent_downloads": 21,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/Fkernel653/ratin",
+      "documentation": "https://docs.rs/ratin",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ratios",
       "name": "ratios",
       "description": "Cli tool to quickly adjust the ratio of a recipe.",
@@ -73030,11 +73052,11 @@
       "id": "seer-cli",
       "name": "seer-cli",
       "description": "Interactive CLI for Seer domain name utilities",
-      "version": "0.40.1",
+      "version": "0.41.0",
       "created_at": "2026-01-16T19:02:48.003464Z",
-      "updated_at": "2026-07-05T00:12:17.681152Z",
-      "downloads": 1304,
-      "recent_downloads": 817,
+      "updated_at": "2026-07-05T02:09:44.157169Z",
+      "downloads": 1328,
+      "recent_downloads": 841,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -86044,11 +86066,11 @@
       "id": "tram_btrfs",
       "name": "tram_btrfs",
       "description": "A TUI Btrfs snapshot manager",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "created_at": "2026-07-02T05:47:58.565324Z",
-      "updated_at": "2026-07-02T07:46:14.868277Z",
-      "downloads": 53,
-      "recent_downloads": 53,
+      "updated_at": "2026-07-05T03:14:13.893789Z",
+      "downloads": 84,
+      "recent_downloads": 84,
       "categories": [
         "command-line-utilities"
       ],
@@ -89606,6 +89628,28 @@
       "recent_downloads": 150,
       "categories": [],
       "repository": "https://github.com/sugyan/tuisky",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tuit-bin",
+      "name": "tuit-bin",
+      "description": "A TUI git log viewer built with ratatui and gix (gitoxide)",
+      "version": "0.1.0",
+      "created_at": "2026-07-05T03:12:40.370612Z",
+      "updated_at": "2026-07-05T03:12:40.370612Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/yoshikikudo/tuit.git",
+      "homepage": "https://github.com/yoshikikudo/tuit",
+      "documentation": "https://docs.rs/tuit-bin",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -98023,11 +98067,11 @@
       "id": "ztmux",
       "name": "ztmux",
       "description": "A Rust port of tmux — the full terminal multiplexer, server and client",
-      "version": "3.7.5",
+      "version": "3.7.8",
       "created_at": "2026-07-01T23:47:28.763911Z",
-      "updated_at": "2026-07-03T20:28:23.548208Z",
-      "downloads": 71,
-      "recent_downloads": 71,
+      "updated_at": "2026-07-05T01:55:06.786491Z",
+      "downloads": 89,
+      "recent_downloads": 89,
       "categories": [
         "command-line-utilities"
       ],
