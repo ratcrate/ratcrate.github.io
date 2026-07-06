@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-06T02:17:43.517507302+00:00",
-    "total_crates": 4805,
+    "generated_at": "2026-07-06T06:49:32.505049174+00:00",
+    "total_crates": 4807,
     "core_libraries": 2,
-    "community_packages": 4803,
+    "community_packages": 4805,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4710,
-      "etag_cache_misses": 95,
-      "cache_hit_rate": 98.02289281997919
+      "etag_cache_hits": 4785,
+      "etag_cache_misses": 22,
+      "cache_hit_rate": 99.54233409610984
     }
   },
   "crates": [
@@ -2278,11 +2278,11 @@
       "id": "ai-usagebar",
       "name": "ai-usagebar",
       "description": "Waybar widget + TUI for AI plan usage across Anthropic, OpenAI, Z.AI, OpenRouter, and DeepSeek",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "created_at": "2026-05-28T18:17:51.038622Z",
-      "updated_at": "2026-07-05T16:19:50.255107Z",
-      "downloads": 357,
-      "recent_downloads": 357,
+      "updated_at": "2026-07-06T03:38:29.172942Z",
+      "downloads": 378,
+      "recent_downloads": 378,
       "categories": [
         "command-line-utilities"
       ],
@@ -10210,9 +10210,9 @@
       "description": "Elm-style MVU TUI library for the Capo coding agent.",
       "version": "0.11.2",
       "created_at": "2026-05-18T14:13:52.937676Z",
-      "updated_at": "2026-07-05T01:07:00.291235Z",
-      "downloads": 503,
-      "recent_downloads": 503,
+      "updated_at": "2026-07-06T04:06:18.297129Z",
+      "downloads": 554,
+      "recent_downloads": 554,
       "categories": [
         "command-line-interface"
       ],
@@ -12020,11 +12020,11 @@
       "id": "cera-cli",
       "name": "cera-cli",
       "description": "CLI for the Cera LLM inference engine",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "created_at": "2026-06-10T02:43:54.660676Z",
-      "updated_at": "2026-07-03T15:34:12.360692Z",
-      "downloads": 43,
-      "recent_downloads": 43,
+      "updated_at": "2026-07-06T06:42:37.211395Z",
+      "downloads": 58,
+      "recent_downloads": 58,
       "categories": [
         "command-line-utilities",
         "science"
@@ -20101,11 +20101,11 @@
       "id": "dirge-agent",
       "name": "dirge-agent",
       "description": "Minimalistic coding agent written in Rust, optimized for memory footprint and performance",
-      "version": "0.18.4",
+      "version": "0.18.5",
       "created_at": "2026-05-29T21:57:45.827252Z",
-      "updated_at": "2026-07-05T16:53:21.396185Z",
-      "downloads": 1142,
-      "recent_downloads": 1142,
+      "updated_at": "2026-07-06T03:10:40.834600Z",
+      "downloads": 1167,
+      "recent_downloads": 1167,
       "categories": [
         "development-tools",
         "command-line-utilities"
@@ -20770,11 +20770,11 @@
       "id": "dnsglobe",
       "name": "dnsglobe",
       "description": "Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world map in your terminal",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "created_at": "2026-07-05T01:25:09.824703Z",
-      "updated_at": "2026-07-05T01:59:12.342938Z",
-      "downloads": 26,
-      "recent_downloads": 26,
+      "updated_at": "2026-07-06T02:59:59.249505Z",
+      "downloads": 99,
+      "recent_downloads": 99,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -24190,6 +24190,27 @@
       "is_core_library": false
     },
     {
+      "id": "exif-sorter",
+      "name": "exif-sorter",
+      "description": "A simple tool to sort images into sub-directories based on their exif data.",
+      "version": "1.0.0",
+      "created_at": "2026-07-06T05:04:37.893420Z",
+      "updated_at": "2026-07-06T06:05:14.865841Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities",
+        "filesystem"
+      ],
+      "repository": "https://github.com/thebino/exif-sorter",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "exit-anywhere",
       "name": "exit-anywhere",
       "description": "Use any host as an exit node w/ iroh",
@@ -24679,11 +24700,11 @@
       "id": "ferric-fred-cli",
       "name": "ferric-fred-cli",
       "description": "Command-line interface for FRED (Federal Reserve Economic Data), built on the ferric-fred client.",
-      "version": "0.2.0",
+      "version": "0.3.2",
       "created_at": "2026-07-05T19:00:11.993356Z",
-      "updated_at": "2026-07-05T23:45:19.779620Z",
-      "downloads": 26,
-      "recent_downloads": 26,
+      "updated_at": "2026-07-06T06:32:01.250758Z",
+      "downloads": 62,
+      "recent_downloads": 62,
       "categories": [
         "command-line-utilities"
       ],
@@ -26663,11 +26684,11 @@
       "id": "fresh-editor",
       "name": "fresh-editor",
       "description": "A lightweight, fast terminal-based text editor with LSP support and TypeScript plugins",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "created_at": "2025-11-23T12:13:19.008074Z",
-      "updated_at": "2026-06-27T19:56:17.943516Z",
-      "downloads": 11845,
-      "recent_downloads": 3196,
+      "updated_at": "2026-07-06T06:39:01.623845Z",
+      "downloads": 12172,
+      "recent_downloads": 3189,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -34346,11 +34367,11 @@
       "id": "htoprs",
       "name": "htoprs",
       "description": "A faithful Rust port of htop — the interactive process viewer",
-      "version": "0.5.5",
+      "version": "0.5.6",
       "created_at": "2026-07-03T18:59:34.684940Z",
-      "updated_at": "2026-07-05T18:57:19.483238Z",
-      "downloads": 144,
-      "recent_downloads": 144,
+      "updated_at": "2026-07-06T04:15:29.404112Z",
+      "downloads": 174,
+      "recent_downloads": 174,
       "categories": [
         "command-line-utilities"
       ],
@@ -39353,11 +39374,11 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Full-screen preview-focused terminal file browser (macOS Apple Silicon)",
-      "version": "0.4.2",
+      "version": "0.5.0",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-07-03T13:47:47.001017Z",
-      "downloads": 119,
-      "recent_downloads": 119,
+      "updated_at": "2026-07-06T06:24:16.389132Z",
+      "downloads": 132,
+      "recent_downloads": 132,
       "categories": [
         "command-line-utilities"
       ],
@@ -41555,11 +41576,11 @@
       "id": "lha",
       "name": "lha",
       "description": "Long-Horizon Agent command-line package that installs the lha binary.",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "created_at": "2026-06-06T08:27:40.853483Z",
-      "updated_at": "2026-07-01T11:47:34.884407Z",
-      "downloads": 178,
-      "recent_downloads": 178,
+      "updated_at": "2026-07-06T03:15:54.746642Z",
+      "downloads": 196,
+      "recent_downloads": 196,
       "categories": [],
       "repository": "https://github.com/xuziqiang98/lha",
       "homepage": "https://github.com/xuziqiang98/lha",
@@ -53824,14 +53845,14 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Install with: cargo install opencrabs",
-      "version": "0.3.61",
+      "version": "0.3.62",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-07-04T23:54:56.863193Z",
-      "downloads": 1701,
-      "recent_downloads": 1194,
+      "updated_at": "2026-07-06T04:00:43.322349Z",
+      "downloads": 1733,
+      "recent_downloads": 1205,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/adolfousier/opencrabs",
       "homepage": "https://opencrabs.com",
@@ -54295,6 +54316,24 @@
         "command-line-utilities",
         "development-tools"
       ],
+      "repository": "https://github.com/BohdanTkachenko/opys",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "opys-tui",
+      "name": "opys-tui",
+      "description": "Interactive terminal UI for opys",
+      "version": "0.12.0",
+      "created_at": "2026-07-06T03:12:17.385171Z",
+      "updated_at": "2026-07-06T03:12:17.385171Z",
+      "downloads": 14,
+      "recent_downloads": 14,
+      "categories": [],
       "repository": "https://github.com/BohdanTkachenko/opys",
       "ratatui_dependency": {
         "version": "unknown",
@@ -61542,11 +61581,11 @@
       "id": "quotas",
       "name": "quotas",
       "description": "CLI that auto-detects AI provider credentials (Claude, Codex, MiniMax, Kimi, Z.ai) and shows your usage quotas in a TUI or JSON.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "created_at": "2026-04-13T04:21:57.557390Z",
-      "updated_at": "2026-04-17T13:15:10.573359Z",
-      "downloads": 97,
-      "recent_downloads": 97,
+      "updated_at": "2026-07-06T06:44:58.629563Z",
+      "downloads": 133,
+      "recent_downloads": 133,
       "categories": [
         "command-line-utilities"
       ],
@@ -64320,11 +64359,11 @@
       "id": "ratatui-which-key",
       "name": "ratatui-which-key",
       "description": "A which-key popup widget for ratatui applications",
-      "version": "0.13.0",
+      "version": "0.14.0",
       "created_at": "2026-03-22T23:53:01.433273Z",
-      "updated_at": "2026-06-16T23:59:28.750522Z",
-      "downloads": 280,
-      "recent_downloads": 280,
+      "updated_at": "2026-07-06T06:39:44.339704Z",
+      "downloads": 353,
+      "recent_downloads": 207,
       "categories": [
         "command-line-interface"
       ],
@@ -65648,11 +65687,11 @@
       "id": "reflex-search",
       "name": "reflex-search",
       "description": "A local-first, structure-aware code search engine for AI agents",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "created_at": "2025-11-05T05:33:40.146896Z",
-      "updated_at": "2026-07-04T03:44:31.228307Z",
-      "downloads": 786,
-      "recent_downloads": 214,
+      "updated_at": "2026-07-06T04:48:43.303062Z",
+      "downloads": 853,
+      "recent_downloads": 272,
       "categories": [],
       "repository": "https://github.com/reflex-search/reflex",
       "homepage": "https://github.com/reflex-search/reflex",
@@ -71383,11 +71422,11 @@
       "id": "s2-cli",
       "name": "s2-cli",
       "description": "CLI for S2",
-      "version": "0.38.0",
+      "version": "0.39.0",
       "created_at": "2026-01-16T08:48:21.414616Z",
-      "updated_at": "2026-07-02T17:51:33.726744Z",
-      "downloads": 1711,
-      "recent_downloads": 713,
+      "updated_at": "2026-07-06T02:57:43.157974Z",
+      "downloads": 1737,
+      "recent_downloads": 734,
       "categories": [],
       "repository": "https://github.com/s2-streamstore/s2",
       "homepage": "https://s2.dev",
@@ -87112,11 +87151,11 @@
       "id": "trusty-common",
       "name": "trusty-common",
       "description": "Shared utilities and provider-agnostic streaming chat (ChatProvider, OllamaProvider, OpenRouter, tool-use) for trusty-* projects",
-      "version": "0.19.0",
+      "version": "0.20.0",
       "created_at": "2026-05-11T03:10:47.902924Z",
-      "updated_at": "2026-07-03T18:27:16.000438Z",
-      "downloads": 2504,
-      "recent_downloads": 2504,
+      "updated_at": "2026-07-06T05:24:50.918541Z",
+      "downloads": 2553,
+      "recent_downloads": 2553,
       "categories": [
         "command-line-utilities"
       ],
@@ -87133,11 +87172,11 @@
       "id": "trusty-mpm",
       "name": "trusty-mpm",
       "description": "trusty-mpm: unified multi-agent orchestration platform (core, daemon, CLI, TUI, Telegram)",
-      "version": "0.15.0",
+      "version": "0.16.0",
       "created_at": "2026-06-15T21:14:07.333287Z",
-      "updated_at": "2026-07-03T18:31:09.215223Z",
-      "downloads": 181,
-      "recent_downloads": 181,
+      "updated_at": "2026-07-06T05:28:55.002482Z",
+      "downloads": 219,
+      "recent_downloads": 219,
       "categories": [],
       "repository": "https://github.com/bobmatnyc/trusty-tools",
       "ratatui_dependency": {
@@ -90128,11 +90167,11 @@
       "id": "tunein-cli",
       "name": "tunein-cli",
       "description": "Browse and listen to thousands of radio stations across the globe right from your terminal 🌎 📻 🎵✨",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2023-02-24T15:49:04.556798Z",
-      "updated_at": "2026-07-05T23:01:22.579213Z",
-      "downloads": 14948,
-      "recent_downloads": 52,
+      "updated_at": "2026-07-06T05:53:49.857892Z",
+      "downloads": 14959,
+      "recent_downloads": 63,
       "categories": [
         "command-line-utilities"
       ],
@@ -92966,11 +93005,11 @@
       "id": "vm-curator",
       "name": "vm-curator",
       "description": "A TUI application to manage QEMU VM library",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "created_at": "2026-01-27T02:42:44.725743Z",
-      "updated_at": "2026-06-10T06:13:12.327137Z",
-      "downloads": 633,
-      "recent_downloads": 270,
+      "updated_at": "2026-07-06T06:01:19.637468Z",
+      "downloads": 735,
+      "recent_downloads": 335,
       "categories": [
         "command-line-utilities",
         "virtualization"
@@ -95827,11 +95866,11 @@
       "id": "xbot",
       "name": "xbot",
       "description": "Rust-native autonomous bot runtime for chat automation, tools, scheduled work, and multi-channel delivery",
-      "version": "0.1.6",
+      "version": "0.1.8",
       "created_at": "2026-05-09T05:01:14.117924Z",
-      "updated_at": "2026-06-30T10:07:33.664307Z",
-      "downloads": 116,
-      "recent_downloads": 116,
+      "updated_at": "2026-07-06T03:49:31.771309Z",
+      "downloads": 138,
+      "recent_downloads": 138,
       "categories": [
         "command-line-utilities"
       ],
