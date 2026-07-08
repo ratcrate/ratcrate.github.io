@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-08T02:09:23.310178968+00:00",
-    "total_crates": 4841,
+    "generated_at": "2026-07-08T05:33:12.497285045+00:00",
+    "total_crates": 4844,
     "core_libraries": 2,
-    "community_packages": 4839,
+    "community_packages": 4842,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4739,
-      "etag_cache_misses": 102,
-      "cache_hit_rate": 97.89299731460443
+      "etag_cache_hits": 4829,
+      "etag_cache_misses": 15,
+      "cache_hit_rate": 99.69033856317094
     }
   },
   "crates": [
@@ -1992,11 +1992,11 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.12.4",
+      "version": "0.12.5",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-07-07T04:51:25.436182Z",
-      "downloads": 1191,
-      "recent_downloads": 651,
+      "updated_at": "2026-07-08T05:28:56.122485Z",
+      "downloads": 1198,
+      "recent_downloads": 649,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -2793,6 +2793,24 @@
         "finance"
       ],
       "repository": "https://github.com/TMaddox/aledgr",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "alex",
+      "name": "alex",
+      "description": "Alexandria: local LLM credential vault, multi-provider routing proxy, and trace capture daemon",
+      "version": "0.1.2",
+      "created_at": "2026-07-08T05:06:47.434524Z",
+      "updated_at": "2026-07-08T05:12:16.065594Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/madhavajay/alex",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -5713,11 +5731,11 @@
       "id": "aven",
       "name": "aven",
       "description": "Local-first task manager CLI and sync server",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "created_at": "2026-07-03T06:24:11.120471Z",
-      "updated_at": "2026-07-05T20:23:50.883998Z",
-      "downloads": 27,
-      "recent_downloads": 27,
+      "updated_at": "2026-07-08T04:57:57.936633Z",
+      "downloads": 36,
+      "recent_downloads": 36,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -21137,11 +21155,11 @@
       "id": "don",
       "name": "don",
       "description": "Boss of your dev environment",
-      "version": "0.5.7",
+      "version": "0.5.8",
       "created_at": "2026-03-29T22:04:35.772734Z",
-      "updated_at": "2026-06-09T03:22:28.210058Z",
-      "downloads": 266,
-      "recent_downloads": 266,
+      "updated_at": "2026-07-08T03:00:26.200830Z",
+      "downloads": 289,
+      "recent_downloads": 278,
       "categories": [],
       "repository": "https://github.com/pjtatlow/don",
       "homepage": "https://github.com/pjtatlow/don",
@@ -28706,9 +28724,9 @@
       "id": "gistui",
       "name": "gistui",
       "description": "A terminal UI for managing GitHub Gists",
-      "version": "0.15.1",
+      "version": "0.15.2",
       "created_at": "2026-06-14T10:05:34.974693Z",
-      "updated_at": "2026-07-07T18:20:51.766052Z",
+      "updated_at": "2026-07-08T03:21:10.542279Z",
       "downloads": 189,
       "recent_downloads": 189,
       "categories": [
@@ -39694,9 +39712,9 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Full-screen preview-focused terminal file browser (macOS Apple Silicon)",
-      "version": "0.9.1",
+      "version": "0.10.0",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-07-07T16:45:20.851849Z",
+      "updated_at": "2026-07-08T05:14:00.582948Z",
       "downloads": 228,
       "recent_downloads": 228,
       "categories": [
@@ -57678,6 +57696,26 @@
       "is_core_library": false
     },
     {
+      "id": "pingone-aic-manager",
+      "name": "pingone-aic-manager",
+      "description": "Ratatui TUI for managing PingOne Advanced Identity Cloud configuration",
+      "version": "0.1.0",
+      "created_at": "2026-07-08T04:27:01.185389Z",
+      "updated_at": "2026-07-08T04:27:01.185389Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/agiledigital-labs/pingone-aic-manager",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "pingpong-rs",
       "name": "pingpong-rs",
       "description": "A Rust-based TUI ping utility for monitoring network connectivity to multiple hosts simultaneously",
@@ -60652,14 +60690,14 @@
       "id": "prview",
       "name": "prview",
       "description": "PR Review & Artifact Generator - cross-language PR analysis tool",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2026-07-03T20:56:15.271746Z",
-      "updated_at": "2026-07-05T19:05:22.568622Z",
-      "downloads": 27,
-      "recent_downloads": 27,
+      "updated_at": "2026-07-08T05:10:14.295150Z",
+      "downloads": 33,
+      "recent_downloads": 33,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/vetcoders/prview-rs",
       "homepage": "https://github.com/vetcoders/prview-rs",
@@ -64269,11 +64307,11 @@
       "id": "ratatui-kit",
       "name": "ratatui-kit",
       "description": "A framework for building interactive terminal user interfaces with ratatui",
-      "version": "0.9.0",
+      "version": "0.10.0",
       "created_at": "2025-06-09T08:55:59.337780Z",
-      "updated_at": "2026-07-06T21:07:08.192697Z",
-      "downloads": 8488,
-      "recent_downloads": 487,
+      "updated_at": "2026-07-08T03:27:50.835668Z",
+      "downloads": 8504,
+      "recent_downloads": 502,
       "categories": [],
       "repository": "https://github.com/yexiyue/ratatui-kit",
       "ratatui_dependency": {
@@ -78495,11 +78533,11 @@
       "id": "srev",
       "name": "srev",
       "description": "A terminal code and diff viewer specialized for reading code",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "created_at": "2026-06-06T12:00:35.593072Z",
-      "updated_at": "2026-06-20T14:39:01.822332Z",
-      "downloads": 191,
-      "recent_downloads": 191,
+      "updated_at": "2026-07-08T03:32:04.025138Z",
+      "downloads": 223,
+      "recent_downloads": 223,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -80544,9 +80582,9 @@
       "id": "swapdex",
       "name": "swapdex",
       "description": "Switch between multiple Claude Code, Codex, Gemini, and Antigravity login accounts, locally and safely.",
-      "version": "0.17.0",
+      "version": "0.18.0",
       "created_at": "2026-07-06T00:14:28.101686Z",
-      "updated_at": "2026-07-08T01:59:09.015200Z",
+      "updated_at": "2026-07-08T03:28:37.904591Z",
       "downloads": 389,
       "recent_downloads": 389,
       "categories": [
@@ -81237,11 +81275,11 @@
       "id": "tabiew",
       "name": "tabiew",
       "description": "A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet.",
-      "version": "0.14.0",
+      "version": "0.14.1",
       "created_at": "2024-05-10T15:03:59.415758Z",
-      "updated_at": "2026-06-25T01:39:07.421831Z",
-      "downloads": 35325,
-      "recent_downloads": 374,
+      "updated_at": "2026-07-08T02:48:18.323454Z",
+      "downloads": 35456,
+      "recent_downloads": 455,
       "categories": [],
       "repository": "https://github.com/shshemi/tabiew",
       "homepage": "https://github.com/shshemi/tabiew",
@@ -87804,9 +87842,9 @@
       "id": "trusty-common",
       "name": "trusty-common",
       "description": "Shared utilities and provider-agnostic streaming chat (ChatProvider, OllamaProvider, OpenRouter, tool-use) for trusty-* projects",
-      "version": "0.22.0",
+      "version": "0.22.1",
       "created_at": "2026-05-11T03:10:47.902924Z",
-      "updated_at": "2026-07-07T21:25:44.634303Z",
+      "updated_at": "2026-07-08T05:00:02.631522Z",
       "downloads": 2707,
       "recent_downloads": 2707,
       "categories": [
@@ -96076,11 +96114,11 @@
       "id": "worktrunk",
       "name": "worktrunk",
       "description": "A CLI for Git worktree management, designed for parallel AI agent workflows",
-      "version": "0.65.0",
+      "version": "0.66.0",
       "created_at": "2025-11-03T06:10:50.528035Z",
-      "updated_at": "2026-07-02T05:23:36.545881Z",
-      "downloads": 22141,
-      "recent_downloads": 11492,
+      "updated_at": "2026-07-08T04:15:53.053814Z",
+      "downloads": 22825,
+      "recent_downloads": 11186,
       "categories": [],
       "repository": "https://github.com/max-sixty/worktrunk",
       "homepage": "https://worktrunk.dev",
@@ -96528,6 +96566,28 @@
       ],
       "repository": "https://github.com/wiseaidotdev/x-ai",
       "documentation": "https://docs.rs/x-ai",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "x39-sacn",
+      "name": "x39-sacn",
+      "description": "A full-featured, production-ready, no_std-friendly implementation of the sACN (ANSI E1.31) protocol.",
+      "version": "0.1.0",
+      "created_at": "2026-07-08T03:35:19.867523Z",
+      "updated_at": "2026-07-08T04:09:41.110694Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "no-std",
+        "network-programming",
+        "embedded"
+      ],
+      "repository": "https://github.com/x39-tech/sacn",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
