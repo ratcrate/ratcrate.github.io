@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-14T05:12:09.544629182+00:00",
-    "total_crates": 4929,
+    "generated_at": "2026-07-15T02:36:02.409349187+00:00",
+    "total_crates": 4951,
     "core_libraries": 2,
-    "community_packages": 4927,
+    "community_packages": 4949,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4893,
-      "etag_cache_misses": 36,
-      "cache_hit_rate": 99.26962872793669
+      "etag_cache_hits": 4840,
+      "etag_cache_misses": 111,
+      "cache_hit_rate": 97.75802868107452
     }
   },
   "crates": [
@@ -504,11 +504,11 @@
       "id": "aa-cli",
       "name": "aa-cli",
       "description": "aasm — command-line tool for Agent Assembly",
-      "version": "0.0.1-rc.4",
+      "version": "0.0.1-rc.5",
       "created_at": "2026-06-13T08:01:19.086492Z",
-      "updated_at": "2026-07-12T15:16:19.050738Z",
-      "downloads": 161,
-      "recent_downloads": 161,
+      "updated_at": "2026-07-14T09:56:02.463348Z",
+      "downloads": 172,
+      "recent_downloads": 172,
       "categories": [],
       "repository": "https://github.com/ai-agent-assembly/agent-assembly",
       "ratatui_dependency": {
@@ -2010,11 +2010,11 @@
       "id": "agentsight",
       "name": "agentsight",
       "description": "eBPF-based observability for AI agent sessions, prompts, process trees, files, network activity, and token usage.",
-      "version": "0.2.43",
+      "version": "0.2.45",
       "created_at": "2026-06-03T00:17:12.635121Z",
-      "updated_at": "2026-07-11T22:05:45.713320Z",
-      "downloads": 754,
-      "recent_downloads": 754,
+      "updated_at": "2026-07-14T22:16:36.043783Z",
+      "downloads": 834,
+      "recent_downloads": 834,
       "categories": [
         "development-tools::debugging",
         "os::linux-apis",
@@ -2380,6 +2380,27 @@
       "is_core_library": false
     },
     {
+      "id": "ai-spend",
+      "name": "ai-spend",
+      "description": "Terminal UI for tracking AI token usage and costs from ZCode and OpenCode",
+      "version": "0.1.1",
+      "created_at": "2026-07-14T20:05:31.392711Z",
+      "updated_at": "2026-07-14T20:09:25.839255Z",
+      "downloads": 18,
+      "recent_downloads": 18,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/gabrielpinheiro66/ai-spend",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ai-usagebar",
       "name": "ai-usagebar",
       "description": "Waybar widget + TUI for AI plan usage across Anthropic, OpenAI, Z.AI, OpenRouter, and DeepSeek",
@@ -2623,11 +2644,11 @@
       "id": "aipack",
       "name": "aipack",
       "description": "Command Agent runner to accelerate production coding with genai.",
-      "version": "0.8.30",
+      "version": "0.8.31",
       "created_at": "2025-02-22T17:01:35.315765Z",
-      "updated_at": "2026-07-10T02:39:31.431403Z",
-      "downloads": 29810,
-      "recent_downloads": 383,
+      "updated_at": "2026-07-14T20:09:34.196144Z",
+      "downloads": 29844,
+      "recent_downloads": 415,
       "categories": [
         "command-line-utilities"
       ],
@@ -2919,6 +2940,26 @@
       "is_core_library": false
     },
     {
+      "id": "alf_cli",
+      "name": "alf_cli",
+      "description": "A smolderingly-nimble Rust TUI to rediscover your custom shell.",
+      "version": "0.3.0",
+      "created_at": "2026-07-14T09:54:34.871361Z",
+      "updated_at": "2026-07-14T09:54:34.871361Z",
+      "downloads": 10,
+      "recent_downloads": 10,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/metal-gabe/alf-cli",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "alix",
       "name": "alix",
       "description": "Your personal AI tutor — built for understanding, not just remembering.",
@@ -3009,11 +3050,11 @@
       "id": "alopex-cli",
       "name": "alopex-cli",
       "description": "Command-line interface for Alopex DB",
-      "version": "0.6.0",
+      "version": "0.7.1",
       "created_at": "2025-12-17T09:38:06.607742Z",
-      "updated_at": "2026-07-08T00:53:48.235736Z",
-      "downloads": 167,
-      "recent_downloads": 19,
+      "updated_at": "2026-07-15T01:46:40.342215Z",
+      "downloads": 200,
+      "recent_downloads": 52,
       "categories": [
         "command-line-utilities",
         "database-implementations"
@@ -5541,11 +5582,11 @@
       "id": "atuin",
       "name": "atuin",
       "description": "atuin - magical shell history",
-      "version": "18.17.0",
+      "version": "18.17.1",
       "created_at": "2021-02-13T13:23:16.273559Z",
-      "updated_at": "2026-07-09T00:19:13.445228Z",
-      "downloads": 130961,
-      "recent_downloads": 5342,
+      "updated_at": "2026-07-14T19:21:32.731439Z",
+      "downloads": 131468,
+      "recent_downloads": 5070,
       "categories": [],
       "repository": "https://github.com/atuinsh/atuin",
       "homepage": "https://atuin.sh",
@@ -5560,11 +5601,11 @@
       "id": "atuin-ai",
       "name": "atuin-ai",
       "description": "AI integration for Atuin CLI",
-      "version": "18.17.0",
+      "version": "18.17.1",
       "created_at": "2026-03-13T18:10:54.236194Z",
-      "updated_at": "2026-07-09T00:17:58.567817Z",
-      "downloads": 6936,
-      "recent_downloads": 4838,
+      "updated_at": "2026-07-14T19:18:56.907278Z",
+      "downloads": 7429,
+      "recent_downloads": 4552,
       "categories": [],
       "repository": "https://github.com/atuinsh/atuin",
       "homepage": "https://atuin.sh",
@@ -5579,11 +5620,11 @@
       "id": "aube",
       "name": "aube",
       "description": "Aube — a fast Node.js package manager",
-      "version": "1.26.0",
+      "version": "1.27.0",
       "created_at": "2026-04-18T20:32:14.068535Z",
-      "updated_at": "2026-07-06T21:28:24.595451Z",
-      "downloads": 1876,
-      "recent_downloads": 1876,
+      "updated_at": "2026-07-14T14:37:13.043957Z",
+      "downloads": 1947,
+      "recent_downloads": 1947,
       "categories": [],
       "repository": "https://github.com/jdx/aube",
       "homepage": "https://github.com/jdx/aube",
@@ -6398,11 +6439,11 @@
       "id": "bamboo-tui",
       "name": "bamboo-tui",
       "description": "Terminal UI client for the Bamboo agent runtime",
-      "version": "2026.7.16",
+      "version": "2026.7.17",
       "created_at": "2026-07-11T05:18:57.973380Z",
-      "updated_at": "2026-07-13T05:26:33.206701Z",
-      "downloads": 42,
-      "recent_downloads": 42,
+      "updated_at": "2026-07-14T05:16:45.826453Z",
+      "downloads": 77,
+      "recent_downloads": 77,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -7083,11 +7124,11 @@
       "id": "betex",
       "name": "betex",
       "description": "Betfair / Prediction Market Exchange",
-      "version": "0.35.1",
+      "version": "0.36.0",
       "created_at": "2026-02-04T13:06:10.201735Z",
-      "updated_at": "2026-06-08T07:49:11.419298Z",
-      "downloads": 1023,
-      "recent_downloads": 689,
+      "updated_at": "2026-07-14T17:07:33.722712Z",
+      "downloads": 1185,
+      "recent_downloads": 402,
       "categories": [],
       "repository": "https://github.com/dt665m/betex",
       "homepage": "https://github.com/dt665m/betex",
@@ -7317,15 +7358,15 @@
       "id": "bevy_tui_texture",
       "name": "bevy_tui_texture",
       "description": "A Bevy plugin for rendering terminal-style UIs using ratatui and WGPU",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "created_at": "2026-01-17T17:50:45.694507Z",
-      "updated_at": "2026-07-13T16:13:46.795978Z",
-      "downloads": 210,
-      "recent_downloads": 106,
+      "updated_at": "2026-07-14T16:08:56.045161Z",
+      "downloads": 223,
+      "recent_downloads": 119,
       "categories": [
-        "gui",
         "multimedia",
         "wasm",
+        "gui",
         "game-development"
       ],
       "repository": "https://github.com/tt-toe/bevy_tui_texture",
@@ -8654,14 +8695,14 @@
       "id": "bohay",
       "name": "bohay",
       "description": "Next-Gen Agents multiplexer",
-      "version": "0.3.0",
+      "version": "0.4.1",
       "created_at": "2026-06-26T03:48:49.783662Z",
-      "updated_at": "2026-07-13T11:53:00.850419Z",
-      "downloads": 62,
-      "recent_downloads": 62,
+      "updated_at": "2026-07-14T05:36:07.240249Z",
+      "downloads": 87,
+      "recent_downloads": 87,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/RizRiyz/bohay",
       "homepage": "https://github.com/RizRiyz/bohay",
@@ -11075,15 +11116,15 @@
       "id": "cargo-ninety-nine",
       "name": "cargo-ninety-nine",
       "description": "A cargo plugin for finding and tracking flaky tests",
-      "version": "0.3.4",
+      "version": "0.4.0",
       "created_at": "2026-03-20T10:19:45.023715Z",
-      "updated_at": "2026-03-26T20:30:09.185790Z",
-      "downloads": 125,
-      "recent_downloads": 125,
+      "updated_at": "2026-07-14T11:39:06.945283Z",
+      "downloads": 195,
+      "recent_downloads": 55,
       "categories": [
         "development-tools",
-        "command-line-utilities",
-        "development-tools::testing"
+        "development-tools::testing",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/glottologist/ninety-nine",
       "homepage": "https://glottologist.github.io/ninety-nine/",
@@ -11724,11 +11765,11 @@
       "id": "caucus",
       "name": "caucus",
       "description": "A terminal multiplexer for teams of AI coding agents",
-      "version": "0.8.0",
+      "version": "0.9.1",
       "created_at": "2026-05-29T05:11:13.460016Z",
-      "updated_at": "2026-07-09T15:08:49.061700Z",
-      "downloads": 108,
-      "recent_downloads": 108,
+      "updated_at": "2026-07-14T11:53:55.893030Z",
+      "downloads": 134,
+      "recent_downloads": 134,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -13175,11 +13216,11 @@
       "id": "chikuwa",
       "name": "chikuwa",
       "description": "tmux AI Agent monitor TUI",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "created_at": "2026-03-08T14:27:38.015302Z",
-      "updated_at": "2026-03-10T15:49:52.859906Z",
-      "downloads": 150,
-      "recent_downloads": 150,
+      "updated_at": "2026-07-14T13:02:04.471374Z",
+      "downloads": 208,
+      "recent_downloads": 38,
       "categories": [],
       "repository": "https://github.com/nownabe/chikuwa",
       "ratatui_dependency": {
@@ -13377,11 +13418,11 @@
       "id": "churl",
       "name": "churl",
       "description": "A fast terminal API client — craft, send, and inspect HTTP requests",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "created_at": "2026-07-07T13:48:04.397869Z",
-      "updated_at": "2026-07-11T04:14:56.884381Z",
-      "downloads": 119,
-      "recent_downloads": 119,
+      "updated_at": "2026-07-14T16:19:01.869140Z",
+      "downloads": 187,
+      "recent_downloads": 187,
       "categories": [
         "command-line-utilities"
       ],
@@ -13538,11 +13579,11 @@
       "id": "citum",
       "name": "citum",
       "description": "Citum CLI: render, check, convert, and manage citation styles, references, and documents",
-      "version": "0.74.0",
+      "version": "0.75.0",
       "created_at": "2026-05-19T09:38:53.628740Z",
-      "updated_at": "2026-07-11T19:05:53.649690Z",
-      "downloads": 443,
-      "recent_downloads": 443,
+      "updated_at": "2026-07-14T22:50:08.251514Z",
+      "downloads": 464,
+      "recent_downloads": 464,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -14163,14 +14204,14 @@
       "id": "claude-manager",
       "name": "claude-manager",
       "description": "A terminal UI for managing multiple Claude Code sessions organized by projects and tasks",
-      "version": "0.9.0",
+      "version": "0.10.0",
       "created_at": "2026-03-09T10:57:59.953638Z",
-      "updated_at": "2026-07-13T13:26:17.378651Z",
-      "downloads": 737,
-      "recent_downloads": 484,
+      "updated_at": "2026-07-14T08:52:46.831426Z",
+      "downloads": 753,
+      "recent_downloads": 499,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/Bendzae/claude-manager",
       "ratatui_dependency": {
@@ -14919,11 +14960,11 @@
       "id": "clin-rs",
       "name": "clin-rs",
       "description": "Feature-packed terminal note management app inspired by Obsidian",
-      "version": "0.9.8",
+      "version": "0.9.9",
       "created_at": "2026-04-01T03:08:52.644630Z",
-      "updated_at": "2026-07-10T16:19:34.100021Z",
-      "downloads": 1379,
-      "recent_downloads": 1316,
+      "updated_at": "2026-07-14T12:34:30.842633Z",
+      "downloads": 1422,
+      "recent_downloads": 1348,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -15020,11 +15061,11 @@
       "id": "clise",
       "name": "clise",
       "description": "Core library for clise CLI/TUI utility",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "created_at": "2026-06-13T17:26:07.024076Z",
-      "updated_at": "2026-07-13T11:26:53.561056Z",
-      "downloads": 121,
-      "recent_downloads": 121,
+      "updated_at": "2026-07-14T11:13:14.739054Z",
+      "downloads": 133,
+      "recent_downloads": 133,
       "categories": [],
       "repository": "https://github.com/0deep/clise",
       "ratatui_dependency": {
@@ -15688,6 +15729,29 @@
       "is_core_library": false
     },
     {
+      "id": "code-moniker",
+      "name": "code-moniker",
+      "description": "Standalone CLI / linter for the code-moniker symbol graph: file and directory probes, project-wide architecture rules.",
+      "version": "0.4.0",
+      "created_at": "2026-05-13T14:36:07.245130Z",
+      "updated_at": "2026-07-14T22:01:05.737309Z",
+      "downloads": 47,
+      "recent_downloads": 47,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/ng-galien/code-moniker",
+      "homepage": "https://github.com/ng-galien/code-moniker",
+      "documentation": "https://docs.rs/code-moniker",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "code-remote",
       "name": "code-remote",
       "description": "A terminal user interface to connect VS code to a computing cluster.",
@@ -15886,11 +15950,11 @@
       "id": "codeoid-tui",
       "name": "codeoid-tui",
       "description": "Ratatui-based terminal cockpit for the Codeoid daemon.",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "created_at": "2026-06-23T14:47:41.042208Z",
-      "updated_at": "2026-07-02T17:08:51.394541Z",
-      "downloads": 34,
-      "recent_downloads": 34,
+      "updated_at": "2026-07-14T15:20:49.914650Z",
+      "downloads": 64,
+      "recent_downloads": 64,
       "categories": [],
       "repository": "https://github.com/saucam/codeoid-ui",
       "homepage": "https://github.com/saucam/codeoid-ui",
@@ -15941,11 +16005,11 @@
       "id": "codewandler-flux-markdown",
       "name": "codewandler-flux-markdown",
       "description": "flux's own markdown engine: frontmatter parsing plus an AST-based CommonMark-subset parser, writer, and (feature-gated) ratatui/terminal renderers",
-      "version": "0.21.0",
+      "version": "0.25.0",
       "created_at": "2026-07-08T10:12:21.970771Z",
-      "updated_at": "2026-07-13T21:18:36.542679Z",
-      "downloads": 1186,
-      "recent_downloads": 1186,
+      "updated_at": "2026-07-14T21:25:22.862684Z",
+      "downloads": 1394,
+      "recent_downloads": 1394,
       "categories": [],
       "repository": "https://github.com/codewandler/flux",
       "homepage": "https://github.com/codewandler/flux",
@@ -16108,6 +16172,27 @@
       "repository": "https://github.com/daquexian/codexresume",
       "homepage": "https://github.com/daquexian/codexresume",
       "documentation": "https://docs.rs/codexresume",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "coding-agents-session-picker",
+      "name": "coding-agents-session-picker",
+      "description": "Fast terminal picker for resuming coding-agent sessions",
+      "version": "0.1.6",
+      "created_at": "2026-07-14T10:13:44.357071Z",
+      "updated_at": "2026-07-14T14:24:21.710071Z",
+      "downloads": 79,
+      "recent_downloads": 79,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/khoi/coding-agents-session-picker",
+      "homepage": "https://github.com/khoi/coding-agents-session-picker",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -16541,11 +16626,11 @@
       "id": "concord",
       "name": "concord",
       "description": "A terminal user interface client for Discord",
-      "version": "2.3.5",
+      "version": "2.4.0",
       "created_at": "2026-05-08T15:57:54.419186Z",
-      "updated_at": "2026-07-12T12:17:47.613297Z",
-      "downloads": 2356,
-      "recent_downloads": 2356,
+      "updated_at": "2026-07-14T14:16:17.688590Z",
+      "downloads": 2416,
+      "recent_downloads": 2416,
       "categories": [
         "command-line-utilities"
       ],
@@ -16575,6 +16660,28 @@
       "repository": "https://github.com/DishankChauhan/conda-env-inspect",
       "homepage": "https://github.com/DishankChauhan/conda-env-inspect",
       "documentation": "https://docs.rs/conda-env-inspect",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "confer-cli",
+      "name": "confer-cli",
+      "description": "A git-native coordination substrate for fleets of AI agents — an append-only, signed, verifiable message log with a thin liveness layer, no database and no server.",
+      "version": "0.6.3",
+      "created_at": "2026-07-14T05:47:52.785669Z",
+      "updated_at": "2026-07-15T02:29:56.414137Z",
+      "downloads": 51,
+      "recent_downloads": 51,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/codeshrew/confer",
+      "homepage": "https://github.com/codeshrew/confer",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -17626,11 +17733,11 @@
       "id": "crepuscularity-cli",
       "name": "crepuscularity-cli",
       "description": "crepus CLI — scaffolding and builds for Crepuscularity (UNSTABLE; in active development).",
-      "version": "0.10.4",
+      "version": "0.10.6",
       "created_at": "2026-04-09T07:44:52.578202Z",
-      "updated_at": "2026-07-13T13:11:45.944350Z",
-      "downloads": 836,
-      "recent_downloads": 823,
+      "updated_at": "2026-07-14T11:24:37.335412Z",
+      "downloads": 863,
+      "recent_downloads": 850,
       "categories": [],
       "repository": "https://github.com/tschk/crepuscularity",
       "documentation": "https://docs.rs/crepuscularity-cli",
@@ -17645,11 +17752,11 @@
       "id": "crepuscularity-lite",
       "name": "crepuscularity-lite",
       "description": "GPUI desktop shell with an embedded V8 runtime and a Rust native-capability bridge.",
-      "version": "0.4.9",
+      "version": "0.4.11",
       "created_at": "2026-05-04T04:48:18.395058Z",
-      "updated_at": "2026-06-23T03:37:51.719698Z",
-      "downloads": 136,
-      "recent_downloads": 136,
+      "updated_at": "2026-07-14T11:24:03.038345Z",
+      "downloads": 167,
+      "recent_downloads": 167,
       "categories": [],
       "repository": "https://github.com/tschk/crepuscularity",
       "ratatui_dependency": {
@@ -17663,11 +17770,11 @@
       "id": "crepuscularity-tui",
       "name": "crepuscularity-tui",
       "description": "Ratatui backend for the Crepuscularity .crepus DSL — write full-screen terminal UIs with nested div layouts.",
-      "version": "0.4.12",
+      "version": "0.4.14",
       "created_at": "2026-05-05T03:26:49.212425Z",
-      "updated_at": "2026-06-23T03:34:28.170881Z",
-      "downloads": 350,
-      "recent_downloads": 350,
+      "updated_at": "2026-07-14T11:24:24.243952Z",
+      "downloads": 786,
+      "recent_downloads": 786,
       "categories": [],
       "repository": "https://github.com/tschk/crepuscularity",
       "ratatui_dependency": {
@@ -18871,14 +18978,14 @@
       "id": "databricks-tui",
       "name": "databricks-tui",
       "description": "Terminal dashboard for Databricks: compute, jobs, pipelines, warehouses, Unity Catalog, SQL console, costs and lineage",
-      "version": "0.17.1",
+      "version": "0.20.0",
       "created_at": "2026-07-13T17:15:31.914381Z",
-      "updated_at": "2026-07-13T17:53:48.380422Z",
-      "downloads": 15,
-      "recent_downloads": 15,
+      "updated_at": "2026-07-14T17:58:25.161055Z",
+      "downloads": 67,
+      "recent_downloads": 67,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/pjhamera/databricks-tui",
       "ratatui_dependency": {
@@ -20457,11 +20564,11 @@
       "id": "diffler",
       "name": "diffler",
       "description": "Terminal code review for AI coding agents",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "created_at": "2026-06-15T08:15:36.933862Z",
-      "updated_at": "2026-07-13T19:54:35.139173Z",
-      "downloads": 382,
-      "recent_downloads": 382,
+      "updated_at": "2026-07-14T08:12:45.083708Z",
+      "downloads": 409,
+      "recent_downloads": 409,
       "categories": [],
       "repository": "https://github.com/matheusfillipe/diffler",
       "ratatui_dependency": {
@@ -21480,14 +21587,14 @@
       "id": "do-next",
       "name": "do-next",
       "description": "Pick your next Jira task & manage it from the terminal",
-      "version": "0.0.0-2026.5.25",
+      "version": "0.0.0-2026.7.14",
       "created_at": "2026-03-19T05:03:16.215151Z",
-      "updated_at": "2026-05-25T18:57:45.561731Z",
-      "downloads": 44,
-      "recent_downloads": 44,
+      "updated_at": "2026-07-14T19:54:26.171851Z",
+      "downloads": 64,
+      "recent_downloads": 36,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/ejiektpobehuk/do-next",
       "ratatui_dependency": {
@@ -21671,11 +21778,11 @@
       "id": "don",
       "name": "don",
       "description": "Boss of your dev environment",
-      "version": "0.5.8",
+      "version": "0.6.0",
       "created_at": "2026-03-29T22:04:35.772734Z",
-      "updated_at": "2026-07-14T04:40:50.800670Z",
-      "downloads": 306,
-      "recent_downloads": 295,
+      "updated_at": "2026-07-14T16:28:25.620216Z",
+      "downloads": 334,
+      "recent_downloads": 323,
       "categories": [],
       "repository": "https://github.com/pjtatlow/don",
       "homepage": "https://github.com/pjtatlow/don",
@@ -21985,6 +22092,29 @@
       "is_core_library": false
     },
     {
+      "id": "dpcs",
+      "name": "dpcs",
+      "description": "Reference implementation of the Data Pipeline Contract Standard (DPCS)",
+      "version": "0.13.0",
+      "created_at": "2026-07-13T20:04:22.430507Z",
+      "updated_at": "2026-07-14T22:30:11.659742Z",
+      "downloads": 148,
+      "recent_downloads": 148,
+      "categories": [
+        "command-line-utilities",
+        "parser-implementations"
+      ],
+      "repository": "https://github.com/eddiethedean/dpcs",
+      "homepage": "https://github.com/eddiethedean/dpcs",
+      "documentation": "https://docs.rs/dpcs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "dpdk-top",
       "name": "dpdk-top",
       "description": "Real-time terminal-based monitoring for DPDK applications via telemetry",
@@ -22270,6 +22400,26 @@
       ],
       "repository": "https://github.com/umesh-pradhan/drive-mirror",
       "homepage": "https://github.com/umesh-pradhan/drive-mirror",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "drive9-monitor",
+      "name": "drive9-monitor",
+      "description": "CLI for querying drive9-server monitoring data (logs, metrics, alerts) across all deployment clusters",
+      "version": "0.1.2",
+      "created_at": "2026-07-14T09:50:21.081707Z",
+      "updated_at": "2026-07-14T14:43:14.061748Z",
+      "downloads": 34,
+      "recent_downloads": 34,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/mornyx/drive9-monitor",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -24828,6 +24978,28 @@
       "is_core_library": false
     },
     {
+      "id": "evm-amm-search",
+      "name": "evm-amm-search",
+      "description": "Graph-based AMM route and cycle search over evm-amm-state pools",
+      "version": "0.1.0",
+      "created_at": "2026-07-14T09:32:02.605395Z",
+      "updated_at": "2026-07-14T09:32:02.605395Z",
+      "downloads": 11,
+      "recent_downloads": 11,
+      "categories": [
+        "cryptography::cryptocurrencies",
+        "simulation"
+      ],
+      "repository": "https://github.com/KaiCode2/evm-amm-search",
+      "documentation": "https://docs.rs/evm-amm-search",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "evtxview",
       "name": "evtxview",
       "description": "A cli tool to display Windows evtx files",
@@ -25434,11 +25606,11 @@
       "id": "ferric-fred-cli",
       "name": "ferric-fred-cli",
       "description": "Command-line interface for FRED (Federal Reserve Economic Data), built on the ferric-fred client.",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "created_at": "2026-07-05T19:00:11.993356Z",
-      "updated_at": "2026-07-07T19:47:59.431630Z",
-      "downloads": 160,
-      "recent_downloads": 160,
+      "updated_at": "2026-07-14T22:18:12.102212Z",
+      "downloads": 213,
+      "recent_downloads": 213,
       "categories": [
         "command-line-utilities"
       ],
@@ -26684,14 +26856,14 @@
       "id": "flux9s",
       "name": "flux9s",
       "description": "A K9s-inspired terminal UI for monitoring Flux GitOps resources",
-      "version": "0.11.1",
+      "version": "0.12.0",
       "created_at": "2025-11-12T00:31:50.500553Z",
-      "updated_at": "2026-07-13T15:55:14.700362Z",
-      "downloads": 1281,
-      "recent_downloads": 305,
+      "updated_at": "2026-07-15T00:10:16.721794Z",
+      "downloads": 1284,
+      "recent_downloads": 307,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/dgunzy/flux9s",
       "homepage": "https://github.com/dgunzy/flux9s",
@@ -27953,6 +28125,28 @@
       "repository": "https://github.com/pavel-voronin/fz1",
       "homepage": "https://github.com/pavel-voronin/fz1",
       "documentation": "https://github.com/pavel-voronin/fz1#readme",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "fzd",
+      "name": "fzd",
+      "description": "Interactive terminal directory explorer that cd's your shell",
+      "version": "1.0.0",
+      "created_at": "2026-07-14T09:42:04.863044Z",
+      "updated_at": "2026-07-14T09:42:04.863044Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/ervan0707/fzd",
+      "homepage": "https://github.com/ervan0707/fzd",
+      "documentation": "https://github.com/ervan0707/fzd#readme",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -29347,6 +29541,28 @@
       "is_core_library": false
     },
     {
+      "id": "git-buoy",
+      "name": "git-buoy",
+      "description": "A living terminal harbor for understanding parallel software work at a glance.",
+      "version": "0.1.0",
+      "created_at": "2026-07-14T06:16:07.813454Z",
+      "updated_at": "2026-07-14T06:16:07.813454Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/markg-05/git-buoy",
+      "homepage": "https://github.com/markg-05/git-buoy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "git-cheatsheet",
       "name": "git-cheatsheet",
       "description": "A keyboard-driven TUI git commands cheatsheet",
@@ -30294,11 +30510,11 @@
       "id": "gitlab-runner-tui",
       "name": "gitlab-runner-tui",
       "description": "A terminal UI for monitoring GitLab CI runners",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "created_at": "2026-02-17T04:53:22.703695Z",
-      "updated_at": "2026-06-29T13:49:21.343624Z",
-      "downloads": 185,
-      "recent_downloads": 133,
+      "updated_at": "2026-07-14T12:25:19.915766Z",
+      "downloads": 217,
+      "recent_downloads": 162,
       "categories": [
         "command-line-utilities"
       ],
@@ -30502,11 +30718,11 @@
       "id": "gitpane",
       "name": "gitpane",
       "description": "Multi-repo Git workspace dashboard TUI",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "created_at": "2026-02-24T14:48:04.454629Z",
-      "updated_at": "2026-07-09T18:08:39.844830Z",
-      "downloads": 1066,
-      "recent_downloads": 796,
+      "updated_at": "2026-07-14T16:15:58.342584Z",
+      "downloads": 1095,
+      "recent_downloads": 779,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -33583,15 +33799,15 @@
       "id": "hex-patch",
       "name": "hex-patch",
       "description": "HexPatch is a binary patcher and editor with terminal user interface (TUI),\nit's capable of disassembling instructions and assembling patches.\nIt supports a variety of architectures and file formats.\nAlso, it can edit remote files via SSH.",
-      "version": "1.12.6",
+      "version": "1.13.0",
       "created_at": "2024-07-04T01:36:03.873261Z",
-      "updated_at": "2026-04-21T23:06:48.507847Z",
-      "downloads": 25460,
-      "recent_downloads": 106,
+      "updated_at": "2026-07-14T20:47:52.937014Z",
+      "downloads": 25596,
+      "recent_downloads": 151,
       "categories": [
-        "development-tools",
+        "security",
         "command-line-utilities",
-        "security"
+        "development-tools"
       ],
       "repository": "https://github.com/Etto48/HexPatch",
       "homepage": "https://etto48.github.io/HexPatch/",
@@ -34882,15 +35098,15 @@
     {
       "id": "honya",
       "name": "honya",
-      "description": "A terminal app for AI-assisted Japanese→Thai light-novel translation (EPUB import + a three-agent LLM pipeline over OpenAI-compatible providers).",
-      "version": "0.6.0",
+      "description": "A terminal app for AI-assisted Japanese→Thai/English light-novel translation (EPUB import + a three-agent LLM pipeline over OpenAI-compatible providers).",
+      "version": "0.7.0",
       "created_at": "2026-06-08T15:56:54.792523Z",
-      "updated_at": "2026-07-03T06:52:05.964547Z",
-      "downloads": 218,
-      "recent_downloads": 218,
+      "updated_at": "2026-07-15T01:24:37.770150Z",
+      "downloads": 222,
+      "recent_downloads": 222,
       "categories": [
-        "localization",
         "command-line-utilities",
+        "localization",
         "text-processing"
       ],
       "repository": "https://github.com/altqx/honya",
@@ -35076,6 +35292,27 @@
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "howler-tui",
+      "name": "howler-tui",
+      "description": "Terminal user interface for the Howler wolf-tracking platform",
+      "version": "0.1.0",
+      "created_at": "2026-07-14T18:22:32.455780Z",
+      "updated_at": "2026-07-14T18:22:32.455780Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [
+        "science",
+        "visualization"
+      ],
+      "repository": "https://github.com/realgoldfang/Howler",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -36558,11 +36795,11 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "1.6.18",
+      "version": "1.6.21",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-07-14T04:47:46.336825Z",
-      "downloads": 1821,
-      "recent_downloads": 1821,
+      "updated_at": "2026-07-14T23:56:19.931403Z",
+      "downloads": 1865,
+      "recent_downloads": 1865,
       "categories": [
         "command-line-utilities",
         "text-editors",
@@ -36956,11 +37193,11 @@
       "id": "iris-agent",
       "name": "iris-agent",
       "description": "A fast, token-efficient coding agent for the terminal.",
-      "version": "0.3.5",
+      "version": "0.3.7",
       "created_at": "2026-07-08T22:15:15.753638Z",
-      "updated_at": "2026-07-14T01:26:42.050853Z",
-      "downloads": 315,
-      "recent_downloads": 315,
+      "updated_at": "2026-07-14T21:26:50.299484Z",
+      "downloads": 383,
+      "recent_downloads": 383,
       "categories": [],
       "repository": "https://github.com/5omeOtherGuy/iris-agent",
       "ratatui_dependency": {
@@ -38530,11 +38767,11 @@
       "id": "kache",
       "name": "kache",
       "description": "Zero-copy, content-addressed build cache for Rust, C/C++ and more. No copies, no wasted disk — just hardlinks locally and S3 for sharing.",
-      "version": "0.9.0",
+      "version": "0.10.0",
       "created_at": "2021-12-06T18:45:21.200240Z",
-      "updated_at": "2026-07-07T16:01:11.972729Z",
-      "downloads": 2248,
-      "recent_downloads": 648,
+      "updated_at": "2026-07-14T19:17:26.395075Z",
+      "downloads": 2373,
+      "recent_downloads": 773,
       "categories": [
         "caching",
         "development-tools::build-utils"
@@ -40244,11 +40481,11 @@
       "id": "kobectl",
       "name": "kobectl",
       "description": "kobe — CLI for the kobe cluster-pool operator: lease, inspect and manage instant CI/dev Kubernetes clusters",
-      "version": "0.0.0",
+      "version": "0.33.0",
       "created_at": "2026-06-29T14:11:39.288669Z",
-      "updated_at": "2026-06-30T19:01:48.035507Z",
-      "downloads": 26,
-      "recent_downloads": 26,
+      "updated_at": "2026-07-14T20:48:04.368655Z",
+      "downloads": 46,
+      "recent_downloads": 46,
       "categories": [
         "command-line-utilities"
       ],
@@ -42271,14 +42508,14 @@
       "id": "lean-ctx",
       "name": "lean-ctx",
       "description": "Context Runtime for AI Agents with CCP. 71 MCP tools, 10 read modes, 95+ compression patterns, cross-session memory (CCP), persistent AI knowledge with temporal facts + contradiction detection, multi-agent context sharing, LITM-aware positioning, AAAK compact format, adaptive compression with Thompson Sampling bandits. Supports 24+ AI tools. Reduces LLM token consumption by up to 99%.",
-      "version": "3.9.8",
+      "version": "3.9.9",
       "created_at": "2026-03-23T19:46:32.814016Z",
-      "updated_at": "2026-07-12T16:35:05.366334Z",
-      "downloads": 14951,
-      "recent_downloads": 12586,
+      "updated_at": "2026-07-14T12:37:48.399830Z",
+      "downloads": 15091,
+      "recent_downloads": 12611,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/yvgude/lean-ctx",
       "homepage": "https://leanctx.com",
@@ -42518,11 +42755,11 @@
       "id": "leeway",
       "name": "leeway",
       "description": "A local-first terminal budgeting app focused on what's left.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "created_at": "2026-07-11T03:30:31.981945Z",
-      "updated_at": "2026-07-14T04:18:07.320149Z",
-      "downloads": 61,
-      "recent_downloads": 61,
+      "updated_at": "2026-07-15T01:48:02.835977Z",
+      "downloads": 72,
+      "recent_downloads": 72,
       "categories": [],
       "repository": "https://github.com/nathanreyes/leeway",
       "homepage": "https://get-leeway.com",
@@ -42636,11 +42873,11 @@
       "id": "lethe-tui",
       "name": "lethe-tui",
       "description": "Terminal UI for lethe (Rust port, ratatui).",
-      "version": "0.15.0",
+      "version": "0.16.0",
       "created_at": "2026-04-28T09:02:49.315697Z",
-      "updated_at": "2026-07-13T07:04:27.186278Z",
-      "downloads": 200,
-      "recent_downloads": 200,
+      "updated_at": "2026-07-14T06:49:52.283857Z",
+      "downloads": 221,
+      "recent_downloads": 221,
       "categories": [],
       "repository": "https://github.com/teimurjan/lethe",
       "ratatui_dependency": {
@@ -43622,11 +43859,11 @@
       "id": "llmfit",
       "name": "llmfit",
       "description": "Right-size LLM models to your system hardware. Interactive TUI and CLI to match models against available RAM, CPU, and GPU.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "created_at": "2026-02-15T19:09:29.774304Z",
-      "updated_at": "2026-07-10T11:00:08.929609Z",
-      "downloads": 15810,
-      "recent_downloads": 2879,
+      "updated_at": "2026-07-14T14:18:29.192230Z",
+      "downloads": 15916,
+      "recent_downloads": 2741,
       "categories": [
         "command-line-utilities"
       ],
@@ -44433,11 +44670,11 @@
       "id": "loop-tui",
       "name": "loop-tui",
       "description": "A simple todo-list app, based on GTD - 'loop' from 'list of open points'",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "created_at": "2026-07-13T17:08:11.102400Z",
-      "updated_at": "2026-07-13T23:38:53.483350Z",
-      "downloads": 21,
-      "recent_downloads": 21,
+      "updated_at": "2026-07-14T12:35:35.223252Z",
+      "downloads": 40,
+      "recent_downloads": 40,
       "categories": [
         "command-line-utilities"
       ],
@@ -44923,6 +45160,24 @@
       "recent_downloads": 240,
       "categories": [],
       "repository": "https://codeberg.org/CrypticCreator/lunar-lib",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "lunar-position",
+      "name": "lunar-position",
+      "description": "#[no_std] lunar position and Illumination calculator using the Meeus algorithm",
+      "version": "0.1.0",
+      "created_at": "2026-07-15T01:37:37.077469Z",
+      "updated_at": "2026-07-15T01:37:37.077469Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/FreeMasen/moon-unit",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -47097,11 +47352,11 @@
       "id": "mdpad",
       "name": "mdpad",
       "description": "A fast, beautiful markdown reader and editor for the terminal",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "created_at": "2026-07-13T22:18:11.137377Z",
-      "updated_at": "2026-07-13T22:18:11.137377Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-07-14T22:53:54.465137Z",
+      "downloads": 18,
+      "recent_downloads": 18,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -47979,11 +48234,11 @@
       "id": "metrocity",
       "name": "metrocity",
       "description": "A terminal screensaver with animated pixel-art scenes that activate on idle",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-07-13T16:51:57.939563Z",
-      "updated_at": "2026-07-13T16:51:57.939563Z",
-      "downloads": 9,
-      "recent_downloads": 9,
+      "updated_at": "2026-07-14T19:51:28.328584Z",
+      "downloads": 45,
+      "recent_downloads": 45,
       "categories": [
         "command-line-utilities"
       ],
@@ -49164,15 +49419,15 @@
       "id": "mockforge-tui",
       "name": "mockforge-tui",
       "description": "Terminal UI dashboard for MockForge",
-      "version": "0.3.204",
+      "version": "0.3.205",
       "created_at": "2026-02-26T13:33:53.136631Z",
-      "updated_at": "2026-07-13T05:50:56.635316Z",
-      "downloads": 2130,
-      "recent_downloads": 1502,
+      "updated_at": "2026-07-14T13:51:00.550964Z",
+      "downloads": 2146,
+      "recent_downloads": 1517,
       "categories": [
-        "development-tools",
+        "web-programming",
         "api-bindings",
-        "web-programming"
+        "development-tools"
       ],
       "repository": "https://github.com/SaaSy-Solutions/mockforge",
       "homepage": "https://mockforge.dev",
@@ -49295,6 +49550,27 @@
       ],
       "repository": "https://github.com/JayanAXHF/modder-rs",
       "homepage": "https://github.com/JayanAXHF/modder-rs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "model-use",
+      "name": "model-use",
+      "description": "Agent-first LLM cost aggregator — OpenRouter, Anthropic, OpenAI, Cursor usage and budgets",
+      "version": "0.1.0",
+      "created_at": "2026-07-14T15:31:04.614034Z",
+      "updated_at": "2026-07-14T15:31:04.614034Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/bvelasquez/rust-utilities",
+      "homepage": "https://github.com/bvelasquez/rust-utilities/tree/main/model-use",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -50808,11 +51084,11 @@
       "id": "mycora",
       "name": "mycora",
       "description": "A tree-native, mycelium-linked note-taking TUI",
-      "version": "0.10.1",
+      "version": "0.11.0",
       "created_at": "2026-07-06T17:22:40.741704Z",
-      "updated_at": "2026-07-13T14:51:03.518155Z",
-      "downloads": 48,
-      "recent_downloads": 48,
+      "updated_at": "2026-07-14T08:29:28.889172Z",
+      "downloads": 66,
+      "recent_downloads": 66,
       "categories": [
         "command-line-utilities"
       ],
@@ -51276,11 +51552,11 @@
       "id": "ncoxide",
       "name": "ncoxide",
       "description": "Modal dual-pane file commander with helix-inspired interface",
-      "version": "0.1.1",
+      "version": "0.4.0",
       "created_at": "2026-02-10T21:18:46.885650Z",
-      "updated_at": "2026-02-19T21:39:08.856371Z",
-      "downloads": 36,
-      "recent_downloads": 36,
+      "updated_at": "2026-07-14T18:47:33.404268Z",
+      "downloads": 60,
+      "recent_downloads": 21,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -51539,11 +51815,11 @@
       "id": "neptune-dashboard",
       "name": "neptune-dashboard",
       "description": "neptune-cash tui dashboard and wallet",
-      "version": "0.14.0",
+      "version": "0.14.2",
       "created_at": "2025-09-05T15:03:34.556871Z",
-      "updated_at": "2026-07-09T12:57:29.818673Z",
-      "downloads": 545,
-      "recent_downloads": 123,
+      "updated_at": "2026-07-14T19:23:00.685798Z",
+      "downloads": 557,
+      "recent_downloads": 135,
       "categories": [],
       "repository": "https://github.com/Neptune-Crypto/neptune-core/",
       "homepage": "https://neptune.cash/",
@@ -52247,6 +52523,29 @@
       "is_core_library": false
     },
     {
+      "id": "nextdeck",
+      "name": "nextdeck",
+      "description": "A TUI wrapper for cargo-nextest, Clap-powered xtasks, and more.",
+      "version": "0.1.0",
+      "created_at": "2026-07-14T13:46:49.040099Z",
+      "updated_at": "2026-07-14T13:46:49.040099Z",
+      "downloads": 11,
+      "recent_downloads": 11,
+      "categories": [
+        "command-line-utilities",
+        "development-tools::testing"
+      ],
+      "repository": "https://github.com/romansky/nextdeck",
+      "homepage": "https://github.com/romansky/nextdeck",
+      "documentation": "https://docs.rs/nextdeck",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "nextup-tui",
       "name": "nextup-tui",
       "description": "A terminal application that randomizes a list of names. Useful for daily standup meetings.",
@@ -52616,6 +52915,26 @@
       "recent_downloads": 14,
       "categories": [],
       "repository": "https://github.com/nurmohammed840/nio",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "nippo",
+      "name": "nippo",
+      "description": "Claude Code session collector for daily reports and reflection",
+      "version": "0.1.5",
+      "created_at": "2026-03-21T05:25:55.486506Z",
+      "updated_at": "2026-07-14T07:42:46.391173Z",
+      "downloads": 207,
+      "recent_downloads": 74,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/nwiizo/nippo",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -53119,14 +53438,14 @@
       "id": "noetl",
       "name": "noetl",
       "description": "NoETL workflow automation CLI - Execute playbooks locally or orchestrate distributed pipelines",
-      "version": "4.16.0",
+      "version": "4.17.0",
       "created_at": "2026-01-10T05:15:32.056340Z",
-      "updated_at": "2026-07-14T00:26:53.307851Z",
-      "downloads": 557,
-      "recent_downloads": 405,
+      "updated_at": "2026-07-14T06:31:08.396791Z",
+      "downloads": 578,
+      "recent_downloads": 426,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/noetl/noetl",
       "homepage": "https://noetl.io",
@@ -53466,11 +53785,11 @@
       "id": "npltz",
       "name": "npltz",
       "description": "Nepali BS Calendar (Patro) TUI for Terminal",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "created_at": "2026-06-22T18:04:44.005525Z",
-      "updated_at": "2026-07-01T17:54:36.392809Z",
-      "downloads": 214,
-      "recent_downloads": 214,
+      "updated_at": "2026-07-14T18:32:13.344408Z",
+      "downloads": 244,
+      "recent_downloads": 244,
       "categories": [
         "command-line-utilities"
       ],
@@ -54462,11 +54781,11 @@
       "id": "octorus",
       "name": "octorus",
       "description": "A TUI tool for GitHub PR review, designed for Helix editor users",
-      "version": "0.6.6",
+      "version": "0.6.7",
       "created_at": "2026-01-21T01:26:47.792040Z",
-      "updated_at": "2026-06-03T07:48:55.146419Z",
-      "downloads": 1284,
-      "recent_downloads": 504,
+      "updated_at": "2026-07-15T01:29:28.581021Z",
+      "downloads": 1564,
+      "recent_downloads": 598,
       "categories": [],
       "repository": "https://github.com/ushironoko/octorus",
       "ratatui_dependency": {
@@ -56721,11 +57040,11 @@
       "id": "oximedia-cli",
       "name": "oximedia-cli",
       "description": "Command-line interface for OxiMedia",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "created_at": "2026-03-08T08:51:20.955896Z",
-      "updated_at": "2026-06-03T19:55:30.787615Z",
-      "downloads": 160,
-      "recent_downloads": 160,
+      "updated_at": "2026-07-14T07:48:37.106485Z",
+      "downloads": 193,
+      "recent_downloads": 123,
       "categories": [],
       "repository": "https://github.com/cool-japan/oximedia",
       "homepage": "https://github.com/cool-japan/oximedia",
@@ -56876,14 +57195,14 @@
       "id": "oyo",
       "name": "oyo",
       "description": "CLI TUI for oyo - Step-through diff viewer",
-      "version": "0.1.47",
+      "version": "0.1.50",
       "created_at": "2025-12-23T05:10:54.563273Z",
-      "updated_at": "2026-07-13T04:50:24.601166Z",
-      "downloads": 1466,
-      "recent_downloads": 531,
+      "updated_at": "2026-07-15T01:45:17.937341Z",
+      "downloads": 1540,
+      "recent_downloads": 603,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/ahkohd/oyo",
       "ratatui_dependency": {
@@ -57436,11 +57755,11 @@
       "id": "paperless-cli",
       "name": "paperless-cli",
       "description": "Rust TUI and LLM-friendly client for Paperless-ngx",
-      "version": "2.1.0",
+      "version": "2.1.2",
       "created_at": "2026-05-13T21:25:05.883103Z",
-      "updated_at": "2026-05-13T21:25:05.883103Z",
-      "downloads": 9,
-      "recent_downloads": 9,
+      "updated_at": "2026-07-14T12:36:17.371617Z",
+      "downloads": 24,
+      "recent_downloads": 24,
       "categories": [
         "command-line-utilities"
       ],
@@ -58089,11 +58408,11 @@
       "id": "perf-sentinel",
       "name": "perf-sentinel",
       "description": "CLI for perf-sentinel: polyglot performance anti-pattern detector",
-      "version": "0.9.9",
+      "version": "0.9.10",
       "created_at": "2026-04-03T20:36:46.346563Z",
-      "updated_at": "2026-07-12T18:26:12.360710Z",
-      "downloads": 1218,
-      "recent_downloads": 1173,
+      "updated_at": "2026-07-14T16:44:52.413208Z",
+      "downloads": 1233,
+      "recent_downloads": 1170,
       "categories": [
         "command-line-utilities",
         "development-tools::profiling"
@@ -58111,11 +58430,11 @@
       "id": "perfectstar2k",
       "name": "perfectstar2k",
       "description": "A modern TUI homage to WordStar & WordPerfect for DOS — a real writing tool built on WordStar's touch-typist command language and long-hand-page metaphor.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "created_at": "2026-07-02T09:57:14.481387Z",
-      "updated_at": "2026-07-04T07:14:46.371640Z",
-      "downloads": 65,
-      "recent_downloads": 65,
+      "updated_at": "2026-07-14T21:14:48.172405Z",
+      "downloads": 86,
+      "recent_downloads": 86,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -58943,6 +59262,26 @@
       "is_core_library": false
     },
     {
+      "id": "pinto-cli",
+      "name": "pinto-cli",
+      "description": "A lightweight, local-first, Git-friendly Scrum backlog and Kanban board for the CLI and TUI",
+      "version": "0.1.0",
+      "created_at": "2026-07-14T18:41:39.627167Z",
+      "updated_at": "2026-07-14T18:41:39.627167Z",
+      "downloads": 8,
+      "recent_downloads": 8,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/moriturus/pinto",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "piopulse",
       "name": "piopulse",
       "description": "A terminal user interface (TUI) embedded debugger for serial debugging, telemetry plotting, dashboards, and ESP32 flashing.",
@@ -59258,11 +59597,11 @@
       "id": "pkgtui",
       "name": "pkgtui",
       "description": "Interactive TUI for the emerald package manager",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "created_at": "2026-06-21T12:04:04.930330Z",
-      "updated_at": "2026-07-13T19:14:09.772687Z",
-      "downloads": 14,
-      "recent_downloads": 14,
+      "updated_at": "2026-07-14T14:33:45.889294Z",
+      "downloads": 46,
+      "recent_downloads": 46,
       "categories": [
         "command-line-utilities"
       ],
@@ -59320,11 +59659,11 @@
       "id": "plakat",
       "name": "plakat",
       "description": "Local text-to-image CLI on candle: 7 model families, LoRA, ControlNet, style transfer (InstantStyle), img2img/inpaint/outpaint, upscale, smart background removal, AnimateDiff",
-      "version": "2.7.0",
+      "version": "2.8.0",
       "created_at": "2026-05-16T06:12:36.870619Z",
-      "updated_at": "2026-07-14T03:02:08.776689Z",
-      "downloads": 1226,
-      "recent_downloads": 1226,
+      "updated_at": "2026-07-14T19:48:56.020489Z",
+      "downloads": 1245,
+      "recent_downloads": 1245,
       "categories": [
         "command-line-utilities",
         "multimedia::images"
@@ -60619,11 +60958,11 @@
       "id": "powerio-cli",
       "name": "powerio-cli",
       "description": "Command line interface and ratatui TUI for powerio: parse and convert power system case files and emit matrices.",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "created_at": "2026-06-10T07:47:50.671967Z",
-      "updated_at": "2026-07-12T22:20:29.895503Z",
-      "downloads": 332,
-      "recent_downloads": 332,
+      "updated_at": "2026-07-14T14:17:37.407936Z",
+      "downloads": 343,
+      "recent_downloads": 343,
       "categories": [
         "command-line-utilities",
         "science"
@@ -60738,11 +61077,11 @@
       "id": "practicode",
       "name": "practicode",
       "description": "Offline-first programming language lessons and coding practice in a Rust terminal UI.",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "created_at": "2026-07-05T08:41:38.526439Z",
-      "updated_at": "2026-07-14T04:30:49.215111Z",
-      "downloads": 407,
-      "recent_downloads": 407,
+      "updated_at": "2026-07-14T12:07:37.972274Z",
+      "downloads": 439,
+      "recent_downloads": 439,
       "categories": [
         "development-tools",
         "command-line-utilities",
@@ -62202,6 +62541,26 @@
         "web-programming"
       ],
       "repository": "https://github.com/ghztomash/public-ip-address",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "pugit",
+      "name": "pugit",
+      "description": "The Pude's choice for better git tui",
+      "version": "0.1.0",
+      "created_at": "2026-07-15T01:48:11.653096Z",
+      "updated_at": "2026-07-15T01:48:11.653096Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/ipude/pugit",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -63829,11 +64188,11 @@
       "id": "rag-rat",
       "name": "rag-rat",
       "description": "CLI and MCP entrypoint for indexing repositories into local source, graph, history, and memory evidence.",
-      "version": "0.17.0",
+      "version": "0.18.0",
       "created_at": "2026-06-08T17:53:44.718475Z",
-      "updated_at": "2026-07-11T23:23:09.345202Z",
-      "downloads": 574,
-      "recent_downloads": 574,
+      "updated_at": "2026-07-14T23:11:50.844882Z",
+      "downloads": 629,
+      "recent_downloads": 629,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -65305,6 +65664,27 @@
       ],
       "repository": "https://github.com/tatounee/ratatui-explorer.git",
       "homepage": "https://github.com/tatounee/ratatui-explorer",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "ratatui-finder",
+      "name": "ratatui-finder",
+      "description": "macOS Finder-style path navigation component for ratatui TUI applications",
+      "version": "0.3.0",
+      "created_at": "2026-07-14T08:21:43.075430Z",
+      "updated_at": "2026-07-14T10:24:44.974893Z",
+      "downloads": 36,
+      "recent_downloads": 36,
+      "categories": [
+        "command-line-utilities",
+        "gui"
+      ],
+      "repository": "https://github.com/lex/ratatui-finder",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -67610,14 +67990,14 @@
       "id": "reeve-cli",
       "name": "reeve-cli",
       "description": "Localhost web dev stack manager: web servers, per-vhost PHP versions, SSL, and DNS — RunCloud, scaled down.",
-      "version": "0.3.1",
+      "version": "0.3.3",
       "created_at": "2026-06-16T00:06:15.217039Z",
-      "updated_at": "2026-07-14T00:04:15.759222Z",
-      "downloads": 177,
-      "recent_downloads": 177,
+      "updated_at": "2026-07-15T00:29:07.235065Z",
+      "downloads": 198,
+      "recent_downloads": 198,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/yetidevworks/reeve",
       "homepage": "https://github.com/yetidevworks/reeve",
@@ -69041,11 +69421,11 @@
       "id": "rho-coding-agent",
       "name": "rho-coding-agent",
       "description": "A lightweight agent harness inspired by Pi",
-      "version": "0.27.1",
+      "version": "0.29.1",
       "created_at": "2026-06-22T00:22:02.775743Z",
-      "updated_at": "2026-07-13T19:02:32.398721Z",
-      "downloads": 659,
-      "recent_downloads": 659,
+      "updated_at": "2026-07-15T00:06:21.643107Z",
+      "downloads": 714,
+      "recent_downloads": 714,
       "categories": [],
       "repository": "https://github.com/matthewyjiang/rho",
       "ratatui_dependency": {
@@ -69144,11 +69524,11 @@
       "id": "rigorix-cli",
       "name": "rigorix-cli",
       "description": "Template-driven DAG execution CLI — thin wrapper around rigorix-engine",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "created_at": "2026-07-13T18:27:57.154641Z",
-      "updated_at": "2026-07-13T18:27:57.154641Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-07-14T17:38:45.012846Z",
+      "downloads": 24,
+      "recent_downloads": 24,
       "categories": [],
       "repository": "https://github.com/arman-jalili/rigorix-oss",
       "documentation": "https://docs.rs/rigorix-cli",
@@ -69223,11 +69603,11 @@
       "id": "rinkaku-tui",
       "name": "rinkaku-tui",
       "description": "Interactive terminal UI view-models for rinkaku (ADR 0015/0016): directory tree, navigation, and detail views over a Report",
-      "version": "0.6.3",
+      "version": "0.6.7",
       "created_at": "2026-07-13T06:45:52.222412Z",
-      "updated_at": "2026-07-14T03:19:02.159478Z",
-      "downloads": 72,
-      "recent_downloads": 72,
+      "updated_at": "2026-07-15T01:16:18.327066Z",
+      "downloads": 180,
+      "recent_downloads": 180,
       "categories": [
         "development-tools"
       ],
@@ -69647,6 +70027,24 @@
       "categories": [
         "command-line-utilities"
       ],
+      "repository": "https://github.com/rl-lang/rl-lang",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "rl-repl",
+      "name": "rl-repl",
+      "description": "Interactive REPL for the rl-lang programming language",
+      "version": "0.1.5",
+      "created_at": "2026-07-14T11:58:20.279253Z",
+      "updated_at": "2026-07-14T11:58:20.279253Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [],
       "repository": "https://github.com/rl-lang/rl-lang",
       "ratatui_dependency": {
         "version": "unknown",
@@ -72662,11 +73060,11 @@
       "id": "rusticity",
       "name": "rusticity",
       "description": "A snappy terminal UI for AWS written in Rust",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2025-11-20T17:26:28.603792Z",
-      "updated_at": "2026-07-13T16:53:27.903887Z",
-      "downloads": 158,
-      "recent_downloads": 23,
+      "updated_at": "2026-07-14T19:07:33.849342Z",
+      "downloads": 171,
+      "recent_downloads": 36,
       "categories": [
         "command-line-interface"
       ],
@@ -72684,11 +73082,11 @@
       "id": "rusticity-term",
       "name": "rusticity-term",
       "description": "Terminal UI components for Rusticity",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2025-11-20T17:24:21.002918Z",
-      "updated_at": "2026-07-13T16:48:25.998156Z",
-      "downloads": 302,
-      "recent_downloads": 70,
+      "updated_at": "2026-07-14T19:03:08.318816Z",
+      "downloads": 321,
+      "recent_downloads": 88,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -74539,11 +74937,11 @@
       "id": "scout_rs",
       "name": "scout_rs",
       "description": "A Rust client for the synchornizing state with the Scout database",
-      "version": "0.95.63",
+      "version": "0.95.64",
       "created_at": "2025-07-01T01:48:20.701045Z",
-      "updated_at": "2026-07-10T19:38:39.250367Z",
-      "downloads": 9966,
-      "recent_downloads": 1776,
+      "updated_at": "2026-07-15T00:43:41.258974Z",
+      "downloads": 10049,
+      "recent_downloads": 1765,
       "categories": [
         "api-bindings",
         "web-programming::http-client"
@@ -74684,11 +75082,11 @@
       "id": "scrinium",
       "name": "scrinium",
       "description": "OKF (Open Knowledge Format) CLI — create, validate, bundle and visualize Markdown knowledge graphs with a TUI editor",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "created_at": "2026-06-28T04:16:35.186333Z",
-      "updated_at": "2026-06-28T04:16:35.186333Z",
-      "downloads": 10,
-      "recent_downloads": 10,
+      "updated_at": "2026-07-14T10:33:20.737288Z",
+      "downloads": 80,
+      "recent_downloads": 80,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -74831,11 +75229,11 @@
       "id": "sct-rs",
       "name": "sct-rs",
       "description": "Local-first SNOMED CT toolchain: RF2 → NDJSON, SQLite, Parquet, Markdown, Arrow embeddings, and MCP server",
-      "version": "0.18.4",
+      "version": "0.18.5",
       "created_at": "2026-03-31T22:21:21.795165Z",
-      "updated_at": "2026-07-10T20:35:30.307250Z",
-      "downloads": 523,
-      "recent_downloads": 479,
+      "updated_at": "2026-07-14T12:49:25.548287Z",
+      "downloads": 541,
+      "recent_downloads": 493,
       "categories": [
         "command-line-utilities",
         "science"
@@ -78211,11 +78609,11 @@
       "id": "sofka",
       "name": "sofka",
       "description": "A Kubernetes TUI, reimagined in Rust",
-      "version": "0.12.2",
+      "version": "0.12.4",
       "created_at": "2026-07-01T13:24:25.449973Z",
-      "updated_at": "2026-07-13T18:06:25.709929Z",
-      "downloads": 396,
-      "recent_downloads": 396,
+      "updated_at": "2026-07-14T09:26:08.335085Z",
+      "downloads": 454,
+      "recent_downloads": 454,
       "categories": [],
       "repository": "https://github.com/nklmilojevic/sofka",
       "ratatui_dependency": {
@@ -78372,11 +78770,11 @@
       "id": "solidb",
       "name": "solidb",
       "description": "A lightweight, high-performance structured database server written in Rust.",
-      "version": "0.28.0",
+      "version": "0.31.0",
       "created_at": "2026-01-19T14:12:08.328219Z",
-      "updated_at": "2026-07-02T22:16:36.398238Z",
-      "downloads": 439,
-      "recent_downloads": 184,
+      "updated_at": "2026-07-14T18:13:06.739885Z",
+      "downloads": 491,
+      "recent_downloads": 236,
       "categories": [
         "database",
         "web-programming::http-server"
@@ -81972,14 +82370,14 @@
       "id": "swapdex",
       "name": "swapdex",
       "description": "Switch between multiple Claude Code, Codex, Gemini, and Antigravity login accounts, locally and safely.",
-      "version": "0.24.5",
+      "version": "0.26.1",
       "created_at": "2026-07-06T00:14:28.101686Z",
-      "updated_at": "2026-07-14T05:01:50.155600Z",
-      "downloads": 701,
-      "recent_downloads": 701,
+      "updated_at": "2026-07-14T11:13:56.295897Z",
+      "downloads": 785,
+      "recent_downloads": 785,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/youdie006/swapdex",
       "homepage": "https://github.com/youdie006/swapdex",
@@ -87440,14 +87838,35 @@
       "is_core_library": false
     },
     {
+      "id": "todoapp-cli",
+      "name": "todoapp-cli",
+      "description": "Keyboard-first CLI + TUI for tda — capture, organize, and refine tasks, for humans and AI agents",
+      "version": "0.5.0",
+      "created_at": "2026-07-08T18:58:54.154840Z",
+      "updated_at": "2026-07-14T19:43:33.749736Z",
+      "downloads": 69,
+      "recent_downloads": 69,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/davidB/todoapp",
+      "homepage": "https://github.com/davidB/todoapp",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "todoapp-tui",
       "name": "todoapp-tui",
-      "description": "Keyboard-first TUI for tda (M4)",
-      "version": "0.4.0",
+      "description": "Keyboard-first TUI for tda (task manager for humans and AI agents) — the library behind the todoapp-cli binary.",
+      "version": "0.4.1",
       "created_at": "2026-07-08T18:58:51.836507Z",
-      "updated_at": "2026-07-13T19:46:48.847908Z",
-      "downloads": 24,
-      "recent_downloads": 24,
+      "updated_at": "2026-07-14T07:11:53.491632Z",
+      "downloads": 60,
+      "recent_downloads": 60,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -87778,11 +88197,11 @@
       "id": "tokenix",
       "name": "tokenix",
       "description": "Semantic search, symbol graphs, secrets scanning, output filters, and CLI hooks that save 60-90% LLM tokens",
-      "version": "0.55.0",
+      "version": "0.57.1",
       "created_at": "2026-06-01T18:51:16.225212Z",
-      "updated_at": "2026-07-12T00:25:14.311432Z",
-      "downloads": 872,
-      "recent_downloads": 872,
+      "updated_at": "2026-07-14T21:56:26.518074Z",
+      "downloads": 917,
+      "recent_downloads": 917,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -88346,11 +88765,11 @@
       "id": "towl",
       "name": "towl",
       "description": "A fast CLI tool to scan codebases for TODO comments and output them in multiple formats",
-      "version": "0.3.7",
+      "version": "0.4.0",
       "created_at": "2026-03-06T12:40:29.217453Z",
-      "updated_at": "2026-03-31T17:24:15.916303Z",
-      "downloads": 132,
-      "recent_downloads": 132,
+      "updated_at": "2026-07-14T10:59:25.450861Z",
+      "downloads": 191,
+      "recent_downloads": 50,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -89433,14 +89852,14 @@
       "id": "trusty-mpm",
       "name": "trusty-mpm",
       "description": "trusty-mpm: unified multi-agent orchestration platform (core, daemon, CLI, TUI, Telegram)",
-      "version": "0.19.8",
+      "version": "0.19.12",
       "created_at": "2026-06-15T21:14:07.333287Z",
-      "updated_at": "2026-07-14T03:08:28.740861Z",
-      "downloads": 471,
-      "recent_downloads": 471,
+      "updated_at": "2026-07-14T21:32:10.104533Z",
+      "downloads": 549,
+      "recent_downloads": 549,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/bobmatnyc/trusty-tools",
       "homepage": "https://github.com/bobmatnyc/trusty-tools",
@@ -89702,11 +90121,11 @@
       "id": "tt-sync",
       "name": "tt-sync",
       "description": "Command-line interface for TT-Sync remote synchronization server",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "created_at": "2026-03-26T00:57:00.511454Z",
-      "updated_at": "2026-06-26T22:00:00.191140Z",
-      "downloads": 97,
-      "recent_downloads": 88,
+      "updated_at": "2026-07-14T21:06:42.344524Z",
+      "downloads": 123,
+      "recent_downloads": 113,
       "categories": [],
       "repository": "https://github.com/Darkatse/TT-Sync",
       "ratatui_dependency": {
@@ -90591,6 +91010,23 @@
       "categories": [],
       "repository": "https://github.com/osmo-systems/tui-kit",
       "homepage": "https://github.com/osmo-systems/tui-kit",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tui-lint-arwaky",
+      "name": "tui-lint-arwaky",
+      "description": "Ratatui-based interactive 3-panel file browser TUI for lint-arwaky",
+      "version": "1.10.106",
+      "created_at": "2026-07-14T08:46:24.394195Z",
+      "updated_at": "2026-07-14T08:46:24.394195Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -91970,6 +92406,27 @@
       "is_core_library": false
     },
     {
+      "id": "tuigram-client",
+      "name": "tuigram-client",
+      "description": "A terminal UI (Ratatui) Telegram client written in Rust.",
+      "version": "2026.7.1",
+      "created_at": "2026-07-14T21:20:19.779907Z",
+      "updated_at": "2026-07-14T21:20:19.779907Z",
+      "downloads": 8,
+      "recent_downloads": 8,
+      "categories": [
+        "asynchronous",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/queq-co/tuigram",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "tuilet",
       "name": "tuilet",
       "description": "A textual user interface for Toilet, the ANSI-art text generator",
@@ -92094,14 +92551,14 @@
       "id": "tuirunner",
       "name": "tuirunner",
       "description": "A concurrent task runner with a TUI interface built on Ratatui.",
-      "version": "0.1.0-alpha.4",
+      "version": "0.1.0-beta.7",
       "created_at": "2026-07-13T14:20:15.800406Z",
-      "updated_at": "2026-07-13T16:49:58.917670Z",
-      "downloads": 38,
-      "recent_downloads": 38,
+      "updated_at": "2026-07-14T10:13:24.061036Z",
+      "downloads": 84,
+      "recent_downloads": 84,
       "categories": [],
       "repository": "https://github.com/umitsukidev/tuirunner",
-      "homepage": "https://github.com/umitsukidev/tuirunner",
+      "homepage": "https://tuir.umitsuki.dev",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -92745,11 +93202,11 @@
       "id": "twc-rs",
       "name": "twc-rs",
       "description": "Fast single-binary CLI and interactive TUI dashboard for Timeweb Cloud",
-      "version": "4.0.3",
+      "version": "4.0.4",
       "created_at": "2026-06-30T09:03:15.514423Z",
-      "updated_at": "2026-07-14T02:13:11.615432Z",
-      "downloads": 705,
-      "recent_downloads": 705,
+      "updated_at": "2026-07-14T20:58:50.212968Z",
+      "downloads": 733,
+      "recent_downloads": 733,
       "categories": [
         "command-line-utilities"
       ],
@@ -94284,11 +94741,11 @@
       "id": "vde-tmux",
       "name": "vde-tmux",
       "description": "tmux state & UI manager: session/category, statusline, agent sidebar",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "created_at": "2026-07-07T07:46:04.767383Z",
-      "updated_at": "2026-07-13T03:30:21.300800Z",
-      "downloads": 214,
-      "recent_downloads": 214,
+      "updated_at": "2026-07-14T08:03:59.894224Z",
+      "downloads": 253,
+      "recent_downloads": 253,
       "categories": [],
       "repository": "https://github.com/yuki-yano/vde-tmux",
       "ratatui_dependency": {
@@ -94655,11 +95112,11 @@
       "id": "vibe_coding_tracker",
       "name": "vibe_coding_tracker",
       "description": "Vibe Coding Tracker - AI coding assistant telemetry/usage parser, aggregate local session data into CodeAnalysis results",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "created_at": "2025-10-03T16:04:24.963819Z",
-      "updated_at": "2026-07-14T02:26:19.139742Z",
-      "downloads": 10105,
-      "recent_downloads": 906,
+      "updated_at": "2026-07-14T17:44:42.031801Z",
+      "downloads": 10136,
+      "recent_downloads": 937,
       "categories": [],
       "repository": "https://github.com/Mai0313/VibeCodingTracker",
       "homepage": "https://github.com/Mai0313/VibeCodingTracker",
@@ -95426,14 +95883,14 @@
       "id": "vmux-tui",
       "name": "vmux-tui",
       "description": "The Linux terminal born from the cmux revolution — agent-first TTY multiplexer",
-      "version": "0.3.1",
+      "version": "0.4.1",
       "created_at": "2026-07-13T07:42:20.083865Z",
-      "updated_at": "2026-07-13T17:19:21.049503Z",
-      "downloads": 30,
-      "recent_downloads": 30,
+      "updated_at": "2026-07-14T12:00:11.648715Z",
+      "downloads": 59,
+      "recent_downloads": 59,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/UAEpro/vmux",
       "homepage": "https://github.com/UAEpro/vmux",
@@ -98368,11 +98825,11 @@
       "id": "xbot",
       "name": "xbot",
       "description": "Rust-native autonomous bot runtime for chat automation, tools, scheduled work, and multi-channel delivery",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "created_at": "2026-05-09T05:01:14.117924Z",
-      "updated_at": "2026-07-06T03:49:31.771309Z",
-      "downloads": 138,
-      "recent_downloads": 138,
+      "updated_at": "2026-07-14T15:23:50.720907Z",
+      "downloads": 163,
+      "recent_downloads": 163,
       "categories": [
         "command-line-utilities"
       ],
@@ -98939,11 +99396,11 @@
       "id": "xtop",
       "name": "xtop",
       "description": "System monitor written in Rust using terminal user interface (TUI). Fast, efficient, informative, and easy to use.",
-      "version": "0.3.9",
+      "version": "0.4.0",
       "created_at": "2026-02-11T17:04:31.155815Z",
-      "updated_at": "2026-04-18T15:02:54.308535Z",
-      "downloads": 246,
-      "recent_downloads": 246,
+      "updated_at": "2026-07-14T17:15:45.682631Z",
+      "downloads": 332,
+      "recent_downloads": 104,
       "categories": [
         "command-line-utilities"
       ],
@@ -100302,11 +100759,11 @@
       "id": "zeph-tui",
       "name": "zeph-tui",
       "description": "Ratatui-based TUI dashboard with real-time metrics for Zeph",
-      "version": "0.22.0",
+      "version": "0.22.1",
       "created_at": "2026-02-21T04:56:55.941866Z",
-      "updated_at": "2026-07-07T01:02:30.690235Z",
-      "downloads": 834,
-      "recent_downloads": 412,
+      "updated_at": "2026-07-15T01:06:53.561242Z",
+      "downloads": 901,
+      "recent_downloads": 451,
       "categories": [
         "command-line-utilities",
         "science"
@@ -100645,11 +101102,11 @@
       "id": "zitadel-tui",
       "name": "zitadel-tui",
       "description": "A terminal UI for managing Zitadel resources",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "created_at": "2026-04-02T01:05:10.421033Z",
-      "updated_at": "2026-05-12T11:47:31.081191Z",
-      "downloads": 101,
-      "recent_downloads": 101,
+      "updated_at": "2026-07-14T12:37:48.022442Z",
+      "downloads": 125,
+      "recent_downloads": 114,
       "categories": [
         "command-line-utilities"
       ],
