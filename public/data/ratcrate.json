@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-18T01:49:06.995818784+00:00",
-    "total_crates": 5006,
+    "generated_at": "2026-07-18T05:07:43.958077518+00:00",
+    "total_crates": 5010,
     "core_libraries": 2,
-    "community_packages": 5004,
+    "community_packages": 5008,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4887,
-      "etag_cache_misses": 119,
-      "cache_hit_rate": 97.62285257690772
+      "etag_cache_hits": 4995,
+      "etag_cache_misses": 15,
+      "cache_hit_rate": 99.7005988023952
     }
   },
   "crates": [
@@ -12775,6 +12775,26 @@
       "is_core_library": false
     },
     {
+      "id": "ch-monitor-cli",
+      "name": "ch-monitor-cli",
+      "description": "Standalone terminal/TUI CLI for chmonitor, plus a zero-signup `chm diagnose` health scan that connects straight to ClickHouse.",
+      "version": "0.1.0",
+      "created_at": "2026-07-18T02:47:51.776832Z",
+      "updated_at": "2026-07-18T02:47:51.776832Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chmonitor/chmonitor",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "chabeau",
       "name": "chabeau",
       "description": "A full-screen terminal chat interface that connects to various AI APIs for real-time conversations",
@@ -16226,10 +16246,10 @@
       "id": "codex-helper-tui",
       "name": "codex-helper-tui",
       "description": "Terminal UI crate for codex-helper.",
-      "version": "0.20.0",
+      "version": "0.20.3",
       "created_at": "2026-02-08T13:19:03.994875Z",
-      "updated_at": "2026-07-07T13:31:18.769360Z",
-      "downloads": 269,
+      "updated_at": "2026-07-18T02:01:19.312042Z",
+      "downloads": 278,
       "recent_downloads": 188,
       "categories": [],
       "repository": "https://github.com/Latias94/codex-helper",
@@ -25593,6 +25613,27 @@
       "is_core_library": false
     },
     {
+      "id": "faucet-cli",
+      "name": "faucet-cli",
+      "description": "Config-driven CLI runner for faucet-stream pipelines (YAML / JSON, Meltano-style)",
+      "version": "1.5.0",
+      "created_at": "2026-06-02T00:17:42.975990Z",
+      "updated_at": "2026-07-18T03:41:15.784949Z",
+      "downloads": 197,
+      "recent_downloads": 197,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/PawanSikawat/faucet-stream",
+      "homepage": "https://pawansikawat.github.io/faucet-stream/",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "fcd",
       "name": "fcd",
       "description": "The FCD File Manager (FranCommanDer) - a text based file manager that combines the best features of Midnight Commander and Ranger",
@@ -26392,6 +26433,26 @@
       "is_core_library": false
     },
     {
+      "id": "findnerd",
+      "name": "findnerd",
+      "description": "Semantic search for Nerd Font glyphs",
+      "version": "0.1.1",
+      "created_at": "2026-07-18T01:44:44.783849Z",
+      "updated_at": "2026-07-18T01:55:04.280060Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/can1357/findnerd",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "finetype-train",
       "name": "finetype-train",
       "description": "Training infrastructure for FineType — Sense, Entity, and Model2Vec training via Candle",
@@ -26646,9 +26707,9 @@
       "id": "flatland-tui",
       "name": "flatland-tui",
       "description": "Ratatui interface for Flatland3",
-      "version": "0.2.6",
+      "version": "0.2.7",
       "created_at": "2026-07-06T23:21:53.624339Z",
-      "updated_at": "2026-07-17T20:15:50.880819Z",
+      "updated_at": "2026-07-18T02:13:56.105251Z",
       "downloads": 196,
       "recent_downloads": 196,
       "categories": [
@@ -26666,9 +26727,9 @@
       "id": "flatland3",
       "name": "flatland3",
       "description": "Flatland3 terminal play client and account CLI",
-      "version": "0.2.6",
+      "version": "0.2.7",
       "created_at": "2026-07-06T23:22:43.681339Z",
-      "updated_at": "2026-07-17T20:17:55.362996Z",
+      "updated_at": "2026-07-18T02:18:55.481287Z",
       "downloads": 153,
       "recent_downloads": 153,
       "categories": [
@@ -39319,11 +39380,11 @@
       "id": "kameo_console",
       "name": "kameo_console",
       "description": "Terminal UI for monitoring a running kameo actor system",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "created_at": "2026-06-21T17:22:50.696648Z",
-      "updated_at": "2026-07-07T23:22:44.299319Z",
-      "downloads": 116,
-      "recent_downloads": 116,
+      "updated_at": "2026-07-18T03:34:45.138204Z",
+      "downloads": 141,
+      "recent_downloads": 141,
       "categories": [
         "development-tools::debugging",
         "command-line-utilities",
@@ -41059,9 +41120,9 @@
       "id": "kopitiam-neovim",
       "name": "kopitiam-neovim",
       "description": "kvim: a Rust-native, Android-capable modal editor with Vim keybindings and plugin behaviour built in — no Lua plugins, no Mason. Unrelated to KDE/Plasma.",
-      "version": "0.1.5",
+      "version": "0.1.7",
       "created_at": "2026-07-16T22:59:09.222197Z",
-      "updated_at": "2026-07-18T01:38:48.928968Z",
+      "updated_at": "2026-07-18T02:22:25.662229Z",
       "downloads": 28,
       "recent_downloads": 28,
       "categories": [
@@ -45119,9 +45180,9 @@
       "id": "looop",
       "name": "looop",
       "description": "A tiny, portable, Kubernetes-shaped control loop for your work",
-      "version": "0.56.0",
+      "version": "0.57.0",
       "created_at": "2026-06-18T15:16:19.880779Z",
-      "updated_at": "2026-07-18T00:26:29.150713Z",
+      "updated_at": "2026-07-18T02:25:24.286847Z",
       "downloads": 1329,
       "recent_downloads": 1329,
       "categories": [],
@@ -49275,11 +49336,11 @@
       "id": "mind-cli",
       "name": "mind-cli",
       "description": "A manager for agent tooling (skills, agents, rules, tools) that melds arbitrary git repos and links items into your agent directories.",
-      "version": "0.19.0",
+      "version": "0.20.0",
       "created_at": "2026-06-26T09:05:48.548604Z",
-      "updated_at": "2026-07-16T00:09:13.874080Z",
-      "downloads": 241,
-      "recent_downloads": 241,
+      "updated_at": "2026-07-18T03:16:19.249848Z",
+      "downloads": 263,
+      "recent_downloads": 263,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -74609,11 +74670,11 @@
       "id": "sabiql",
       "name": "sabiql",
       "description": "A fast, driver-less TUI for browsing and editing PostgreSQL databases",
-      "version": "1.14.0",
+      "version": "1.15.0",
       "created_at": "2026-03-03T08:51:23.686043Z",
-      "updated_at": "2026-07-07T15:59:34.479881Z",
-      "downloads": 386,
-      "recent_downloads": 263,
+      "updated_at": "2026-07-18T04:30:54.404726Z",
+      "downloads": 404,
+      "recent_downloads": 267,
       "categories": [
         "command-line-utilities",
         "database"
@@ -74631,11 +74692,11 @@
       "id": "sabiql-ui",
       "name": "sabiql-ui",
       "description": "UI layer for sabiql",
-      "version": "1.14.0",
+      "version": "1.15.0",
       "created_at": "2026-04-25T14:34:14.207245Z",
-      "updated_at": "2026-07-07T15:58:45.827649Z",
-      "downloads": 271,
-      "recent_downloads": 271,
+      "updated_at": "2026-07-18T04:30:11.178272Z",
+      "downloads": 299,
+      "recent_downloads": 299,
       "categories": [],
       "repository": "https://github.com/riii111/sabiql",
       "ratatui_dependency": {
@@ -82895,9 +82956,9 @@
       "id": "sugarrush",
       "name": "sugarrush",
       "description": "A terminal UI for viewing Nightscout CGM (blood glucose sensor) data",
-      "version": "2026.7.2",
+      "version": "2026.7.3",
       "created_at": "2026-07-17T11:50:37.121918Z",
-      "updated_at": "2026-07-17T15:37:21.863119Z",
+      "updated_at": "2026-07-18T02:13:50.544047Z",
       "downloads": 17,
       "recent_downloads": 17,
       "categories": [
@@ -89773,6 +89834,28 @@
       ],
       "repository": "https://github.com/pattynextdoor/tp",
       "homepage": "https://github.com/pattynextdoor/tp",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tpt-cargo-scrub",
+      "name": "tpt-cargo-scrub",
+      "description": "Blazing-fast CLI/TUI tool to find, analyze, and clean Rust target/ directories across your entire machine",
+      "version": "0.1.0",
+      "created_at": "2026-07-18T02:02:11.510027Z",
+      "updated_at": "2026-07-18T02:02:11.510027Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/tpt-solutions/tpt-dev-dx",
+      "homepage": "https://github.com/tpt-solutions/tpt-dev-dx",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -99843,9 +99926,9 @@
       "id": "xa",
       "name": "xa",
       "description": "Execute Anything via LLM - A CLI tool for arbitrary text processing using LLMs",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "created_at": "2026-01-07T05:08:43.254323Z",
-      "updated_at": "2026-07-17T13:28:06.228975Z",
+      "updated_at": "2026-07-18T02:01:03.152977Z",
       "downloads": 82,
       "recent_downloads": 42,
       "categories": [],
