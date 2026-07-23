@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-23T02:52:50.812050461+00:00",
-    "total_crates": 5119,
+    "generated_at": "2026-07-23T05:39:37.960417198+00:00",
+    "total_crates": 5120,
     "core_libraries": 2,
-    "community_packages": 5117,
+    "community_packages": 5118,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 4994,
-      "etag_cache_misses": 125,
-      "cache_hit_rate": 97.55811681969135
+      "etag_cache_hits": 5099,
+      "etag_cache_misses": 21,
+      "cache_hit_rate": 99.58984375
     }
   },
   "crates": [
@@ -1122,11 +1122,11 @@
       "id": "ag-tui-text",
       "name": "ag-tui-text",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.13.5",
+      "version": "0.13.6",
       "created_at": "2026-07-10T05:06:16.918773Z",
-      "updated_at": "2026-07-22T02:04:13.787820Z",
-      "downloads": 133,
-      "recent_downloads": 133,
+      "updated_at": "2026-07-23T05:11:03.882136Z",
+      "downloads": 148,
+      "recent_downloads": 148,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -2097,11 +2097,11 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.13.5",
+      "version": "0.13.6",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-07-22T02:05:21.202030Z",
-      "downloads": 1408,
-      "recent_downloads": 725,
+      "updated_at": "2026-07-23T05:12:15.869497Z",
+      "downloads": 1419,
+      "recent_downloads": 736,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -3130,11 +3130,11 @@
       "id": "alopex-cli",
       "name": "alopex-cli",
       "description": "Command-line interface for Alopex DB",
-      "version": "0.7.6",
+      "version": "0.8.0",
       "created_at": "2025-12-17T09:38:06.607742Z",
-      "updated_at": "2026-07-18T15:36:01.209664Z",
-      "downloads": 293,
-      "recent_downloads": 145,
+      "updated_at": "2026-07-23T04:48:06.824856Z",
+      "downloads": 296,
+      "recent_downloads": 148,
       "categories": [
         "command-line-utilities",
         "database-implementations"
@@ -3176,9 +3176,9 @@
       "id": "alphai-tui",
       "name": "alphai-tui",
       "description": "Terminal stock dashboard: live quotes and charts plus AI-scored financial news and SEC Form 4 insider activity from AlphaAI",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "created_at": "2026-07-10T19:25:07.238377Z",
-      "updated_at": "2026-07-22T14:56:50.244396Z",
+      "updated_at": "2026-07-23T04:26:42.106375Z",
       "downloads": 73,
       "recent_downloads": 73,
       "categories": [
@@ -3356,11 +3356,11 @@
       "id": "amdtop",
       "name": "amdtop",
       "description": "A btop/nvitop-style system monitor for AMD GPUs, CPUs, and XDNA NPUs",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "created_at": "2026-07-19T09:08:44.286671Z",
-      "updated_at": "2026-07-20T11:33:54.196773Z",
-      "downloads": 86,
-      "recent_downloads": 86,
+      "updated_at": "2026-07-23T04:24:05.969251Z",
+      "downloads": 122,
+      "recent_downloads": 122,
       "categories": [
         "command-line-utilities",
         "hardware-support"
@@ -6627,11 +6627,11 @@
       "id": "bamboo-tui",
       "name": "bamboo-tui",
       "description": "Terminal UI client for the Bamboo agent runtime",
-      "version": "2026.7.25",
+      "version": "2026.7.26",
       "created_at": "2026-07-11T05:18:57.973380Z",
-      "updated_at": "2026-07-22T05:19:50.543296Z",
-      "downloads": 207,
-      "recent_downloads": 207,
+      "updated_at": "2026-07-23T05:20:45.410255Z",
+      "downloads": 223,
+      "recent_downloads": 223,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -15849,11 +15849,11 @@
       "id": "clt-rs",
       "name": "clt-rs",
       "description": "File-backed task manager with a TUI Kanban board and multi-project Codex agent registry",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "created_at": "2026-04-11T15:30:11.240132Z",
-      "updated_at": "2026-07-20T21:56:51.089173Z",
-      "downloads": 576,
-      "recent_downloads": 523,
+      "updated_at": "2026-07-23T03:19:58.990202Z",
+      "downloads": 579,
+      "recent_downloads": 526,
       "categories": [
         "command-line-utilities"
       ],
@@ -17265,14 +17265,14 @@
       "id": "confer-cli",
       "name": "confer-cli",
       "description": "A git-native coordination substrate for fleets of AI agents — an append-only, signed, verifiable message log with a thin liveness layer, no database and no server.",
-      "version": "0.8.14",
+      "version": "0.8.16",
       "created_at": "2026-07-14T05:47:52.785669Z",
-      "updated_at": "2026-07-21T21:40:15.686213Z",
-      "downloads": 470,
-      "recent_downloads": 470,
+      "updated_at": "2026-07-23T05:36:23.353748Z",
+      "downloads": 488,
+      "recent_downloads": 488,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/codeshrew/confer",
       "homepage": "https://github.com/codeshrew/confer",
@@ -17695,9 +17695,9 @@
       "id": "corium-cli",
       "name": "corium-cli",
       "description": "Corium CLI",
-      "version": "0.1.30",
+      "version": "0.1.31",
       "created_at": "2026-07-19T01:12:41.900949Z",
-      "updated_at": "2026-07-23T02:24:09.420193Z",
+      "updated_at": "2026-07-23T05:09:36.538201Z",
       "downloads": 293,
       "recent_downloads": 293,
       "categories": [],
@@ -40958,27 +40958,6 @@
       "is_core_library": false
     },
     {
-      "id": "kbotop",
-      "name": "kbotop",
-      "description": "Watch KBO baseball from your terminal — live scoreboard & strike-zone pitch tracking, in the spirit of htop.",
-      "version": "0.1.2",
-      "created_at": "2026-07-22T23:23:11.265863Z",
-      "updated_at": "2026-07-23T00:58:40.765234Z",
-      "downloads": 7,
-      "recent_downloads": 7,
-      "categories": [
-        "command-line-utilities"
-      ],
-      "repository": "https://github.com/wantaekchoi/kbotop",
-      "homepage": "https://github.com/wantaekchoi/kbotop",
-      "ratatui_dependency": {
-        "version": "unknown",
-        "optional": false,
-        "dev_dependency": false
-      },
-      "is_core_library": false
-    },
-    {
       "id": "kbsr",
       "name": "kbsr",
       "description": "Learn keyboard shortcuts through spaced repetition in the terminal",
@@ -43646,11 +43625,11 @@
       "id": "lazygitrs",
       "name": "lazygitrs",
       "description": "A faster, memory-safe, more ergonomic slopfork of lazygit",
-      "version": "0.0.25",
+      "version": "0.0.26",
       "created_at": "2026-03-25T11:02:16.783780Z",
-      "updated_at": "2026-07-22T03:51:52.286831Z",
-      "downloads": 451,
-      "recent_downloads": 248,
+      "updated_at": "2026-07-23T05:34:00.928785Z",
+      "downloads": 462,
+      "recent_downloads": 259,
       "categories": [],
       "repository": "https://github.com/blankeos/lazygitrs",
       "homepage": "https://github.com/blankeos/lazygitrs",
@@ -48243,11 +48222,11 @@
       "id": "mars-terminal",
       "name": "mars-terminal",
       "description": "A terminal editor, multiplexer, and built-in AI agent in one binary — non-modal and Emacs-compatible, with tmux-style persistent sessions.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "created_at": "2026-07-03T22:59:05.316032Z",
-      "updated_at": "2026-07-22T05:06:33.347552Z",
-      "downloads": 143,
-      "recent_downloads": 143,
+      "updated_at": "2026-07-23T04:21:50.605322Z",
+      "downloads": 153,
+      "recent_downloads": 153,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -53066,6 +53045,28 @@
       "is_core_library": false
     },
     {
+      "id": "myx",
+      "name": "myx",
+      "description": "A lean, beautiful terminal Spotify player",
+      "version": "0.1.3",
+      "created_at": "2026-07-23T03:59:39.996860Z",
+      "updated_at": "2026-07-23T05:14:11.649404Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "multimedia::audio"
+      ],
+      "repository": "https://github.com/HaseebKhalid1507/Myx",
+      "homepage": "https://github.com/HaseebKhalid1507/Myx",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "n7",
       "name": "n7",
       "description": "Mass Effect Knowledge Base Terminal UI - Explore the lore of the Mass Effect trilogy",
@@ -55212,11 +55213,11 @@
       "id": "noctavox",
       "name": "noctavox",
       "description": "A lightweight TUI music player for local files",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "created_at": "2026-04-15T19:49:12.571498Z",
-      "updated_at": "2026-07-11T06:25:17.966945Z",
-      "downloads": 295,
-      "recent_downloads": 295,
+      "updated_at": "2026-07-23T05:19:28.303706Z",
+      "downloads": 321,
+      "recent_downloads": 305,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -57350,9 +57351,9 @@
       "id": "onde-cli",
       "name": "onde-cli",
       "description": "Terminal UI to fine-tune model and manage your Onde Inference account.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "created_at": "2026-04-11T05:23:51.161450Z",
-      "updated_at": "2026-07-22T20:06:23.624871Z",
+      "updated_at": "2026-07-23T05:30:22.775416Z",
       "downloads": 99,
       "recent_downloads": 63,
       "categories": [
@@ -58966,14 +58967,14 @@
       "id": "oxi-cli",
       "name": "oxi-cli",
       "description": "Terminal-based AI coding assistant — multi-provider, streaming-first, extensible",
-      "version": "0.57.0",
+      "version": "0.58.0",
       "created_at": "2026-05-03T05:45:02.145026Z",
-      "updated_at": "2026-07-20T07:03:12.936637Z",
+      "updated_at": "2026-07-23T03:57:02.627621Z",
       "downloads": 1765,
       "recent_downloads": 1765,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/a7garden/oxi",
       "ratatui_dependency": {
@@ -58986,12 +58987,33 @@
     {
       "id": "oxi-tui",
       "name": "oxi-tui",
-      "description": "Terminal UI widgets and theme system for oxi, built on ratatui",
-      "version": "0.57.0",
+      "description": "Terminal UI rendering pipeline and widget library for oxi (v2 — terminal-first pipeline)",
+      "version": "0.58.0",
       "created_at": "2026-05-03T04:19:33.517281Z",
-      "updated_at": "2026-07-20T06:22:36.155670Z",
-      "downloads": 2205,
-      "recent_downloads": 2205,
+      "updated_at": "2026-07-23T02:49:26.541988Z",
+      "downloads": 2206,
+      "recent_downloads": 2206,
+      "categories": [
+        "command-line-interface",
+        "gui"
+      ],
+      "repository": "https://github.com/a7garden/oxi",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "oxi-tui-legacy",
+      "name": "oxi-tui-legacy",
+      "description": "Terminal UI widgets and theme system for oxi, built on ratatui",
+      "version": "0.58.0",
+      "created_at": "2026-07-23T03:32:00.917605Z",
+      "updated_at": "2026-07-23T03:32:00.917605Z",
+      "downloads": 0,
+      "recent_downloads": 0,
       "categories": [
         "command-line-interface",
         "gui"
@@ -79308,9 +79330,9 @@
       "id": "shiki-cli",
       "name": "shiki-cli",
       "description": "shiki: CLI + TUI entrypoint",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "created_at": "2026-07-23T02:20:28.869610Z",
-      "updated_at": "2026-07-23T02:20:28.869610Z",
+      "updated_at": "2026-07-23T05:07:35.262728Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [
@@ -79329,9 +79351,9 @@
       "id": "shiki-tui",
       "name": "shiki-tui",
       "description": "shiki: TUI interface (ratatui)",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "created_at": "2026-07-23T02:19:45.120518Z",
-      "updated_at": "2026-07-23T02:19:45.120518Z",
+      "updated_at": "2026-07-23T05:06:46.191142Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [
@@ -85447,11 +85469,11 @@
       "id": "symbi-shell",
       "name": "symbi-shell",
       "description": "Interactive agent orchestration shell for the Symbi platform",
-      "version": "1.17.0",
+      "version": "1.18.0",
       "created_at": "2026-04-24T19:43:23.062215Z",
-      "updated_at": "2026-07-01T21:17:01.808591Z",
-      "downloads": 160,
-      "recent_downloads": 160,
+      "updated_at": "2026-07-23T05:06:21.001824Z",
+      "downloads": 179,
+      "recent_downloads": 171,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -97850,9 +97872,9 @@
       "id": "vat-viewer",
       "name": "vat-viewer",
       "description": "A semantic file viewer that renders files in the most intuitive terminal view",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "created_at": "2026-07-21T03:10:24.756130Z",
-      "updated_at": "2026-07-21T05:49:27.010668Z",
+      "updated_at": "2026-07-23T05:03:05.086470Z",
       "downloads": 31,
       "recent_downloads": 31,
       "categories": [
