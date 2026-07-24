@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-24T00:13:05.855828427+00:00",
-    "total_crates": 5126,
+    "generated_at": "2026-07-24T05:32:45.755864855+00:00",
+    "total_crates": 5131,
     "core_libraries": 2,
-    "community_packages": 5124,
+    "community_packages": 5129,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5010,
-      "etag_cache_misses": 116,
-      "cache_hit_rate": 97.73702692157627
+      "etag_cache_hits": 5098,
+      "etag_cache_misses": 33,
+      "cache_hit_rate": 99.35685051646853
     }
   },
   "crates": [
@@ -2988,11 +2988,11 @@
       "id": "alex",
       "name": "alex",
       "description": "Alex: local LLM credential vault, multi-provider routing proxy, and trace capture daemon",
-      "version": "0.1.30",
+      "version": "0.1.31",
       "created_at": "2026-07-08T05:06:47.434524Z",
-      "updated_at": "2026-07-23T08:31:04.386535Z",
+      "updated_at": "2026-07-24T00:41:37.283846Z",
       "downloads": 663,
-      "recent_downloads": 661,
+      "recent_downloads": 663,
       "categories": [],
       "repository": "https://github.com/madhavajay/alex",
       "ratatui_dependency": {
@@ -5088,6 +5088,24 @@
       "is_core_library": false
     },
     {
+      "id": "asched",
+      "name": "asched",
+      "description": "Minimal TUI and agent-friendly CLI for local scheduled routines",
+      "version": "0.1.0",
+      "created_at": "2026-07-24T02:22:11.183345Z",
+      "updated_at": "2026-07-24T02:22:11.183345Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/vlwkaos/asched",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ascii-agents",
       "name": "ascii-agents",
       "description": "Terminal pixel-art office for AI coding agents",
@@ -6628,11 +6646,11 @@
       "id": "bamboo-tui",
       "name": "bamboo-tui",
       "description": "Terminal UI client for the Bamboo agent runtime",
-      "version": "2026.7.26",
+      "version": "2026.7.27",
       "created_at": "2026-07-11T05:18:57.973380Z",
-      "updated_at": "2026-07-23T05:20:45.410255Z",
-      "downloads": 223,
-      "recent_downloads": 223,
+      "updated_at": "2026-07-24T05:21:22.722401Z",
+      "downloads": 244,
+      "recent_downloads": 244,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -8329,15 +8347,15 @@
       "id": "blackbox-recorder",
       "name": "blackbox-recorder",
       "description": "Local flight recorder and debugger for AI-agent runs: PTY capture, SQLite traces, redacted export",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "created_at": "2026-07-12T14:11:35.906059Z",
-      "updated_at": "2026-07-23T15:17:24.275952Z",
+      "updated_at": "2026-07-24T01:08:06.010988Z",
       "downloads": 188,
-      "recent_downloads": 186,
+      "recent_downloads": 188,
       "categories": [
+        "command-line-utilities",
         "development-tools",
-        "asynchronous",
-        "command-line-utilities"
+        "asynchronous"
       ],
       "repository": "https://github.com/wanazhar/blackbox",
       "homepage": "https://github.com/wanazhar/blackbox",
@@ -17696,11 +17714,11 @@
       "id": "corium-cli",
       "name": "corium-cli",
       "description": "Corium CLI",
-      "version": "0.1.34",
+      "version": "0.1.35",
       "created_at": "2026-07-19T01:12:41.900949Z",
-      "updated_at": "2026-07-23T21:22:27.192218Z",
+      "updated_at": "2026-07-24T03:22:44.554886Z",
       "downloads": 438,
-      "recent_downloads": 420,
+      "recent_downloads": 438,
       "categories": [],
       "homepage": "https://github.com/csm/corium",
       "ratatui_dependency": {
@@ -18029,11 +18047,11 @@
       "id": "cqlite-cli",
       "name": "cqlite-cli",
       "description": "Command-line interface for CQLite — read Apache Cassandra 5.0 SSTables without a cluster",
-      "version": "0.16.0",
+      "version": "0.16.1",
       "created_at": "2026-06-16T14:44:23.404850Z",
-      "updated_at": "2026-07-23T14:06:20.417218Z",
+      "updated_at": "2026-07-24T01:12:17.356101Z",
       "downloads": 99,
-      "recent_downloads": 97,
+      "recent_downloads": 99,
       "categories": [
         "database-implementations",
         "wasm",
@@ -20376,15 +20394,15 @@
       "id": "deckhand",
       "name": "deckhand",
       "description": "Present markdown slide decks as a TUI — live embedded terminals, a 2-D slide grid, presenter notes, and a wasm presenter for the browser",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "created_at": "2026-07-22T16:19:54.760449Z",
-      "updated_at": "2026-07-22T22:15:46.798176Z",
-      "downloads": 19,
-      "recent_downloads": 19,
+      "updated_at": "2026-07-24T03:02:10.675322Z",
+      "downloads": 28,
+      "recent_downloads": 28,
       "categories": [
-        "wasm",
+        "command-line-utilities",
         "text-processing",
-        "command-line-utilities"
+        "wasm"
       ],
       "repository": "https://github.com/akesling/deckhand",
       "homepage": "https://deckhand.sh",
@@ -27446,11 +27464,11 @@
       "id": "flatland-tui",
       "name": "flatland-tui",
       "description": "Ratatui interface for Flatland3",
-      "version": "0.2.10",
+      "version": "0.2.11",
       "created_at": "2026-07-06T23:21:53.624339Z",
-      "updated_at": "2026-07-22T01:46:25.879115Z",
-      "downloads": 277,
-      "recent_downloads": 277,
+      "updated_at": "2026-07-24T02:47:58.589482Z",
+      "downloads": 323,
+      "recent_downloads": 323,
       "categories": [
         "game-development"
       ],
@@ -27466,14 +27484,14 @@
       "id": "flatland3",
       "name": "flatland3",
       "description": "Flatland3 terminal play client and account CLI",
-      "version": "0.2.10",
+      "version": "0.2.11",
       "created_at": "2026-07-06T23:22:43.681339Z",
-      "updated_at": "2026-07-22T01:47:04.970470Z",
-      "downloads": 218,
-      "recent_downloads": 218,
+      "updated_at": "2026-07-24T02:48:25.135355Z",
+      "downloads": 262,
+      "recent_downloads": 262,
       "categories": [
-        "games",
-        "command-line-utilities"
+        "command-line-utilities",
+        "games"
       ],
       "repository": "https://github.com/bvelasquez/flatland3",
       "ratatui_dependency": {
@@ -32245,11 +32263,11 @@
       "id": "gitui-view",
       "name": "gitui-view",
       "description": "A terminal-based Git repository browser with inline and side-by-side diff views",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "created_at": "2026-07-15T08:56:28.574800Z",
-      "updated_at": "2026-07-20T08:50:13.500956Z",
-      "downloads": 72,
-      "recent_downloads": 72,
+      "updated_at": "2026-07-24T03:40:24.561151Z",
+      "downloads": 80,
+      "recent_downloads": 80,
       "categories": [
         "command-line-utilities"
       ],
@@ -32348,11 +32366,11 @@
       "id": "gitwig",
       "name": "gitwig",
       "description": "a rust based tui, an alternative to sourcetree and gitui",
-      "version": "2.4.11",
+      "version": "2.4.12",
       "created_at": "2026-06-24T11:46:02.486404Z",
-      "updated_at": "2026-07-23T06:06:16.118784Z",
+      "updated_at": "2026-07-24T05:16:59.225984Z",
       "downloads": 947,
-      "recent_downloads": 945,
+      "recent_downloads": 947,
       "categories": [
         "command-line-utilities"
       ],
@@ -33613,6 +33631,28 @@
       "is_core_library": false
     },
     {
+      "id": "gregg",
+      "name": "gregg",
+      "description": "Compact keyboard-first terminal monitor that polls greggd endpoints and renders each system in four rows.",
+      "version": "1.0.0",
+      "created_at": "2026-07-24T03:45:34.900831Z",
+      "updated_at": "2026-07-24T03:45:34.900831Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/eggstack/gregg",
+      "homepage": "https://github.com/eggstack/gregg",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "gridlife",
       "name": "gridlife",
       "description": "An library to generate and simulate Conways Game of Life cellular automatons",
@@ -34757,6 +34797,26 @@
         "network-programming"
       ],
       "repository": "https://github.com/kerryhatcher/hatchchat",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "hauntty",
+      "name": "hauntty",
+      "description": "A TUI theme and settings manager for the Ghostty terminal",
+      "version": "0.1.0",
+      "created_at": "2026-07-24T05:01:12.010923Z",
+      "updated_at": "2026-07-24T05:01:12.010923Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/winterweken/hauntty",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -38111,6 +38171,24 @@
       "is_core_library": false
     },
     {
+      "id": "imbh-tui",
+      "name": "imbh-tui",
+      "description": "Read-only terminal explorer for IMBH metrics, traces, and logs.",
+      "version": "0.1.0",
+      "created_at": "2026-07-24T01:54:11.509525Z",
+      "updated_at": "2026-07-24T01:54:11.509525Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/moriyoshi/imbh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "imdb-id",
       "name": "imdb-id",
       "description": "Get IMDb IDs using a commandline search tool",
@@ -38258,11 +38336,11 @@
       "id": "indusagi",
       "name": "indusagi",
       "description": "indusagi — a 100% Rust AI coding-agent framework: LLM gateway, agent runtime, tool/capability kernel, MCP interop, terminal UI, SaaS connectors, multi-agent swarm, and the CLI shell, all in one crate.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "created_at": "2026-06-19T22:12:29.089466Z",
-      "updated_at": "2026-06-28T21:58:36.388769Z",
-      "downloads": 76,
-      "recent_downloads": 76,
+      "updated_at": "2026-07-24T03:21:24.194717Z",
+      "downloads": 95,
+      "recent_downloads": 95,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -38280,11 +38358,11 @@
       "id": "induscode",
       "name": "induscode",
       "description": "indus-code-rust — 100% Rust terminal-first AI coding agent; bins `indusr` / `indusagir` (the merged product crate over the published `indusagi` framework).",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "created_at": "2026-06-19T22:53:26.222446Z",
-      "updated_at": "2026-06-28T22:17:13.058134Z",
-      "downloads": 75,
-      "recent_downloads": 75,
+      "updated_at": "2026-07-24T03:24:24.596178Z",
+      "downloads": 96,
+      "recent_downloads": 96,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -38429,14 +38507,14 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "1.8.17",
+      "version": "1.8.18",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-07-23T21:11:24.666782Z",
-      "downloads": 2628,
-      "recent_downloads": 2601,
+      "updated_at": "2026-07-24T01:39:26.042538Z",
+      "downloads": 2630,
+      "recent_downloads": 2630,
       "categories": [
-        "text-processing",
         "command-line-utilities",
+        "text-processing",
         "text-editors"
       ],
       "repository": "https://github.com/vulogov/blackInkhaven",
@@ -42287,11 +42365,11 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Terminal file browser built for AI pair-programming — full-screen previews (Markdown, images, PDF, CSV), git suite, and an agent-watch mode that follows your AI's edits (macOS and Linux)",
-      "version": "0.18.6",
+      "version": "0.18.8",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-07-23T02:21:02.989200Z",
-      "downloads": 521,
-      "recent_downloads": 521,
+      "updated_at": "2026-07-24T00:56:13.332489Z",
+      "downloads": 556,
+      "recent_downloads": 556,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -47359,15 +47437,15 @@
       "id": "macmon",
       "name": "macmon",
       "description": "Apple Silicon system monitor & Rust library — CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "created_at": "2025-06-02T20:55:14.729814Z",
-      "updated_at": "2026-04-01T16:12:49.727447Z",
-      "downloads": 908,
-      "recent_downloads": 202,
+      "updated_at": "2026-07-24T01:20:14.990431Z",
+      "downloads": 2162,
+      "recent_downloads": 1068,
       "categories": [
         "command-line-utilities",
-        "hardware-support",
-        "visualization"
+        "visualization",
+        "hardware-support"
       ],
       "repository": "https://github.com/vladkens/macmon",
       "homepage": "https://github.com/vladkens/macmon",
@@ -48347,11 +48425,11 @@
       "id": "marshal-tui",
       "name": "marshal-tui",
       "description": "Terminal UI for the marshal coordination daemon — live roster + message stream.",
-      "version": "0.37.0",
+      "version": "0.37.1",
       "created_at": "2026-05-06T00:49:11.247985Z",
-      "updated_at": "2026-07-23T23:27:54.432684Z",
-      "downloads": 1169,
-      "recent_downloads": 1144,
+      "updated_at": "2026-07-24T00:30:43.909393Z",
+      "downloads": 1170,
+      "recent_downloads": 1170,
       "categories": [
         "command-line-utilities"
       ],
@@ -50646,11 +50724,11 @@
       "id": "mind-cli",
       "name": "mind-cli",
       "description": "A manager for agent tooling (skills, agents, rules, tools) that melds arbitrary git repos and links items into your agent directories.",
-      "version": "0.20.0",
+      "version": "0.21.0",
       "created_at": "2026-06-26T09:05:48.548604Z",
-      "updated_at": "2026-07-18T03:16:19.249848Z",
-      "downloads": 263,
-      "recent_downloads": 263,
+      "updated_at": "2026-07-24T02:52:01.328459Z",
+      "downloads": 297,
+      "recent_downloads": 297,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -53129,11 +53207,11 @@
       "id": "myx",
       "name": "myx",
       "description": "A lean, beautiful terminal Spotify player",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "created_at": "2026-07-23T03:59:39.996860Z",
-      "updated_at": "2026-07-23T19:08:07.729762Z",
+      "updated_at": "2026-07-24T05:09:35.047288Z",
       "downloads": 61,
-      "recent_downloads": 43,
+      "recent_downloads": 61,
       "categories": [
         "command-line-utilities",
         "multimedia::audio"
@@ -55315,11 +55393,11 @@
       "id": "node-app-build",
       "name": "node-app-build",
       "description": "Mini app developer CLI: scaffold, validate, package node-app-* Debian packages",
-      "version": "6.3.0",
+      "version": "6.4.1",
       "created_at": "2026-05-12T19:03:17.475988Z",
-      "updated_at": "2026-07-23T19:49:32.560561Z",
+      "updated_at": "2026-07-24T05:19:22.373613Z",
       "downloads": 584,
-      "recent_downloads": 574,
+      "recent_downloads": 584,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -55463,11 +55541,11 @@
       "id": "noetl",
       "name": "noetl",
       "description": "NoETL workflow automation CLI - Execute playbooks locally or orchestrate distributed pipelines",
-      "version": "4.19.0",
+      "version": "4.21.0",
       "created_at": "2026-01-10T05:15:32.056340Z",
-      "updated_at": "2026-07-15T05:30:39.298996Z",
-      "downloads": 599,
-      "recent_downloads": 447,
+      "updated_at": "2026-07-24T03:05:50.522486Z",
+      "downloads": 657,
+      "recent_downloads": 505,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -66702,11 +66780,11 @@
       "id": "railwayapp",
       "name": "railwayapp",
       "description": "Interact with Railway via CLI",
-      "version": "5.28.0",
+      "version": "5.28.1",
       "created_at": "2023-02-18T01:14:12.106990Z",
-      "updated_at": "2026-07-22T20:45:31.566126Z",
-      "downloads": 100749,
-      "recent_downloads": 2238,
+      "updated_at": "2026-07-24T03:37:11.980281Z",
+      "downloads": 100766,
+      "recent_downloads": 2250,
       "categories": [],
       "repository": "https://github.com/railwayapp/cli",
       "homepage": "https://github.com/railwayapp/cli",
@@ -71424,6 +71502,27 @@
         "command-line-utilities"
       ],
       "repository": "https://github.com/jacobjuneau6/rereader",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "research",
+      "name": "research",
+      "description": "A human-first, local-first personal library for saved URLs.",
+      "version": "2.0.1",
+      "created_at": "2024-02-11T14:36:41.862344Z",
+      "updated_at": "2026-07-24T05:28:39.791058Z",
+      "downloads": 16961,
+      "recent_downloads": 71,
+      "categories": [
+        "command-line-utilities",
+        "database"
+      ],
+      "repository": "https://github.com/ResearchPocket/researchpocket.github.io",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -79451,11 +79550,11 @@
       "id": "shiki-cli",
       "name": "shiki-cli",
       "description": "shiki: CLI + TUI entrypoint",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "created_at": "2026-07-23T02:20:28.869610Z",
-      "updated_at": "2026-07-23T21:35:10.396480Z",
+      "updated_at": "2026-07-24T03:07:32.885186Z",
       "downloads": 47,
-      "recent_downloads": 35,
+      "recent_downloads": 47,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -79472,11 +79571,11 @@
       "id": "shiki-tui",
       "name": "shiki-tui",
       "description": "shiki: TUI interface (ratatui)",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "created_at": "2026-07-23T02:19:45.120518Z",
-      "updated_at": "2026-07-23T21:34:21.251556Z",
+      "updated_at": "2026-07-24T03:06:43.311258Z",
       "downloads": 62,
-      "recent_downloads": 45,
+      "recent_downloads": 62,
       "categories": [
         "command-line-utilities",
         "text-editors"
@@ -92976,11 +93075,11 @@
       "id": "trusty-mpm",
       "name": "trusty-mpm",
       "description": "trusty-mpm: unified multi-agent orchestration platform (core, daemon, CLI, TUI, Telegram)",
-      "version": "0.21.0",
+      "version": "1.0.0",
       "created_at": "2026-06-15T21:14:07.333287Z",
-      "updated_at": "2026-07-23T21:13:39.834830Z",
-      "downloads": 942,
-      "recent_downloads": 933,
+      "updated_at": "2026-07-24T02:15:18.180946Z",
+      "downloads": 944,
+      "recent_downloads": 944,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -97142,17 +97241,17 @@
       "id": "ublx",
       "name": "ublx",
       "description": "TUI to index once, enrich with metadata, and browse a flat snapshot in a 3-pane layout with multiple modes.",
-      "version": "0.1.14",
+      "version": "0.2.1",
       "created_at": "2026-04-02T23:48:09.132784Z",
-      "updated_at": "2026-07-21T23:25:44.835650Z",
-      "downloads": 220,
-      "recent_downloads": 150,
+      "updated_at": "2026-07-24T05:19:40.539204Z",
+      "downloads": 254,
+      "recent_downloads": 184,
       "categories": [
-        "development-tools",
         "command-line-utilities",
-        "database",
+        "development-tools",
         "text-processing",
-        "visualization"
+        "visualization",
+        "database"
       ],
       "repository": "https://github.com/Latka-Industries/UBLX",
       "homepage": "https://ublx.dev/",
@@ -99736,11 +99835,11 @@
       "id": "vta-cli-common",
       "name": "vta-cli-common",
       "description": "Shared CLI command handlers and rendering helpers for VTA CLIs",
-      "version": "0.10.10",
+      "version": "0.10.12",
       "created_at": "2026-03-29T09:07:39.657764Z",
-      "updated_at": "2026-07-23T14:44:18.524129Z",
+      "updated_at": "2026-07-24T02:25:14.329476Z",
       "downloads": 1447,
-      "recent_downloads": 1360,
+      "recent_downloads": 1362,
       "categories": [],
       "repository": "https://github.com/OpenVTC/verifiable-trust-infrastructure",
       "ratatui_dependency": {
@@ -101797,11 +101896,11 @@
       "id": "worktrunk",
       "name": "worktrunk",
       "description": "A CLI for Git worktree management, designed for parallel AI agent workflows",
-      "version": "0.68.0",
+      "version": "0.69.0",
       "created_at": "2025-11-03T06:10:50.528035Z",
-      "updated_at": "2026-07-15T23:53:26.512698Z",
-      "downloads": 23965,
-      "recent_downloads": 11407,
+      "updated_at": "2026-07-24T01:46:54.054081Z",
+      "downloads": 25288,
+      "recent_downloads": 11319,
       "categories": [],
       "repository": "https://github.com/max-sixty/worktrunk",
       "homepage": "https://worktrunk.dev",
@@ -103170,11 +103269,11 @@
       "id": "yardlet",
       "name": "yardlet",
       "description": "Yardlet: a local AI workbench. Plan, queue, route, validate, and hand off long-running work using your already-installed Codex and Claude Code CLIs as hidden workers.",
-      "version": "0.10.1",
+      "version": "0.10.2",
       "created_at": "2026-06-16T15:04:37.125732Z",
-      "updated_at": "2026-07-23T08:18:32.703711Z",
+      "updated_at": "2026-07-24T05:11:22.924812Z",
       "downloads": 288,
-      "recent_downloads": 287,
+      "recent_downloads": 288,
       "categories": [
         "command-line-utilities",
         "development-tools"
