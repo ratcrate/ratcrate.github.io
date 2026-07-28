@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-07-28T02:40:13.268970327+00:00",
-    "total_crates": 5200,
+    "generated_at": "2026-07-28T05:27:48.641157882+00:00",
+    "total_crates": 5206,
     "core_libraries": 2,
-    "community_packages": 5198,
+    "community_packages": 5204,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5046,
-      "etag_cache_misses": 154,
-      "cache_hit_rate": 97.03846153846155
+      "etag_cache_hits": 5178,
+      "etag_cache_misses": 28,
+      "cache_hit_rate": 99.46215904725318
     }
   },
   "crates": [
@@ -1140,11 +1140,11 @@
       "id": "ag-tui-text",
       "name": "ag-tui-text",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.13.6",
+      "version": "0.13.7",
       "created_at": "2026-07-10T05:06:16.918773Z",
-      "updated_at": "2026-07-23T05:11:03.882136Z",
-      "downloads": 148,
-      "recent_downloads": 148,
+      "updated_at": "2026-07-28T05:01:05.085988Z",
+      "downloads": 186,
+      "recent_downloads": 186,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -2136,11 +2136,11 @@
       "id": "agentty",
       "name": "agentty",
       "description": "Agentty is an ADE (Agentic Development Environment) for structured, controllable AI-assisted software development.",
-      "version": "0.13.6",
+      "version": "0.13.7",
       "created_at": "2026-02-17T07:34:44.021482Z",
-      "updated_at": "2026-07-23T05:12:15.869497Z",
-      "downloads": 1419,
-      "recent_downloads": 736,
+      "updated_at": "2026-07-28T05:02:04.494431Z",
+      "downloads": 1453,
+      "recent_downloads": 669,
       "categories": [],
       "repository": "https://github.com/agentty-xyz/agentty",
       "homepage": "https://github.com/agentty-xyz/agentty",
@@ -3158,6 +3158,27 @@
       "repository": "https://github.com/vaibhav-mattoo/alman",
       "homepage": "https://github.com/vaibhav-mattoo/alman",
       "documentation": "https://docs.rs/alman",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "alnav",
+      "name": "alnav",
+      "description": "App/Android Log Navigator — interactive TUI (default) and CLI (`alnav grep`)",
+      "version": "0.2.1",
+      "created_at": "2026-07-28T05:03:56.648393Z",
+      "updated_at": "2026-07-28T05:11:14.381813Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/Rossettaylm/alnav",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -6710,11 +6731,11 @@
       "id": "bamboo-tui",
       "name": "bamboo-tui",
       "description": "Terminal UI client for the Bamboo agent runtime",
-      "version": "2026.7.30",
+      "version": "2026.7.31",
       "created_at": "2026-07-11T05:18:57.973380Z",
-      "updated_at": "2026-07-27T05:35:37.360178Z",
-      "downloads": 296,
-      "recent_downloads": 296,
+      "updated_at": "2026-07-28T05:20:57.445470Z",
+      "downloads": 319,
+      "recent_downloads": 319,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -9066,9 +9087,9 @@
       "id": "bohay",
       "name": "bohay",
       "description": "Mission control for your AI coding agents",
-      "version": "0.9.4",
+      "version": "0.9.5",
       "created_at": "2026-06-26T03:48:49.783662Z",
-      "updated_at": "2026-07-27T15:38:53.040002Z",
+      "updated_at": "2026-07-28T03:55:50.340406Z",
       "downloads": 350,
       "recent_downloads": 350,
       "categories": [
@@ -12970,11 +12991,11 @@
       "id": "celsius",
       "name": "celsius",
       "description": "Terminal weather TUI: first-person sky view of the weather at your location, rendered as a truecolor half-block scene",
-      "version": "0.4.7",
+      "version": "0.5.0",
       "created_at": "2026-04-11T22:29:10.281Z",
-      "updated_at": "2026-07-15T12:29:23.617922Z",
-      "downloads": 284,
-      "recent_downloads": 271,
+      "updated_at": "2026-07-28T04:38:37.887561Z",
+      "downloads": 313,
+      "recent_downloads": 270,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -16660,9 +16681,9 @@
       "id": "codewandler-flux-markdown",
       "name": "codewandler-flux-markdown",
       "description": "flux's own markdown engine: frontmatter parsing plus an AST-based CommonMark-subset parser, writer, and (feature-gated) ratatui/terminal renderers",
-      "version": "0.27.0",
+      "version": "0.28.0",
       "created_at": "2026-07-08T10:12:21.970771Z",
-      "updated_at": "2026-07-28T01:36:52.598276Z",
+      "updated_at": "2026-07-28T05:19:33.807698Z",
       "downloads": 1509,
       "recent_downloads": 1509,
       "categories": [],
@@ -17838,9 +17859,9 @@
       "id": "corium-cli",
       "name": "corium-cli",
       "description": "Corium CLI",
-      "version": "0.1.50",
+      "version": "0.1.52",
       "created_at": "2026-07-19T01:12:41.900949Z",
-      "updated_at": "2026-07-28T00:02:57.695073Z",
+      "updated_at": "2026-07-28T04:16:02.786928Z",
       "downloads": 626,
       "recent_downloads": 626,
       "categories": [],
@@ -21861,11 +21882,11 @@
       "id": "dirge-agent",
       "name": "dirge-agent",
       "description": "Minimalistic coding agent written in Rust, optimized for memory footprint and performance",
-      "version": "0.19.22",
+      "version": "0.19.25",
       "created_at": "2026-05-29T21:57:45.827252Z",
-      "updated_at": "2026-07-26T19:51:33.121113Z",
-      "downloads": 1807,
-      "recent_downloads": 1807,
+      "updated_at": "2026-07-28T03:11:39.327870Z",
+      "downloads": 1812,
+      "recent_downloads": 1812,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -26950,6 +26971,27 @@
         "command-line-utilities"
       ],
       "repository": "https://github.com/ojhermann-org/ferric-fred",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "ferricket",
+      "name": "ferricket",
+      "description": "A fast, file-native ticket tracker",
+      "version": "0.1.1",
+      "created_at": "2026-07-12T07:47:10.757579Z",
+      "updated_at": "2026-07-28T03:11:48.917295Z",
+      "downloads": 12,
+      "recent_downloads": 12,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/prabirshrestha/ferricket",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -33948,9 +33990,9 @@
       "id": "gpur",
       "name": "gpur",
       "description": "btop-style GPU monitor TUI — NVIDIA, AMD, Intel, Apple Silicon; Linux, macOS, Windows",
-      "version": "0.9.0",
+      "version": "0.10.1",
       "created_at": "2026-07-02T04:19:11.727809Z",
-      "updated_at": "2026-07-27T09:40:59.754383Z",
+      "updated_at": "2026-07-28T04:26:28.574710Z",
       "downloads": 191,
       "recent_downloads": 191,
       "categories": [
@@ -36819,6 +36861,27 @@
         "games"
       ],
       "repository": "https://github.com/stmorse/hjklue",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "hmon",
+      "name": "hmon",
+      "description": "A fast, interactive, terminal-based system resource monitor written in Rust.",
+      "version": "0.1.0",
+      "created_at": "2026-07-28T03:42:13.756983Z",
+      "updated_at": "2026-07-28T03:42:13.756983Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/hkatagal/hmon",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -40507,6 +40570,27 @@
       "is_core_library": false
     },
     {
+      "id": "jojojournal",
+      "name": "jojojournal",
+      "description": "Terminal-first note-taking CLI with local markdown, hybrid FTS+vector search, GPG signing, and encrypted backups",
+      "version": "0.0.7",
+      "created_at": "2026-07-28T04:30:35.363042Z",
+      "updated_at": "2026-07-28T04:30:35.363042Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "text-processing"
+      ],
+      "repository": "https://forge.unfuck.cloud/rosnovsky/jojojournal",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "jolt-tui",
       "name": "jolt-tui",
       "description": "A beautiful TUI for monitoring battery and energy usage",
@@ -41733,9 +41817,9 @@
       "id": "kbotop",
       "name": "kbotop",
       "description": "Watch KBO baseball in your terminal, with strike-zone pitch tracking.",
-      "version": "0.27.1",
+      "version": "0.28.0",
       "created_at": "2026-07-24T11:15:41.427499Z",
-      "updated_at": "2026-07-27T23:35:53.272135Z",
+      "updated_at": "2026-07-28T04:53:53.634654Z",
       "downloads": 235,
       "recent_downloads": 235,
       "categories": [
@@ -45928,6 +46012,27 @@
         "development-tools"
       ],
       "repository": "https://github.com/shrirambalaji/linkerland",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "linktop",
+      "name": "linktop",
+      "description": "A terminal instrument for the host's current network context",
+      "version": "0.1.0",
+      "created_at": "2026-07-28T03:47:14.447177Z",
+      "updated_at": "2026-07-28T03:47:14.447177Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "network-programming"
+      ],
+      "repository": "https://github.com/arclabs561/linktop",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -51835,9 +51940,9 @@
       "id": "mirador",
       "name": "mirador",
       "description": "An opinionated personal dashboard for your terminal: world clocks, a calendar, weather, tasks, notes, a market watchlist, and live CPU and network graphs.",
-      "version": "0.15.0",
+      "version": "0.16.0",
       "created_at": "2026-07-25T19:01:31.547196Z",
-      "updated_at": "2026-07-28T00:59:34.480334Z",
+      "updated_at": "2026-07-28T02:41:41.712886Z",
       "downloads": 241,
       "recent_downloads": 241,
       "categories": [
@@ -52018,9 +52123,9 @@
       "id": "mkutils",
       "name": "mkutils",
       "description": "Utility methods, traits, and types.",
-      "version": "0.1.187",
+      "version": "0.1.188",
       "created_at": "2025-12-16T13:55:08.926304Z",
-      "updated_at": "2026-07-28T01:35:03.969667Z",
+      "updated_at": "2026-07-28T03:07:56.107877Z",
       "downloads": 3241,
       "recent_downloads": 1590,
       "categories": [
@@ -59505,9 +59610,9 @@
       "id": "orcatui",
       "name": "orcatui",
       "description": "Terminal multi-agent coding orchestrator — TUI port of Orca GUI (stablyai/orca). Runs N coding agents side-by-side in split panes, monitored from one screen.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "created_at": "2026-07-24T16:49:10.747399Z",
-      "updated_at": "2026-07-27T15:54:15.293683Z",
+      "updated_at": "2026-07-28T04:40:21.599809Z",
       "downloads": 98,
       "recent_downloads": 98,
       "categories": [
@@ -73133,9 +73238,9 @@
       "id": "rho-coding-agent",
       "name": "rho-coding-agent",
       "description": "A lightweight agent harness inspired by Pi",
-      "version": "1.18.2",
+      "version": "1.19.0",
       "created_at": "2026-06-22T00:22:02.775743Z",
-      "updated_at": "2026-07-27T23:11:55.729617Z",
+      "updated_at": "2026-07-28T05:00:22.727569Z",
       "downloads": 1271,
       "recent_downloads": 1271,
       "categories": [],
@@ -74242,14 +74347,14 @@
       "id": "robit",
       "name": "robit",
       "description": "Terminal UI for the robit AI automation agent.",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "created_at": "2026-06-13T11:30:36.553755Z",
-      "updated_at": "2026-07-21T05:50:35.589099Z",
-      "downloads": 220,
-      "recent_downloads": 220,
+      "updated_at": "2026-07-28T03:11:47.024527Z",
+      "downloads": 222,
+      "recent_downloads": 222,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/leexgone/robit",
       "homepage": "https://github.com/leexgone/robit",
@@ -82266,6 +82371,28 @@
         "network-programming"
       ],
       "repository": "https://github.com/morgverd/sms-terminal",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "smyx",
+      "name": "smyx",
+      "description": "A lean, beautiful terminal Navidrome / OpenSubsonic player",
+      "version": "0.2.7",
+      "created_at": "2026-07-28T04:24:08.465308Z",
+      "updated_at": "2026-07-28T04:24:08.465308Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "multimedia::audio"
+      ],
+      "repository": "https://github.com/ayanchavand/Smyx",
+      "homepage": "https://github.com/ayanchavand/Smyx",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -101200,9 +101327,9 @@
       "id": "vta-cli-common",
       "name": "vta-cli-common",
       "description": "Shared CLI command handlers and rendering helpers for VTA CLIs",
-      "version": "0.10.16",
+      "version": "0.10.17",
       "created_at": "2026-03-29T09:07:39.657764Z",
-      "updated_at": "2026-07-27T10:29:38.702750Z",
+      "updated_at": "2026-07-28T05:12:01.594231Z",
       "downloads": 1852,
       "recent_downloads": 1761,
       "categories": [],
@@ -101218,15 +101345,15 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.140.3",
+      "version": "0.141.1",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2026-07-27T16:40:10.903870Z",
+      "updated_at": "2026-07-28T04:38:07.575895Z",
       "downloads": 27954,
       "recent_downloads": 2357,
       "categories": [
+        "api-bindings",
         "development-tools",
-        "command-line-utilities",
-        "api-bindings"
+        "command-line-utilities"
       ],
       "repository": "https://github.com/vinhnx/vtcode",
       "homepage": "https://github.com/vinhnx/vtcode",
@@ -101265,9 +101392,9 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.140.3",
+      "version": "0.141.1",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-07-27T16:35:02.221783Z",
+      "updated_at": "2026-07-28T04:33:33.412189Z",
       "downloads": 34295,
       "recent_downloads": 3474,
       "categories": [
@@ -101311,9 +101438,9 @@
       "id": "vtcode-llm",
       "name": "vtcode-llm",
       "description": "LLM provider abstraction, client implementations, and streaming for VT Code",
-      "version": "0.140.3",
+      "version": "0.141.2",
       "created_at": "2026-07-19T04:40:25.431195Z",
-      "updated_at": "2026-07-27T16:31:10.682713Z",
+      "updated_at": "2026-07-28T05:26:04.787850Z",
       "downloads": 596,
       "recent_downloads": 596,
       "categories": [
@@ -101356,9 +101483,9 @@
       "id": "vtcode-ui",
       "name": "vtcode-ui",
       "description": "Unified UI crate for VT Code: design system, theme registry, and TUI framework",
-      "version": "0.140.3",
+      "version": "0.141.2",
       "created_at": "2026-06-10T16:12:24.305766Z",
-      "updated_at": "2026-07-27T16:32:04.504904Z",
+      "updated_at": "2026-07-28T05:26:47.569807Z",
       "downloads": 891,
       "recent_downloads": 891,
       "categories": [
@@ -102464,11 +102591,11 @@
       "id": "whisker-cli",
       "name": "whisker-cli",
       "description": "Whisker CLI: `whisker` and `cargo-whisker` (hybrid) — scaffold, doctor, and dev-loop Whisker apps.",
-      "version": "0.9.2",
+      "version": "0.10.0",
       "created_at": "2026-05-14T14:40:25.405656Z",
-      "updated_at": "2026-07-22T07:06:33.881007Z",
-      "downloads": 517,
-      "recent_downloads": 517,
+      "updated_at": "2026-07-28T03:58:00.235608Z",
+      "downloads": 565,
+      "recent_downloads": 565,
       "categories": [
         "command-line-utilities",
         "development-tools"
