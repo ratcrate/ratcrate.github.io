@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-03T02:43:45.417905916+00:00",
-    "total_crates": 5301,
+    "generated_at": "2026-08-03T05:55:23.771704475+00:00",
+    "total_crates": 5304,
     "core_libraries": 2,
-    "community_packages": 5299,
+    "community_packages": 5302,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5176,
-      "etag_cache_misses": 125,
-      "cache_hit_rate": 97.64195434823618
+      "etag_cache_hits": 5285,
+      "etag_cache_misses": 19,
+      "cache_hit_rate": 99.64177978883862
     }
   },
   "crates": [
@@ -788,9 +788,9 @@
       "id": "acorn-tui",
       "name": "acorn-tui",
       "description": "ACORN terminal user interface (TUI)",
-      "version": "0.1.61",
+      "version": "0.1.62",
       "created_at": "2026-07-05T18:35:54.842666Z",
-      "updated_at": "2026-08-03T02:17:40.617131Z",
+      "updated_at": "2026-08-03T03:44:19.592001Z",
       "downloads": 57,
       "recent_downloads": 57,
       "categories": [],
@@ -1450,11 +1450,11 @@
       "id": "agent-first-pay",
       "name": "agent-first-pay",
       "description": "A payment tool for AI agents — send and receive across five networks through one interface, with spending limits you control.",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "created_at": "2026-03-11T09:05:44.213051Z",
-      "updated_at": "2026-07-22T07:20:40.120848Z",
-      "downloads": 211,
-      "recent_downloads": 67,
+      "updated_at": "2026-08-03T05:24:23.246045Z",
+      "downloads": 215,
+      "recent_downloads": 70,
       "categories": [
         "command-line-utilities",
         "cryptography::cryptocurrencies"
@@ -6768,11 +6768,11 @@
       "id": "bamboo-tui",
       "name": "bamboo-tui",
       "description": "Terminal UI client for the Bamboo agent runtime",
-      "version": "2026.8.2",
+      "version": "2026.8.3",
       "created_at": "2026-07-11T05:18:57.973380Z",
-      "updated_at": "2026-08-02T05:20:08.242253Z",
-      "downloads": 412,
-      "recent_downloads": 412,
+      "updated_at": "2026-08-03T05:29:44.008373Z",
+      "downloads": 428,
+      "recent_downloads": 428,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -10027,9 +10027,9 @@
       "id": "brokk-mjolnir",
       "name": "brokk-mjolnir",
       "description": "Forge-grade terminal client for any Agent Client Protocol (ACP) server",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "created_at": "2026-05-22T06:32:42.012684Z",
-      "updated_at": "2026-07-31T15:50:46.179978Z",
+      "updated_at": "2026-08-03T05:40:07.667519Z",
       "downloads": 899,
       "recent_downloads": 899,
       "categories": [],
@@ -16903,9 +16903,9 @@
       "id": "codewandler-flux-markdown",
       "name": "codewandler-flux-markdown",
       "description": "flux's own markdown engine: frontmatter parsing plus an AST-based CommonMark-subset parser, writer, and (feature-gated) ratatui/terminal renderers",
-      "version": "0.53.0",
+      "version": "0.54.2",
       "created_at": "2026-07-08T10:12:21.970771Z",
-      "updated_at": "2026-08-03T01:43:31.706840Z",
+      "updated_at": "2026-08-03T05:28:19.491862Z",
       "downloads": 3087,
       "recent_downloads": 3087,
       "categories": [],
@@ -18081,9 +18081,9 @@
       "id": "corium-cli",
       "name": "corium-cli",
       "description": "Corium CLI",
-      "version": "0.1.70",
+      "version": "0.1.71",
       "created_at": "2026-07-19T01:12:41.900949Z",
-      "updated_at": "2026-08-03T01:28:23.843821Z",
+      "updated_at": "2026-08-03T03:58:05.194436Z",
       "downloads": 853,
       "recent_downloads": 853,
       "categories": [],
@@ -36113,9 +36113,9 @@
       "description": "A terminal for Holochain",
       "version": "0.7.0",
       "created_at": "2023-11-01T12:10:27.114843Z",
-      "updated_at": "2026-07-30T16:27:14.925676Z",
-      "downloads": 122974,
-      "recent_downloads": 956,
+      "updated_at": "2026-08-03T04:01:46.630992Z",
+      "downloads": 122979,
+      "recent_downloads": 948,
       "categories": [],
       "repository": "https://github.com/holochain/holochain",
       "documentation": "https://docs.rs/holochain_terminal",
@@ -39791,9 +39791,9 @@
       "id": "inkhaven",
       "name": "inkhaven",
       "description": "Inkhaven — TUI literary work editor for Typst books",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "created_at": "2026-05-20T20:55:36.183040Z",
-      "updated_at": "2026-08-02T12:08:59.491067Z",
+      "updated_at": "2026-08-03T05:11:43.023965Z",
       "downloads": 3026,
       "recent_downloads": 3026,
       "categories": [
@@ -43857,11 +43857,11 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Terminal file browser built for AI pair-programming — full-screen previews (Markdown, images, PDF, CSV), git suite, and an agent-watch mode that follows your AI's edits (macOS and Linux)",
-      "version": "0.23.1",
+      "version": "0.23.2",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-08-01T06:31:46.046151Z",
-      "downloads": 672,
-      "recent_downloads": 672,
+      "updated_at": "2026-08-03T02:40:51.674902Z",
+      "downloads": 673,
+      "recent_downloads": 673,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -47454,11 +47454,11 @@
       "id": "llmfit",
       "name": "llmfit",
       "description": "Right-size LLM models to your system hardware. Interactive TUI and CLI to match models against available RAM, CPU, and GPU.",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "created_at": "2026-02-15T19:09:29.774304Z",
-      "updated_at": "2026-07-21T12:00:07.628180Z",
-      "downloads": 16226,
-      "recent_downloads": 2693,
+      "updated_at": "2026-08-03T05:22:21.169114Z",
+      "downloads": 16364,
+      "recent_downloads": 2338,
       "categories": [
         "command-line-utilities"
       ],
@@ -49724,9 +49724,9 @@
       "id": "malevich",
       "name": "malevich",
       "description": "Terminal plotting: a small grammar of marks, honest axes, millions of points",
-      "version": "1.11.0",
+      "version": "1.11.1",
       "created_at": "2026-08-02T05:23:36.426589Z",
-      "updated_at": "2026-08-02T22:18:06.925022Z",
+      "updated_at": "2026-08-03T03:02:07.283315Z",
       "downloads": 171,
       "recent_downloads": 171,
       "categories": [
@@ -53329,6 +53329,28 @@
       "repository": "https://github.com/daddydiaz2/mneme-guardian",
       "homepage": "https://github.com/daddydiaz2/mneme-guardian",
       "documentation": "https://github.com/daddydiaz2/mneme-guardian#readme",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnemo-rs",
+      "name": "mnemo-rs",
+      "description": "Local-first shell history manager with CLI/TUI, fuzzy search, project/session context, and DevSecOps-focused release hardening.",
+      "version": "1.6.22",
+      "created_at": "2026-08-03T04:25:33.571639Z",
+      "updated_at": "2026-08-03T05:06:20.009899Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/Vesperis-group/mnemo",
+      "homepage": "https://github.com/Vesperis-group/mnemo",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -61282,6 +61304,27 @@
         "os::windows-apis"
       ],
       "repository": "https://github.com/microsoft/outlook-pst-rs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "outram-mc-libs",
+      "name": "outram-mc-libs",
+      "description": "Pure-Rust port of OpenMC Monte Carlo neutron transport kernels -- an independent OUTRAM PARK fork, not the official OpenMC software",
+      "version": "0.0.1",
+      "created_at": "2026-08-03T02:38:16.344037Z",
+      "updated_at": "2026-08-03T02:38:16.344037Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "science"
+      ],
+      "repository": "https://github.com/theodoreOnzGit/outram-park-backend",
+      "homepage": "https://github.com/theodoreOnzGit/outram-park-backend",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -72220,11 +72263,11 @@
       "id": "ratin",
       "name": "ratin",
       "description": "Custom input field component for Ratatui TUI applications",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "created_at": "2026-07-05T03:42:50.846924Z",
-      "updated_at": "2026-08-01T04:03:00.984218Z",
-      "downloads": 76,
-      "recent_downloads": 76,
+      "updated_at": "2026-08-03T04:45:20.675873Z",
+      "downloads": 88,
+      "recent_downloads": 88,
       "categories": [
         "command-line-interface"
       ],
@@ -74780,9 +74823,9 @@
       "id": "rho-coding-agent",
       "name": "rho-coding-agent",
       "description": "A lightweight agent harness inspired by Pi",
-      "version": "1.27.0",
+      "version": "1.27.1",
       "created_at": "2026-06-22T00:22:02.775743Z",
-      "updated_at": "2026-08-02T20:17:37.961875Z",
+      "updated_at": "2026-08-03T05:07:37.813259Z",
       "downloads": 1478,
       "recent_downloads": 1478,
       "categories": [],
@@ -79998,17 +80041,17 @@
     {
       "id": "scalo",
       "name": "scalo",
-      "description": "Self-regulating runtime for hyperscale-grade data-plane services. Config, logging and metrics come pre-wired as singletons you just use -- then CLI, health probes, transport, backpressure, adaptive scaling and deployment contracts all build on that integration. Batteries included, idiomatic Rust. Sibling to the scalo package on PyPI (scalo-py).",
-      "version": "2.10.7",
+      "description": "Self-regulating runtime for Rust data-plane services. Backpressure, load shedding and adaptive scaling are on by default.",
+      "version": "2.10.8",
       "created_at": "2026-06-24T07:45:02.701144Z",
-      "updated_at": "2026-07-30T04:00:14.314405Z",
-      "downloads": 528,
-      "recent_downloads": 528,
+      "updated_at": "2026-08-03T03:37:19.684775Z",
+      "downloads": 548,
+      "recent_downloads": 548,
       "categories": [
         "development-tools",
+        "asynchronous",
         "network-programming",
         "concurrency",
-        "asynchronous",
         "config"
       ],
       "repository": "https://github.com/hyperi-io/scalo-rs",
@@ -83930,6 +83973,24 @@
         "network-programming"
       ],
       "repository": "https://github.com/morgverd/sms-terminal",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "smysl-tui",
+      "name": "smysl-tui",
+      "description": "smysl terminal UI: graph browser, pack simulator, staging",
+      "version": "0.9.0",
+      "created_at": "2026-08-03T05:47:18.756157Z",
+      "updated_at": "2026-08-03T05:47:18.756157Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/vulogov/smysl",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -101495,11 +101556,11 @@
       "id": "vat-viewer",
       "name": "vat-viewer",
       "description": "A semantic file viewer that renders files in the most intuitive terminal view",
-      "version": "0.2.0",
+      "version": "0.3.1",
       "created_at": "2026-07-21T03:10:24.756130Z",
-      "updated_at": "2026-07-23T05:03:05.086470Z",
-      "downloads": 31,
-      "recent_downloads": 31,
+      "updated_at": "2026-08-03T04:48:10.774746Z",
+      "downloads": 55,
+      "recent_downloads": 55,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -102822,14 +102883,14 @@
       "id": "vmux-tui",
       "name": "vmux-tui",
       "description": "The Linux terminal born from the cmux revolution — agent-first TTY multiplexer",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "created_at": "2026-07-13T07:42:20.083865Z",
-      "updated_at": "2026-07-28T06:00:28.204959Z",
-      "downloads": 127,
-      "recent_downloads": 127,
+      "updated_at": "2026-08-03T03:28:27.118559Z",
+      "downloads": 128,
+      "recent_downloads": 128,
       "categories": [
-        "development-tools",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools"
       ],
       "repository": "https://github.com/UAEpro/vmux",
       "homepage": "https://vmux.sh",
