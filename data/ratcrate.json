@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-04T02:04:31.434195089+00:00",
-    "total_crates": 5319,
+    "generated_at": "2026-08-04T05:27:42.058815518+00:00",
+    "total_crates": 5329,
     "core_libraries": 2,
-    "community_packages": 5317,
+    "community_packages": 5327,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5177,
-      "etag_cache_misses": 142,
-      "cache_hit_rate": 97.33032524910698
+      "etag_cache_hits": 5298,
+      "etag_cache_misses": 31,
+      "cache_hit_rate": 99.41827735034717
     }
   },
   "crates": [
@@ -1352,11 +1352,11 @@
       "id": "agent-console",
       "name": "agent-console",
       "description": "Local terminal dashboard for Codex and Claude Code sessions.",
-      "version": "0.0.12",
+      "version": "0.0.14",
       "created_at": "2026-07-27T09:44:25.618312Z",
-      "updated_at": "2026-07-29T06:46:22.696265Z",
-      "downloads": 20,
-      "recent_downloads": 20,
+      "updated_at": "2026-08-04T03:27:51.961777Z",
+      "downloads": 24,
+      "recent_downloads": 24,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -3520,9 +3520,9 @@
       "id": "amont-fleet",
       "name": "amont-fleet",
       "description": "The amont fleet dashboard: see and repair hook coverage across many repositories",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "created_at": "2026-08-04T00:33:51.424925Z",
-      "updated_at": "2026-08-04T00:33:51.424925Z",
+      "updated_at": "2026-08-04T05:18:38.148940Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [
@@ -12112,12 +12112,13 @@
       "id": "carter",
       "name": "carter",
       "description": "Carter — a Rust agent CLI with an interactive TUI, multi-provider LLM support, skills, and MCP integration.",
-      "version": "0.1.1",
+      "version": "0.1.3",
       "created_at": "2026-06-27T17:33:53.604665Z",
-      "updated_at": "2026-06-28T08:29:21.564609Z",
-      "downloads": 23,
-      "recent_downloads": 23,
+      "updated_at": "2026-08-04T03:40:48.827566Z",
+      "downloads": 40,
+      "recent_downloads": 40,
       "categories": [],
+      "repository": "https://github.com/qy527145/carter",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -17166,6 +17167,68 @@
       "is_core_library": false
     },
     {
+      "id": "coding-brain",
+      "name": "coding-brain",
+      "description": "Local brain for supervising and learning from coding-agent activity.",
+      "version": "0.59.1",
+      "created_at": "2026-08-04T04:49:04.694079Z",
+      "updated_at": "2026-08-04T04:49:04.694079Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "development-tools"
+      ],
+      "repository": "https://github.com/aleadag/coding-brain",
+      "homepage": "https://github.com/aleadag/coding-brain",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "coding-brain-core",
+      "name": "coding-brain-core",
+      "description": "Session types, transcript discovery, health checks, and runtime traits for Coding Brain.",
+      "version": "0.59.1",
+      "created_at": "2026-08-04T04:47:21.875974Z",
+      "updated_at": "2026-08-04T04:47:21.875974Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/aleadag/coding-brain",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "coding-brain-tui",
+      "name": "coding-brain-tui",
+      "description": "Coding Brain terminal UI.",
+      "version": "0.59.1",
+      "created_at": "2026-08-04T04:47:59.579780Z",
+      "updated_at": "2026-08-04T04:47:59.579780Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/aleadag/coding-brain",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "cognionics",
       "name": "cognionics",
       "description": "Rust client for Cognionics / CGX EEG headsets over USB/FTDI serial",
@@ -18148,9 +18211,9 @@
       "id": "corium-cli",
       "name": "corium-cli",
       "description": "Corium CLI",
-      "version": "0.1.74",
+      "version": "0.1.76",
       "created_at": "2026-07-19T01:12:41.900949Z",
-      "updated_at": "2026-08-03T22:41:39.845366Z",
+      "updated_at": "2026-08-04T03:31:18.688746Z",
       "downloads": 934,
       "recent_downloads": 934,
       "categories": [],
@@ -23323,11 +23386,11 @@
       "id": "don",
       "name": "don",
       "description": "Boss of your dev environment",
-      "version": "0.7.0",
+      "version": "0.7.2",
       "created_at": "2026-03-29T22:04:35.772734Z",
-      "updated_at": "2026-07-25T04:09:53.677067Z",
-      "downloads": 407,
-      "recent_downloads": 395,
+      "updated_at": "2026-08-04T03:06:58.331769Z",
+      "downloads": 425,
+      "recent_downloads": 383,
       "categories": [],
       "repository": "https://github.com/pjtatlow/don",
       "homepage": "https://github.com/pjtatlow/don",
@@ -23998,9 +24061,9 @@
       "id": "drocsid-tui",
       "name": "drocsid-tui",
       "description": "Ratatui terminal interface for drocsid.",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "created_at": "2026-08-03T01:21:08.226913Z",
-      "updated_at": "2026-08-04T00:00:22.354561Z",
+      "updated_at": "2026-08-04T04:26:39.002077Z",
       "downloads": 80,
       "recent_downloads": 80,
       "categories": [],
@@ -34713,11 +34776,11 @@
       "id": "gpur",
       "name": "gpur",
       "description": "btop-style GPU monitor TUI — NVIDIA, AMD, Intel, Apple Silicon; Linux, macOS, Windows",
-      "version": "0.12.0",
+      "version": "0.13.0",
       "created_at": "2026-07-02T04:19:11.727809Z",
-      "updated_at": "2026-08-02T06:37:50.177017Z",
-      "downloads": 290,
-      "recent_downloads": 290,
+      "updated_at": "2026-08-04T03:36:30.042913Z",
+      "downloads": 296,
+      "recent_downloads": 296,
       "categories": [
         "command-line-utilities"
       ],
@@ -51182,11 +51245,11 @@
       "id": "mdbook-plotly",
       "name": "mdbook-plotly",
       "description": "A mdbook preprocessor that renders plot code blocks (e.g., ```plot) into interactive or static charts during book build.",
-      "version": "0.2.3",
+      "version": "0.3.0",
       "created_at": "2026-02-14T04:35:08.601769Z",
-      "updated_at": "2026-08-01T11:05:00.471584Z",
-      "downloads": 485,
-      "recent_downloads": 247,
+      "updated_at": "2026-08-04T02:06:03.177690Z",
+      "downloads": 489,
+      "recent_downloads": 248,
       "categories": [],
       "repository": "https://github.com/TickPoints/mdbook-plotly",
       "ratatui_dependency": {
@@ -53556,20 +53619,167 @@
       "is_core_library": false
     },
     {
+      "id": "mnml-aws-amplify",
+      "name": "mnml-aws-amplify",
+      "description": "AWS Amplify viewer for mnml — terminal TUI for Amplify apps, branches, and deploy jobs. Runs standalone or as an mnml-hosted pane. Shells out to the `aws` CLI; no SDK dep.",
+      "version": "0.1.0",
+      "created_at": "2026-08-04T03:27:26.567487Z",
+      "updated_at": "2026-08-04T03:27:26.567487Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnml-aws-codebuild",
+      "name": "mnml-aws-codebuild",
+      "description": "AWS CodeBuild + CloudWatch viewer for mnml — terminal TUI for recent builds and live log tail. Runs standalone or as an mnml-hosted pane. Shells out to the `aws` CLI; no SDK dep.",
+      "version": "0.1.0",
+      "created_at": "2026-08-04T03:27:29.513886Z",
+      "updated_at": "2026-08-04T03:27:29.513886Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnml-aws-eventbridge",
+      "name": "mnml-aws-eventbridge",
+      "description": "AWS EventBridge buses + rules browser for mnml — terminal TUI listing event buses or rules-per-bus, with event-pattern + targets detail panel, console open, ARN yank. Runs standalone or as an mnml-hosted pane. Shells out to the `aws` CLI; no SDK dep.",
+      "version": "0.3.0",
+      "created_at": "2026-08-04T03:27:32.290081Z",
+      "updated_at": "2026-08-04T03:27:32.290081Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "mnml-bridge",
       "name": "mnml-bridge",
       "description": "Bridge / Mount protocol for mnml sibling tools — wire types + client + server helpers for siblings that want richer integration than a plain Pty pane.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "created_at": "2026-06-27T00:06:48.467373Z",
-      "updated_at": "2026-07-03T18:54:43.363886Z",
-      "downloads": 383,
-      "recent_downloads": 383,
+      "updated_at": "2026-08-04T03:25:25.711646Z",
+      "downloads": 641,
+      "recent_downloads": 641,
       "categories": [
         "command-line-interface",
         "development-tools"
       ],
       "repository": "https://github.com/chris-mclennan/mnml",
       "homepage": "https://github.com/chris-mclennan/mnml",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnml-forge-bitbucket",
+      "name": "mnml-forge-bitbucket",
+      "description": "Bitbucket Cloud pull-request viewer for mnml — terminal TUI with configurable tabs (per-repo, mine, reviewing). Runs standalone or as an mnml-hosted pane.",
+      "version": "0.3.0",
+      "created_at": "2026-08-04T03:44:13.609995Z",
+      "updated_at": "2026-08-04T03:44:13.609995Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnml-forge-github",
+      "name": "mnml-forge-github",
+      "description": "GitHub viewer for mnml — terminal TUI with configurable tabs (issues + PRs via search, Actions workflow runs per repo). Runs standalone or as an mnml-hosted pane.",
+      "version": "0.2.0",
+      "created_at": "2026-08-04T03:27:38.532855Z",
+      "updated_at": "2026-08-04T03:27:38.532855Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnml-msg-slack",
+      "name": "mnml-msg-slack",
+      "description": "Slack browse + post for mnml — terminal TUI for channels, DMs, threads, search, and posting from the editor. Shells out to the Slack Web API (no SDK dep). Runs standalone today; v0.2 will support mnml-hosted pane mode.",
+      "version": "0.1.0",
+      "created_at": "2026-08-04T03:27:35.314118Z",
+      "updated_at": "2026-08-04T03:27:35.314118Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mnml-tracker-jira",
+      "name": "mnml-tracker-jira",
+      "description": "Jira ticket viewer for mnml — terminal TUI with configurable tabs (JQL or auto-resolved releases). Runs standalone or as an mnml-hosted pane.",
+      "version": "0.2.0",
+      "created_at": "2026-08-04T03:48:17.558058Z",
+      "updated_at": "2026-08-04T03:48:17.558058Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/chris-mclennan/mnml-integrations",
+      "homepage": "https://mnml.sh",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -59291,11 +59501,11 @@
       "id": "octorus",
       "name": "octorus",
       "description": "A TUI tool for GitHub PR review, designed for Helix editor users",
-      "version": "0.6.7",
+      "version": "0.7.0",
       "created_at": "2026-01-21T01:26:47.792040Z",
-      "updated_at": "2026-07-15T01:29:28.581021Z",
-      "downloads": 1564,
-      "recent_downloads": 598,
+      "updated_at": "2026-08-04T03:43:45.463584Z",
+      "downloads": 1698,
+      "recent_downloads": 606,
       "categories": [],
       "repository": "https://github.com/ushironoko/octorus",
       "ratatui_dependency": {
@@ -61513,11 +61723,11 @@
       "id": "outram-mc-libs",
       "name": "outram-mc-libs",
       "description": "Pure-Rust port of OpenMC Monte Carlo neutron transport kernels -- an independent OUTRAM PARK fork, not the official OpenMC software",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "created_at": "2026-08-03T02:38:16.344037Z",
-      "updated_at": "2026-08-03T02:38:16.344037Z",
-      "downloads": 0,
-      "recent_downloads": 0,
+      "updated_at": "2026-08-04T03:20:56.729815Z",
+      "downloads": 17,
+      "recent_downloads": 17,
       "categories": [
         "science"
       ],
@@ -81711,11 +81921,11 @@
       "id": "seq-repl",
       "name": "seq-repl",
       "description": "TUI REPL for the Seq programming language with IR visualization",
-      "version": "7.7.1",
+      "version": "7.7.2",
       "created_at": "2025-12-21T20:09:03.460522Z",
-      "updated_at": "2026-07-03T23:50:30.935935Z",
-      "downloads": 1687,
-      "recent_downloads": 729,
+      "updated_at": "2026-08-04T02:30:20.517532Z",
+      "downloads": 1984,
+      "recent_downloads": 738,
       "categories": [
         "development-tools"
       ],
@@ -83317,9 +83527,9 @@
       "id": "siloscan-tui",
       "name": "siloscan-tui",
       "description": "Interactive terminal UI for siloscan: triage board, ratchet console, dashboards",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "created_at": "2026-08-04T00:57:55.535506Z",
-      "updated_at": "2026-08-04T02:00:46.075247Z",
+      "updated_at": "2026-08-04T05:24:01.192323Z",
       "downloads": 0,
       "recent_downloads": 0,
       "categories": [],
@@ -91132,9 +91342,9 @@
       "id": "term-bench",
       "name": "term-bench",
       "description": "A simple render benchmark for terminal throughput measurements.",
-      "version": "0.9.6-alpha",
+      "version": "0.9.7-alpha",
       "created_at": "2026-01-09T02:01:17.430629Z",
-      "updated_at": "2026-08-04T01:01:15.584466Z",
+      "updated_at": "2026-08-04T05:22:40.064063Z",
       "downloads": 591,
       "recent_downloads": 533,
       "categories": [
@@ -91213,9 +91423,9 @@
       "id": "term-wm",
       "name": "term-wm",
       "description": "A cross-platform terminal multiplexer, window manager, Ratatui component library, and runtime.",
-      "version": "0.9.6-alpha",
+      "version": "0.9.7-alpha",
       "created_at": "2026-01-06T20:02:15.865123Z",
-      "updated_at": "2026-08-04T01:01:35.211102Z",
+      "updated_at": "2026-08-04T05:22:58.742781Z",
       "downloads": 650,
       "recent_downloads": 544,
       "categories": [
@@ -91237,9 +91447,9 @@
       "id": "term-wm-console",
       "name": "term-wm-console",
       "description": "Concrete terminal I/O backend with event source, render target, and draw plan for term-wm.",
-      "version": "0.9.6-alpha",
+      "version": "0.9.7-alpha",
       "created_at": "2026-07-08T20:06:19.314821Z",
-      "updated_at": "2026-08-04T01:01:27.221527Z",
+      "updated_at": "2026-08-04T05:22:51.959903Z",
       "downloads": 398,
       "recent_downloads": 398,
       "categories": [
@@ -91277,9 +91487,9 @@
       "id": "term-wm-sys-ui-components",
       "name": "term-wm-sys-ui-components",
       "description": "Window-manager-specific UI components for term-wm (debug log, help, keybindings, menu overlay).",
-      "version": "0.9.6-alpha",
+      "version": "0.9.7-alpha",
       "created_at": "2026-06-28T22:41:25.144442Z",
-      "updated_at": "2026-08-04T01:01:31.417539Z",
+      "updated_at": "2026-08-04T05:22:55.005384Z",
       "downloads": 620,
       "recent_downloads": 620,
       "categories": [
@@ -91298,9 +91508,9 @@
       "id": "term-wm-ui-components",
       "name": "term-wm-ui-components",
       "description": "Ratatui UI components for term-wm (terminal, scroll view, markdown, image viewer, etc.).",
-      "version": "0.9.6-alpha",
+      "version": "0.9.7-alpha",
       "created_at": "2026-06-26T20:54:47.740806Z",
-      "updated_at": "2026-08-04T01:01:29.375235Z",
+      "updated_at": "2026-08-04T05:22:53.015404Z",
       "downloads": 752,
       "recent_downloads": 752,
       "categories": [
@@ -93609,9 +93819,9 @@
       "id": "tinman",
       "name": "tinman",
       "description": "Deterministic black-box testing framework for CLIs and full-screen TUIs, webrat/capybara/selenium for terminals. Drives real programs through a PTY under a Bubblewrap sandbox. Early prototype.",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "created_at": "2026-07-25T11:36:42.837465Z",
-      "updated_at": "2026-08-03T14:42:35.236036Z",
+      "updated_at": "2026-08-04T03:08:33.092849Z",
       "downloads": 91,
       "recent_downloads": 91,
       "categories": [
@@ -95470,11 +95680,11 @@
       "id": "torudo",
       "name": "torudo",
       "description": "A terminal-based todo.txt viewer and manager with TUI interface",
-      "version": "0.15.1",
+      "version": "0.15.2",
       "created_at": "2025-06-07T00:58:12.772358Z",
-      "updated_at": "2026-04-25T05:53:31.452926Z",
-      "downloads": 1220,
-      "recent_downloads": 212,
+      "updated_at": "2026-08-04T02:11:47.534283Z",
+      "downloads": 1310,
+      "recent_downloads": 78,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -104905,11 +105115,11 @@
       "id": "whisker-cli",
       "name": "whisker-cli",
       "description": "Whisker CLI: `whisker` and `cargo-whisker` (hybrid) — scaffold, doctor, and dev-loop Whisker apps.",
-      "version": "0.10.1",
+      "version": "0.10.2",
       "created_at": "2026-05-14T14:40:25.405656Z",
-      "updated_at": "2026-07-29T06:34:15.992409Z",
-      "downloads": 599,
-      "recent_downloads": 599,
+      "updated_at": "2026-08-04T04:09:18.788975Z",
+      "downloads": 603,
+      "recent_downloads": 603,
       "categories": [
         "command-line-utilities",
         "development-tools"
