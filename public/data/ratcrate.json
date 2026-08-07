@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-07T02:40:20.223208374+00:00",
-    "total_crates": 5380,
+    "generated_at": "2026-08-07T04:35:17.776765924+00:00",
+    "total_crates": 5381,
     "core_libraries": 2,
-    "community_packages": 5378,
+    "community_packages": 5379,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5258,
-      "etag_cache_misses": 122,
-      "cache_hit_rate": 97.73234200743495
+      "etag_cache_hits": 5369,
+      "etag_cache_misses": 12,
+      "cache_hit_rate": 99.77699312395465
     }
   },
   "crates": [
@@ -34964,6 +34964,26 @@
       "is_core_library": false
     },
     {
+      "id": "gpu-pulser",
+      "name": "gpu-pulser",
+      "description": "見た目重視のNVIDIA GPUリソース監視TUI(グラデーションバー・Brailleチャート・プロセス所有者表示)",
+      "version": "0.1.0",
+      "created_at": "2026-08-07T04:22:06.163246Z",
+      "updated_at": "2026-08-07T04:22:06.163246Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/TakumiShoda/gpu-pulser",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "gpur",
       "name": "gpur",
       "description": "btop-style GPU monitor TUI — NVIDIA, AMD, Intel, Apple Silicon; Linux, macOS, Windows",
@@ -38791,11 +38811,11 @@
       "id": "hrdr-editor",
       "name": "hrdr-editor",
       "description": "FSM-agnostic text-editor seam for hrdr, embedding the hjkl engine behind an EditorEngine trait.",
-      "version": "0.11.1",
+      "version": "0.12.0",
       "created_at": "2026-07-02T06:06:55.181206Z",
-      "updated_at": "2026-08-03T15:39:30.837077Z",
-      "downloads": 865,
-      "recent_downloads": 865,
+      "updated_at": "2026-08-07T03:03:48.285367Z",
+      "downloads": 924,
+      "recent_downloads": 924,
       "categories": [],
       "repository": "https://github.com/kryptic-sh/hrdr",
       "ratatui_dependency": {
@@ -38809,11 +38829,11 @@
       "id": "hrdr-tui",
       "name": "hrdr-tui",
       "description": "hrdr terminal UI — agent transcript + vim-keybound input pane (hjkl), live streaming.",
-      "version": "0.11.1",
+      "version": "0.12.0",
       "created_at": "2026-07-02T06:17:04.296341Z",
-      "updated_at": "2026-08-03T15:40:57.007744Z",
-      "downloads": 739,
-      "recent_downloads": 739,
+      "updated_at": "2026-08-07T03:05:29.361337Z",
+      "downloads": 796,
+      "recent_downloads": 796,
       "categories": [],
       "repository": "https://github.com/kryptic-sh/hrdr",
       "ratatui_dependency": {
@@ -50891,11 +50911,11 @@
       "id": "marshal-tui",
       "name": "marshal-tui",
       "description": "Terminal UI for the marshal coordination daemon — live roster + message stream.",
-      "version": "0.47.0",
+      "version": "0.49.2",
       "created_at": "2026-05-06T00:49:11.247985Z",
-      "updated_at": "2026-08-05T02:27:52.503893Z",
-      "downloads": 1450,
-      "recent_downloads": 1378,
+      "updated_at": "2026-08-07T03:58:36.314233Z",
+      "downloads": 1479,
+      "recent_downloads": 1327,
       "categories": [
         "command-line-utilities"
       ],
@@ -53846,9 +53866,9 @@
       "id": "mkutils",
       "name": "mkutils",
       "description": "Utility methods, traits, and types.",
-      "version": "0.1.194",
+      "version": "0.1.195",
       "created_at": "2025-12-16T13:55:08.926304Z",
-      "updated_at": "2026-08-06T16:27:46.524392Z",
+      "updated_at": "2026-08-07T03:50:38.581493Z",
       "downloads": 3450,
       "recent_downloads": 1746,
       "categories": [
@@ -57703,13 +57723,17 @@
       "id": "nexql-mcp",
       "name": "nexql-mcp",
       "description": "Standalone Postgres MCP server — CLI, subcommands, wiring",
-      "version": "0.1.6",
+      "version": "0.2.0",
       "created_at": "2026-08-04T07:23:35.471907Z",
-      "updated_at": "2026-08-06T07:45:56.980335Z",
+      "updated_at": "2026-08-07T04:01:05.467687Z",
       "downloads": 70,
       "recent_downloads": 70,
-      "categories": [],
+      "categories": [
+        "command-line-utilities",
+        "database"
+      ],
       "repository": "https://github.com/NexQL-OSS/mcp",
+      "homepage": "https://github.com/NexQL-OSS/mcp",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -61095,11 +61119,11 @@
       "id": "opencode-multiplexer",
       "name": "opencode-multiplexer",
       "description": "A terminal multiplexer for managing OpenCode sessions",
-      "version": "0.5.1",
+      "version": "0.7.0",
       "created_at": "2026-04-26T01:48:19.938086Z",
-      "updated_at": "2026-07-11T05:12:02.407698Z",
-      "downloads": 30,
-      "recent_downloads": 30,
+      "updated_at": "2026-08-07T02:56:31.354343Z",
+      "downloads": 59,
+      "recent_downloads": 45,
       "categories": [
         "command-line-utilities"
       ],
@@ -65589,9 +65613,9 @@
       "id": "plakat",
       "name": "plakat",
       "description": "Local text-to-image CLI on candle: 7 model families, LoRA, ControlNet, style transfer (InstantStyle), img2img/inpaint/outpaint, upscale, smart background removal, AnimateDiff",
-      "version": "6.4.0",
+      "version": "6.5.0",
       "created_at": "2026-05-16T06:12:36.870619Z",
-      "updated_at": "2026-08-06T05:37:37.382421Z",
+      "updated_at": "2026-08-07T04:08:22.606898Z",
       "downloads": 1767,
       "recent_downloads": 1767,
       "categories": [
@@ -79490,6 +79514,26 @@
       "is_core_library": false
     },
     {
+      "id": "rust-space-cleaner",
+      "name": "rust-space-cleaner",
+      "description": "The cache hunter: a safe TUI that scans 24 sources of disk junk (Dev, Games, Web, System, Tools) and reclaims the space with whitelist-only deletion and dry-run by default",
+      "version": "0.1.0",
+      "created_at": "2026-08-07T03:22:51.673828Z",
+      "updated_at": "2026-08-07T03:22:51.673828Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/Johannuel/rust-space-cleaner",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "rust-synth",
       "name": "rust-synth",
       "description": "Terminal modular ambient synthesizer — FunDSP + Ratatui. Long cinematic pads, Euclidean drum sequencer, per-track LFO, Valhalla-Supermassive-style reverb, genetic evolution coupled to Conway's Game of Life, TOML presets, FLAC recording.",
@@ -83518,24 +83562,6 @@
       "categories": [],
       "repository": "https://github.com/kaplanelad/shellfirm",
       "homepage": "https://github.com/kaplanelad/shellfirm",
-      "ratatui_dependency": {
-        "version": "unknown",
-        "optional": false,
-        "dev_dependency": false
-      },
-      "is_core_library": false
-    },
-    {
-      "id": "shellpad",
-      "name": "shellpad",
-      "description": "A Ratatui-based TUI for managing and executing collections of shell commands",
-      "version": "0.3.2",
-      "created_at": "2026-06-17T09:13:25.302242Z",
-      "updated_at": "2026-06-18T14:03:17.680032Z",
-      "downloads": 146,
-      "recent_downloads": 146,
-      "categories": [],
-      "repository": "https://github.com/LHYWilliam/shellpad",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -89822,9 +89848,9 @@
       "id": "swapdex",
       "name": "swapdex",
       "description": "Switch between multiple Claude Code, Codex, Gemini, and Antigravity login accounts, locally and safely.",
-      "version": "0.35.7",
+      "version": "0.38.0",
       "created_at": "2026-07-06T00:14:28.101686Z",
-      "updated_at": "2026-08-07T00:38:45.057729Z",
+      "updated_at": "2026-08-07T04:33:10.805186Z",
       "downloads": 1119,
       "recent_downloads": 1119,
       "categories": [
@@ -106152,9 +106178,9 @@
       "id": "whisker-cli",
       "name": "whisker-cli",
       "description": "Whisker CLI: `whisker` and `cargo-whisker` (hybrid) — scaffold, doctor, and dev-loop Whisker apps.",
-      "version": "0.10.7",
+      "version": "0.10.8",
       "created_at": "2026-05-14T14:40:25.405656Z",
-      "updated_at": "2026-08-07T02:24:11.928387Z",
+      "updated_at": "2026-08-07T02:46:16.887438Z",
       "downloads": 683,
       "recent_downloads": 683,
       "categories": [
@@ -108916,14 +108942,14 @@
       "id": "yolop",
       "name": "yolop",
       "description": "Yolop — a terminal coding agent built on everruns-runtime",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "created_at": "2026-05-31T16:20:00.677186Z",
-      "updated_at": "2026-08-03T21:55:31.213282Z",
-      "downloads": 221,
-      "recent_downloads": 221,
+      "updated_at": "2026-08-07T04:00:15.272592Z",
+      "downloads": 236,
+      "recent_downloads": 236,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/everruns/yolop",
       "homepage": "https://github.com/everruns/yolop",
