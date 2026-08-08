@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-08T02:27:28.724603340+00:00",
-    "total_crates": 5399,
+    "generated_at": "2026-08-08T03:45:25.004348329+00:00",
+    "total_crates": 5400,
     "core_libraries": 2,
-    "community_packages": 5397,
+    "community_packages": 5398,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5268,
-      "etag_cache_misses": 131,
-      "cache_hit_rate": 97.5736247453232
+      "etag_cache_hits": 5389,
+      "etag_cache_misses": 11,
+      "cache_hit_rate": 99.79629629629629
     }
   },
   "crates": [
@@ -2322,11 +2322,11 @@
       "id": "ai-agents-cli",
       "name": "ai-agents-cli",
       "description": "Command-line interface for running YAML-defined AI agents",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "created_at": "2026-03-15T14:14:42.499601Z",
-      "updated_at": "2026-08-02T15:17:52.856537Z",
-      "downloads": 200,
-      "recent_downloads": 107,
+      "updated_at": "2026-08-08T02:35:23.894242Z",
+      "downloads": 215,
+      "recent_downloads": 116,
       "categories": [],
       "repository": "https://github.com/geminik23/ai-agents",
       "homepage": "https://ai-agents.rs",
@@ -17155,11 +17155,11 @@
       "id": "codewhale-tui",
       "name": "codewhale-tui",
       "description": "Terminal UI for open-source and open-weight coding models",
-      "version": "0.9.3",
+      "version": "0.9.4",
       "created_at": "2026-05-23T21:18:40.241888Z",
-      "updated_at": "2026-07-31T15:09:16.171769Z",
-      "downloads": 7398,
-      "recent_downloads": 7398,
+      "updated_at": "2026-08-08T03:31:34.662121Z",
+      "downloads": 7630,
+      "recent_downloads": 7630,
       "categories": [],
       "repository": "https://github.com/Hmbown/CodeWhale",
       "ratatui_dependency": {
@@ -44606,11 +44606,11 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Terminal file browser built for AI pair-programming — full-screen previews (Markdown, images, PDF, CSV), git suite, and an agent-watch mode that follows your AI's edits (macOS and Linux)",
-      "version": "0.23.6",
+      "version": "0.23.8",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-08-07T01:32:30.222848Z",
-      "downloads": 768,
-      "recent_downloads": 768,
+      "updated_at": "2026-08-08T03:19:10.000530Z",
+      "downloads": 842,
+      "recent_downloads": 842,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -50697,9 +50697,9 @@
       "id": "mandible",
       "name": "mandible",
       "description": "mandible: a universal, interactive TUI reference for CLI tools. `mandible git` opens an explorable tree of every command, subcommand, and flag git has, with descriptions.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2026-08-07T13:11:17.551769Z",
-      "updated_at": "2026-08-08T02:22:38.965161Z",
+      "updated_at": "2026-08-08T03:06:46.858586Z",
       "downloads": 47,
       "recent_downloads": 47,
       "categories": [
@@ -50718,9 +50718,9 @@
       "id": "mandible-tui",
       "name": "mandible-tui",
       "description": "The ratatui-based terminal UI for mandible: tree pane, detail pane, search bar, status bar, and keybinding overlay. Not independently useful outside the mandible workspace.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2026-08-07T13:10:56.889965Z",
-      "updated_at": "2026-08-08T02:22:18.430247Z",
+      "updated_at": "2026-08-08T03:06:26.761018Z",
       "downloads": 65,
       "recent_downloads": 65,
       "categories": [
@@ -56323,9 +56323,9 @@
       "id": "muxtop-tui",
       "name": "muxtop-tui",
       "description": "Terminal UI for muxtop",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "created_at": "2026-04-15T09:28:30.271137Z",
-      "updated_at": "2026-08-07T09:14:41.495362Z",
+      "updated_at": "2026-08-08T02:31:03.307818Z",
       "downloads": 289,
       "recent_downloads": 177,
       "categories": [],
@@ -84083,6 +84083,23 @@
       "is_core_library": false
     },
     {
+      "id": "ship-tui",
+      "name": "ship-tui",
+      "description": "TUI for managing docker registries and images",
+      "version": "0.2.1",
+      "created_at": "2026-08-08T03:28:51.136687Z",
+      "updated_at": "2026-08-08T03:28:51.136687Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ship162",
       "name": "ship162",
       "description": "A real-time AIS data decoder",
@@ -100035,17 +100052,17 @@
       "id": "tui-spinner",
       "name": "tui-spinner",
       "description": "Customizable animated spinner widgets for Ratatui — braille arcs, bouncing bars, rotating glyphs, and symbol styles",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "created_at": "2026-04-29T00:29:14.904192Z",
-      "updated_at": "2026-08-05T10:21:14.779022Z",
-      "downloads": 2663,
-      "recent_downloads": 2412,
+      "updated_at": "2026-08-08T03:23:32.909657Z",
+      "downloads": 2684,
+      "recent_downloads": 2409,
       "categories": [
-        "command-line-interface",
-        "gui",
-        "visualization",
         "rendering",
-        "graphics"
+        "gui",
+        "graphics",
+        "visualization",
+        "command-line-interface"
       ],
       "repository": "https://github.com/sorinirimies/tui-spinner",
       "homepage": "https://github.com/sorinirimies/tui-spinner",
@@ -100951,11 +100968,11 @@
       "id": "tuika",
       "name": "tuika",
       "description": "The application framework for Rust terminal UIs — flexbox layout, overlays, focus, keymap, components, and safe ratatui interoperability.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "created_at": "2026-07-19T01:14:45.775259Z",
-      "updated_at": "2026-08-01T04:01:01.828310Z",
-      "downloads": 326,
-      "recent_downloads": 326,
+      "updated_at": "2026-08-08T03:37:53.024302Z",
+      "downloads": 546,
+      "recent_downloads": 546,
       "categories": [
         "command-line-interface"
       ],
@@ -100972,11 +100989,11 @@
       "id": "tuika-codeformatters",
       "name": "tuika-codeformatters",
       "description": "Tree-sitter syntax highlighting for tuika's CodeBlock and Markdown components — a ready-made Highlighter implementation.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "created_at": "2026-07-23T02:39:47.620145Z",
-      "updated_at": "2026-08-01T04:01:17.681272Z",
-      "downloads": 197,
-      "recent_downloads": 197,
+      "updated_at": "2026-08-08T03:38:13.860845Z",
+      "downloads": 391,
+      "recent_downloads": 391,
       "categories": [
         "command-line-interface",
         "text-processing"
@@ -105376,11 +105393,11 @@
       "id": "vtcode-llm",
       "name": "vtcode-llm",
       "description": "LLM provider abstraction, client implementations, and streaming for VT Code",
-      "version": "0.141.12",
+      "version": "0.141.16",
       "created_at": "2026-07-19T04:40:25.431195Z",
-      "updated_at": "2026-08-05T02:52:27.420360Z",
-      "downloads": 1036,
-      "recent_downloads": 1036,
+      "updated_at": "2026-08-08T02:41:33.228788Z",
+      "downloads": 1078,
+      "recent_downloads": 1078,
       "categories": [
         "development-tools"
       ],
