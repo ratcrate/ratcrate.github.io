@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-11T01:34:41.509001432+00:00",
-    "total_crates": 5459,
+    "generated_at": "2026-08-11T03:57:36.866607315+00:00",
+    "total_crates": 5461,
     "core_libraries": 2,
-    "community_packages": 5457,
+    "community_packages": 5459,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5307,
-      "etag_cache_misses": 152,
-      "cache_hit_rate": 97.21560725407585
+      "etag_cache_hits": 5443,
+      "etag_cache_misses": 18,
+      "cache_hit_rate": 99.6703900384545
     }
   },
   "crates": [
@@ -40019,9 +40019,9 @@
       "id": "ichigo",
       "name": "ichigo",
       "description": "A CLI HTTP client — store named request configs in your project or globally, then run them by name or through the TUI",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "created_at": "2026-05-28T04:10:42.826485Z",
-      "updated_at": "2026-08-11T00:38:22.121320Z",
+      "updated_at": "2026-08-11T03:22:49.700022Z",
       "downloads": 248,
       "recent_downloads": 248,
       "categories": [
@@ -44993,11 +44993,11 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Terminal file browser built for AI pair-programming — full-screen previews (Markdown, images, PDF, CSV), git suite, and an agent-watch mode that follows your AI's edits (macOS and Linux)",
-      "version": "0.23.9",
+      "version": "0.24.0",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-08-09T02:32:42.004989Z",
-      "downloads": 854,
-      "recent_downloads": 854,
+      "updated_at": "2026-08-11T01:28:41.014374Z",
+      "downloads": 875,
+      "recent_downloads": 875,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -47691,17 +47691,17 @@
       "id": "libafl",
       "name": "libafl",
       "description": "Slot your own fuzzers together and extend their features using Rust",
-      "version": "0.15.4",
+      "version": "0.16.0",
       "created_at": "2021-04-30T13:41:02.765574Z",
-      "updated_at": "2025-11-12T14:49:04.397918Z",
-      "downloads": 162988,
-      "recent_downloads": 32106,
+      "updated_at": "2026-08-11T01:53:31.321104Z",
+      "downloads": 261415,
+      "recent_downloads": 57108,
       "categories": [
-        "embedded",
-        "development-tools::testing",
-        "emulators",
         "no-std",
-        "os"
+        "development-tools::testing",
+        "os",
+        "embedded",
+        "emulators"
       ],
       "repository": "https://github.com/AFLplusplus/LibAFL/",
       "documentation": "https://docs.rs/libafl",
@@ -50643,9 +50643,9 @@
       "id": "magi-code",
       "name": "magi-code",
       "description": "Repository-aware CLI coding agent for terminal work",
-      "version": "0.63.2",
+      "version": "0.63.3",
       "created_at": "2026-07-18T23:24:04.529045Z",
-      "updated_at": "2026-08-10T19:36:29.807964Z",
+      "updated_at": "2026-08-11T02:24:32.290081Z",
       "downloads": 81,
       "recent_downloads": 81,
       "categories": [
@@ -53242,11 +53242,11 @@
       "id": "mermaid-cli",
       "name": "mermaid-cli",
       "description": "Open-source AI pair programmer with agentic capabilities. Local-first with Ollama, native tool calling, and beautiful TUI.",
-      "version": "0.24.0",
+      "version": "0.25.0",
       "created_at": "2025-11-17T01:31:51.036676Z",
-      "updated_at": "2026-08-10T01:45:39.480001Z",
-      "downloads": 922,
-      "recent_downloads": 572,
+      "updated_at": "2026-08-11T01:52:36.701797Z",
+      "downloads": 944,
+      "recent_downloads": 593,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -62396,11 +62396,11 @@
       "id": "opi-coding-agent",
       "name": "opi-coding-agent",
       "description": "Interactive coding agent CLI with file editing and shell execution",
-      "version": "0.7.1",
+      "version": "0.7.3",
       "created_at": "2026-05-20T03:46:31.367347Z",
-      "updated_at": "2026-07-24T08:10:58.695047Z",
-      "downloads": 265,
-      "recent_downloads": 265,
+      "updated_at": "2026-08-11T03:49:24.088804Z",
+      "downloads": 284,
+      "recent_downloads": 284,
       "categories": [],
       "repository": "https://github.com/OdradekAI/opi",
       "ratatui_dependency": {
@@ -62414,11 +62414,11 @@
       "id": "opi-tui",
       "name": "opi-tui",
       "description": "Terminal User Interface library with differential rendering",
-      "version": "0.7.1",
+      "version": "0.7.3",
       "created_at": "2026-05-20T03:45:54.493642Z",
-      "updated_at": "2026-07-24T08:04:59.287448Z",
-      "downloads": 344,
-      "recent_downloads": 344,
+      "updated_at": "2026-08-11T03:47:30.353808Z",
+      "downloads": 370,
+      "recent_downloads": 370,
       "categories": [],
       "repository": "https://github.com/OdradekAI/opi",
       "ratatui_dependency": {
@@ -69301,11 +69301,11 @@
       "id": "protobug",
       "name": "protobug",
       "description": "Interactive terminal debugger for protobuf payloads",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "created_at": "2026-03-25T23:37:19.268582Z",
-      "updated_at": "2026-07-21T13:35:33.176693Z",
-      "downloads": 210,
-      "recent_downloads": 81,
+      "updated_at": "2026-08-11T02:07:23.387572Z",
+      "downloads": 239,
+      "recent_downloads": 84,
       "categories": [
         "development-tools::debugging"
       ],
@@ -85675,9 +85675,9 @@
       "id": "silicon-monitor",
       "name": "silicon-monitor",
       "description": "Silicon Monitor: Comprehensive hardware monitoring for CPUs, GPUs, NPUs, memory, I/O, and network silicon across all platforms",
-      "version": "3.9.0",
+      "version": "3.10.0",
       "created_at": "2026-01-31T02:02:49.558Z",
-      "updated_at": "2026-08-11T00:57:48.182755Z",
+      "updated_at": "2026-08-11T01:36:34.718909Z",
       "downloads": 487,
       "recent_downloads": 335,
       "categories": [
@@ -89300,6 +89300,26 @@
       "is_core_library": false
     },
     {
+      "id": "sshrack",
+      "name": "sshrack",
+      "description": "Terminal-native remote server management over ssh/scp/sftp: a config + credential layer with an interactive TUI and a scriptable CLI.",
+      "version": "0.1.0",
+      "created_at": "2026-08-11T01:52:23.945528Z",
+      "updated_at": "2026-08-11T01:52:23.945528Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/ryaningli/sshrack",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "ssht",
       "name": "ssht",
       "description": "A smart SSH session manager that auto-attaches to persistent tmux sessions",
@@ -91210,9 +91230,9 @@
       "id": "swapdex",
       "name": "swapdex",
       "description": "Switch between multiple Claude Code, Codex, Gemini, and Antigravity login accounts, locally and safely.",
-      "version": "0.45.0",
+      "version": "0.49.0",
       "created_at": "2026-07-06T00:14:28.101686Z",
-      "updated_at": "2026-08-11T01:26:18.487261Z",
+      "updated_at": "2026-08-11T03:16:39.645558Z",
       "downloads": 1393,
       "recent_downloads": 1393,
       "categories": [
@@ -103383,6 +103403,27 @@
       "is_core_library": false
     },
     {
+      "id": "typeul",
+      "name": "typeul",
+      "description": "Offline-first Korean and English terminal typing tutor",
+      "version": "1.0.1",
+      "created_at": "2026-08-11T01:33:49.474897Z",
+      "updated_at": "2026-08-11T03:48:15.998186Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/baba9811/typeul",
+      "homepage": "https://github.com/baba9811/typeul",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "typing-test-tui",
       "name": "typing-test-tui",
       "description": "Multiplayer typing speed test tui in rust",
@@ -103587,9 +103628,9 @@
       "id": "udb",
       "name": "udb",
       "description": "Universal Data Broker — a Rust gRPC broker over multiple databases (Postgres, MySQL, SQLite, MongoDB, ClickHouse, Cassandra, MSSQL, Redis, Qdrant, S3, Neo4j, …) with per-tenant RLS, 2PC, sagas, and CDC.",
-      "version": "0.5.4",
+      "version": "0.5.5",
       "created_at": "2026-05-31T10:02:34.246197Z",
-      "updated_at": "2026-08-10T22:18:27.181231Z",
+      "updated_at": "2026-08-11T02:44:13.238555Z",
       "downloads": 689,
       "recent_downloads": 689,
       "categories": [
@@ -106412,9 +106453,9 @@
       "id": "vtcode",
       "name": "vtcode",
       "description": "A Rust-based terminal coding agent with modular architecture supporting multiple LLM providers",
-      "version": "0.142.8",
+      "version": "0.142.9",
       "created_at": "2025-09-18T15:48:49.802510Z",
-      "updated_at": "2026-08-10T06:03:38.063612Z",
+      "updated_at": "2026-08-11T03:07:33.411624Z",
       "downloads": 28397,
       "recent_downloads": 2652,
       "categories": [
@@ -106459,9 +106500,9 @@
       "id": "vtcode-core",
       "name": "vtcode-core",
       "description": "Core library for VT Code - a Rust-based terminal coding agent",
-      "version": "0.142.8",
+      "version": "0.142.9",
       "created_at": "2025-09-18T15:42:10.762557Z",
-      "updated_at": "2026-08-10T05:59:18.443769Z",
+      "updated_at": "2026-08-11T03:02:36.197592Z",
       "downloads": 34974,
       "recent_downloads": 3928,
       "categories": [
@@ -106505,9 +106546,9 @@
       "id": "vtcode-llm",
       "name": "vtcode-llm",
       "description": "LLM provider abstraction, client implementations, and streaming for VT Code",
-      "version": "0.142.8",
+      "version": "0.142.9",
       "created_at": "2026-07-19T04:40:25.431195Z",
-      "updated_at": "2026-08-10T05:56:08.633754Z",
+      "updated_at": "2026-08-11T02:59:14.303959Z",
       "downloads": 1369,
       "recent_downloads": 1369,
       "categories": [
@@ -106550,9 +106591,9 @@
       "id": "vtcode-ui",
       "name": "vtcode-ui",
       "description": "Unified UI crate for VT Code: design system, theme registry, and TUI framework",
-      "version": "0.142.8",
+      "version": "0.142.9",
       "created_at": "2026-06-10T16:12:24.305766Z",
-      "updated_at": "2026-08-10T05:57:03.557397Z",
+      "updated_at": "2026-08-11T03:00:14.613746Z",
       "downloads": 1574,
       "recent_downloads": 1574,
       "categories": [
