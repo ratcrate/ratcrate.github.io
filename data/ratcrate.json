@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-15T01:38:17.804745788+00:00",
-    "total_crates": 5526,
+    "generated_at": "2026-08-15T03:07:32.244105018+00:00",
+    "total_crates": 5527,
     "core_libraries": 2,
-    "community_packages": 5524,
+    "community_packages": 5525,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5402,
-      "etag_cache_misses": 124,
-      "cache_hit_rate": 97.75606225117626
+      "etag_cache_hits": 5522,
+      "etag_cache_misses": 5,
+      "cache_hit_rate": 99.90953500995114
     }
   },
   "crates": [
@@ -37400,6 +37400,24 @@
       "is_core_library": false
     },
     {
+      "id": "harnessd-tui",
+      "name": "harnessd-tui",
+      "description": "Terminal client for harnessd: session list, streaming transcript, approval cards (ratatui).",
+      "version": "0.1.0",
+      "created_at": "2026-08-15T01:59:42.945517Z",
+      "updated_at": "2026-08-15T01:59:42.945517Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "http://100.113.110.34:3001/Muk/harness",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "hashcracker",
       "name": "hashcracker",
       "description": "GPU-accelerated password cracker — 42 hash types, Vulkan/Metal/DX12, single binary",
@@ -53287,11 +53305,11 @@
       "id": "mdview-tui",
       "name": "mdview-tui",
       "description": "A minimal terminal markdown reader: opens a .md file in a centered column in the alternate screen, with syntax-highlighted code blocks and box-drawn tables.",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "created_at": "2026-06-08T17:55:34.354365Z",
-      "updated_at": "2026-08-08T15:29:46.507875Z",
-      "downloads": 104,
-      "recent_downloads": 104,
+      "updated_at": "2026-08-15T02:24:22.086840Z",
+      "downloads": 113,
+      "recent_downloads": 113,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -73895,11 +73913,11 @@
       "id": "ratatui-elm",
       "name": "ratatui-elm",
       "description": "A simple Elm architecture framework for ratatui",
-      "version": "1.2.1",
+      "version": "2.0.0",
       "created_at": "2025-07-18T01:24:01.158024Z",
-      "updated_at": "2025-12-07T04:47:36.316526Z",
-      "downloads": 1844,
-      "recent_downloads": 74,
+      "updated_at": "2026-08-15T01:55:09.339244Z",
+      "downloads": 1967,
+      "recent_downloads": 76,
       "categories": [
         "asynchronous",
         "command-line-interface"
@@ -102335,17 +102353,17 @@
       "id": "tui-spinner",
       "name": "tui-spinner",
       "description": "Customizable animated spinner widgets for Ratatui — braille arcs, bouncing bars, rotating glyphs, and symbol styles",
-      "version": "0.4.6",
+      "version": "0.4.7",
       "created_at": "2026-04-29T00:29:14.904192Z",
-      "updated_at": "2026-08-14T04:05:07.986867Z",
-      "downloads": 2826,
-      "recent_downloads": 2464,
+      "updated_at": "2026-08-15T02:49:29.188183Z",
+      "downloads": 2909,
+      "recent_downloads": 2546,
       "categories": [
-        "command-line-interface",
         "gui",
-        "visualization",
+        "graphics",
         "rendering",
-        "graphics"
+        "visualization",
+        "command-line-interface"
       ],
       "repository": "https://github.com/sorinirimies/tui-spinner",
       "homepage": "https://github.com/sorinirimies/tui-spinner",
@@ -108960,11 +108978,11 @@
       "id": "wg-tui",
       "name": "wg-tui",
       "description": "A terminal user interface for managing WireGuard VPN tunnels",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "created_at": "2025-12-07T05:07:51.101104Z",
-      "updated_at": "2026-03-15T02:07:04.326700Z",
-      "downloads": 304,
-      "recent_downloads": 153,
+      "updated_at": "2026-08-15T02:59:27.629840Z",
+      "downloads": 440,
+      "recent_downloads": 81,
       "categories": [
         "gui",
         "network-programming"
