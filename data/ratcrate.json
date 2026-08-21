@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-21T01:52:26.343064092+00:00",
-    "total_crates": 5640,
+    "generated_at": "2026-08-21T03:18:13.519465154+00:00",
+    "total_crates": 5644,
     "core_libraries": 2,
-    "community_packages": 5638,
+    "community_packages": 5642,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5523,
-      "etag_cache_misses": 117,
-      "cache_hit_rate": 97.92553191489361
+      "etag_cache_hits": 5622,
+      "etag_cache_misses": 22,
+      "cache_hit_rate": 99.61020552799434
     }
   },
   "crates": [
@@ -5050,11 +5050,11 @@
       "id": "arblang",
       "name": "arblang",
       "description": "Visualize and modify Unix pipelines: pipe a stream in, arb spawns a dynamic TUI",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "created_at": "2026-07-18T17:16:05.158792Z",
-      "updated_at": "2026-08-06T02:48:00.907509Z",
-      "downloads": 80,
-      "recent_downloads": 80,
+      "updated_at": "2026-08-21T02:09:19.172810Z",
+      "downloads": 114,
+      "recent_downloads": 114,
       "categories": [
         "command-line-utilities"
       ],
@@ -13659,9 +13659,9 @@
       "id": "cctop",
       "name": "cctop",
       "description": "An htop-like terminal monitor for AI coding agent sessions (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Pi, Windsurf)",
-      "version": "0.7.2",
+      "version": "0.7.3",
       "created_at": "2026-08-05T11:16:05.503133Z",
-      "updated_at": "2026-08-20T05:41:07.110406Z",
+      "updated_at": "2026-08-21T02:10:03.028683Z",
       "downloads": 613,
       "recent_downloads": 613,
       "categories": [
@@ -29901,11 +29901,11 @@
       "id": "flatland-tui",
       "name": "flatland-tui",
       "description": "Ratatui interface for Flatland3",
-      "version": "0.2.42",
+      "version": "0.2.62",
       "created_at": "2026-07-06T23:21:53.624339Z",
-      "updated_at": "2026-08-16T22:27:50.077805Z",
-      "downloads": 938,
-      "recent_downloads": 938,
+      "updated_at": "2026-08-21T02:07:30.565650Z",
+      "downloads": 957,
+      "recent_downloads": 957,
       "categories": [
         "game-development"
       ],
@@ -29921,14 +29921,14 @@
       "id": "flatland3",
       "name": "flatland3",
       "description": "Flatland3 terminal play client and account CLI",
-      "version": "0.2.42",
+      "version": "0.2.62",
       "created_at": "2026-07-06T23:22:43.681339Z",
-      "updated_at": "2026-08-16T22:28:36.640402Z",
-      "downloads": 818,
-      "recent_downloads": 818,
+      "updated_at": "2026-08-21T02:09:18.186154Z",
+      "downloads": 836,
+      "recent_downloads": 836,
       "categories": [
-        "command-line-utilities",
-        "games"
+        "games",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/bvelasquez/flatland3",
       "ratatui_dependency": {
@@ -33480,11 +33480,11 @@
       "id": "gistui",
       "name": "gistui",
       "description": "A terminal UI for managing GitHub Gists",
-      "version": "0.17.1",
+      "version": "0.18.0",
       "created_at": "2026-06-14T10:05:34.974693Z",
-      "updated_at": "2026-08-04T06:54:45.563999Z",
-      "downloads": 277,
-      "recent_downloads": 277,
+      "updated_at": "2026-08-21T02:15:25.576091Z",
+      "downloads": 328,
+      "recent_downloads": 328,
       "categories": [
         "command-line-utilities"
       ],
@@ -41399,11 +41399,11 @@
       "id": "ichigo",
       "name": "ichigo",
       "description": "A CLI HTTP client — store named request configs in your project or globally, then run them by name or through the TUI",
-      "version": "0.3.8",
+      "version": "0.3.9",
       "created_at": "2026-05-28T04:10:42.826485Z",
-      "updated_at": "2026-08-20T01:45:13.052693Z",
-      "downloads": 370,
-      "recent_downloads": 370,
+      "updated_at": "2026-08-21T02:34:59.581596Z",
+      "downloads": 391,
+      "recent_downloads": 391,
       "categories": [
         "command-line-utilities",
         "web-programming::http-client"
@@ -41731,11 +41731,11 @@
       "id": "ikigai-cli",
       "name": "ikigai-cli",
       "description": "ikigai — a REPL client for resource-resolution kernels (native + WebAssembly).",
-      "version": "0.1.14",
+      "version": "0.1.16",
       "created_at": "2026-06-23T05:50:07.440924Z",
-      "updated_at": "2026-08-18T01:05:16.618333Z",
-      "downloads": 91,
-      "recent_downloads": 91,
+      "updated_at": "2026-08-21T02:23:23.154885Z",
+      "downloads": 107,
+      "recent_downloads": 107,
       "categories": [],
       "repository": "https://github.com/ikigai-rs/ikigai-cli",
       "ratatui_dependency": {
@@ -46525,11 +46525,11 @@
       "id": "konoma",
       "name": "konoma",
       "description": "Terminal file browser built for AI pair-programming — full-screen previews (Markdown, images, PDF, CSV), a git suite (jj/Jujutsu in preview), and an agent-watch mode that follows your AI's edits (macOS and Linux)",
-      "version": "0.26.2",
+      "version": "0.26.4",
       "created_at": "2026-06-30T13:53:35.766927Z",
-      "updated_at": "2026-08-19T10:42:47.374794Z",
-      "downloads": 1054,
-      "recent_downloads": 1054,
+      "updated_at": "2026-08-21T02:13:35.953054Z",
+      "downloads": 1057,
+      "recent_downloads": 1057,
       "categories": [
         "command-line-utilities",
         "filesystem"
@@ -54030,6 +54030,24 @@
       "is_core_library": false
     },
     {
+      "id": "mcpmanrs",
+      "name": "mcpmanrs",
+      "description": "Rust TUI CLI tool to manage MCP servers on Unix Systems, macOS and Linux",
+      "version": "0.1.0",
+      "created_at": "2026-08-21T01:49:16.478472Z",
+      "updated_at": "2026-08-21T01:49:16.478472Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/musichen/mcpmanrs",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "mcraw-tui",
       "name": "mcraw-tui",
       "description": "Cross-platform TUI for browsing and exploring MotionCam (.mcraw) files",
@@ -55184,6 +55202,28 @@
       ],
       "repository": "https://github.com/aleandros/mdx",
       "homepage": "https://github.com/aleandros/mdx",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "mesh-dashboard",
+      "name": "mesh-dashboard",
+      "description": "Scematica Mesh TUI — the running system's own topology as a live terminal graph, with the §32 coherence gate over it.",
+      "version": "1.26.0",
+      "created_at": "2026-08-21T02:40:20.349230Z",
+      "updated_at": "2026-08-21T02:40:20.349230Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/Meta-Oracle/Scematica",
+      "homepage": "https://github.com/Meta-Oracle/Scematica",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -57583,9 +57623,9 @@
       "id": "monoripple",
       "name": "monoripple",
       "description": "Symbol-aware affected target detection for JavaScript and TypeScript monorepos",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "created_at": "2026-08-02T20:28:25.947540Z",
-      "updated_at": "2026-08-21T00:46:38.816469Z",
+      "updated_at": "2026-08-21T02:19:33.157288Z",
       "downloads": 89,
       "recent_downloads": 89,
       "categories": [
@@ -61459,9 +61499,9 @@
       "id": "node-app-build",
       "name": "node-app-build",
       "description": "Mini app developer CLI: scaffold, validate, package node-app-* Debian packages",
-      "version": "6.14.0",
+      "version": "6.15.0",
       "created_at": "2026-05-12T19:03:17.475988Z",
-      "updated_at": "2026-08-21T01:15:46.319248Z",
+      "updated_at": "2026-08-21T02:10:21.681652Z",
       "downloads": 827,
       "recent_downloads": 670,
       "categories": [],
@@ -85417,11 +85457,33 @@
       "id": "scema-agent-playground",
       "name": "scema-agent-playground",
       "description": "A terminal arena where multiple LLM agents converse, debate, and collaborate — with free/local backends (Ollama, Groq, OpenRouter, LM Studio, Cerebras).",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "created_at": "2026-06-08T13:25:30.035958Z",
-      "updated_at": "2026-06-08T13:25:30.035958Z",
-      "downloads": 10,
-      "recent_downloads": 10,
+      "updated_at": "2026-08-21T03:02:35.566062Z",
+      "downloads": 20,
+      "recent_downloads": 20,
+      "categories": [
+        "command-line-utilities",
+        "visualization"
+      ],
+      "repository": "https://github.com/Meta-Oracle/Scematica",
+      "homepage": "https://github.com/Meta-Oracle/Scematica",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "scema-tui",
+      "name": "scema-tui",
+      "description": "Scematica Omni TUI — the agent loop as a terminal console: observe a world, rank branches, seal and verify decision records.",
+      "version": "0.2.0",
+      "created_at": "2026-08-21T02:37:03.977751Z",
+      "updated_at": "2026-08-21T02:37:03.977751Z",
+      "downloads": 0,
+      "recent_downloads": 0,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -85439,11 +85501,11 @@
       "id": "scemadex-sdk",
       "name": "scemadex-sdk",
       "description": "ScemaDEX — an agentic liquidity layer: intent-based, RL-routed, x402-metered swap execution with bonded (slashable) fills and a peer marketplace where agents trade inference and experience.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "created_at": "2026-06-04T22:00:53.095958Z",
-      "updated_at": "2026-08-03T22:43:53.522089Z",
-      "downloads": 186,
-      "recent_downloads": 186,
+      "updated_at": "2026-08-21T02:50:29.902005Z",
+      "downloads": 230,
+      "recent_downloads": 230,
       "categories": [
         "cryptography::cryptocurrencies"
       ],
@@ -85461,11 +85523,11 @@
       "id": "scematica-dashboard",
       "name": "scematica-dashboard",
       "description": "Terminal (ratatui) dashboard for the Scematica trading bot â€” live metrics, trades, NN, and an AI chat agent.",
-      "version": "1.25.0",
+      "version": "1.26.0",
       "created_at": "2026-06-08T14:34:01.023406Z",
-      "updated_at": "2026-08-11T17:16:10.631455Z",
-      "downloads": 166,
-      "recent_downloads": 166,
+      "updated_at": "2026-08-21T02:58:50.549529Z",
+      "downloads": 182,
+      "recent_downloads": 182,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -85483,11 +85545,11 @@
       "id": "scematica-nn",
       "name": "scematica-nn",
       "description": "Pure-Rust Double/Dueling Deep Q* reinforcement-learning agent — no external ML framework dependency.",
-      "version": "1.25.0",
+      "version": "1.26.0",
       "created_at": "2026-06-04T21:59:09.086360Z",
-      "updated_at": "2026-08-11T16:45:53.954027Z",
-      "downloads": 250,
-      "recent_downloads": 250,
+      "updated_at": "2026-08-21T02:37:40.316752Z",
+      "downloads": 287,
+      "recent_downloads": 287,
       "categories": [
         "algorithms",
         "science"
@@ -94292,9 +94354,9 @@
       "id": "swapdex",
       "name": "swapdex",
       "description": "Switch between multiple Claude Code, Codex, Gemini, and Antigravity login accounts, locally and safely.",
-      "version": "0.81.0",
+      "version": "0.82.0",
       "created_at": "2026-07-06T00:14:28.101686Z",
-      "updated_at": "2026-08-21T01:48:20.415514Z",
+      "updated_at": "2026-08-21T02:12:50.346200Z",
       "downloads": 2053,
       "recent_downloads": 2053,
       "categories": [
@@ -104512,17 +104574,17 @@
       "id": "tui-spinner",
       "name": "tui-spinner",
       "description": "Customizable animated spinner widgets for Ratatui — braille arcs, bouncing bars, rotating glyphs, and symbol styles",
-      "version": "0.4.7",
+      "version": "0.4.8",
       "created_at": "2026-04-29T00:29:14.904192Z",
-      "updated_at": "2026-08-15T02:49:29.188183Z",
-      "downloads": 2909,
-      "recent_downloads": 2546,
+      "updated_at": "2026-08-21T03:01:27.865707Z",
+      "downloads": 3041,
+      "recent_downloads": 2637,
       "categories": [
+        "command-line-interface",
         "gui",
-        "graphics",
-        "rendering",
         "visualization",
-        "command-line-interface"
+        "rendering",
+        "graphics"
       ],
       "repository": "https://github.com/sorinirimies/tui-spinner",
       "homepage": "https://github.com/sorinirimies/tui-spinner",
@@ -107152,15 +107214,15 @@
       "id": "udb",
       "name": "udb",
       "description": "Universal Data Broker — a Rust gRPC broker over multiple databases (Postgres, MySQL, SQLite, MongoDB, ClickHouse, Cassandra, MSSQL, Redis, Qdrant, S3, Neo4j, …) with per-tenant RLS, 2PC, sagas, and CDC.",
-      "version": "0.5.17",
+      "version": "0.5.18",
       "created_at": "2026-05-31T10:02:34.246197Z",
-      "updated_at": "2026-08-17T19:31:12.606764Z",
-      "downloads": 956,
-      "recent_downloads": 956,
+      "updated_at": "2026-08-21T02:02:59.561836Z",
+      "downloads": 993,
+      "recent_downloads": 993,
       "categories": [
-        "web-programming::http-server",
+        "database",
         "network-programming",
-        "database"
+        "web-programming::http-server"
       ],
       "repository": "https://github.com/fahara02/udb",
       "homepage": "https://github.com/fahara02/udb",
@@ -113663,6 +113725,29 @@
       "is_core_library": false
     },
     {
+      "id": "yana-rt",
+      "name": "yana-rt",
+      "description": "Yana AI Runtime — safety CLI for AI agents: scan, graph, vault, hunt, ci, map, fix, doctor",
+      "version": "1.4.0",
+      "created_at": "2026-06-29T09:28:28.657512Z",
+      "updated_at": "2026-08-21T03:07:49.180543Z",
+      "downloads": 128,
+      "recent_downloads": 128,
+      "categories": [
+        "development-tools",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/yanacuti1121/yana-ai",
+      "homepage": "https://yanacuti1121.github.io/yana-ai",
+      "documentation": "https://github.com/yanacuti1121/yana-ai#readme",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "yapper",
       "name": "yapper",
       "description": "A modern, ergonomic UART serial TUI terminal for embedded workflows",
@@ -115714,11 +115799,11 @@
       "id": "ztmux",
       "name": "ztmux",
       "description": "A Rust port of tmux — the full terminal multiplexer, server and client",
-      "version": "3.7.40",
+      "version": "3.7.41",
       "created_at": "2026-07-01T23:47:28.763911Z",
-      "updated_at": "2026-08-19T02:13:27.706802Z",
-      "downloads": 411,
-      "recent_downloads": 411,
+      "updated_at": "2026-08-21T02:02:33.084852Z",
+      "downloads": 430,
+      "recent_downloads": 430,
       "categories": [
         "command-line-utilities"
       ],
