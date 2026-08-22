@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-08-22T02:08:54.453402710+00:00",
-    "total_crates": 5661,
+    "generated_at": "2026-08-22T03:11:03.443432365+00:00",
+    "total_crates": 5662,
     "core_libraries": 2,
-    "community_packages": 5659,
+    "community_packages": 5660,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5541,
-      "etag_cache_misses": 120,
-      "cache_hit_rate": 97.88023317435082
+      "etag_cache_hits": 5656,
+      "etag_cache_misses": 6,
+      "cache_hit_rate": 99.89403037795832
     }
   },
   "crates": [
@@ -6388,14 +6388,14 @@
       "id": "auger",
       "name": "auger",
       "description": "Load test, discover and inspect HTTP endpoints from the terminal",
-      "version": "0.4.0",
+      "version": "0.6.0",
       "created_at": "2026-08-08T16:39:57.696037Z",
-      "updated_at": "2026-08-15T18:33:05.811562Z",
-      "downloads": 66,
-      "recent_downloads": 66,
+      "updated_at": "2026-08-22T02:11:44.528100Z",
+      "downloads": 73,
+      "recent_downloads": 73,
       "categories": [
-        "command-line-utilities",
-        "development-tools::testing"
+        "development-tools::testing",
+        "command-line-utilities"
       ],
       "repository": "https://github.com/user123cy/auger",
       "homepage": "https://github.com/user123cy/auger",
@@ -12480,6 +12480,28 @@
       "is_core_library": false
     },
     {
+      "id": "cargo-tile",
+      "name": "cargo-tile",
+      "description": "A terminal UI cargo tool",
+      "version": "0.1.0",
+      "created_at": "2026-08-22T02:13:15.977433Z",
+      "updated_at": "2026-08-22T02:13:15.977433Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "development-tools",
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/natepiano/cargo-liner",
+      "homepage": "https://github.com/natepiano/cargo-liner/tree/main/crates/cargo-tile",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "cargo-timings",
       "name": "cargo-timings",
       "description": "Catch slowest dependencies directly in your terminal",
@@ -12654,11 +12676,11 @@
       "id": "carrel",
       "name": "carrel",
       "description": "A quiet place to read your markdown.",
-      "version": "2026.8.20",
+      "version": "2026.8.21",
       "created_at": "2026-08-12T19:01:46.223550Z",
-      "updated_at": "2026-08-20T19:00:04.099034Z",
-      "downloads": 61,
-      "recent_downloads": 61,
+      "updated_at": "2026-08-22T02:33:47.888051Z",
+      "downloads": 63,
+      "recent_downloads": 63,
       "categories": [
         "command-line-utilities",
         "text-processing"
@@ -41501,11 +41523,11 @@
       "id": "ichigo",
       "name": "ichigo",
       "description": "A CLI HTTP client — store named request configs in your project or globally, then run them by name or through the TUI",
-      "version": "0.3.9",
+      "version": "0.3.10",
       "created_at": "2026-05-28T04:10:42.826485Z",
-      "updated_at": "2026-08-21T02:34:59.581596Z",
-      "downloads": 391,
-      "recent_downloads": 391,
+      "updated_at": "2026-08-22T02:21:28.807644Z",
+      "downloads": 408,
+      "recent_downloads": 408,
       "categories": [
         "command-line-utilities",
         "web-programming::http-client"
@@ -61638,9 +61660,9 @@
       "id": "node-app-build",
       "name": "node-app-build",
       "description": "Mini app developer CLI: scaffold, validate, package node-app-* Debian packages",
-      "version": "6.17.0",
+      "version": "6.18.0",
       "created_at": "2026-05-12T19:03:17.475988Z",
-      "updated_at": "2026-08-21T19:42:14.212302Z",
+      "updated_at": "2026-08-22T02:49:26.503088Z",
       "downloads": 882,
       "recent_downloads": 725,
       "categories": [],
@@ -115910,14 +115932,14 @@
       "id": "zoi-cli",
       "name": "zoi-cli",
       "description": "Advanced Package Manager & Environment Orchestrator",
-      "version": "1.25.4",
+      "version": "1.25.5",
       "created_at": "2026-07-30T19:13:17.345734Z",
-      "updated_at": "2026-08-16T19:52:57.092099Z",
-      "downloads": 372,
-      "recent_downloads": 372,
+      "updated_at": "2026-08-22T02:41:44.881288Z",
+      "downloads": 416,
+      "recent_downloads": 416,
       "categories": [
-        "command-line-utilities",
-        "development-tools"
+        "development-tools",
+        "command-line-utilities"
       ],
       "repository": "https://gitlab.com/zillowe/zillwen/zusty/zoi",
       "homepage": "https://zillowe.qzz.io/zds/zoi",
