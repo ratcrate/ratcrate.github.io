@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-09-17T00:39:48.943908508+00:00",
-    "total_crates": 6095,
+    "generated_at": "2026-09-17T01:56:27.947248026+00:00",
+    "total_crates": 6098,
     "core_libraries": 2,
-    "community_packages": 6093,
+    "community_packages": 6096,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 5951,
-      "etag_cache_misses": 144,
-      "cache_hit_rate": 97.63740771123872
+      "etag_cache_hits": 6087,
+      "etag_cache_misses": 11,
+      "cache_hit_rate": 99.81961298786487
     }
   },
   "crates": [
@@ -16228,6 +16228,27 @@
       "is_core_library": false
     },
     {
+      "id": "clack-typing",
+      "name": "clack-typing",
+      "description": "A fast, beautiful, and deeply customizable typing test for the terminal",
+      "version": "0.1.0",
+      "created_at": "2026-09-17T01:17:14.046511Z",
+      "updated_at": "2026-09-17T01:17:14.046511Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-utilities",
+        "games"
+      ],
+      "repository": "https://github.com/jamesliuai/clack",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "claimdag-tui",
       "name": "claimdag-tui",
       "description": "Terminal work graph over a claimdag work.bin",
@@ -24846,11 +24867,11 @@
       "id": "differential-tui",
       "name": "differential-tui",
       "description": "Terminal reviewer for differential reading plans (the dfr review surface)",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "created_at": "2026-08-25T17:38:56.184241Z",
-      "updated_at": "2026-09-14T19:14:39.180044Z",
-      "downloads": 174,
-      "recent_downloads": 174,
+      "updated_at": "2026-09-17T00:52:07.997909Z",
+      "downloads": 180,
+      "recent_downloads": 180,
       "categories": [
         "command-line-interface",
         "development-tools"
@@ -51289,9 +51310,9 @@
       "id": "laura-tui",
       "name": "laura-tui",
       "description": "Laura is a TUI workspace that provides your agent with an API over the TUI, allowing your agent to dynamically tile panes while you pair-program.",
-      "version": "0.7.2",
+      "version": "0.8.0",
       "created_at": "2026-09-15T19:18:38.444337Z",
-      "updated_at": "2026-09-15T20:09:17.475793Z",
+      "updated_at": "2026-09-17T01:21:35.002920Z",
       "downloads": 21,
       "recent_downloads": 21,
       "categories": [
@@ -52541,9 +52562,9 @@
       "id": "leaf-ratatui",
       "name": "leaf-ratatui",
       "description": "Embeddable rich-text editor widget for ratatui: renders leaf-core's WYSIWYG/source view into a Rect and turns key/mouse events into document edits. The terminal peer of leaf-gpui.",
-      "version": "0.1.19",
+      "version": "0.1.20",
       "created_at": "2026-09-02T22:59:08.869728Z",
-      "updated_at": "2026-09-16T23:20:20.532730Z",
+      "updated_at": "2026-09-17T00:50:25.189485Z",
       "downloads": 205,
       "recent_downloads": 205,
       "categories": [],
@@ -52559,9 +52580,9 @@
       "id": "leaf-tui",
       "name": "leaf-tui",
       "description": "A caret-based rich-text TUI editor for documents, built on twig's round-trippable AST.",
-      "version": "0.1.19",
+      "version": "0.1.20",
       "created_at": "2026-09-02T22:59:10.014057Z",
-      "updated_at": "2026-09-16T23:20:22.614511Z",
+      "updated_at": "2026-09-17T00:50:27.320257Z",
       "downloads": 151,
       "recent_downloads": 151,
       "categories": [],
@@ -73619,9 +73640,9 @@
       "id": "phosphor-tui",
       "name": "phosphor-tui",
       "description": "Terminal UI frontend for the Phosphor DAW",
-      "version": "0.3.77",
+      "version": "0.3.78",
       "created_at": "2026-03-21T04:07:09.036862Z",
-      "updated_at": "2026-09-16T23:30:27.057755Z",
+      "updated_at": "2026-09-17T01:38:15.874554Z",
       "downloads": 1186,
       "recent_downloads": 997,
       "categories": [],
@@ -76536,9 +76557,9 @@
       "id": "premise-ratatui-app",
       "name": "premise-ratatui-app",
       "description": "A minimal Ratatui terminal application that renders a centered greeting.",
-      "version": "0.1.0-rc.15",
+      "version": "0.1.0-rc.22",
       "created_at": "2026-09-16T23:03:10.842951Z",
-      "updated_at": "2026-09-16T23:03:10.842951Z",
+      "updated_at": "2026-09-17T01:03:10.951230Z",
       "downloads": 10,
       "recent_downloads": 10,
       "categories": [],
@@ -95615,6 +95636,42 @@
       "is_core_library": false
     },
     {
+      "id": "shuvarie",
+      "name": "shuvarie",
+      "description": "Blazingly fast AI coding TUI for chivalrous people",
+      "version": "0.1.0",
+      "created_at": "2026-09-17T01:03:00.711669Z",
+      "updated_at": "2026-09-17T01:03:00.711669Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/shuvarie/shuvarie.git",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "shuvarie-highlight",
+      "name": "shuvarie-highlight",
+      "description": "Blazingly fast AI coding TUI for chivalrous people (highlight module)",
+      "version": "0.1.0",
+      "created_at": "2026-09-17T00:49:10.549348Z",
+      "updated_at": "2026-09-17T00:49:10.549348Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [],
+      "repository": "https://github.com/shuvarie/shuvarie.git",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "sicth",
       "name": "sicth",
       "description": "A minimal TUI file navigator with fuzzy search",
@@ -102253,9 +102310,9 @@
       "id": "swapdex",
       "name": "swapdex",
       "description": "Switch between multiple Claude Code, Codex, Gemini, and Antigravity login accounts, locally and safely.",
-      "version": "0.165.6",
+      "version": "0.165.7",
       "created_at": "2026-07-06T00:14:28.101686Z",
-      "updated_at": "2026-09-16T07:55:18.302221Z",
+      "updated_at": "2026-09-17T01:08:21.263411Z",
       "downloads": 3383,
       "recent_downloads": 3383,
       "categories": [
@@ -106274,9 +106331,9 @@
       "id": "termwright-ratatui",
       "name": "termwright-ratatui",
       "description": "Author-intent annotations for custom Ratatui widgets observed by Termwright",
-      "version": "0.7.2",
+      "version": "0.7.4",
       "created_at": "2026-08-21T07:50:10.402942Z",
-      "updated_at": "2026-09-16T15:50:29.826621Z",
+      "updated_at": "2026-09-17T01:15:06.934335Z",
       "downloads": 155,
       "recent_downloads": 155,
       "categories": [
