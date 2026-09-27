@@ -1,18 +1,18 @@
 {
   "metadata": {
     "version": "0.1.0",
-    "generated_at": "2026-09-27T02:32:27.730573816+00:00",
-    "total_crates": 6273,
+    "generated_at": "2026-09-27T08:09:06.841682210+00:00",
+    "total_crates": 6281,
     "core_libraries": 2,
-    "community_packages": 6271,
+    "community_packages": 6279,
     "data_sources": [
       "sparse_index",
       "crates_io_api"
     ],
     "statistics": {
-      "etag_cache_hits": 6142,
-      "etag_cache_misses": 131,
-      "cache_hit_rate": 97.91168499920293
+      "etag_cache_hits": 6242,
+      "etag_cache_misses": 39,
+      "cache_hit_rate": 99.37907976436873
     }
   },
   "crates": [
@@ -3693,11 +3693,11 @@
       "id": "alphai-tui",
       "name": "alphai-tui",
       "description": "Terminal stock dashboard: live quotes and charts plus AI-scored financial news and SEC Form 4 insider activity from AlphAI",
-      "version": "0.24.1",
+      "version": "0.25.0",
       "created_at": "2026-07-10T19:25:07.238377Z",
-      "updated_at": "2026-09-22T11:23:37.939843Z",
-      "downloads": 423,
-      "recent_downloads": 423,
+      "updated_at": "2026-09-27T06:23:59.460632Z",
+      "downloads": 445,
+      "recent_downloads": 445,
       "categories": [
         "command-line-utilities",
         "finance"
@@ -5693,11 +5693,11 @@
       "id": "arf-console",
       "name": "arf-console",
       "description": "A cross-platform R console written in Rust",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "created_at": "2026-04-16T13:10:13.839321Z",
-      "updated_at": "2026-09-11T14:56:39.647162Z",
-      "downloads": 351,
-      "recent_downloads": 223,
+      "updated_at": "2026-09-27T06:58:27.438975Z",
+      "downloads": 369,
+      "recent_downloads": 228,
       "categories": [],
       "repository": "https://github.com/eitsupi/arf",
       "ratatui_dependency": {
@@ -6212,14 +6212,14 @@
       "id": "assay-cli",
       "name": "assay-cli",
       "description": "Policy-as-code gate for MCP agent tool calls, with verifiable evidence and Linux kernel enforcement.",
-      "version": "6.8.0",
+      "version": "6.9.0",
       "created_at": "2025-12-28T00:20:21.179778Z",
-      "updated_at": "2026-09-26T02:40:37.211147Z",
-      "downloads": 1887,
-      "recent_downloads": 830,
+      "updated_at": "2026-09-27T05:55:22.755504Z",
+      "downloads": 1890,
+      "recent_downloads": 823,
       "categories": [
-        "development-tools::testing",
-        "command-line-utilities"
+        "command-line-utilities",
+        "development-tools::testing"
       ],
       "repository": "https://github.com/Rul1an/assay",
       "ratatui_dependency": {
@@ -11973,11 +11973,11 @@
       "id": "byokey-tui",
       "name": "byokey-tui",
       "description": "Terminal UI for BYOKEY",
-      "version": "2.1.0",
+      "version": "3.0.0",
       "created_at": "2026-09-23T08:22:24.753022Z",
-      "updated_at": "2026-09-24T16:02:03.176385Z",
-      "downloads": 121,
-      "recent_downloads": 121,
+      "updated_at": "2026-09-27T06:36:16.119230Z",
+      "downloads": 135,
+      "recent_downloads": 135,
       "categories": [],
       "repository": "https://github.com/AprilNEA/BYOKEY",
       "homepage": "https://github.com/AprilNEA/BYOKEY",
@@ -23551,11 +23551,11 @@
       "id": "data-beans",
       "name": "data-beans",
       "description": "Sparse genomics data backends, QC, algorithms, and simulation",
-      "version": "0.6.16",
+      "version": "0.6.17",
       "created_at": "2026-09-20T23:04:58.664776Z",
-      "updated_at": "2026-09-26T22:01:24.607321Z",
-      "downloads": 372,
-      "recent_downloads": 372,
+      "updated_at": "2026-09-27T03:54:49.469769Z",
+      "downloads": 399,
+      "recent_downloads": 399,
       "categories": [],
       "repository": "https://github.com/causalpathlab/data-beans",
       "homepage": "https://github.com/causalpathlab/data-beans",
@@ -27004,11 +27004,11 @@
       "id": "docrev",
       "name": "docrev",
       "description": "A terminal document viewer with inline review comments, designed for AI agent workflows",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "created_at": "2026-08-12T08:09:27.605520Z",
-      "updated_at": "2026-09-14T13:42:25.077954Z",
-      "downloads": 199,
-      "recent_downloads": 199,
+      "updated_at": "2026-09-27T05:28:50.324486Z",
+      "downloads": 224,
+      "recent_downloads": 224,
       "categories": [
         "command-line-utilities"
       ],
@@ -28474,11 +28474,11 @@
       "id": "duodiff",
       "name": "duodiff",
       "description": "A fast, cross-platform terminal user interface (TUI) directory comparison tool",
-      "version": "0.13.0",
+      "version": "0.14.0",
       "created_at": "2026-07-07T15:26:48.969880Z",
-      "updated_at": "2026-09-26T16:40:33.101086Z",
-      "downloads": 264,
-      "recent_downloads": 264,
+      "updated_at": "2026-09-27T03:42:17.686399Z",
+      "downloads": 276,
+      "recent_downloads": 276,
       "categories": [
         "command-line-utilities",
         "development-tools::debugging"
@@ -31656,6 +31656,28 @@
       ],
       "repository": "https://github.com/theesfeld/f00",
       "homepage": "https://f00.sh",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "faba",
+      "name": "faba",
+      "description": "Feature statistics Accumulator for Base-pair-level Analysis — BAM to per-cell sparse matrices",
+      "version": "0.14.3",
+      "created_at": "2026-09-23T03:29:11.432256Z",
+      "updated_at": "2026-09-27T04:01:55.876682Z",
+      "downloads": 46,
+      "recent_downloads": 46,
+      "categories": [
+        "command-line-utilities",
+        "science"
+      ],
+      "repository": "https://github.com/causalpathlab/faba",
+      "homepage": "https://github.com/causalpathlab/faba",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -34965,11 +34987,11 @@
       "id": "fsel",
       "name": "fsel",
       "description": "Fast TUI app launcher and fuzzy finder for GNU/Linux and *BSD",
-      "version": "3.7.0-kiwicrab",
+      "version": "4.0.0-nyamabeetle",
       "created_at": "2025-10-09T15:32:35.303474Z",
-      "updated_at": "2026-08-16T02:54:59.801414Z",
-      "downloads": 2743,
-      "recent_downloads": 351,
+      "updated_at": "2026-09-27T05:06:31.881387Z",
+      "downloads": 2902,
+      "recent_downloads": 381,
       "categories": [
         "command-line-utilities"
       ],
@@ -37396,11 +37418,11 @@
       "id": "gistui",
       "name": "gistui",
       "description": "A terminal UI for managing GitHub Gists",
-      "version": "0.23.1",
+      "version": "0.24.0",
       "created_at": "2026-06-14T10:05:34.974693Z",
-      "updated_at": "2026-09-26T21:52:36.330220Z",
-      "downloads": 440,
-      "recent_downloads": 297,
+      "updated_at": "2026-09-27T02:47:05.930346Z",
+      "downloads": 447,
+      "recent_downloads": 304,
       "categories": [
         "command-line-utilities"
       ],
@@ -46814,11 +46836,11 @@
       "id": "inferlab",
       "name": "inferlab",
       "description": "Reproducible LLM inference experiment harness: versioned workspaces, closed-loop serve/eval/bench recipes, runtime images, and file-first evidence.",
-      "version": "0.15.0",
+      "version": "0.15.1",
       "created_at": "2026-07-06T09:07:54.309778Z",
-      "updated_at": "2026-09-08T14:08:25.722508Z",
-      "downloads": 530,
-      "recent_downloads": 530,
+      "updated_at": "2026-09-27T04:05:37.163902Z",
+      "downloads": 584,
+      "recent_downloads": 584,
       "categories": [
         "command-line-utilities",
         "science"
@@ -48964,6 +48986,28 @@
       ],
       "repository": "https://github.com/s-desh/jot",
       "homepage": "https://github.com/s-desh/jot",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "jotter-tui",
+      "name": "jotter-tui",
+      "description": "jOtter — a fast Jupyter notebook TUI. The Jupyter otter. 🦦",
+      "version": "0.2.0",
+      "created_at": "2026-09-27T02:26:45.447923Z",
+      "updated_at": "2026-09-27T02:26:45.447923Z",
+      "downloads": 8,
+      "recent_downloads": 8,
+      "categories": [
+        "command-line-utilities",
+        "science"
+      ],
+      "repository": "https://github.com/samox73/jotter",
+      "homepage": "https://samox73.github.io/jotter",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -58243,11 +58287,11 @@
       "id": "magi-cli",
       "name": "magi-cli",
       "description": "Blind multi-agent implementation competition: N agents implement, M judges rank blind, deliberate, vote privately, winner survives double review + E2E gate",
-      "version": "0.42.0",
+      "version": "0.42.2",
       "created_at": "2026-09-03T12:56:22.404868Z",
-      "updated_at": "2026-09-27T02:23:35.525771Z",
-      "downloads": 796,
-      "recent_downloads": 796,
+      "updated_at": "2026-09-27T03:18:56.214167Z",
+      "downloads": 843,
+      "recent_downloads": 843,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -63500,11 +63544,11 @@
       "id": "modalkit-ratatui",
       "name": "modalkit-ratatui",
       "description": "A library for building TUI applications that use modal editing",
-      "version": "0.0.29",
+      "version": "0.0.30",
       "created_at": "2024-02-01T09:15:21.095729Z",
-      "updated_at": "2026-09-25T00:22:03.447758Z",
-      "downloads": 22267,
-      "recent_downloads": 2404,
+      "updated_at": "2026-09-27T04:17:55.792822Z",
+      "downloads": 22423,
+      "recent_downloads": 2538,
       "categories": [],
       "repository": "https://github.com/ulyssa/modalkit",
       "homepage": "https://github.com/ulyssa/modalkit/tree/main/crates/modalkit-ratatui",
@@ -65850,11 +65894,11 @@
       "id": "nano-coder",
       "name": "nano-coder",
       "description": "A 6MB coding agent for the terminal and for agent fleets: multi-provider, ACP, resumable sessions, plans.",
-      "version": "0.9.0",
+      "version": "0.11.0",
       "created_at": "2026-09-24T00:21:00.207260Z",
-      "updated_at": "2026-09-27T02:04:34.966950Z",
-      "downloads": 119,
-      "recent_downloads": 119,
+      "updated_at": "2026-09-27T07:56:20.820320Z",
+      "downloads": 140,
+      "recent_downloads": 140,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -65977,9 +66021,9 @@
       "id": "narraverse",
       "name": "narraverse",
       "description": "A no-BS TUI for worldbuilding.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "created_at": "2026-09-26T14:42:44.657155Z",
-      "updated_at": "2026-09-26T14:42:44.657155Z",
+      "updated_at": "2026-09-27T06:58:37.164303Z",
       "downloads": 9,
       "recent_downloads": 9,
       "categories": [
@@ -67705,11 +67749,11 @@
       "id": "ngal",
       "name": "ngal",
       "description": "一个用 Rust 编写的基于终端的galgame引擎，支持图片显示存档读取。",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "created_at": "2026-03-17T14:06:13.964390Z",
-      "updated_at": "2026-09-03T02:05:32.803799Z",
-      "downloads": 192,
-      "recent_downloads": 74,
+      "updated_at": "2026-09-27T03:19:56.180953Z",
+      "downloads": 212,
+      "recent_downloads": 67,
       "categories": [],
       "repository": "https://github.com/nasyt233/ngal",
       "homepage": "https://nasyt.hoha.top",
@@ -67808,11 +67852,11 @@
       "id": "nichlink-studio",
       "name": "nichlink-studio",
       "description": "Ratatui Studio for NichLink registry authoring and diagnostics",
-      "version": "0.1.3",
+      "version": "0.1.5",
       "created_at": "2026-09-25T14:20:46.717476Z",
-      "updated_at": "2026-09-26T10:50:43.061779Z",
-      "downloads": 101,
-      "recent_downloads": 101,
+      "updated_at": "2026-09-27T07:53:48.306821Z",
+      "downloads": 125,
+      "recent_downloads": 125,
       "categories": [
         "command-line-utilities",
         "visualization",
@@ -68143,11 +68187,11 @@
       "id": "nixbox-tui",
       "name": "nixbox-tui",
       "description": "Ratatui front-end (search/build views, theming) for the nixbox TUI.",
-      "version": "0.2.4",
+      "version": "0.2.6",
       "created_at": "2026-05-12T07:37:17.590122Z",
-      "updated_at": "2026-09-24T01:23:15.441490Z",
-      "downloads": 329,
-      "recent_downloads": 178,
+      "updated_at": "2026-09-27T07:50:32.766843Z",
+      "downloads": 374,
+      "recent_downloads": 221,
       "categories": [
         "command-line-utilities"
       ],
@@ -70262,11 +70306,11 @@
       "id": "octomon",
       "name": "octomon",
       "description": "Btop-style terminal network monitor: latency, bandwidth, and Wi-Fi signal",
-      "version": "0.11.2",
+      "version": "0.11.3",
       "created_at": "2026-08-11T20:41:01.223877Z",
-      "updated_at": "2026-09-12T22:20:45.142370Z",
-      "downloads": 515,
-      "recent_downloads": 515,
+      "updated_at": "2026-09-27T06:51:22.234877Z",
+      "downloads": 539,
+      "recent_downloads": 539,
       "categories": [
         "command-line-utilities",
         "network-programming"
@@ -71616,11 +71660,11 @@
       "id": "opencrabs",
       "name": "opencrabs",
       "description": "The autonomous, self-improving AI agent. Single Rust binary. Every channel. Recommended: the 40MB prebuilt binary for macOS, Linux and Windows: https://github.com/adolfousier/opencrabs/releases",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "created_at": "2026-03-08T16:52:31.988828Z",
-      "updated_at": "2026-09-20T23:26:44.373465Z",
-      "downloads": 2397,
-      "recent_downloads": 1006,
+      "updated_at": "2026-09-27T02:47:36.980387Z",
+      "downloads": 2427,
+      "recent_downloads": 905,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -71767,11 +71811,11 @@
       "id": "openheim",
       "name": "openheim",
       "description": "A fast, multi-provider LLM agent runtime written in Rust",
-      "version": "0.13.0",
+      "version": "0.14.0",
       "created_at": "2026-05-15T07:31:28.883764Z",
-      "updated_at": "2026-09-25T04:47:14.568127Z",
-      "downloads": 350,
-      "recent_downloads": 256,
+      "updated_at": "2026-09-27T06:36:29.769703Z",
+      "downloads": 354,
+      "recent_downloads": 260,
       "categories": [
         "asynchronous",
         "command-line-utilities"
@@ -78921,9 +78965,9 @@
       "description": "A minimal Ratatui terminal application that renders a centered greeting.",
       "version": "0.1.3",
       "created_at": "2026-09-16T23:03:10.842951Z",
-      "updated_at": "2026-09-21T08:50:11.737981Z",
-      "downloads": 110,
-      "recent_downloads": 110,
+      "updated_at": "2026-09-27T07:00:41.738229Z",
+      "downloads": 124,
+      "recent_downloads": 124,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -81377,11 +81421,11 @@
       "id": "qst",
       "name": "qst",
       "description": "A Community Driven CLI Quick Script Tool",
-      "version": "0.13.0",
+      "version": "0.13.1",
       "created_at": "2026-04-01T06:55:36.973555Z",
-      "updated_at": "2026-09-04T20:17:09.454134Z",
-      "downloads": 110,
-      "recent_downloads": 78,
+      "updated_at": "2026-09-27T04:34:30.146412Z",
+      "downloads": 125,
+      "recent_downloads": 74,
       "categories": [],
       "repository": "https://github.com/gitanelyon/qst",
       "documentation": "https://github.com/GitanElyon/qst/blob/main/API.md",
@@ -81969,6 +82013,27 @@
       ],
       "repository": "https://github.com/clankercode/quotas",
       "homepage": "https://github.com/clankercode/quotas",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "quotop",
+      "name": "quotop",
+      "description": "A terminal dashboard for the balances, credits and quotas of your API services (OpenRouter, Claude, Tavily, ElevenLabs and 22 more)",
+      "version": "0.1.0",
+      "created_at": "2026-09-27T05:34:50.307550Z",
+      "updated_at": "2026-09-27T05:34:50.307550Z",
+      "downloads": 9,
+      "recent_downloads": 9,
+      "categories": [
+        "command-line-utilities"
+      ],
+      "repository": "https://github.com/SyscallBrain/quotop",
+      "homepage": "https://github.com/SyscallBrain/quotop",
       "ratatui_dependency": {
         "version": "unknown",
         "optional": false,
@@ -85077,11 +85142,11 @@
       "id": "ratatui-which-key",
       "name": "ratatui-which-key",
       "description": "A which-key popup widget for ratatui applications",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "created_at": "2026-03-22T23:53:01.433273Z",
-      "updated_at": "2026-07-06T06:39:44.339704Z",
-      "downloads": 353,
-      "recent_downloads": 207,
+      "updated_at": "2026-09-27T06:35:34.018165Z",
+      "downloads": 527,
+      "recent_downloads": 197,
       "categories": [
         "command-line-interface"
       ],
@@ -85222,11 +85287,11 @@
       "id": "ratatui_orzma",
       "name": "ratatui_orzma",
       "description": "Ratatui backend for the orzma in-process webview bridge",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "created_at": "2026-07-06T18:02:21.919484Z",
-      "updated_at": "2026-07-06T18:02:21.919484Z",
-      "downloads": 11,
-      "recent_downloads": 11,
+      "updated_at": "2026-09-27T04:00:47.300311Z",
+      "downloads": 29,
+      "recent_downloads": 29,
       "categories": [],
       "repository": "https://github.com/not-elm/orzma",
       "ratatui_dependency": {
@@ -86407,11 +86472,11 @@
       "id": "readout",
       "name": "readout",
       "description": "Read-only usage statistics for Claude Code and Codex, with a clickable TUI",
-      "version": "0.3.2",
+      "version": "0.4.0",
       "created_at": "2026-08-15T05:57:22.803733Z",
-      "updated_at": "2026-09-23T01:29:26.034032Z",
-      "downloads": 173,
-      "recent_downloads": 173,
+      "updated_at": "2026-09-27T06:02:53.248558Z",
+      "downloads": 192,
+      "recent_downloads": 192,
       "categories": [
         "command-line-utilities",
         "visualization"
@@ -96394,15 +96459,15 @@
       "id": "sdrtop",
       "name": "sdrtop",
       "description": "Terminal monitor for HackRF One, RTL-SDR and any SoapySDR radio: live spectrum, waterfall, and IQ/RF/timing/signal diagnostics",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "created_at": "2026-08-29T11:47:41.753514Z",
-      "updated_at": "2026-09-25T21:41:13.947128Z",
-      "downloads": 116,
-      "recent_downloads": 116,
+      "updated_at": "2026-09-27T08:03:49.968784Z",
+      "downloads": 120,
+      "recent_downloads": 120,
       "categories": [
+        "science",
         "command-line-utilities",
-        "hardware-support",
-        "science"
+        "hardware-support"
       ],
       "repository": "https://github.com/musithang/sdrtop",
       "homepage": "https://github.com/musithang/sdrtop",
@@ -99238,9 +99303,9 @@
       "id": "sipnab",
       "name": "sipnab",
       "description": "SIP & RTP capture, analysis, and security tool",
-      "version": "0.5.192",
+      "version": "0.5.193",
       "created_at": "2026-09-18T17:15:56.099781Z",
-      "updated_at": "2026-09-26T17:16:19.321508Z",
+      "updated_at": "2026-09-27T07:58:16.942061Z",
       "downloads": 190,
       "recent_downloads": 190,
       "categories": [
@@ -101622,11 +101687,11 @@
       "id": "specdiff",
       "name": "specdiff",
       "description": "Show test outline changes on a branch",
-      "version": "0.21.0",
+      "version": "0.21.1",
       "created_at": "2026-04-18T02:58:49.528061Z",
-      "updated_at": "2026-07-12T00:18:38.584634Z",
-      "downloads": 111,
-      "recent_downloads": 111,
+      "updated_at": "2026-09-27T04:53:39.842729Z",
+      "downloads": 150,
+      "recent_downloads": 48,
       "categories": [
         "command-line-utilities",
         "development-tools::testing"
@@ -105801,11 +105866,11 @@
       "id": "synaps",
       "name": "synaps",
       "description": "Terminal-native AI agent runtime — parallel orchestration, reactive subagents, MCP, autonomous supervision",
-      "version": "0.9.1",
+      "version": "0.10.0",
       "created_at": "2026-05-05T07:14:32.243912Z",
-      "updated_at": "2026-09-07T19:18:43.698662Z",
-      "downloads": 571,
-      "recent_downloads": 469,
+      "updated_at": "2026-09-27T07:26:44.802324Z",
+      "downloads": 576,
+      "recent_downloads": 250,
       "categories": [
         "command-line-utilities",
         "development-tools"
@@ -105823,11 +105888,11 @@
       "id": "synaps-tui",
       "name": "synaps-tui",
       "description": "Terminal UI layer — ratatui, crossterm, syntect, tachyonfx",
-      "version": "0.9.1",
+      "version": "0.10.0",
       "created_at": "2026-06-14T02:50:56.523631Z",
-      "updated_at": "2026-09-07T19:15:54.071225Z",
-      "downloads": 533,
-      "recent_downloads": 533,
+      "updated_at": "2026-09-27T07:23:28.779821Z",
+      "downloads": 546,
+      "recent_downloads": 304,
       "categories": [],
       "ratatui_dependency": {
         "version": "unknown",
@@ -115629,6 +115694,111 @@
       "is_core_library": false
     },
     {
+      "id": "tui-easy",
+      "name": "tui-easy",
+      "description": "Shared terminal UI shell — terminal init, event loop, themes, widgets",
+      "version": "0.3.0",
+      "created_at": "2026-09-27T07:21:57.898981Z",
+      "updated_at": "2026-09-27T07:21:57.898981Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/nixpt/tui-easy",
+      "homepage": "https://github.com/nixpt/tui-easy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tui-easy-barchart",
+      "name": "tui-easy-barchart",
+      "description": "BarChart widget for ratatui, vendored from ratatui 0.30 with per-bar styling fixes (part of tui-easy)",
+      "version": "0.3.0",
+      "created_at": "2026-09-27T07:21:50.178840Z",
+      "updated_at": "2026-09-27T07:21:50.178840Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/nixpt/tui-easy",
+      "homepage": "https://github.com/nixpt/tui-easy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tui-easy-styles",
+      "name": "tui-easy-styles",
+      "description": "anstyle → ratatui style conversion and shared HyperlinkTarget type, borrowed from xai-grok-markdown",
+      "version": "0.3.0",
+      "created_at": "2026-09-27T07:21:52.299199Z",
+      "updated_at": "2026-09-27T07:21:52.299199Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/nixpt/tui-easy",
+      "homepage": "https://github.com/nixpt/tui-easy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tui-easy-textinput",
+      "name": "tui-easy-textinput",
+      "description": "Vendored TextArea + TextAreaState + EditBuffer from xai-ratatui-textarea (Apache-2.0)",
+      "version": "0.3.0",
+      "created_at": "2026-09-27T07:21:54.046927Z",
+      "updated_at": "2026-09-27T07:21:54.046927Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/nixpt/tui-easy",
+      "homepage": "https://github.com/nixpt/tui-easy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
+      "id": "tui-easy-wrap",
+      "name": "tui-easy-wrap",
+      "description": "textwrap word-wrap helpers over ratatui Line/Span, borrowed from xai-ratatui-textarea",
+      "version": "0.3.0",
+      "created_at": "2026-09-27T07:21:56.047611Z",
+      "updated_at": "2026-09-27T07:21:56.047611Z",
+      "downloads": 0,
+      "recent_downloads": 0,
+      "categories": [
+        "command-line-interface"
+      ],
+      "repository": "https://github.com/nixpt/tui-easy",
+      "homepage": "https://github.com/nixpt/tui-easy",
+      "ratatui_dependency": {
+        "version": "unknown",
+        "optional": false,
+        "dev_dependency": false
+      },
+      "is_core_library": false
+    },
+    {
       "id": "tui-equalizer",
       "name": "tui-equalizer",
       "description": "An equalizer widget for Ratatui with multiple frequency bands.",
@@ -123470,11 +123640,11 @@
       "id": "wcode-tui",
       "name": "wcode-tui",
       "description": "Full-screen TUI for wcode — a client of the wcode-protocol Backend",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "created_at": "2026-09-26T05:04:42.923131Z",
-      "updated_at": "2026-09-26T15:57:09.901514Z",
-      "downloads": 40,
-      "recent_downloads": 40,
+      "updated_at": "2026-09-27T04:31:16.957181Z",
+      "downloads": 50,
+      "recent_downloads": 50,
       "categories": [
         "command-line-interface",
         "development-tools"
